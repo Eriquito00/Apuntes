@@ -2,9 +2,9 @@ Aquest és un **llenguatge interpretat** i és el més utilitzat en la program
 
 [[Comentaris JavaScript]]
 [[Tipus de dades JavaScript]]
-[[Operadors matematics JavaScript]]
+[[Operadors JavaScript]]
 [[Classe Math JavaScript]]
-[[Classe String JavaScript]]
+[[Classes JavaScript]]
 [[Conversio i format de dades JavaScript]]
 [[Introduir dades JavaScript]]
 [[Importancia de les constants JavaScript]]

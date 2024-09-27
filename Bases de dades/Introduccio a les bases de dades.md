@@ -15,4 +15,6 @@ Aqui podem veure una relacio entre ALUMNE i ASSIGNATURA que basicament son els a
 ![[Pasted image 20240916203252.png]]
 Aixo es una relacio reflexiva que es basicament aquins empleats els dirigeix un empleat, en cas de que hi hagi un jefe que es un empleat, aquest empleat dirigeix a N empleats.
 ![[Pasted image 20240916205522.png]]
-A mes a mes podem veure alguns exemples a [[Exercicis]]
+A mes a mes podem veure alguns exemples a:
+[[Exercicis]]
+[[BBDD]]
