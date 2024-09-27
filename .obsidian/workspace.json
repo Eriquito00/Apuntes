@@ -11,7 +11,7 @@
             "id": "2f6054474243f879",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -142,6 +142,8 @@
   },
   "active": "2f6054474243f879",
   "lastOpenFiles": [
+    "Programacio/JavaScript/JavaScript.md",
+    "README.md",
     "Bases de dades/Exercicis.md",
     "Bases de dades/Introduccio a les bases de dades.md",
     "Programacio/JavaScript/Classes JavaScript.md",
@@ -154,7 +156,6 @@
     "Programacio/JavaScript/Operadors relacionals i logics JavaScript.md",
     "Programacio/JavaScript/Importancia de les constants JavaScript.md",
     "Programacio/JavaScript/Introduir dades JavaScript.md",
-    "Programacio/JavaScript/JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Imatges/Pasted image 20240926104736.png",
     "Excalidraw/BBDD.md",
@@ -168,7 +169,6 @@
     "Imatges/Pasted image 20240926104913.png",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "DAW 1.md",
-    "README.md",
     "Imatges/Pasted image 20240925105204.png",
     "Excalidraw/Drawing 2024-09-25 10.47.24.excalidraw.md",
     "Sistemes Informatics/Components de hardware.md",

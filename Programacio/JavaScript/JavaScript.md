@@ -3,12 +3,8 @@ Aquest és un **llenguatge interpretat** i és el més utilitzat en la program
 [[Comentaris JavaScript]]
 [[Tipus de dades JavaScript]]
 [[Operadors JavaScript]]
-[[Classe Math JavaScript]]
 [[Classes JavaScript]]
-[[Conversio i format de dades JavaScript]]
 [[Introduir dades JavaScript]]
-[[Importancia de les constants JavaScript]]
 [[Cicle de vida d'un programa JavaScript]]
 [[Estructures condicionals JavaScript]]
-[[Operadors relacionals i logics JavaScript]]
 #JavaScript 
