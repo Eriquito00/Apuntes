@@ -79,3 +79,23 @@ Aqui podem veure que un local te 0 o N taules i una taula te un local i una taul
 Les etapes de La Volta s’identifiquen per un número correlatiu, a comptar a partir de l’1, que com és lògic s’associa a la primera etapa, a continuació el 2 s’associa a la segona, i així successivament fins a l’última. Cada etapa comença en una localitat i acaba en una altra. La localitat d'arribada pot ser la mateixa que la de sortida si l'etapa és circular.
 
 Ens cal saber la data en la qual es desenvolupen les etapes. No hi pot haver cap etapa que duri més d'un dia. També ens diuen que cal guardar el total de Kms de cada etapa.
+![[Pasted image 20240926111249.png]]
+Aqui podem veure que una etapa comença a una localitat i que una localitat pot estar a 0 o M etapes i igual amb la localitat que acaba.
+## Exercici 2
+Cada etapa de La Volta pot incloure un o més ports de muntanya (o cap), però cada port només pot estar inclòs dins d’una etapa. Dels ports de muntanya ens interessa saber el seu topònim i la seva alçada en metres.
+![[Pasted image 20240926105210.png]]
+Aqui podem veure que una etapa pot tenir zero o M i un port pot estar nomes a una etapa.
+## Exercici 3
+Cada etapa de La Volta passa pel territori d’una o més províncies, però per una mateixa província pot passar més d’una etapa (o cap). Cal registrar el total de km de cada etapa que travessen per cada província. Per exemple, a l'etapa 2 es travessa 35 km per la província de Barcelona i 47 km per la província de Tarragona.
+![[Pasted image 20240926112117.png]]
+Aqui podem veure que una etapa pasa per 0 o N provincies i que una provincia pot estar a mes d'una etapa.
+## Exercici 4
+La nostra base de dades ha de poder registrar quin ciclista porta cada mallot (general, punts, muntanya, etc.) a cada etapa de La Volta. Cada mallot s’identifica gràcies a un codi (3 lletres) i un color determinat. Els ciclistes s’identifiquen per un dorsal, i a la BD ha de constar també el seu nom i cognoms i la seva data de naixement.
+![[Pasted image 20240926123453.png]]
+Aqui podem veure que un ciclista pot portar 0 o 4 mallots i que un mallot el port portar 0 o 1 ciclista.
+## Exercici 5
+Els ports de muntanya s’identifiquen pel seu topònim, i tenen una una alçada determinada per sobre del nivell del mar.
+
+Depenent de la dificultat els ports es classifiquen en quatre categories (especial, 1a, 2a i 3a).
+
+Cal dissenyar un sistema per tal d’emmagatzemar els punts que poden assolir els ciclistes segons la posició en què arribin a cada port segons es detalla a continuació.
