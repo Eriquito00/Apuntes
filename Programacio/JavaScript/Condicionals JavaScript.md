@@ -1,4 +1,4 @@
-## Condicional simple
+# Condicional simple
 Si el resultat de l'expressio logica es "true" s'executa un bloc de codi; si es "false", no s'executa. En diagrama de flux es representaria de la seguent forma:
 ![[Pasted image 20240923104720.png]]
 Es recomana la següent forma:
@@ -17,3 +17,13 @@ Si hi ha més de dos possibles blocs cal utilitzar aquesta estructura en diagram
 ![[Pasted image 20240923110727.png]]
 El codi equivalent seria:
 ![[Pasted image 20240923110746.png]]
+
+---
+---
+---
+# Condicional avançat
+Aquesta estructura s'utilitza sobretot a condicions senzilles. S'utilitza "?" per separar la condicio de la resta de l'estructura i entre "?" i ":" es posa el valor si la condicio es cerca i despres del ":" es dona el valor si la condicio es falsa. Aqui podem veure un exemple:
+![[Pasted image 20240927091921.png]]
+Serveix per simplificar el seguent condicional:
+![[Pasted image 20240927091942.png]]
+Aquests dos codis fan el mateix pero gracies al ternari ho podem fer de forma mes simplificada.

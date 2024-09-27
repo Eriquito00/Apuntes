@@ -6,5 +6,5 @@ Aquest és un **llenguatge interpretat** i és el més utilitzat en la program
 [[Classes JavaScript]]
 [[Introduir dades JavaScript]]
 [[Cicle de vida d'un programa JavaScript]]
-[[Estructures condicionals JavaScript]]
+[[Condicionals JavaScript]]
 #JavaScript 
