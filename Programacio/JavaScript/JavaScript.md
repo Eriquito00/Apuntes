@@ -7,4 +7,5 @@ Aquest és un **llenguatge interpretat** i és el més utilitzat en la program
 [[Introduir dades JavaScript]]
 [[Cicle de vida d'un programa JavaScript]]
 [[Condicionals JavaScript]]
+[[Estructura de seleccio multiple JavaScript]]
 #JavaScript 
