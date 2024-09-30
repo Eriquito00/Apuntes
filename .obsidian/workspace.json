@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9eb87b3402adb28c",
+        "id": "69fca7e7c6c32de4",
         "type": "tabs",
         "children": [
           {
-            "id": "9bcb3407283616d2",
+            "id": "b19eb955ec88c115",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -132,28 +131,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9bcb3407283616d2",
+  "active": "b19eb955ec88c115",
   "lastOpenFiles": [
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Sistemes Informatics/Placa base.md",
+    "Imatges/Pasted image 20240930105328.png",
+    "Excalidraw/Drawing 2024-09-30 15.27.24.excalidraw.md",
     "Programacio/JavaScript/Estructura de seleccio multiple JavaScript.md",
-    "Pasted image 20240930105756.png",
-    "Pasted image 20240930105544.png",
-    "Pasted image 20240930105328.png",
+    "Imatges/Pasted image 20240930105756.png",
+    "Imatges/Pasted image 20240930105544.png",
     "Programacio/JavaScript/JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Programacio/JavaScript/Classes JavaScript.md",
     "Programacio/JavaScript/Comentaris JavaScript.md",
     "Programacio/JavaScript/Condicionals JavaScript.md",
     "Sistemes Informatics/Slots d'expansio.md",
-    "Sistemes Informatics/Components de hardware.md",
     "Imatges/Pasted image 20240930100516.png",
     "Excalidraw/Drawing 2024-09-30 10.07.56.excalidraw.md",
     "Imatges/Pasted image 20240930100841.png",
@@ -162,7 +163,6 @@
     "Imatges/Pasted image 20240930094943.png",
     "Imatges/Pasted image 20240930094541.png",
     "Imatges/Pasted image 20240930094503.png",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Excalidraw/Drawing 2024-09-30 09.31.43.excalidraw.md",
     "Programacio/JavaScript/Operadors JavaScript.md",
     "README.md",
@@ -177,7 +177,6 @@
     "Excalidraw/BBDD.md",
     "DAW 1.md",
     "Excalidraw/Drawing 2024-09-25 10.47.24.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-24 09.26.37.excalidraw.md",
     "Sense títol.canvas",
     "Excalidraw",
     "desktop.ini",

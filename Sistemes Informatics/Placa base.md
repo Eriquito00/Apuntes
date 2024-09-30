@@ -1,4 +1,3 @@
-## Placa base
 Components importants de la placa base son:
 - Socket de CPU
 - Banks de RAM
