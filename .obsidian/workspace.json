@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f6054474243f879",
+            "id": "c2e0cafd92852a7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programacio/JavaScript/Condicionals JavaScript.md",
+                "file": "Sistemes Informatics/Slots d'expansio.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programacio/JavaScript/Condicionals JavaScript.md",
+                "file": "Sistemes Informatics/Slots d'expansio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programacio/JavaScript/Condicionals JavaScript.md",
+                "file": "Sistemes Informatics/Slots d'expansio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programacio/JavaScript/Condicionals JavaScript.md"
+                "file": "Sistemes Informatics/Slots d'expansio.md"
               }
             }
           }
@@ -149,10 +148,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f6054474243f879",
+  "active": "c2e0cafd92852a7b",
   "lastOpenFiles": [
-    "Pasted image 20240927091942.png",
-    "Pasted image 20240927091921.png",
+    "Sistemes Informatics/Components de hardware.md",
+    "Imatges/Pasted image 20240930100516.png",
+    "Excalidraw/Drawing 2024-09-30 10.07.56.excalidraw.md",
+    "Imatges/Pasted image 20240930100841.png",
+    "Pasted Image 20240930100836_144.png",
+    "Sistemes Informatics/Slots d'expansio.md",
+    "Imatges/Pasted image 20240930094454.png",
+    "Imatges/Pasted image 20240930094943.png",
+    "Imatges/Pasted image 20240930094541.png",
+    "Imatges/Pasted image 20240930094503.png",
+    "Imatges/Pasted image 20240930093850.png",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Imatges/Pasted image 20240930093345.png",
+    "Excalidraw/Drawing 2024-09-30 09.31.43.excalidraw.md",
+    "Imatges/Pasted image 20240927091942.png",
+    "Programacio/JavaScript/Condicionals JavaScript.md",
     "Programacio/JavaScript/Operadors JavaScript.md",
     "Programacio/JavaScript/JavaScript.md",
     "README.md",
@@ -161,32 +174,17 @@
     "Programacio/JavaScript/Classes JavaScript.md",
     "Programacio/JavaScript/Classe Math JavaScript.md",
     "Programacio/JavaScript/Comentaris JavaScript.md",
-    "Programacio/JavaScript/Condicionals JavaScript.md",
     "Programacio/JavaScript/Conversio i format de dades JavaScript.md",
     "Programacio/JavaScript/Tipus de dades JavaScript.md",
     "Programacio/JavaScript/Operadors relacionals i logics JavaScript.md",
     "Programacio/JavaScript/Importancia de les constants JavaScript.md",
     "Programacio/JavaScript/Introduir dades JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
-    "Imatges/Pasted image 20240926104736.png",
     "Excalidraw/BBDD.md",
-    "Imatges/Pasted image 20240926123453.png",
-    "Imatges/Pasted image 20240926123144.png",
-    "Imatges/Pasted image 20240926112646.png",
-    "Imatges/Pasted image 20240926112117.png",
-    "Imatges/Pasted image 20240926111249.png",
-    "Imatges/Pasted image 20240926105454.png",
-    "Imatges/Pasted image 20240926105210.png",
-    "Imatges/Pasted image 20240926104913.png",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "DAW 1.md",
     "Excalidraw/Drawing 2024-09-25 10.47.24.excalidraw.md",
-    "Sistemes Informatics/Components de hardware.md",
     "Excalidraw/Drawing 2024-09-24 09.26.37.excalidraw.md",
     "Conversio i format de dades JavaScript.md",
-    "Excalidraw/Drawing 2024-09-23 10.02.00.excalidraw.md",
-    "Programacio/Introduccio a la programacio.md",
-    "Excalidraw/Drawing 2024-09-20 08.22.56.excalidraw.md",
     "Sense títol.canvas",
     "Excalidraw",
     "desktop.ini",

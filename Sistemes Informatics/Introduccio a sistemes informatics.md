@@ -22,3 +22,4 @@ Pero va apareixer el dubte de confondre el valor ja que "kilo" esta assignat a 1
 1 KILOGRAM = 1000 grams per 1 KILOBYTE no son 1000 bytes
 ![[Pasted image 20240923093114.png]]
 [[Components de hardware]]
+ [[Slots d'expansio]]
