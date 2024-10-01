@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "69fca7e7c6c32de4",
+        "id": "aa994a015712651e",
         "type": "tabs",
         "children": [
           {
-            "id": "b19eb955ec88c115",
+            "id": "1681bab7e52e6054",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Estructures de repeticio JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Estructures de repeticio JavaScript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Estructures de repeticio JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Estructures de repeticio JavaScript.md"
+              }
             }
           }
         ],
@@ -131,41 +140,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b19eb955ec88c115",
+  "active": "1681bab7e52e6054",
   "lastOpenFiles": [
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
-    "Sistemes Informatics/Placa base.md",
-    "Imatges/Pasted image 20240930105328.png",
-    "Excalidraw/Drawing 2024-09-30 15.27.24.excalidraw.md",
-    "Programacio/JavaScript/Estructura de seleccio multiple JavaScript.md",
-    "Imatges/Pasted image 20240930105756.png",
-    "Imatges/Pasted image 20240930105544.png",
+    "Pasted image 20241001111803.png",
+    "Pasted image 20241001111612.png",
+    "Pasted image 20241001111501.png",
+    "Pasted image 20241001111216.png",
+    "Pasted image 20241001111054.png",
+    "Pasted image 20241001111006.png",
+    "Pasted image 20241001110821.png",
+    "Pasted image 20241001110558.png",
+    "Estructures de repeticio JavaScript.md",
     "Programacio/JavaScript/JavaScript.md",
+    "README.md",
+    "Sistemes Informatics/Connexions de la placa base.md",
+    "Imatges/Pasted image 20241001104327.png",
+    "Imatges/Pasted image 20241001105630.png",
+    "Pasted image 20241001105539.png",
+    "Sistemes Informatics/Placa base.md",
+    "Excalidraw/Drawing 2024-09-30 15.27.24.excalidraw.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Programacio/JavaScript/Estructura de seleccio multiple JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Programacio/JavaScript/Classes JavaScript.md",
     "Programacio/JavaScript/Comentaris JavaScript.md",
     "Programacio/JavaScript/Condicionals JavaScript.md",
-    "Sistemes Informatics/Slots d'expansio.md",
-    "Imatges/Pasted image 20240930100516.png",
     "Excalidraw/Drawing 2024-09-30 10.07.56.excalidraw.md",
-    "Imatges/Pasted image 20240930100841.png",
-    "Pasted Image 20240930100836_144.png",
-    "Imatges/Pasted image 20240930094454.png",
-    "Imatges/Pasted image 20240930094943.png",
-    "Imatges/Pasted image 20240930094541.png",
-    "Imatges/Pasted image 20240930094503.png",
     "Excalidraw/Drawing 2024-09-30 09.31.43.excalidraw.md",
     "Programacio/JavaScript/Operadors JavaScript.md",
-    "README.md",
     "Bases de dades/Exercicis.md",
     "Bases de dades/Introduccio a les bases de dades.md",
     "Programacio/JavaScript/Classe Math JavaScript.md",
@@ -176,7 +187,6 @@
     "Programacio/JavaScript/Introduir dades JavaScript.md",
     "Excalidraw/BBDD.md",
     "DAW 1.md",
-    "Excalidraw/Drawing 2024-09-25 10.47.24.excalidraw.md",
     "Sense títol.canvas",
     "Excalidraw",
     "desktop.ini",
