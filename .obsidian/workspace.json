@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa994a015712651e",
+        "id": "7004675ff5dea352",
         "type": "tabs",
         "children": [
           {
-            "id": "1681bab7e52e6054",
+            "id": "b9b23386d89dff9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructures de repeticio JavaScript.md",
+                "file": "Bases de dades/Introduccio a les bases de dades.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructures de repeticio JavaScript.md",
+                "file": "Bases de dades/Introduccio a les bases de dades.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructures de repeticio JavaScript.md",
+                "file": "Bases de dades/Introduccio a les bases de dades.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructures de repeticio JavaScript.md"
+                "file": "Bases de dades/Introduccio a les bases de dades.md"
               }
             }
           }
@@ -149,23 +149,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1681bab7e52e6054",
+  "active": "303f0857d18464e7",
   "lastOpenFiles": [
-    "Pasted image 20241001111803.png",
-    "Pasted image 20241001111612.png",
-    "Pasted image 20241001111501.png",
-    "Pasted image 20241001111216.png",
-    "Pasted image 20241001111054.png",
-    "Pasted image 20241001111006.png",
-    "Pasted image 20241001110821.png",
-    "Pasted image 20241001110558.png",
+    "Excalidraw/Drawing 2024-10-02 11.51.05.excalidraw.md",
+    "Bases de dades/Introduccio a les bases de dades.md",
+    "Pasted image 20241002115133.png",
+    "Pasted image 20241002115059.png",
+    "Excalidraw/Drawing 2024-10-02 11.50.30.excalidraw.md",
+    "Imatges/Pasted image 20241002113313.png",
+    "Excalidraw/BBDD.md",
+    "Bases de dades/Exercicis.md",
+    "Imatges/Pasted image 20241002110636.png",
+    "Pasted image 20241002110551.png",
+    "Imatges/Pasted image 20241001110558.png",
     "Estructures de repeticio JavaScript.md",
+    "Imatges/Pasted image 20241001111803.png",
+    "Imatges/Pasted image 20241001111612.png",
+    "Imatges/Pasted image 20241001111501.png",
+    "Imatges/Pasted image 20241001111216.png",
     "Programacio/JavaScript/JavaScript.md",
     "README.md",
     "Sistemes Informatics/Connexions de la placa base.md",
-    "Imatges/Pasted image 20241001104327.png",
-    "Imatges/Pasted image 20241001105630.png",
-    "Pasted image 20241001105539.png",
     "Sistemes Informatics/Placa base.md",
     "Excalidraw/Drawing 2024-09-30 15.27.24.excalidraw.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
@@ -177,16 +181,11 @@
     "Excalidraw/Drawing 2024-09-30 10.07.56.excalidraw.md",
     "Excalidraw/Drawing 2024-09-30 09.31.43.excalidraw.md",
     "Programacio/JavaScript/Operadors JavaScript.md",
-    "Bases de dades/Exercicis.md",
-    "Bases de dades/Introduccio a les bases de dades.md",
     "Programacio/JavaScript/Classe Math JavaScript.md",
     "Programacio/JavaScript/Conversio i format de dades JavaScript.md",
     "Programacio/JavaScript/Tipus de dades JavaScript.md",
     "Programacio/JavaScript/Operadors relacionals i logics JavaScript.md",
     "Programacio/JavaScript/Importancia de les constants JavaScript.md",
-    "Programacio/JavaScript/Introduir dades JavaScript.md",
-    "Excalidraw/BBDD.md",
-    "DAW 1.md",
     "Sense títol.canvas",
     "Excalidraw",
     "desktop.ini",

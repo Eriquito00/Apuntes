@@ -99,3 +99,17 @@ Els ports de muntanya s’identifiquen pel seu topònim, i tenen una una alçada
 Depenent de la dificultat els ports es classifiquen en quatre categories (especial, 1a, 2a i 3a).
 
 Cal dissenyar un sistema per tal d’emmagatzemar els punts que poden assolir els ciclistes segons la posició en què arribin a cada port segons es detalla a continuació.
+![[Pasted image 20241002110636.png]]
+Aqui podem veure que una categoria pot tenir 0 o N ports i que un port nomes pot tenir una categoria i que una categoria te una o M posicions i que una posicio te 1 o N ports en funcio dels punts.
+## Exercici 6
+Seguint el mateix funcionament que el Tour de França es determinarà el sistema de puntuació per aconseguir el mallot verd.
+
+Cada etapa es categoritzarà en: etapa plana, etapa mitja muntanya, etapa de muntanya, contrarellotge individual.
+
+Els punts s'obtindran per el primers llocs de cada etapa i en funció de la seva categoria. La distribució de punts es realitzarà mitjançant la següent taula:
+
+- Etapes planes: 50, 30, 20, 18, 16, 14, 12, 10, 8, 7, 6, 5, 4, 3 y 2 punts respectivament des del primer fins el quinzè ciclista en arribar a la meta.
+- Etapes de mitja muntanya: 30, 25, 22, 19, 17, 15, 13, 11, 9, 7, 6, 5, 4, 3 y 2 punts respectivament des del primer fins el quinzè ciclista en arribar a la meta.
+- Etapes de muntanya i contrarellotges individuals: 20, 17, 15, 13, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2 y 1 punts respectivament des del primer fins el quinzè ciclista en arribar a la meta.
+![[Pasted image 20241002113313.png]]
+Aqui podem veure que una posicio te 1 o N tipus y un tipus 1 o M posicions  segons els punts i que 1 tipus te 1 o N etapes i que una etapa pot tenir 1 tipus.
