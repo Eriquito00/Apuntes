@@ -17,6 +17,3 @@ Uns anys despres es va modificar aquesta arquitectura creant el Pont del nord i 
 ![[Pasted image 20240924093752.png| 400]]
 Despres es va començar a optimitzar i es va conectar la RAM a la CPU i es van unificar el pont nord i el pont sud.
 ![[Pasted image 20240930093345.png]]
-### Trampas
-Pont nord i sud junts
-Processadors soldats a la placa

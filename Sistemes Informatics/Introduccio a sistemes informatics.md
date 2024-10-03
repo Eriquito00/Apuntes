@@ -1,4 +1,4 @@
-## Conceptes basics
+# Conceptes basics
 La informacio es qualsevol dada que ens ajuda a tomar alguna decicio.
 La informatica es informacio automatica es una tecnica de tractament automatic i racional de la informacio.
  - Instruccio: Operacio elemental. Sol consistir en la manipulacio d'unes dades per produir resultats.
@@ -23,3 +23,5 @@ Pero va apareixer el dubte de confondre el valor ja que "kilo" esta assignat a 1
 ![[Pasted image 20240923093114.png]]
 [[Placa base]]
 [[Connexions de la placa base]]
+# Virtualitzacio
+![[Pasted image 20241003101042.png]]
