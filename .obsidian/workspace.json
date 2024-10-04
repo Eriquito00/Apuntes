@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -150,6 +151,7 @@
   },
   "active": "e149ad06d3f50659",
   "lastOpenFiles": [
+    "Pasted image 20241004110654.png",
     "Bases de dades/Exercicis.md",
     "Bases de dades/BBDD.md",
     "Imatges/Pasted image 20241003110239.png",

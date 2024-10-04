@@ -18,3 +18,8 @@ Pero avegades ens es mes facil pensar quina condicio necesitem per sortir del bu
 ![[Pasted image 20241001111612.png]]
 Introduir dades fins que s'introdueixi un valor determinat, com en aquest exemple:
 ![[Pasted image 20241001111803.png]]
+## For
+![[Pasted image 20241004110654.png]]
+Aquesta estructura de for es molt semblant a la estructura anterior while, de fet qualsevol bucle for es pot substituir per while. Per tant quan utilitzarem for i quan while:
+- Utilitzarem **for** quan el codi s'hagi de repetir un numero determinat de vegades.
+- Utilitzarem __while__ quan no sapiguem quantes vegades hem de repetir el codi.
