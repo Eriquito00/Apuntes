@@ -113,3 +113,7 @@ Els punts s'obtindran per el primers llocs de cada etapa i en funció de la seva
 - Etapes de muntanya i contrarellotges individuals: 20, 17, 15, 13, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2 y 1 punts respectivament des del primer fins el quinzè ciclista en arribar a la meta.
 ![[Pasted image 20241002113313.png]]
 Aqui podem veure que una posicio te 1 o N tipus y un tipus 1 o M posicions  segons els punts i que 1 tipus te 1 o N etapes i que una etapa pot tenir 1 tipus.
+# Eleccions generals
+
+
+[[BBDD]]

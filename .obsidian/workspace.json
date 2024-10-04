@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "382ebd1962d68737",
+        "id": "6df4a06f9cf789a5",
         "type": "tabs",
         "children": [
           {
-            "id": "b203c77dbf267ca5",
+            "id": "e149ad06d3f50659",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemes Informatics/Introduccio a sistemes informatics.md",
+                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemes Informatics/Introduccio a sistemes informatics.md",
+                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemes Informatics/Introduccio a sistemes informatics.md",
+                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemes Informatics/Introduccio a sistemes informatics.md"
+                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md"
               }
             }
           }
@@ -148,28 +148,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "303f0857d18464e7",
+  "active": "e149ad06d3f50659",
   "lastOpenFiles": [
+    "Bases de dades/Exercicis.md",
+    "Bases de dades/BBDD.md",
+    "Imatges/Pasted image 20241003110239.png",
+    "Bases de dades/Diseny conceptual.md",
+    "Imatges/Pasted image 20241003110453.png",
+    "Bases de dades/Introduccio a les bases de dades.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Imatges/Pasted image 20241003101042.png",
     "Excalidraw/Drawing 2024-10-03 10.02.47.excalidraw.md",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Sistemes Informatics/Placa base.md",
     "Imatges/Pasted image 20241002115133.png",
-    "Bases de dades/Introduccio a les bases de dades.md",
     "Excalidraw/Drawing 2024-10-02 11.51.05.excalidraw.md",
     "Pasted image 20241002115059.png",
     "Excalidraw/Drawing 2024-10-02 11.50.30.excalidraw.md",
     "Imatges/Pasted image 20241002113313.png",
-    "Excalidraw/BBDD.md",
-    "Bases de dades/Exercicis.md",
     "Imatges/Pasted image 20241002110636.png",
     "Pasted image 20241002110551.png",
     "Imatges/Pasted image 20241001110558.png",
     "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
     "Imatges/Pasted image 20241001111803.png",
-    "Imatges/Pasted image 20241001111612.png",
-    "Imatges/Pasted image 20241001111501.png",
-    "Imatges/Pasted image 20241001111216.png",
     "Programacio/JavaScript/JavaScript.md",
     "README.md",
     "Sistemes Informatics/Connexions de la placa base.md",
@@ -185,7 +185,6 @@
     "Programacio/JavaScript/Classe Math JavaScript.md",
     "Programacio/JavaScript/Conversio i format de dades JavaScript.md",
     "Programacio/JavaScript/Tipus de dades JavaScript.md",
-    "Programacio/JavaScript/Operadors relacionals i logics JavaScript.md",
     "Sense títol.canvas",
     "Excalidraw",
     "desktop.ini",
