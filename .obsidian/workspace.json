@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
+                "file": "Bases de dades/Diseny conceptual.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
+                "file": "Bases de dades/Diseny conceptual.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
+                "file": "Bases de dades/Diseny conceptual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md"
+                "file": "Bases de dades/Diseny conceptual.md"
               }
             }
           }
@@ -140,18 +139,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "e149ad06d3f50659",
   "lastOpenFiles": [
-    "Pasted image 20241004110654.png",
+    "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
+    "Imatges/Pasted image 20241004110654.png",
     "Bases de dades/Exercicis.md",
     "Bases de dades/BBDD.md",
     "Imatges/Pasted image 20241003110239.png",
@@ -170,8 +170,6 @@
     "Imatges/Pasted image 20241002110636.png",
     "Pasted image 20241002110551.png",
     "Imatges/Pasted image 20241001110558.png",
-    "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
-    "Imatges/Pasted image 20241001111803.png",
     "Programacio/JavaScript/JavaScript.md",
     "README.md",
     "Sistemes Informatics/Connexions de la placa base.md",
