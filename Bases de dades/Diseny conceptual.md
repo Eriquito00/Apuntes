@@ -1,4 +1,3 @@
-
 ## Relacio
 ![[Pasted image 20240916203252.png]]
 Aqui podem veure una relacio entre ALUMNE i ASSIGNATURA que basicament son els alumnes que estan matriculats a quines assignatures y a quines assignatures estan matriculats que alumnes.

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6df4a06f9cf789a5",
+        "id": "363be267c0db5236",
         "type": "tabs",
         "children": [
           {
-            "id": "e149ad06d3f50659",
+            "id": "d4db01454c189519",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de dades/Diseny conceptual.md",
-                "mode": "source",
+                "file": "Sistemes Informatics/Connexions de la placa base.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de dades/Diseny conceptual.md",
+                "file": "Sistemes Informatics/Connexions de la placa base.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de dades/Diseny conceptual.md",
+                "file": "Sistemes Informatics/Connexions de la placa base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de dades/Diseny conceptual.md"
+                "file": "Sistemes Informatics/Connexions de la placa base.md"
               }
             }
           }
@@ -148,20 +149,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e149ad06d3f50659",
+  "active": "d4db01454c189519",
   "lastOpenFiles": [
+    "Sistemes Informatics/Placa base.md",
+    "Sistemes Informatics/Connexions de la placa base.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Bases de dades/Diseny conceptual.md",
     "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
     "Imatges/Pasted image 20241004110654.png",
     "Bases de dades/Exercicis.md",
     "Bases de dades/BBDD.md",
     "Imatges/Pasted image 20241003110239.png",
-    "Bases de dades/Diseny conceptual.md",
     "Imatges/Pasted image 20241003110453.png",
     "Bases de dades/Introduccio a les bases de dades.md",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Imatges/Pasted image 20241003101042.png",
     "Excalidraw/Drawing 2024-10-03 10.02.47.excalidraw.md",
-    "Sistemes Informatics/Placa base.md",
     "Imatges/Pasted image 20241002115133.png",
     "Excalidraw/Drawing 2024-10-02 11.51.05.excalidraw.md",
     "Pasted image 20241002115059.png",
@@ -172,7 +174,6 @@
     "Imatges/Pasted image 20241001110558.png",
     "Programacio/JavaScript/JavaScript.md",
     "README.md",
-    "Sistemes Informatics/Connexions de la placa base.md",
     "Excalidraw/Drawing 2024-09-30 15.27.24.excalidraw.md",
     "Programacio/JavaScript/Estructura de seleccio multiple JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
