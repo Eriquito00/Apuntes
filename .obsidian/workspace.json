@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d4ee7a0bc4eb737d",
+        "id": "8a9b4e5d5a3152c0",
         "type": "tabs",
         "children": [
           {
-            "id": "e1c9df5092282f7a",
+            "id": "914899d3daea2e76",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,19 +140,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1c9df5092282f7a",
+  "active": "303f0857d18464e7",
   "lastOpenFiles": [
+    "Programacio/JavaScript/Comentaris JavaScript.md",
+    "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
+    "Programacio/Introduccio a la programacio.md",
+    "Sistemes Informatics/Connexions de la placa base.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Sistemes Informatics/Placa base.md",
+    "Bases de dades/BBDD.md",
     "Imatges/Pasted image 20241007113818.png",
     "Imatges/Pasted image 20241007113425.png",
     "Programacio/JavaScript/Estructura de seleccio multiple JavaScript.md",
-    "Sistemes Informatics/Connexions de la placa base.md",
-    "Sistemes Informatics/Placa base.md",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Bases de dades/Diseny conceptual.md",
-    "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
     "Imatges/Pasted image 20241004110654.png",
     "Bases de dades/Exercicis.md",
-    "Bases de dades/BBDD.md",
     "Imatges/Pasted image 20241003110239.png",
     "Imatges/Pasted image 20241003110453.png",
     "Bases de dades/Introduccio a les bases de dades.md",
@@ -172,13 +166,11 @@
     "Excalidraw/Drawing 2024-10-02 11.50.30.excalidraw.md",
     "Imatges/Pasted image 20241002113313.png",
     "Imatges/Pasted image 20241002110636.png",
-    "Pasted image 20241002110551.png",
     "Programacio/JavaScript/JavaScript.md",
     "README.md",
     "Excalidraw/Drawing 2024-09-30 15.27.24.excalidraw.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Programacio/JavaScript/Classes JavaScript.md",
-    "Programacio/JavaScript/Comentaris JavaScript.md",
     "Programacio/JavaScript/Condicionals JavaScript.md",
     "Excalidraw/Drawing 2024-09-30 10.07.56.excalidraw.md",
     "Excalidraw/Drawing 2024-09-30 09.31.43.excalidraw.md",
