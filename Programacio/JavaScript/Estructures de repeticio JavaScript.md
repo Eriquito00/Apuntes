@@ -23,3 +23,9 @@ Introduir dades fins que s'introdueixi un valor determinat, com en aquest exempl
 Aquesta estructura de for es molt semblant a la estructura anterior while, de fet qualsevol bucle for es pot substituir per while. Per tant quan utilitzarem for i quan while:
 - Utilitzarem **for** quan el codi s'hagi de repetir un numero determinat de vegades.
 - Utilitzarem __while__ quan no sapiguem quantes vegades hem de repetir el codi.
+## Modificar la sequencia d'un bucle
+Per modificar la sequencia d'un bucle podem utilitzar diferents metodes.
+Per exemple podem utilitzar break per trencar el bucle i sortir de forma inmediata, i s'utilitza normalment per trencar un bucle aparentment infinit.
+![[Pasted image 20241007113425.png]]
+Tambe tenim continue, que si es compleix la condicio deixa continuar el codi pero si no no es fa, aqui podem veure un exemple.
+![[Pasted image 20241007113818.png]]

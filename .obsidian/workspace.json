@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "363be267c0db5236",
+        "id": "d4ee7a0bc4eb737d",
         "type": "tabs",
         "children": [
           {
-            "id": "d4db01454c189519",
+            "id": "e1c9df5092282f7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemes Informatics/Connexions de la placa base.md",
-                "mode": "preview",
+                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemes Informatics/Connexions de la placa base.md",
+                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemes Informatics/Connexions de la placa base.md",
+                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemes Informatics/Connexions de la placa base.md"
+                "file": "Programacio/JavaScript/Estructures de repeticio JavaScript.md"
               }
             }
           }
@@ -140,19 +139,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d4db01454c189519",
+  "active": "e1c9df5092282f7a",
   "lastOpenFiles": [
-    "Sistemes Informatics/Placa base.md",
+    "Imatges/Pasted image 20241007113818.png",
+    "Imatges/Pasted image 20241007113425.png",
+    "Programacio/JavaScript/Estructura de seleccio multiple JavaScript.md",
     "Sistemes Informatics/Connexions de la placa base.md",
+    "Sistemes Informatics/Placa base.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Bases de dades/Diseny conceptual.md",
     "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
@@ -171,11 +173,9 @@
     "Imatges/Pasted image 20241002113313.png",
     "Imatges/Pasted image 20241002110636.png",
     "Pasted image 20241002110551.png",
-    "Imatges/Pasted image 20241001110558.png",
     "Programacio/JavaScript/JavaScript.md",
     "README.md",
     "Excalidraw/Drawing 2024-09-30 15.27.24.excalidraw.md",
-    "Programacio/JavaScript/Estructura de seleccio multiple JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Programacio/JavaScript/Classes JavaScript.md",
     "Programacio/JavaScript/Comentaris JavaScript.md",
