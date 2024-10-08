@@ -23,5 +23,4 @@ Pero va apareixer el dubte de confondre el valor ja que "kilo" esta assignat a 1
 ![[Pasted image 20240923093114.png]]
 [[Placa base]]
 [[Connexions de la placa base]]
-# Virtualitzacio
-![[Pasted image 20241003101042.png]]
+[[Virtualitzacio]]
