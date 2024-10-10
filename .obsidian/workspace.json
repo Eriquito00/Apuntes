@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -148,12 +149,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "303f0857d18464e7",
+  "active": "1f09b5e9bbd7ce7f",
   "lastOpenFiles": [
-    "Pasted image 20241008093513.png",
-    "Excalidraw/Drawing 2024-10-08 09.31.06.excalidraw.md",
-    "Sistemes Informatics/Virtualitzacio.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Sistemes Informatics/Virtualitzacio.md",
+    "Imatges/Pasted image 20241008093513.png",
+    "Excalidraw/Drawing 2024-10-08 09.31.06.excalidraw.md",
     "Sistemes Informatics/Connexions de la placa base.md",
     "Programacio/JavaScript/Comentaris JavaScript.md",
     "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
@@ -176,7 +177,6 @@
     "Pasted image 20241002115059.png",
     "Excalidraw/Drawing 2024-10-02 11.50.30.excalidraw.md",
     "Imatges/Pasted image 20241002113313.png",
-    "Imatges/Pasted image 20241002110636.png",
     "Programacio/JavaScript/JavaScript.md",
     "README.md",
     "Excalidraw/Drawing 2024-09-30 15.27.24.excalidraw.md",

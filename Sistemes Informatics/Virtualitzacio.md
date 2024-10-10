@@ -5,3 +5,4 @@ Fer una o varies maquines virtuals no es emular, ja que emular es fer que la nos
 
 El format ISO es un format estandar utilitzat per exemple per instalar els sistemes operatius a les maquines virtuals i a les maquines reals sense disquetera per CD o DVD.
 
+BIOS (Basic Input/Output System)
