@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aebfe69d7752204a",
+        "id": "d70a05b746e3c3c3",
         "type": "tabs",
         "children": [
           {
-            "id": "1f09b5e9bbd7ce7f",
+            "id": "91975d2021b29355",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemes Informatics/Virtualitzacio.md",
+                "file": "Bases de dades/Exercicis.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemes Informatics/Virtualitzacio.md",
+                "file": "Bases de dades/Exercicis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemes Informatics/Virtualitzacio.md",
+                "file": "Bases de dades/Exercicis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemes Informatics/Virtualitzacio.md"
+                "file": "Bases de dades/Exercicis.md"
               }
             }
           }
@@ -149,10 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1f09b5e9bbd7ce7f",
+  "active": "303f0857d18464e7",
   "lastOpenFiles": [
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Imatges/image.png",
     "Sistemes Informatics/Virtualitzacio.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Imatges/Pasted image 20241008093513.png",
     "Excalidraw/Drawing 2024-10-08 09.31.06.excalidraw.md",
     "Sistemes Informatics/Connexions de la placa base.md",

@@ -114,6 +114,42 @@ Els punts s'obtindran per el primers llocs de cada etapa i en funció de la seva
 ![[Pasted image 20241002113313.png]]
 Aqui podem veure que una posicio te 1 o N tipus y un tipus 1 o M posicions  segons els punts i que 1 tipus te 1 o N etapes i que una etapa pot tenir 1 tipus.
 # Eleccions generals
+Davant les properes eleccions al Congrés dels Diputats, se'ns demana que prepareu el disseny d'una base de dades utilitzant el model E/R vist a classe que permeti:
 
+- A les eleccions s'hi presenten una sèrie de partits PP(Partit Pessimista), PSOE (Partit Salat i Organitzat d'Espanya), IU (Independents Units), PODEMOS (Parit Oficial Demòcrata Espanyol Municipalista Obrer Social) entre altres. A on ens interessa saber el nom llarg i les sigles del partit (aquestes seran úniques per cada partit).
+- Els escons del Congrés venen determinats per les circumscripcions. Cada circumscripció té assignat un nombre determinat d'escons en el Congrés.
+- Cada circumscripció s'identifica de manera única amb un nom i aquesta correspon només amb una província de l'estat que s'identifica amb un codi i a més a més ens interessa guardar el seu nom, el nom de la capital, a quina comunitat autònoma pertany i la superfície de m2.
+- Per cada circumscripció es poden presentar un número determinat de llistes de partits polítics (poden haver-hi partits que no es presentin en una determinada circumscripció) i aquestes només es poden presentar en una sola circumscripció.
+- Aquestes llistes de partits polítics estan formades per candidats dels quals ens interessa saber el seu dni, nom, nº de vegades que s'ha presentat, quin nº ocupa a la llista.
+- Evidentment un candidat només serà d'un partit i ens interessa saber quin és el candidat de cada partit que es presenta per President del Govern.
+- Cada província té un conjunt de ciutadans que voten en els municipis on estan empadronats, els quals es té la informació de el seu dni, nom, cognoms, telèfon, adreça.
+- Cada municipi s'identifica amb un codi únic i a més amés ens interessa saber el seu nom, el nom complet (nom i cognoms de l'actual alcalde).
+- A cada municipi es disposen les meses electorals corresponents per què els ciutadans votin. Normalment es situen en col·legis electorals. A cada ciutadà li correspondrà anar a votar a una determinada mesa electoral i vota a una sola llista (no vota a un candidat, sinó a una llista de la seva circumscripció).
+- Les meses electorals s'identifiquen pel municipi a on són i dins el municipi per districte (valor numèric de dos dígits), secció (valor numèric 3 dígits) i mesa(caràcter representat per una lletra). La conjunció dels valors de districte, secció i mesa poden ser iguals en diferents municipis, però no dins el mateix municipi.
+- El nostre sistema ha de permetre que el dia de les eleccions i després del recompte de vots, cada mesa pugui entrar el número de vots que han obtingut de les llistes dels partits que s'hi presentaven.
 
-[[BBDD]]
+**El nostre sistema cal que permeti. Entre altres coses, fer consultes del tipus:**
+
+- Nº d'habitants empadronats en un municipi.
+- Votants d'un municipi i quina mesa tenen assignada.
+- Municipis d'una província
+- Partits que es presenten en una província.
+- Quin són els candidats d'un partit en una determinada província.
+- Per cada partit, quin és el candidat que es presenta com a President del Govern.
+- Número de vots que ha obtingut un partit en una mesa, en un municipi i en una província.
+![[image.png]]
+# DGT (Direcció General de Trànsit)
+La Direcció General de Trànsit (DGT) vol mantenir certa informació del parc de vehicles a nivell d'Estat Espanyol per tal de fer una gestió adequada de les infraccions de trànsit que es cometin. En una primera fase es vol recopilar informació sobre les marques i models que hi ha al mercat, per la qual cosa des de les diferents cases de cotxes se'ls remet la informació següent: nom de la marca i adreça social a Espanya. Així mateix, per a cada marca es recullen els noms de models del vehicles disponibles i la potència (CV) de cadascun. Cal assenyalar que cada marca es codifica amb un codi i que associat al nom del model podem distingir cadascun dels models que existeixen.
+
+Quan un vehicle nou es matricula es registra la informació de la marca i el model del cotxe, el número de matrícula (7 caràcters alfanumèrics majúscules), el bastidor (17 caràcters alfanumèrics majúscules), la data de matriculació, així com les dades del propietari. D'aquest s'han de conèixer les següents dades: nif, cognoms, nom, data de naixement i domicili complet (carrer, núm., municipi, província i codi postal). Cal tenir en compte que a la DGT vol mantenir la informació actualitzada del propietari, per tant si en algun moment es produeix un canvi de propietari s'ha d'actualitzar a la base de dades, sense perdre informació de la història dels propietaris anteriors junt amb les dates que indiquen el període de propietat, per si de cas es necessiten per tramitar multes antigues. Per facilitar el disseny un mateix propietari no pot poseir el mateix vehicle durant dos períodes diferents. Per la població la manera d'identificar un vechicle és mitjançant la matrícula ja que aquest número ha de ser únic per tots els vechicles i no es pot reutilitzar, però la DGT utilitza el número de bastidor per poder identificar tots els vehicles.
+
+Quan una persona comet una infracció i se li imposa una multa, l'agent pren nota d'una sèrie de dades. En primer lloc, les dades de la persona infractora: nif, nom, cognoms, data de naixement i domicili complet (carrer, núm., municipi, província i codi postal). Si a la infracció hi ha intervingut un vehicle, es necessiten a més, les dades de la seva matrícula, marca i model del vehicle. Cal assenyalar que les multes s'imposen a persones, no a vehicles, ja que, per exemple, es podria imposar una multa a un vianant o a un ocupant d'un vehicle. Tot i que també és cert que en la majoria de les infraccions intervé un vehicle. També han de constar a la multa la data, el número de registre personal de l'agent que ha posat la multa, l'article que ha infringit la persona infractora (4 dígits), el lloc exacte on ha passat la infracció (carretera + quilòmetre concret o adrecça si es tracta d'una infracció en una via urbana) i l'import de la multa. Encara que hi ha una guia dels articles amb les seves descripcions, en aquest moment no es vol encara emmagatzemar aquesta informació a la base de dades. Cada infracció comesa s'identifica amb un número d'expedient únic (9 dígits) i dóna lloc a una única multa.
+
+Setmanalment a la Direcció Central de Trànsit se li envien informes on consta informació del nombre d'infraccions que s'han comès aquesta setmana, agrupades per carretera o per municipi i import i un rànquing dels articles que més s'han infringit.
+
+A la unitat de trànsit a què pertany cada agent que ha imposat una multa se li envia mensualment un llistat de les multes imposades pels seus agents i l'estat en què es troben els expedients (multa pendent, pagada o recorreguda). Aquesta informació és important perquè de tant en tant els agents han de declarar en relació en alguna de les infraccions en què han intervingut, per a això se'ls hi envia una citació via correu electrònic i una carta certificada al seu domicili. També cada cert temps s'obtenen estadístiques per als mitjans de comunicació sobre les característiques de les persones que cometen més infraccions (per trams d'edat, municipi i/o província de residència, etc.) i dels vehicles implicats (marques, models , etc.).
+
+Entre altres coses la DGT vol:
+
+- Crear un llistat de matrícula de vehicle + Nom i cognoms del propietari actual
+- Crear un llistat de tots els vehicles d'una província concreta.
