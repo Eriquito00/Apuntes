@@ -9,4 +9,5 @@ Aquest és un **llenguatge interpretat** i és el més utilitzat en la program
 [[Condicionals JavaScript]]
 [[Estructura de seleccio multiple JavaScript]]
 [[Estructures de repeticio JavaScript]]
+[[Tipus de dades compostes JavaScript]]
 #JavaScript 
