@@ -43,4 +43,5 @@ Tambe podem utilitzar el for of que es per quan hem de recorrer tota la array pe
 - splice(): permet afegir o eliminar elements d'una array.
 ### Ordenar l'array
 La comanda sort() ordena la array per ordre alfabetic de petit a gran. Amb els numeros els pasa a sting el que fa que faci que 30 sigui mes petit que 9 perque el 3 es mes petit que el 9.
-La comanda reverse() inverteix la posicio de tots els elements, el primer a l'ultim, el segon al penultim i aixi amb tots.
+- reverse(): inverteix la posicio de tots els elements, el primer a l'ultim, el segon al penultim i aixi amb tots.
+- sort(): ordena la array alfabeticament de petit a gran.
