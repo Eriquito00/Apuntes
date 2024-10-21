@@ -24,3 +24,4 @@ Pero va apareixer el dubte de confondre el valor ja que "kilo" esta assignat a 1
 [[Placa base]]
 [[Connexions de la placa base]]
 [[Virtualitzacio]]
+[[Particions]]
