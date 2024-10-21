@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2c5922de38320abb",
+        "id": "6f8759776f94cb15",
         "type": "tabs",
         "children": [
           {
-            "id": "d4fd62e60656d3c4",
+            "id": "928099dd61d0bdca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemes Informatics/Virtualitzacio.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -39,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -54,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
             }
           },
           {
@@ -62,14 +64,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 353.5004348754883,
     "collapsed": true
   },
   "right": {
@@ -86,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemes Informatics/Virtualitzacio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -103,10 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemes Informatics/Virtualitzacio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -117,7 +123,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
             }
           },
           {
@@ -125,9 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sistemes Informatics/Virtualitzacio.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Esquema"
             }
           }
         ],
@@ -149,8 +157,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d4fd62e60656d3c4",
+  "active": "928099dd61d0bdca",
   "lastOpenFiles": [
+    "Sistemes Informatics/Particions.md",
+    "Sistemes Informatics/Virtualitzacio.md",
     "Imatges/Pasted image 20241018082916.png",
     "Programacio/JavaScript/Tipus de dades compostes JavaScript.md",
     "Imatges/Pasted image 20241018092327.png",
@@ -167,7 +177,6 @@
     "Bases de dades/BBDD.md",
     "Bases de dades/Diseny conceptual.md",
     "Imatges/Pasted image 20241017122320.png",
-    "Sistemes Informatics/Virtualitzacio.md",
     "Bases de dades/Exercicis.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Excalidraw/Drawing 2024-10-08 09.31.06.excalidraw.md",
