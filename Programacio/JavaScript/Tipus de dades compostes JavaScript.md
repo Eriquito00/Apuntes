@@ -45,3 +45,13 @@ Tambe podem utilitzar el for of que es per quan hem de recorrer tota la array pe
 La comanda sort() ordena la array per ordre alfabetic de petit a gran. Amb els numeros els pasa a sting el que fa que faci que 30 sigui mes petit que 9 perque el 3 es mes petit que el 9.
 - reverse(): inverteix la posicio de tots els elements, el primer a l'ultim, el segon al penultim i aixi amb tots.
 - sort(): ordena la array alfabeticament de petit a gran.
+# Arrays bidimensionals
+Podem imaginar una array bidimensional com una taula de files i columnes. Podem dir que una array bidimensional es una array de arrays.
+### Definir i inicialitzar arrays bidimensionals
+Les arrays bidimensionals es veuen de la seguent forma:
+![[{E1DD1D3C-9F78-4924-B1F8-1BEC7FF16880}.png]]
+Amb files i columnes, per exemple podem veure que "22" esta a la fila 2 columna 2.
+![[{1A23622E-4FE5-4904-825B-D48E2A0A2F9E}.png]]
+Per poder donar o assignar una valor d'una array bidimensional podem fer-ho de les seguents formes, donant el valor amb la estructura de nom de la array, el nº de la fila i el nº de la columna, i de la mateixa forma podem donarli aquest valor a una variable.
+![[{386F820B-D0D0-459C-A937-A06D2BB05D34}.png]]
+Per poder analitzar una array bidimensional en comptes de per files y despres columnes, podem fer-ho de la seguent forma començant per columnes y despres files.
