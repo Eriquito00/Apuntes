@@ -45,3 +45,4 @@ Formatar la particio
 - Estableix quina es la longitud dels clusters.
 - Marca l'etiqueta de la particio.
 NTFS utilitza la taula MFT que ocupa un 12,5% de tota la particio.
+Quan es crea una particio activa (a) quan es fa a gpt es selecciona automaticament "ESP" que es "Efi System Partition".
