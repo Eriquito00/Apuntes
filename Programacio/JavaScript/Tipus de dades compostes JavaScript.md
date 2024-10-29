@@ -55,3 +55,7 @@ Amb files i columnes, per exemple podem veure que "22" esta a la fila 2 columna 
 Per poder donar o assignar una valor d'una array bidimensional podem fer-ho de les seguents formes, donant el valor amb la estructura de nom de la array, el nº de la fila i el nº de la columna, i de la mateixa forma podem donarli aquest valor a una variable.
 ![[{386F820B-D0D0-459C-A937-A06D2BB05D34}.png]]
 Per poder analitzar una array bidimensional en comptes de per files y despres columnes, podem fer-ho de la seguent forma començant per columnes y despres files.
+Si volem agafar valors en diagonal nomes necesitem un "for", si volem diagonal de esquerra a dreta haurem de sumar, si es de dreta a esquerra fara falta restar.
+# Objectes
+Un objecte es per guardar dades de diferents tipus. Per definir un objecte i els seus atributs posem "{}", i dins podem posar els seus atributs. Per cridar algun atribut d'un objecte podem posar el nom de la variable del objecte, un punt i el nom del valor, de la seguent exemple "alumne.curs".
+![[Pasted image 20241029120933.png]]
