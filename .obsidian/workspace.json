@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94bf4c489aa3b08d",
+            "id": "0a310779b54631cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Proces d'arrencada en Sistemes Operatius.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Proces d'arrencada en Sistemes Operatius"
             }
           }
         ]
@@ -156,14 +160,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "303f0857d18464e7",
+  "active": "0a310779b54631cb",
   "lastOpenFiles": [
+    "Sistemes Informatics/Ubuntu.md",
+    "Proces d'arrencada en Sistemes Operatius.md",
     "Programacio/JavaScript/Tipus de dades compostes JavaScript.md",
     "Programacio/JavaScript/Tipus de dades JavaScript.md",
     "Bases de dades/Diseny conceptual.md",
     "Imatges/Pasted image 20241029120933.png",
     "Programacio/JavaScript/Operadors JavaScript.md",
-    "Sistemes Informatics/Ubuntu.md",
     "Sistemes Informatics/Virtualitzacio.md",
     "Sistemes Informatics/Placa base.md",
     "Sistemes Informatics/Particions.md",
