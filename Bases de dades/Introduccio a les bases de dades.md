@@ -14,4 +14,4 @@ Una **relació** descriu com dues o més entitats estan connectades entre si. 
 Es un valor infinit que es posa quan es fa una relacio entre dos entitats i no tenim cap maxim, en cas de en una relacio siguin mes d'un valor que no te maxim es posa N i M i en cas de nomes necesitar un numero infinit en cas de no tenir cap maxim especificat es posa N.
 ![[Pasted image 20240918113946.png]]
 ![[Pasted image 20241002115133.png]]
-[[Diseny conceptual]]
+[[Entitat Relacio]]
