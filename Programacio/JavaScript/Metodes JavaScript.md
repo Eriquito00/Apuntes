@@ -2,7 +2,6 @@
 Els textos (cadenes de caràcters o _strings_) són immutables.  
 Això vol dir que, un cop creats, no es poden modificar directament.
 ![[Pasted image 20240916191842.png|650x75]]
-***
 ### Propietats i mètodes dels "strings"
 Els mètodes més importants són:
 - length: **és una variable** que conté el nombre de caràcters que té la cadena.
@@ -53,13 +52,11 @@ Aquestes funcions necessiten un o dos paràmetres i retornen un resultat:
 - Math.sin(n): calcula el sinus (n ha d'estar en radians: **n = graus * Math.PI / 180**).
 - Math.cos(n): calcula el cosinus (n ha d'estar en radians: **n = graus * Math.PI / 180**).
 - Math.tan(n): calcula la tangent (n ha d'estar en radians: **n = graus * Math.PI / 180**).
-***
 ### Generar números aleatoris entre dos valors determinats
 ==// Enter aleatori **entre 'min' i 'max'**, tots dos inclosos  
 let n = Math.floor((Math.random() * (max - min + 1) + min));  
 // Real aleatori **des de 'min' fins a 'max' (aquest últim no inclòs)**  
 let d = Math.random() * (max - min) + min;==
-***
 ### Problemes de precisió i desbordament
 Els valors que es poden utilitzar estan limitats.  
 Si no es tenen en compte aquests límits, es poden produir resultats erronis.

@@ -1,3 +1,4 @@
+# Cicle de vida
 Quan es decideix que cal fer un programa per resoldre una tasca determinada, s'ha tenir en compte que no es tracta de posar-se a programar immediatament.  
 Cal seguir uns passos per què es pugui dur a terme de manera exitosa:
 1. **Definir el problema**: obtenir els requisits del programa, parlar amb el client i els usuaris, proposar diferents solucions i decidir quina és la més adequada.

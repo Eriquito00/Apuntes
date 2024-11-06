@@ -6,14 +6,10 @@ C, C++ o C#. Són molt eficients però cal utilitzar un compilador diferent per 
 ## Llenguatges interpretats
 Python, JavaScript o PHP. Són poc eficients però es poden executar en qualsevol sistema informàtic que tingui un intèrpret per aquest llenguatge.
 ![[Interpretats.png|350x200]]
-#JavaScript [[JavaScript]]
-#PHP
 ## Llenguatges mixtos
 Java. Són més eficients que els interpretats però menys que els compilats.  
 Necessiten un intèrpret específic per cada sistema informàtic. En el cas de Java, aquest intèrpret s'anomena Màquina Virtual de Java (JVM).
 ![[Mixtos.png|625x200]]
-#Java
-***
 # Evolucio de la programacio
 ## Codi maquina
 Al principi, els programes s'havien d'escriure en el mateix llenguatge del processador, que està format pels **bits 0 i 1**.  Aquest llenguatge és molt difícil, es triga molt a fer un programa i es molt fàcil cometre errades. Com per exemple el **Binari**.
@@ -27,3 +23,4 @@ Per facilitar encara més la programació van aparèixer altres mètodes, per ex
 Els llenguatges interpretats van traduïnt les instruccions del programa a codi màquina cada cop que s'executa el programa. Com per exemple **Python**.
 ## Altres llenguatges
 També es poden trobar molts altres llenguatges de programació. Altres per utilitzar metodologies de programació diferents de les habituals o destinades a aplicacions concretes: **Lisp** (intel·ligència artificial), **SQL** (bases de dades), **JavaScript**, **PHP** (fer aplicacions per a Internet).
+[[JavaScript]]

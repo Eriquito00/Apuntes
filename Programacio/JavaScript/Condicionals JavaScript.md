@@ -17,13 +17,18 @@ Si hi ha més de dos possibles blocs cal utilitzar aquesta estructura en diagram
 ![[Pasted image 20240923110727.png]]
 El codi equivalent seria:
 ![[Pasted image 20240923110746.png]]
-
----
----
----
 # Condicional avançat
 Aquesta estructura s'utilitza sobretot a condicions senzilles. S'utilitza "?" per separar la condicio de la resta de l'estructura i entre "?" i ":" es posa el valor si la condicio es cerca i despres del ":" es dona el valor si la condicio es falsa. Aqui podem veure un exemple:
 ![[Pasted image 20240927091921.png]]
 Serveix per simplificar el seguent condicional:
 ![[Pasted image 20240927091942.png]]
 Aquests dos codis fan el mateix pero gracies al ternari ho podem fer de forma mes simplificada.
+# Estructura de seleccio
+![[Pasted image 20240930105328.png]]
+Aquesta estructura te un funcionament similar a "if ... else if ... else ..." pero amb alguna diferencia important.
+- La comparacio sempre es fa entre una unica variable i diversos valors constants o literals.
+- Nomes permet comparar si la variable es igual a uns valors determinats.
+![[Pasted image 20240930105544.png]]
+Aqui podem veure un exemple, al qual en cas de NO posar break quan el case 1 acabes començaria sense tenir en compte la condicio el case 2. Al default no es necesari posar break ja que al acabar default ja sortira.
+![[Pasted image 20240930105756.png]]
+Aqui podem veure un altre cas en el cual en qualsevol dels casos poma, cirera o banana fara el alert i si es llimona o pinya fara l'altre.

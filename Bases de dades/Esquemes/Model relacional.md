@@ -38,21 +38,21 @@ any
 año(PK)
 Aqui podem veure que any es relaciona la PK amb la FK pero a la taula matricules la FK any no es una clau primaria. A mes a mes podem veure que la FK i la PK no tenen el mateix nom pero igualment es relacionen, no es necesari que tinguin el mateix nom. El valor de una FK pot ser Nul sempre i cuan aquesta FK no perteneixi a una PK.
 # Entitat relacio a model relacional
-## Pas1
+## Pas 1
 Agafem les entitats fortes i creem taules amb els seus atributs.
 Si tenim atributs compostos es perdran.
 La PK sera l'identificador de la taula.
-## Pas2
+## Pas 2
 Agafem les entitats febles i creem taules amb els seus atributs.
 Afegirem tambe la PK de la entitat forta de la que depen, si depen de dues o mes doncs posem dues o mes.
-## Pas3
+## Pas 3
 Agafarem les generalitzacion i especialitzacions i crearem taules amb els seus atributs.
 Afegirem els atributs especifics de cada especialitzacio.
 Afegirem la PK de la entitat de la que tenien totes en comu i aquesta FK i la PK.
-## Pas4
+## Pas 4
 Busquem les relacions 1 a 1 com a maxims.
 Agafarem la PK de qualsevol entitat que tenia el maxim 1 i els atributs que estaben a la relacio i els afegim a la altre taula de la altre entitat posant com FK a la PK de la altre entitat.
-## Pas5
+## Pas 5
 Busquem les relacions 1 a N com a maxims.
 Agafarem la PK de la entitat que tenia el maxim 1 i els atributs que estaben a la relacio i els afegim a la taula de la entitat que te el maxim de N posant com FK a la PK de la altre entitat.
-## Pas6
+## Pas 6

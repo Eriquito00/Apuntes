@@ -153,3 +153,5 @@ Entre altres coses la DGT vol:
 
 - Crear un llistat de matrícula de vehicle + Nom i cognoms del propietari actual
 - Crear un llistat de tots els vehicles d'una província concreta.
+![[dgt.png]]
+[[Entitat Relacio]]
