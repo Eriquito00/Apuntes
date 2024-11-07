@@ -42,17 +42,42 @@ Aqui podem veure que any es relaciona la PK amb la FK pero a la taula matricules
 Agafem les entitats fortes i creem taules amb els seus atributs.
 Si tenim atributs compostos es perdran.
 La PK sera l'identificador de la taula.
+![[Pasted image 20241107105629.png]]
 ## Pas 2
 Agafem les entitats febles i creem taules amb els seus atributs.
 Afegirem tambe la PK de la entitat forta de la que depen, si depen de dues o mes doncs posem dues o mes.
+![[Pasted image 20241107105719.png]]
 ## Pas 3
 Agafarem les generalitzacion i especialitzacions i crearem taules amb els seus atributs.
 Afegirem els atributs especifics de cada especialitzacio.
 Afegirem la PK de la entitat de la que tenien totes en comu i aquesta FK i la PK.
+![[Pasted image 20241107105815.png]]
 ## Pas 4
 Busquem les relacions 1 a 1 com a maxims.
 Agafarem la PK de qualsevol entitat que tenia el maxim 1 i els atributs que estaben a la relacio i els afegim a la altre taula de la altre entitat posant com FK a la PK de la altre entitat.
+![[Pasted image 20241107105906.png]]
+Si la relacio es amb minims 1,1 i 0,1 es tractara de forma que sortira millor si portem les dades cap a la entitat que te 0,1.
+![[Pasted image 20241107110052.png]]
+Si la relacio es amb minims 0,1 i 0,1 es tractara de forma que es creara una nova taula amb el nom que veiem convenient i es posaran els atributs de la relacio, si no hi han doncs res. Les PK poden ser o un o l'altre o els dos a la vegada.
+![[Pasted image 20241107110629.png]]
 ## Pas 5
 Busquem les relacions 1 a N com a maxims.
 Agafarem la PK de la entitat que tenia el maxim 1 i els atributs que estaben a la relacio i els afegim a la taula de la entitat que te el maxim de N posant com FK a la PK de la altre entitat.
+![[Pasted image 20241107105919.png]]
 ## Pas 6
+Busquem les relacions de N a M.
+Crearem una nova taula amb el nom que creiem convenient i els identificadors de les taules que contenien N a M seran PK de la nova taula, les dues juntes. Els atributs d'aquesta taula seran els atributs que estiguin a la relacio, si no hi ha doncs res.
+![[Pasted image 20241107110340.png]]
+## Pas 7
+Busquem les relacions ternaries, quaternaries...
+Es creara una nova taula amb el nom que veiem convenient i es posaran els atributs que hi han a la relacio i la PK seran el de tots les relacions que les formen, tots junts.
+![[Pasted image 20241107111003.png]]
+## Pas 8
+Busquem les entitats associatives.
+Crearem una nova taula amb el nom que creem convenient que la PK seran els identificadors de les dues taules de dins de la entitat associativa i les relacions que hi hagin amb aquesta taula depenent si son 1,1 i 1,1 o 1,N i 1,1 o 1,N i 1M doncs s'aplicaran els pasos 4, 5 o 6 depenent de la relacio amb la associativa.
+![[Pasted image 20241107111307.png]]
+## Pas 9
+Incloure tota la informacio necesari i util per limitar la entrada de dades o dades obligatories, per exemple:
+DNI: 8 digits i 1 lletra.
+Nom: olbigatori.
+Telefon: numeric.
