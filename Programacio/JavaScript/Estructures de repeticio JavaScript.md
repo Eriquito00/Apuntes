@@ -29,3 +29,8 @@ Per exemple podem utilitzar break per trencar el bucle i sortir de forma inmedia
 ![[Pasted image 20241007113425.png]]
 Tambe tenim continue, que si es compleix la condicio deixa continuar el codi pero si no no es fa, aqui podem veure un exemple.
 ![[Pasted image 20241007113818.png]]
+## For of
+For of es una estructura de repeticio que es per simplificar la forma en la que es recorren les array. Aquests dos codis seguents fan el mateix:
+for (let i of array){}
+for (let i = 0; i < array.length; i++){}
+Pero quan hem de fer coses dins d'una array es mes senzill y millor utilitzar for of de forma que cada vegada que es recorreix la array i es el valor de la posicio en la que es recorreix, es a dir, la primera vegada tindra el valor de la posicio 0 de la array, la segona tindra el valor de la posicio 1 y aixi fins l'ultim valor de l'array.
