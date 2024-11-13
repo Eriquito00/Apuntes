@@ -37,6 +37,14 @@ codi(PK) - nom - hores - curs
 any
 año(PK)
 Aqui podem veure que any es relaciona la PK amb la FK pero a la taula matricules la FK any no es una clau primaria. A mes a mes podem veure que la FK i la PK no tenen el mateix nom pero igualment es relacionen, no es necesari que tinguin el mateix nom. El valor de una FK pot ser Nul sempre i cuan aquesta FK no perteneixi a una PK.
+## Tipus de Storage MySQL Workbench
+Primary Key: Clau primaria.
+Foreign Key: Una atribut que prove de una altre taula.
+Not Null: Aquest valor no pot ser null.
+Unique: Aquest valor no es pot repetir.
+Unsigned: Nomes pot ser un valor positiu y fa que siguin mes utils els valors positius, si un tipus de dada arriba entre -100 y 100 aquest unsignet fa que pugui arribar entre 0 y 200.
+Auto Increment: Valor automatic incremental, es crea un id incremental que comença per 1.
+Generated: Un atribut calculat en base a altres atributs.
 # Entitat relacio a model relacional
 ## Pas 1
 Agafem les entitats fortes i creem taules amb els seus atributs.
