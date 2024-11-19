@@ -17,7 +17,7 @@ Com arranca Windows Vista MBR BIOS endavant:
 5. "bootmgr" llegeix el fitxer BCD que esta a la carpeta BOOT en la mateixa particio. BCD es un fitxer de configuracio, no es executable.
 - BCD li diu a "bootmgr" quants sistemes operatius Windows hi ha i les preferencies d'arrencada.
 - Amb la informacio del BCD, "bootmgr" mostra la llista dels SO instalats i demana escollirne un durant uns segons. Si nomes tenim 1 SO Windows no cal mostrar la llista.
-- "bootmgr" carrega en RAM i executa el fitxer winload.exer del SO escollit. Cada SO te un fitxer winload.exe associat.
+- "bootmgr" carrega en RAM i executa el fitxer winload.exe del SO escollit. Cada SO te un fitxer winload.exe associat.
 
 6. winload.exe acaba de carregar els moduls que falten del SO, fins arribar a la pantalla de benvinguda o de logon.
 - Benvinguda es quan surt el fons amb l'hora i logon es quan ens demana la contraseña.
@@ -25,13 +25,17 @@ Com arranca Windows Vista MBR BIOS endavant:
 # Ubuntu
 Com arranca Ubuntu 22.04 LTS BIOS MBR GRUB 2:
 1. Engeguem el PC amb el boto Power. BIOS dona el control al HDD, concretament al MBR.
+
 2. MBR ha estat modificat per Linux quan l'hem instalat. Dins seu esta el contingut "boot.img". Aquest codi de programa es coneix com a "Fase 1".
+
 3. "boot.img" carrega el codi "core.img" conegut com a "Fase 1.5" que esta guardat en una particio propia. "boot.img" NO comprova quina es la particio activa. "core.img" carrega el "/boot/grub" conegut com a "Fase 2" ubicat en la particio de Ubuntu.
+
 4. Aquesta Fase 2 s'encarrega de:
-	- mostrar el menu de GRUB
-	- carrega el kernel del SO
-	- li cedeix el control al SO
-	En  sda2 trobem una particio del sistema EFI de 512MiB pero no fa res si arranquem BIOS/MBR.
+- mostrar el menu de GRUB
+- carrega el kernel del SO
+- li cedeix el control al SO
+
+En  sda2 trobem una particio del sistema EFI de 512MiB pero no fa res si arranquem BIOS/MBR.
 ***
 - LBA 0: Ubuntu amb EFI GPT te un legacy MBR que es conserva per tenir compatibilitat amb programes antics.
 
@@ -49,9 +53,9 @@ Com arranca Ubuntu 22.04 LTS EFI GPT GRUB 2:
 2. "grubx64.efi" es el bootloader del grub, el grub esta a la propia particio de Ubuntu (/boot/grub). En aquesta part es fa la Fase 1 i la Fase 1.5.
 
 3. Aquest grub es l'encarregat de:
-	- mostra el menu de grub.
-	- carrega el kernel del SO.
-	- finalment pasa el control al kernel carregar.
+- mostra el menu de grub.
+- carrega el kernel del SO.
+- finalment pasa el control al kernel carregar.
 
 lsblk: llista els dispositius muntats
 - lsblk -f /dev/sda: per saber quines particions tenim i com estan muntades.
