@@ -22,6 +22,9 @@ Els mètodes més importants són:
     Ho enganxa al principi o al final de l'_string_, respectivament.
 - startsWith(text) o endsWith(text): comprova si la cadena comença o acaba amb la subcadena especificada, respectivament.
 - split(text): retorna un _array_ de _String_ que és el resultat de separar la cadena utilitzant una altra cadena com a separador.
+- splice(posicio, nº eliminacions): Permet afegir o eliminar elementrs a una array.
+- sort(): Ordena l'_array_ **alfabèticament** de més petit a més gran.
+- reverse(): Inverteix la posició de tots els elements: si es vol ordenar un _array_ inversament, primer s'utilitza la comanda sort() i després reverse().
 ### Caràcters especials
 Hi ha uns caràcters especials que representen accions en lloc de símbols.  
 Aquests caràcters s'anomenen codis d'escapament (_escape codes_).
@@ -53,10 +56,10 @@ Aquestes funcions necessiten un o dos paràmetres i retornen un resultat:
 - Math.cos(n): calcula el cosinus (n ha d'estar en radians: **n = graus * Math.PI / 180**).
 - Math.tan(n): calcula la tangent (n ha d'estar en radians: **n = graus * Math.PI / 180**).
 ### Generar números aleatoris entre dos valors determinats
-==// Enter aleatori **entre 'min' i 'max'**, tots dos inclosos  
-let n = Math.floor((Math.random() * (max - min + 1) + min));  
-// Real aleatori **des de 'min' fins a 'max' (aquest últim no inclòs)**  
-let d = Math.random() * (max - min) + min;==
+// Enter aleatori **entre 'min' i 'max'**, tots dos inclosos  
+let n = Math.floor((Math.random() * (max - min + 1) + min));
+// Real aleatori **des de 'min' fins a 'max' (aquest últim no inclòs)**
+let d = Math.random() * (max - min) + min;
 ### Problemes de precisió i desbordament
 Els valors que es poden utilitzar estan limitats.  
 Si no es tenen en compte aquests límits, es poden produir resultats erronis.

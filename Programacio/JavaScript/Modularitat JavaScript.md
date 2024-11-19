@@ -23,3 +23,5 @@ Quan agafem dades a una funcio com per exemple:
 ![[Pasted image 20241118082753.png]]
 En aquesta funcio "a" es una array, "separador" es una variable simple i "oneline" es un bolea, en aquest cas "separador" i "oneline" basicament son dades que en cas de ser modificades dins de la funcio, la variable que al declarar la funcio tenia el valor, no es modificara a la variable, nomes a la funcio. Pero en cas de "a" es una array per tant si no li donem el valor de aquesta array a un altre array dins de la funcio al modificar l'array "a" si que es modificara el valor fora de la funcio, perque es una dada mes complexa y en veritat el que es pasa en aquesta funcio es la direccio on es guarden el valors no els valors directament.
 Els valors simples no es modificaran a la variable real, pero els valors mes complexes com arrays y objectes si es modificaran.
+![[Pasted image 20241119110749.png]]
+A mes a mes tambe podem donarli valors per defecte, es a dir, si ens donen l'array pero no ens donen el separador o si ho volen en 1 linea doncs a la mateixa declaracio de la funcio podem donarli un valor per defecte per si decas l'usuari no introdueix els valors.
