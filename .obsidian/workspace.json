@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d03cdbc25bd9748c",
+        "id": "641dbff3b5f5018d",
         "type": "tabs",
         "children": [
           {
-            "id": "8a42a8ffe627b7c0",
+            "id": "eaf06cbf6d96ba0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,7 +164,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8a42a8ffe627b7c0",
+  "active": "eaf06cbf6d96ba0e",
   "lastOpenFiles": [
     "Sistemes Informatics/Altres/Particions.md",
     "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
