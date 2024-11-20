@@ -46,3 +46,17 @@ Formatar la particio
 - Marca l'etiqueta de la particio.
 NTFS utilitza la taula MFT que ocupa un 12,5% de tota la particio.
 Quan es crea una particio activa (a) quan es fa a gpt es selecciona automaticament "ESP" que es "Efi System Partition".
+
+lsblk: llista els dispositius muntats
+- lsblk -f /dev/sda: per saber quines particions tenim i com estan muntades.
+
+df: informe del sistema de fitxers
+- df /carpeta: per saber en quina particio esta muntada la carpeta.
+
+Tots els dispositius de Ubuntu estan situats a /dev.
+### Unitats en Linux
+fd0 o fd1: disquetera floppy.
+hda0, hda1...: particions dels discs durs HDD.
+hdb0, hdb1...: discs durs HDD.
+sda0, sda1...: discs durs sata o scsi.
+scd0, scd1...: CD scsi o sata.
