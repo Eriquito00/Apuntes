@@ -37,14 +37,6 @@ codi(PK) - nom - hores - curs
 any
 año(PK)
 Aqui podem veure que any es relaciona la PK amb la FK pero a la taula matricules la FK any no es una clau primaria. A mes a mes podem veure que la FK i la PK no tenen el mateix nom pero igualment es relacionen, no es necesari que tinguin el mateix nom. El valor de una FK pot ser Nul sempre i cuan aquesta FK no perteneixi a una PK.
-## Tipus de Storage MySQL Workbench
-Primary Key: Clau primaria.
-Foreign Key: Una atribut que prove de una altre taula.
-Not Null: Aquest valor no pot ser null.
-Unique: Aquest valor no es pot repetir.
-Unsigned: Nomes pot ser un valor positiu y fa que siguin mes utils els valors positius, si un tipus de dada arriba entre -100 y 100 aquest unsignet fa que pugui arribar entre 0 y 200.
-Auto Increment: Valor automatic incremental, es crea un id incremental que comença per 1.
-Generated: Un atribut calculat en base a altres atributs.
 # Entitat relacio a model relacional
 ## Pas 1
 Agafem les entitats fortes i creem taules amb els seus atributs.
@@ -89,3 +81,74 @@ Incloure tota la informacio necesari i util per limitar la entrada de dades o da
 DNI: 8 digits i 1 lletra.
 Nom: olbigatori.
 Telefon: numeric.
+# MYSQL Workbench
+
+## Tipus de Storage
+Primary Key: Clau primaria.
+Foreign Key: Una atribut que prove de una altre taula.
+Not Null: Aquest valor no pot ser null.
+Unique: Aquest valor no es pot repetir.
+Unsigned: Nomes pot ser un valor positiu y fa que siguin mes utils els valors positius, si un tipus de dada arriba entre -100 y 100 aquest unsignet fa que pugui arribar entre 0 y 200.
+Auto Increment: Valor automatic incremental, es crea un id incremental que comença per 1.
+Generated: Un atribut calculat en base a altres atributs.
+
+## Caracteristiques de les dades
+- char: s'utilitza per dades amb longitud fixe i s'accedeix de forma mes rapida que varchar.
+- varchar: s'utilitza per dades amb longitud dinamica i s'accedeix de forma mes lenta que char.
+- int: s'utilitza per numeros enters positius i negatius.
+
+Diferencies entre char i varchar, principalment l'espai ja que depenent la dada char ocupara sempre el maxim que es pugui introduir y varchar s'adapta y ocupa nomes el que ocupen les dades. Pero tambe char, per dades amb longitud definida y que sabem que no sera mes gran, aquesta dada sera mes rapid accedir a ella si es char y si posem varchar sera mes lent l'acces a aquesta dada.
+# Normalitzacio
+La normalitzacio consta de fer aquestes dades que es repeteixen per fer el model mes senzill.
+Tenim una taula amb la estrucrura seguent:
+| matricula | marca | model | color |
+En aquest cas si la matricula es 1111 AAA, la marca el model i el color ja es poden sapiguer porque aquell cotxe nomes te aquesta matricula que ess unica per ell.
+## Forma normal 1
+Un atribut no pot tenir 2 valors:
+
+| codi | pelicula | dates emisio |
+| 1 | star trek | 1/12/24 - 2/12/24 - 3/12/24 |
+Aquesta taula NO compleix..
+Basicament que un atribut nomes pot tenir 1 valor.
+| codi | pelicula | dates emisio |
+| 1 | star trek | 1/12/24 |
+| 1 | star trek | 2/12/24 |
+| 1 | star trek | 3/12/24 |
+Aquesta taula SI compleix.
+## Forma normal 2
+Una taula te un atribut que depen d'un atribut de la PK pero no d'altres:
+| client | exercici | preu |
+| 1 | ciclisme | 25 |
+| 1 | aerobic | 30 |
+Aquesta taula NO compleix.
+Basicament que preu depen de exercici pero no depen de client.
+Taula 1
+| client | exercici |
+| 1 | ciclisme |
+
+Taula 2
+| exercici | preu |
+| ciclisme | 25 |
+Aquesta taula SI compleix.
+## Forma normal 3
+Trencar les taules per separar les dades iguals:
+| client | edifici | preu |
+| 1 | e1 | 25 |
+| 2 | e1 | 25 |
+| 3 | e2 | 30 |
+| 4 | e1 | 25 |
+| 5 | e2 | 30 |
+Aquesta taula NO compleix:
+Basicament el que pasa es que preu depen d'edifici i edifici de client per tant s'han de separar.
+Taula 1
+| client | edifici |
+| 1 | e1 |
+| 2 | e1 |
+| 3 | e2 |
+| 4 | e1 |
+| 5 | e2 |
+Taula 2
+| edifici | preu |
+| e1 | 25 |
+| e2 | 30 |
+Aquesta taula SI compleix.

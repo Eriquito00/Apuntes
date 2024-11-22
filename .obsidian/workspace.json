@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "50a3822a6cbe5d93",
+    "id": "520d4abe10b64954",
     "type": "split",
     "children": [
       {
-        "id": "641dbff3b5f5018d",
+        "id": "0c916cf61d3a2bff",
         "type": "tabs",
         "children": [
           {
-            "id": "eaf06cbf6d96ba0e",
+            "id": "d8e658e3ed26cf43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
+                "file": "Bases de dades/Esquemes/Model relacional.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proces d'arrencada en Sistemes Operatius"
+              "title": "Model relacional"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7b94ba406cdc6237",
+    "id": "2ec7dc5f563cbb83",
     "type": "split",
     "children": [
       {
-        "id": "3b750771cfd07326",
+        "id": "517b5ae43165fab5",
         "type": "tabs",
         "children": [
           {
-            "id": "33dcc601e280b484",
+            "id": "303f0857d18464e7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,11 +43,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
-            "id": "7a185440b72481ac",
+            "id": "461c220c612b8f2d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "432ae3ac68fa72ee",
+            "id": "b3cb6e76c537616a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,25 +77,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "right": {
-    "id": "30e3b0b723ed2f14",
+    "id": "8b12f6e3321090a6",
     "type": "split",
     "children": [
       {
-        "id": "0f3ef4a2b17c2e6a",
+        "id": "43f54c5c9de62038",
         "type": "tabs",
         "children": [
           {
-            "id": "0a54ca9cb0d762b8",
+            "id": "06ebc5286013b7dd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Proces d'arrencada en Sistemes Operatius"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "c5d2350c2c26cf61",
+            "id": "facebb1f179cc74b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Proces d'arrencada en Sistemes Operatius"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "b3be5502fd4ecb6c",
+            "id": "a9b6a89e378008e0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,18 +133,17 @@
             }
           },
           {
-            "id": "add1e335bbb51634",
+            "id": "4a65b49f0ae09853",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Esquema de Proces d'arrencada en Sistemes Operatius"
+              "title": "Esquema"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -155,20 +152,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eaf06cbf6d96ba0e",
+  "active": "d8e658e3ed26cf43",
   "lastOpenFiles": [
-    "Sistemes Informatics/Altres/Particions.md",
+    "desktop.ini",
     "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
-    "Sistemes Informatics/Altres/Virtualitzacio.md",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md"
+    "Programacio/JavaScript/Metodes JavaScript.md",
+    "Programacio/JavaScript/Modularitat JavaScript.md",
+    "Imatges/Pasted image 20241119110749.png",
+    "Sistemes Informatics/Altres/Altres.md",
+    "Sistemes Informatics/Altres/Copies de seguretat.md",
+    "Imatges/Pasted image 20241118082753.png",
+    "Programacio/JavaScript/JavaScript.md",
+    "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
+    "Programacio/JavaScript/Condicionals JavaScript.md",
+    "Programacio/JavaScript/Comentaris i Introduir dades JavaScript.md",
+    "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
+    "Bases de dades/Esquemes/Model relacional.md",
+    "Bases de dades/Esquemes/Exercicis Entitat Relacio.md",
+    "Programacio/Introduccio a la programacio.md",
+    "Imatges/Pasted image 20241108110032.png",
+    "Imatges/Pasted image 20241108105852.png",
+    "Programacio/JavaScript/Funcions JavaScript.md",
+    "Imatges/Pasted image 20241107105629.png",
+    "Imatges/Pasted image 20241107111307.png",
+    "Bases de dades/Esquemes/BBDD.md",
+    "Imatges/Pasted image 20241107111003.png",
+    "Imatges/Pasted image 20241107110629.png",
+    "Imatges/Pasted image 20241107110340.png",
+    "Imatges/Pasted image 20241107110052.png",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Sistemes Informatics/Altres/Conceptes basics.md",
+    "README.md",
+    "Sin nombre",
+    "Sistemes Informatics/Hardware/Placa base.md",
+    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
+    "Sistemes Informatics/Hardware/Hardware.md",
+    "Sistemes Informatics/Hardware/Connexions de la placa base.md",
+    "Sistemes Informatics/Altres",
+    "Sistemes Informatics/Sistemes Operatius",
+    "Sistemes Informatics/Hardware",
+    "Bases de dades/Esquemes",
+    "Sin título.canvas",
+    "Programacio/JavaScript/Tipus de dades JavaScript.md",
+    "Programacio/JavaScript/Tipus de dades compostes JavaScript.md",
+    "Programacio/JavaScript/Operadors JavaScript.md",
+    "Imatges/dgt.png.crdownload",
+    "Sense títol.canvas",
+    "Excalidraw",
+    "Programacio/JavaScript",
+    "Imatges"
   ]
 }
