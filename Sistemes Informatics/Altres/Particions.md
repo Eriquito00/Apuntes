@@ -4,7 +4,7 @@
 - Normalment te una longitud de 512 bytes.
 ![[Pasted image 20241022092627.png]]
 ### Tipus de particions MBR
-- Primaries: tentn un boot-sector per poder arrencar. MBR nomes te espai per guardar un maxim de 4 particions.
+- Primaries: tenen un boot-sector per poder arrencar. MBR nomes te espai per guardar un maxim de 4 particions.
 - Estesa: es una particio primaria que al seu interior nomes conte particions logiques. Com molt hi ha 1 estesa per cada dispositiu fisic.
 - Logiques: particions dins d'una particio estesa. No hi ha limit, nomes la capacitat de la particio estesa.
 Sempre tindra maxim 4 particions, per exemple 3 primaries i 1 estesa i dins de la estesa les que volguem.

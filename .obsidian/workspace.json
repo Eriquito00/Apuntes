@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0c916cf61d3a2bff",
+        "id": "08ee9b9d7175ff35",
         "type": "tabs",
         "children": [
           {
-            "id": "d8e658e3ed26cf43",
+            "id": "4268c54caedb3ede",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de dades/Esquemes/Model relacional.md",
-                "mode": "source",
+                "file": "Sistemes Informatics/Altres/Particions.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model relacional"
+              "title": "Particions"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sistemes Informatics/Altres/Particions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de Particions"
             }
           },
           {
@@ -137,13 +138,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Sistemes Informatics/Altres/Particions.md"
+              },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Particions"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,31 +154,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d8e658e3ed26cf43",
+  "active": "4268c54caedb3ede",
   "lastOpenFiles": [
+    "Sistemes Informatics/Altres/Copies de seguretat.md",
+    "Sistemes Informatics/Altres/Particions.md",
+    "Bases de dades/Esquemes/Model relacional.md",
     "desktop.ini",
     "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
     "Programacio/JavaScript/Metodes JavaScript.md",
     "Programacio/JavaScript/Modularitat JavaScript.md",
     "Imatges/Pasted image 20241119110749.png",
     "Sistemes Informatics/Altres/Altres.md",
-    "Sistemes Informatics/Altres/Copies de seguretat.md",
     "Imatges/Pasted image 20241118082753.png",
     "Programacio/JavaScript/JavaScript.md",
     "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
     "Programacio/JavaScript/Condicionals JavaScript.md",
     "Programacio/JavaScript/Comentaris i Introduir dades JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
-    "Bases de dades/Esquemes/Model relacional.md",
     "Bases de dades/Esquemes/Exercicis Entitat Relacio.md",
     "Programacio/Introduccio a la programacio.md",
     "Imatges/Pasted image 20241108110032.png",
