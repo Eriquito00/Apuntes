@@ -38,7 +38,7 @@ Es el primer sector de cada particio primaria tant si es activa com si no.
 - En un sistema NTFS, la taula es MFT (Master File Table).
 INICIALITZAR EL DISC es basicament crear la taula de particion MBR o GPT. Sobre un espai lliure del disc es marca quins sectors ocupara (d'inicia a final).
 - Si la particio es primaria reserva el 1r sector pel boot-sector.
-- Si la particio es logica no reserva boot-sector perque les logiques han d'estar a dins d'una logica.
+- Si la particio es logica no reserva boot-sector perque les logiques han d'estar a dins d'una estesa.
 Formatar la particio
 - Defineix quin sistema de fitxers fara servir.
 - Reserva un espai gran al principi de la particio per guardar la taula de fitxers.
