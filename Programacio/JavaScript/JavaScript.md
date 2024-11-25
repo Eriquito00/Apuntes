@@ -7,3 +7,4 @@ Aquest és un **llenguatge interpretat** i és el més utilitzat en la program
 [[Tipus de dades JavaScript]]
 [[Estructures de repeticio JavaScript]]
 [[Modularitat JavaScript]]
+[[Expresions regulars JavaScript]]
