@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2ce3e60bee2129ce",
+        "id": "63b0ea4968044c72",
         "type": "tabs",
         "children": [
           {
-            "id": "b9c745680448069f",
+            "id": "a4340051fdf694b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Programacio/JavaScript/Expresions regulars JavaScript.md",
-                "mode": "source",
-                "source": false
+                "file": "Imatges/Pasted image 20241127165109.png"
               },
-              "icon": "lucide-file",
-              "title": "Expresions regulars JavaScript"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241127165109"
             }
           }
         ]
@@ -43,7 +41,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -77,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -154,19 +151,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b9c745680448069f",
+  "active": "303f0857d18464e7",
   "lastOpenFiles": [
-    "Programacio/JavaScript/JavaScript.md",
+    "Bases de dades/Esquemes/Historia.md",
+    "Imatges/Pasted image 20241127165354.png",
+    "Imatges/Pasted image 20241127165109.png",
+    "Bases de dades/Introduccio a les bases de dades.md",
+    "Imatges/Pasted image 20241127164756.png",
+    "Bases de dades/Historia",
     "Programacio/JavaScript/Expresions regulars JavaScript.md",
+    "Programacio/JavaScript/JavaScript.md",
     "Sistemes Informatics/Altres/Particions.md",
     "Sistemes Informatics/Altres/Copies de seguretat.md",
     "Bases de dades/Esquemes/Model relacional.md",
@@ -190,24 +193,17 @@
     "Imatges/Pasted image 20241107111307.png",
     "Bases de dades/Esquemes/BBDD.md",
     "Imatges/Pasted image 20241107111003.png",
-    "Imatges/Pasted image 20241107110629.png",
-    "Imatges/Pasted image 20241107110340.png",
-    "Imatges/Pasted image 20241107110052.png",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Sistemes Informatics/Altres/Conceptes basics.md",
     "README.md",
-    "Sin nombre",
     "Sistemes Informatics/Hardware/Placa base.md",
     "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
     "Sistemes Informatics/Hardware/Hardware.md",
-    "Sistemes Informatics/Hardware/Connexions de la placa base.md",
     "Sistemes Informatics/Altres",
     "Sistemes Informatics/Sistemes Operatius",
     "Sistemes Informatics/Hardware",
     "Bases de dades/Esquemes",
     "Sin título.canvas",
-    "Programacio/JavaScript/Tipus de dades JavaScript.md",
-    "Programacio/JavaScript/Tipus de dades compostes JavaScript.md",
     "Imatges/dgt.png.crdownload",
     "Sense títol.canvas",
     "Excalidraw",
