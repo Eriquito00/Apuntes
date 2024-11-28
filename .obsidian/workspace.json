@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "63b0ea4968044c72",
+        "id": "3ae2c4ab5139b76f",
         "type": "tabs",
         "children": [
           {
-            "id": "a4340051fdf694b9",
+            "id": "ddab8fe78bcf7b99",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Imatges/Pasted image 20241127165109.png"
+                "file": "Bases de dades/Esquemes/Historia.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241127165109"
+              "icon": "lucide-file",
+              "title": "Historia"
             }
           }
         ]
@@ -41,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -151,20 +154,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "303f0857d18464e7",
+  "active": "ddab8fe78bcf7b99",
   "lastOpenFiles": [
+    "Imatges/Pasted image 20241127165109.png",
     "Bases de dades/Esquemes/Historia.md",
     "Imatges/Pasted image 20241127165354.png",
-    "Imatges/Pasted image 20241127165109.png",
     "Bases de dades/Introduccio a les bases de dades.md",
     "Imatges/Pasted image 20241127164756.png",
     "Bases de dades/Historia",
