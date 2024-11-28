@@ -94,3 +94,5 @@ Amb la introducció dels **discs magnètics**, es va revolucionar l'emmagatzemat
 2. **En xarxa**: Basades en llistes enllaçades.
 Aquestes bases de dades aprofitaven l'accés directe dels discs magnètics, marcant un avenç significatiu en l'estructuració i la gestió de la informació.
 ![[Pasted image 20241127165354.png]]
+***
+# Decada dels 70
