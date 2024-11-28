@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "63b0ea4968044c72",
+        "id": "20eb3094b9d6c291",
         "type": "tabs",
         "children": [
           {
-            "id": "a4340051fdf694b9",
+            "id": "41775d959e5f1a17",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Imatges/Pasted image 20241127165109.png"
+                "file": "Sistemes Informatics/Altres/Particions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241127165109"
+              "icon": "lucide-file",
+              "title": "Particions"
             }
           }
         ]
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -160,25 +163,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "303f0857d18464e7",
+  "active": "41775d959e5f1a17",
   "lastOpenFiles": [
+    "Sistemes Informatics/Altres/Conceptes basics.md",
+    "Sistemes Informatics/Altres/Altres.md",
+    "Sistemes Informatics/Sistemes Operatius/Ubuntu.md",
+    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
+    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
+    "Sistemes Informatics/Hardware/Connexions de la placa base.md",
+    "Sistemes Informatics/Altres/Particions.md",
+    "Sistemes Informatics/Altres/Virtualitzacio.md",
     "Bases de dades/Esquemes/Historia.md",
-    "Imatges/Pasted image 20241127165354.png",
     "Imatges/Pasted image 20241127165109.png",
+    "Imatges/Pasted image 20241127165354.png",
     "Bases de dades/Introduccio a les bases de dades.md",
     "Imatges/Pasted image 20241127164756.png",
     "Bases de dades/Historia",
     "Programacio/JavaScript/Expresions regulars JavaScript.md",
     "Programacio/JavaScript/JavaScript.md",
-    "Sistemes Informatics/Altres/Particions.md",
     "Sistemes Informatics/Altres/Copies de seguretat.md",
     "Bases de dades/Esquemes/Model relacional.md",
     "desktop.ini",
-    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
     "Programacio/JavaScript/Metodes JavaScript.md",
     "Programacio/JavaScript/Modularitat JavaScript.md",
     "Imatges/Pasted image 20241119110749.png",
-    "Sistemes Informatics/Altres/Altres.md",
     "Imatges/Pasted image 20241118082753.png",
     "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
     "Programacio/JavaScript/Condicionals JavaScript.md",
@@ -194,11 +202,7 @@
     "Bases de dades/Esquemes/BBDD.md",
     "Imatges/Pasted image 20241107111003.png",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
-    "Sistemes Informatics/Altres/Conceptes basics.md",
     "README.md",
-    "Sistemes Informatics/Hardware/Placa base.md",
-    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
-    "Sistemes Informatics/Hardware/Hardware.md",
     "Sistemes Informatics/Altres",
     "Sistemes Informatics/Sistemes Operatius",
     "Sistemes Informatics/Hardware",
