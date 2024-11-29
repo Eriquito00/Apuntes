@@ -8,3 +8,4 @@ Aquest és un **llenguatge interpretat** i és el més utilitzat en la program
 [[Estructures de repeticio JavaScript]]
 [[Modularitat JavaScript]]
 [[Expresions regulars JavaScript]]
+[[Deteccio d'errors JavaScript]]
