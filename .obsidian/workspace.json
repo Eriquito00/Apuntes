@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3161cc3d262f114c",
+        "id": "e355a5ee3f1f87e9",
         "type": "tabs",
         "children": [
           {
-            "id": "a46913a04c9e9577",
+            "id": "9417a241395074d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -154,17 +153,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a46913a04c9e9577",
+  "active": "9417a241395074d8",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemas.md",
+    "Bases de dades/Esquemes/Model relacional.md",
     "Bases de dades/Esquemes/Historia.md",
     "Bases de dades/Esquemes/Exercicis Entitat Relacio.md",
     "Bases de dades/Esquemes/BBDD.md",
@@ -189,7 +190,6 @@
     "Bases de dades/Historia",
     "Programacio/JavaScript/Expresions regulars JavaScript.md",
     "Sistemes Informatics/Altres/Copies de seguretat.md",
-    "Bases de dades/Esquemes/Model relacional.md",
     "desktop.ini",
     "Programacio/JavaScript/Metodes JavaScript.md",
     "Programacio/JavaScript/Modularitat JavaScript.md",
@@ -199,15 +199,9 @@
     "Programacio/JavaScript/Condicionals JavaScript.md",
     "Programacio/JavaScript/Comentaris i Introduir dades JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
-    "Programacio/Introduccio a la programacio.md",
     "Imatges/Pasted image 20241108110032.png",
     "Imatges/Pasted image 20241108105852.png",
-    "Programacio/JavaScript/Funcions JavaScript.md",
     "Imatges/Pasted image 20241107105629.png",
-    "Imatges/Pasted image 20241107111307.png",
-    "Imatges/Pasted image 20241107111003.png",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
-    "Bases de dades/Esquemes/BBDD.md",
     "Sistemes Informatics/Altres",
     "Sistemes Informatics/Sistemes Operatius",
     "Sistemes Informatics/Hardware",
