@@ -152,3 +152,12 @@ Taula 2
 | e1 | 25 |
 | e2 | 30 |
 Aquesta taula SI compleix.
+
+1. **Primera Forma Normal (1NF):**
+- Asegura que cada columna tiene un solo valor (datos atómicos).
+2. **Segunda Forma Normal (2NF):**
+- Cumple con la 1NF.
+- Elimina datos que dependan de una parte de la clave primaria (llave compuesta).
+3. **Tercera Forma Normal (3NF):**
+- Cumple con la 2NF.
+- Elimina dependencias indirectas entre columnas que no son clave primaria.
