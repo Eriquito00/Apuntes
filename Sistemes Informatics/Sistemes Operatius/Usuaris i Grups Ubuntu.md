@@ -40,3 +40,8 @@ addgroup (nom)
 - canvia el grup principal de l'usuari. deluser (nomuser) (nomgrup)
 - elimina l'usuari COM A MEMBRE del grup, els dos seguiran existint pero l'usuari ja no perteneix al grup. delgrup (nomgrup)
 - elimina el grup que li diem.
+# Altres
+cat /etc/passwd | cut  -d":" -f1
+- mostra tots els usuaris del dispositiu.
+cat /etc/group | cut -d":" -f1
+- mostra tots els grups del dispositiu.

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "24e9b4bb4335384e",
+        "id": "fe6d157fde25690c",
         "type": "tabs",
         "children": [
           {
-            "id": "087ed29efad0dc53",
+            "id": "d71d8f097be7697d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,10 +162,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "087ed29efad0dc53",
+  "active": "d71d8f097be7697d",
   "lastOpenFiles": [
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu.md",
     "Sistemes Informatics/Sistemes Operatius/Usuaris i Grups Ubuntu.md",
+    "Sistemes Informatics/Sistemes Operatius/Ubuntu.md",
     "Programacio/Java/Java.md",
     "Programacio/JavaScript/Tipus de dades JavaScript.md",
     "Programacio/JavaScript/JavaScript.md",
