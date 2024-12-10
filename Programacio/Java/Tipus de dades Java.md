@@ -15,12 +15,17 @@ long
 ## Decimals
 float
 - Aquest tipus pot guardar valors numerics amb decimals amb precicio de aproximadament 7 decimals.
-
+IMPORTANT, si tenim una variable float declarada encara que sigui float al posar el punt decimal donara error per tant s'haura de fer el seguent:
+`float a = 0.1f;` //la f es per confirmar que es float y que no sigui error
 double
 - Aquest tipus pot guardar valors numerics amb decimals amb precicio de aproximadament 15 decimals.
+Si volem guardar un valor mes gran a un tipus de valor mes petit per exemple un long a un int o a altre mes petit, podem fer-ho de la seguent forma:
+`int a = 2;`
+`long b = 1;`
+`a = (int) b;`
 # Text
 char
-- Guarda el primer valor d'un valor de text.
+- Guarda un valor de text.
 
 string
 - Guarda un valor de tipus text.
