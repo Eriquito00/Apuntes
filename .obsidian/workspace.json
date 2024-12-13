@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3b62f2cdf601a63a",
+        "id": "104e706401d53f79",
         "type": "tabs",
         "children": [
           {
-            "id": "5f4d3cc290bc59c3",
+            "id": "c4c1c05db71052ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de dades/SQL/SQL.md",
-                "mode": "source",
+                "file": "Programacio/Java/Tipus de dades Java.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Tipus de dades Java"
             }
           }
         ]
@@ -162,10 +162,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f4d3cc290bc59c3",
+  "active": "c4c1c05db71052ce",
   "lastOpenFiles": [
-    "Sistemes Informatics/Sistemes Operatius/Usuaris i Grups Ubuntu.md",
     "Bases de dades/SQL/SQL.md",
+    "Sistemes Informatics/Sistemes Operatius/Usuaris i Grups Ubuntu.md",
     "Bases de dades/SQL",
     "Bases de dades/Esquemes/Model relacional.md",
     "Bases de dades/Esquemes/Historia.md",

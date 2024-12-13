@@ -29,7 +29,8 @@ char
 
 string
 - Guarda un valor de tipus text.
-
+Si volem comparar dos strings es ha dir comprovar si un string es igual a un altre utilitzarem ".equals()".
+s1.equals(s2);
 # Array
 array
 - int [] a = {1,2,3} //amb valors nomes declararla
@@ -49,5 +50,5 @@ Si no es posen parèntesis, les operacions s'executen en el següent ordre:
 1. Operadors unaris (signe -, increment ++, decrement --)
 2. Multiplicació, divisió i residu (\*, /, %)
 3. Suma i resta (+, -)
-4. Relacionals (<, >, <=, >=, \==, !=)
+4. Relacionals (<, >, <=, >=, \== **PER STRINGS ".equals()"**, !=, 
 5. Lògics (!, &&, ||)
