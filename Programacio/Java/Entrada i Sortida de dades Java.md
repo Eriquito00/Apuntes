@@ -18,6 +18,13 @@ Treu un valor per consola de forma normal pero fa un canvi de linea de forma que
 Es fa una sortida per consola de forma que es posara un string com a missatge y per mig del string uns "%" y segons el tipus de dada que volem treure:
 `printf("La persona te %d edat y es diu %s", 18, "Eric");`
 Aqui podem veure que segons el tipus de dada treu unes o altres dades y que estan separades. Segons el tipus de dada es posara:
-d: digits enters
-s: strings
-t: 
+- s: text (_String_).
+- d: enters (_byte_, _short_, _int_ o _long_).
+- f: reals (_float_ o _double_).
+- b: booleans.
+- t: data i hora.
+
+Un metode semblant al printf es el .format(), el seu us es exactament el mateix pero en comptes de treure el valor per terminal es crea un string de la seguent forma:
+`String s = String.**format**("**%02d**:**%02d**:**%02d**", 1, 2, 3);`
+`// **s = "01:02:03"**`  
+`System.out.println(s);`
