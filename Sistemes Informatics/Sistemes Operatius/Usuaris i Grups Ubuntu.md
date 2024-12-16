@@ -37,6 +37,7 @@ ADDUSER:
 - Potser que no funcioni en alguna distribucio.
 - Crea automaticament la carpeta a /home.
 - Demana parametres de text per configuracio.
+
 USERADD:
 - Es una compilacio navita de linux.
 - Funcionara a totes les distribucions linux.
@@ -62,5 +63,6 @@ USERADD:
 # Altres
 cat /etc/passwd | cut  -d":" -f1
 - mostra tots els usuaris del dispositiu.
+
 cat /etc/group | cut -d":" -f1
 - mostra tots els grups del dispositiu.
