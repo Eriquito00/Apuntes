@@ -24,3 +24,4 @@ Els llenguatges interpretats van traduïnt les instruccions del programa a codi 
 ## Altres llenguatges
 També es poden trobar molts altres llenguatges de programació. Altres per utilitzar metodologies de programació diferents de les habituals o destinades a aplicacions concretes: **Lisp** (intel·ligència artificial), **SQL** (bases de dades), **JavaScript**, **PHP** (fer aplicacions per a Internet).
 [[JavaScript]]
+[[Java]]

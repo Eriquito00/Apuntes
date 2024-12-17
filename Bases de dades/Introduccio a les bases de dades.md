@@ -1,4 +1,4 @@
 [[Entitat Relacio]]
 [[Model relacional]]
-[[BBDD]]
+[[SQL]]
 [[Historia]]
