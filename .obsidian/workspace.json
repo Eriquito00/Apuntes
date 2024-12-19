@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "086c325e885b8df6",
+        "id": "0d3c39c316b66a7f",
         "type": "tabs",
         "children": [
           {
-            "id": "ee1d47ad5ed4a15e",
+            "id": "d65a1899fbdb3da4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de dades/SQL/SQL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -162,8 +158,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ee1d47ad5ed4a15e",
+  "active": "d65a1899fbdb3da4",
   "lastOpenFiles": [
+    "Bases de dades/SQL/SQL.md",
     "Programacio/Java/Classes estatiques Java.md",
     "Programacio/Java/Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
@@ -172,7 +169,6 @@
     "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
     "Programacio/Introduccio a la programacio.md",
     "Bases de dades/Introduccio a les bases de dades.md",
-    "Bases de dades/SQL/SQL.md",
     "Bases de dades/Esquemes/BBDD.md",
     "Sense títol.canvas",
     "Sistemes Informatics/Sistemes Operatius/Windows",
