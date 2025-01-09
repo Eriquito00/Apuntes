@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0d3c39c316b66a7f",
+        "id": "a428b7a1be65f471",
         "type": "tabs",
         "children": [
           {
-            "id": "d65a1899fbdb3da4",
+            "id": "4090a494948d5881",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de dades/SQL/SQL.md",
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Windows"
             }
           }
         ]
@@ -163,26 +163,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d65a1899fbdb3da4",
+  "active": "4090a494948d5881",
   "lastOpenFiles": [
-    "Pasted image 20250109090911.png",
-    "Pasted image 20250109090242.png",
-    "Pasted image 20250109084949.png",
-    "Pasted image 20250109084521.png",
-    "Pasted image 20250109084222.png",
-    "Pasted image 20250109084054.png",
-    "Pasted image 20250109084018.png",
-    "Pasted image 20250109083958.png",
-    "Pasted image 20250109083927.png",
-    "Pasted image 20250109083912.png",
-    "Pasted image 20250109083848.png",
-    "Bases de dades/SQL/SQL.md",
-    "Programacio/Java/Classes estatiques Java.md",
-    "Programacio/Java/Java.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
     "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
+    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
     "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
+    "Imatges/Pasted image 20250109083848.png",
+    "Bases de dades/SQL/SQL.md",
+    "Imatges/Pasted image 20250109090911.png",
+    "Imatges/Pasted image 20250109090242.png",
+    "Imatges/Pasted image 20250109084949.png",
+    "Imatges/Pasted image 20250109084521.png",
+    "Imatges/Pasted image 20250109084222.png",
+    "Imatges/Pasted image 20250109084054.png",
+    "Imatges/Pasted image 20250109084018.png",
+    "Imatges/Pasted image 20250109083958.png",
+    "Imatges/Pasted image 20250109083927.png",
+    "Programacio/Java/Classes estatiques Java.md",
+    "Programacio/Java/Java.md",
     "Programacio/Introduccio a la programacio.md",
     "Bases de dades/Introduccio a les bases de dades.md",
     "Bases de dades/Esquemes/BBDD.md",
