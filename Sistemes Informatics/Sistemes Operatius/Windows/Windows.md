@@ -64,3 +64,37 @@ IP Privades (reservades):
 - Son visibles unicament per altres hosts de la seva propia xarxa.
 - Es fan servir a les empreses per connectar les terminals de treball
 - Els PC amb IP privades poden sortir a internet per mitja d'un router o proxy que tingui una IP publica, pero des d'intenet no es pot accedir als PC de dins de la xarxa.
+
+Mascara de subxarxa
+- Es una combinacio de bits
+- Serveix per segmentar l'adreça IP i saber quins bits son adreça de xarxa i quins de host.
+	- Exemple:
+		192.168.28.5 IP
+		255.255.255.0 Mascara
+
+IPv6 (Internet Protocol versio 6):
+- Pensades per substituir a l'anterior IPv4
+- Format: 128 bits expressats en 8 blocs de 4 digits hexadecimals separat per dos punts (:).
+	1467 : 2001 : 12C5 : 23B0 : 0000 : 0000 : 0000 : AF13
+- Si hi han blocs de 0000 es poden substituir per "::".
+	1467 : 2001 : 12C5 : 23B0 :: AF13
+- Adreça de loopback es :: 1
+
+Altres definicions:
+- Porta d'enllaç (Gateway) dispositiu per interconectar mes d'una xarxa.
+A la practica, serveix per connectar un PC amb IP privada amb un PC que te IP publica, i aixi tenir acces a internet.
+
+- Adreça DNS: Adreça del dispositiu que fa la funcio de servidor DNS.
+A la practica es fa servir per demanar una traduccio entre nom de maquina i IP.
+
+- Firewall: sistema de seguretat de la xarxa que fitra el transit de la xarxa entrant i sortint.
+Funciona bloquejant o permetent el pas per la xarxa dels paquets de dades.
+
+- Escritori remot: tecnologia que permet a un usuari treballar en un PC des d'un ordinador remot.
+	- El PC local envia per xarxa les comandes que cal fer al PC remot.
+	- Es del PC remot qui executa les comandes (amb els recursos de CPU i RAM de la maquina a la que s'acceix).
+	- El PC remot envia per xarxa la informacio per pantalla.
+
+- Administracio remota: tecnologia que permet fer canvis a la configuracio d'un equip de manera remota.
+
+La configuracio de xarxa recomanada es que el server tingui com a DNS la seva IP i com a alternativa localhost (127.0.0.1) i el client nomes tingui la IP DNS del servidor.
