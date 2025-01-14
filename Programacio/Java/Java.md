@@ -5,4 +5,5 @@ Java és un llenguatge mixt (compilat i interpretat), de propòsit general (tant
 [[Clases i funcions Java]]
 [[Comentaris Java]]
 [[Entrada i Sortida de dades Java]]
-[[Classes estatiques Java]]
+[[Classes Java]]
+[[Objectes Java]]
