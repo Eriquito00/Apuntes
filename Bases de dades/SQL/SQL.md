@@ -1,10 +1,8 @@
 # DDL
 Data Definition Language.
 Si una instruccio es pot executar i no causara cap error s'executaran, INCLUS SI LA INSTRUCCIO ES ESBORRAR LA BASE DE DADES.
-
 # DML
 Data Manipulation Language.
-
 # Dades MySQL
 Les dades a MySQL es poden declarar y crear les columnes d'una taula, tambe crear les Primary Key, Foreign Key, Constraint, Referencies... Per explicar agafarem inicialment aquesta taula.
 ## Creacio i modificacio de taules
@@ -51,10 +49,7 @@ CARACTERISTIQUES DE COLUMNES:
 - DEFAULT: Serveix per tenir un valor per defecte als atributs de la columna.
 
 ## Consultes a les taules
-//EXPLICACION DEL SELECT
-
-## Indexos
-//EXPLICACION INDEXOS
+Per fer consultes SQL s'utilitza SELECT i 
 ## Parametres MySQL
 CREATE:
 - S'utilitza per la creacio de una base de dades, una taula o altres.
@@ -67,7 +62,26 @@ CREATE:
 
 	VIEW:
 	- Tambe podem crear una vista que es una consulta a una taula per obtenir la informacio d'unes columnes especifiques.
-	//FOTO CREATE VIEW
+		![[Pasted image 20250115182850.png]]
+		SELECT:
+		- Normalment s'utilitzen junt amb VIEW per crean una vista amb certes dades d'una taula, en aquest cas es crea una vista amb les dades de les taules jugador_id, nom i punts:
+		![[Pasted image 20250115182850.png]]
+		- Tot i que si a la vista volem que les columnes tinguin un nom mes descriptiu:
+		![[Pasted image 20250115191530.png]]
+
+	INDEX:
+	- Els index es poden crear als camps que mes es consulten a la nostre base de dades, de forma que quan es consultin es fara d'una forma mes rapida.
+		![[Pasted image 20250115191758.png]]
+
+	- Aqui podem veure dos index, la diferencia, a part de les dades sobre les que es creen els index, es que un utilitza el sistema BTREE y l'altre HASH.
+		- BTREE: S'utilitza per crear un arbre sobre les dades de la columna per anar fent descartacions i poder les dades que es demanen d'una forma mes rapida.
+		
+		- HASH: S'utilitza per encriptar les dades en HASH, de forma que amb una petita variacio d'un caracter canvia tota la estructura del HASH, fent practicament imposible sapiguer aquesta dada.
+
+	- \[WITH \[CASCADED | LOCAL] CHECK OPTION]
+		- WITH CHECK OPTION o WITH  CHECK OPTION CASCADED: Asegura que qualsevol dada nova o actualitzada compleixi les condicions definides a la vista i les de alguna vista superior en cas d'haver fet una vista a una vista.
+		
+		- WITH LOCAL CHECK OPTION: Asegura que la vista compleixi les condicions de la vista actual pero no les condicions de una vista superior en cas d'haver fet alguna vista d'una vista.
 
 USE:
 - Sutilitza per seleccionar la base de dades on executarem les sentencies.
@@ -77,7 +91,7 @@ DROP:
 - Esborrar una taula o la base de dades tant la estructura com el contingut.
 ![[Pasted image 20250109083958.png]]
 ![[Pasted image 20250109084018.png]]
-//FOTO DROP VIEW
+![[Pasted image 20250115182953.png]]
 
 TRUNCATE:
 - Esborra el contingut de la taula pero la estructura la segueix mantenint.
@@ -85,7 +99,7 @@ TRUNCATE:
 
 DELETE:
 - Esborrar una columna de una taula.
-//FOTO DELETE
+![[Pasted image 20250115184247.png]]
 
 DESCRIBE:
 - Ens mostra la taula i tota la informacio de cada columna.
@@ -104,14 +118,10 @@ ALTER:
 
 	CHANGE:
 	- Podem tambe canviar el nom d'una columna mitjançant la clausula pero hem de tornar a definir la columna.
-	//FOTO ALTER CHAGE
+	![[Pasted image 20250115183740.png]]
 
 	DROP:
-	- Esborra la columna totalment, no es pot revertir.
-	//FOTO ALTER DROP
-
 	- Les claus primaries quan fem un drop s'esborra la clau primaria y el seu index a la vegada.
-
 	![[Pasted image 20250109090242.png]]
 
 	- Si fem DROP a una FOREIGN KEY, l'index de la clau forana no s'esborrara, per tant haurem de fer un DROP al INDEX de la clau forana (l'index te el mateix nom que la clau forana).
@@ -123,7 +133,7 @@ ALTER:
 
 	VIEW:
 	- S'utilitza per editar la informacio que es mostra a una view.
-	//FOTO ALTER VIEW
+	![[Pasted image 20250115184024.png]]
 # Contrasenya😳
 root:
 p@st@n@g@
