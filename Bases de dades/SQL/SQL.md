@@ -1,78 +1,13 @@
 # DDL
 Data Definition Language.
 Si una instruccio es pot executar i no causara cap error s'executaran, INCLUS SI LA INSTRUCCIO ES ESBORRAR LA BASE DE DADES.
-## Parametres MySQL
-CREATE:
-- S'utilitza per la creacio de una base de dades, una taula o altres.
-	DATABASE:
-![[Pasted image 20250109083848.png]]
-
-TABLE:
-- Tambe podem afegir les columnes a la taula nomes crearla de forma que ja quedi una taula estructurada desde un inici.
-
-![[Pasted image 20250113182814.png]]
-
-USE:
-- Sutilitza per seleccionar la base de dades on executarem les sentencies.
-
-![[Pasted image 20250109083927.png]]
-
-DROP:
-- Esborrar una taula o la base de dades tant la estructura com el contingut.
-
-![[Pasted image 20250109083958.png]]
-![[Pasted image 20250109084018.png]]
-
-TRUNCATE:
-- Esborra el contingut de la taula pero la estructura la segueix mantenint.
-
-![[Pasted image 20250109084054.png]]
-
-DELETE:
-- Esborrar una columna de una taula.
-
-DESCRIBE:
-- Ens mostra la taula i tota la informacio de cada columna.
-
-![[Pasted image 20250109084222.png]]
-
-ALTER:
-- Editar una columna de una taula, afegir, esborrar o editar.
-
-	ADD:
-	- Afegeix noves coses a una taula com un constraint, una columna... Tambe podem utilitzar FIRST per afegir la columna al inici, AFTER despres de una que especifiquem i si no posem res per defecte ho afegira al final.
-
-	![[Pasted image 20250109084521.png]]
-
-	MODIFY:
-	 - Permet canviar el tipus de dades, la mida i el valor per defecte d'una columna.
-
-	![[Pasted image 20250109084949.png]]
-
-	CHANGE:
-	- Podem tambe canviar el nom d'una columna mitjançant la clausula pero hem de tornar a definir la columna.
-	
-
-	DROP:
-	- Esborra la columna totalment, no es pot revertir.
-
-	- Les claus primaries quan fem un drop s'esborra la clau primaria y el seu index a la vegada.
-
-	![[Pasted image 20250109090242.png]]
-
-	- Si fem DROP a una FOREIGN KEY, l'index de la clau forana no s'esborrara, per tant haurem de fer un DROP al INDEX de la clau forana (l'index te el mateix nom que la clau forana).
-
-	![[Pasted image 20250109090911.png]]
-	RENAME:
-	- Directament podem posar RENAME i el nou nom de la taula que volem.
-	
-	![[Pasted image 20250113182341.png]]
 
 # DML
 Data Manipulation Language.
 
 # Dades MySQL
 Les dades a MySQL es poden declarar y crear les columnes d'una taula, tambe crear les Primary Key, Foreign Key, Constraint, Referencies... Per explicar agafarem inicialment aquesta taula.
+## Creacio i modificacio de taules
 ![[Pasted image 20250113182905.png]]
 ![[Pasted image 20250113195834.png]]
 
@@ -114,6 +49,81 @@ CARACTERISTIQUES DE COLUMNES:
 - ENUM(): Ens fa un "llistat" del que podem seleccionar, per exemple "maduixa", "cirera", "poma".
 - GENERATED ALWAYS AS(): Serveix per fer un atribut calculat entre altres atributs d'altres columnes.
 - DEFAULT: Serveix per tenir un valor per defecte als atributs de la columna.
+
+## Consultes a les taules
+//EXPLICACION DEL SELECT
+
+## Indexos
+//EXPLICACION INDEXOS
+## Parametres MySQL
+CREATE:
+- S'utilitza per la creacio de una base de dades, una taula o altres.
+	DATABASE:
+	![[Pasted image 20250109083848.png]]
+
+	TABLE:
+	- Tambe podem afegir les columnes a la taula nomes crearla de forma que ja quedi una taula estructurada desde un inici.
+	![[Pasted image 20250113182814.png]]
+
+	VIEW:
+	- Tambe podem crear una vista que es una consulta a una taula per obtenir la informacio d'unes columnes especifiques.
+	//FOTO CREATE VIEW
+
+USE:
+- Sutilitza per seleccionar la base de dades on executarem les sentencies.
+![[Pasted image 20250109083927.png]]
+
+DROP:
+- Esborrar una taula o la base de dades tant la estructura com el contingut.
+![[Pasted image 20250109083958.png]]
+![[Pasted image 20250109084018.png]]
+//FOTO DROP VIEW
+
+TRUNCATE:
+- Esborra el contingut de la taula pero la estructura la segueix mantenint.
+![[Pasted image 20250109084054.png]]
+
+DELETE:
+- Esborrar una columna de una taula.
+//FOTO DELETE
+
+DESCRIBE:
+- Ens mostra la taula i tota la informacio de cada columna.
+![[Pasted image 20250109084222.png]]
+
+ALTER:
+- Editar una columna de una taula, afegir, esborrar o editar.
+
+	ADD:
+	- Afegeix noves coses a una taula com un constraint, una columna... Tambe podem utilitzar FIRST per afegir la columna al inici, AFTER despres de una que especifiquem i si no posem res per defecte ho afegira al final.
+	![[Pasted image 20250109084521.png]]
+
+	MODIFY:
+	 - Permet canviar el tipus de dades, la mida i el valor per defecte d'una columna.
+	![[Pasted image 20250109084949.png]]
+
+	CHANGE:
+	- Podem tambe canviar el nom d'una columna mitjançant la clausula pero hem de tornar a definir la columna.
+	//FOTO ALTER CHAGE
+
+	DROP:
+	- Esborra la columna totalment, no es pot revertir.
+	//FOTO ALTER DROP
+
+	- Les claus primaries quan fem un drop s'esborra la clau primaria y el seu index a la vegada.
+
+	![[Pasted image 20250109090242.png]]
+
+	- Si fem DROP a una FOREIGN KEY, l'index de la clau forana no s'esborrara, per tant haurem de fer un DROP al INDEX de la clau forana (l'index te el mateix nom que la clau forana).
+	![[Pasted image 20250109090911.png]]
+
+	RENAME:
+	- Directament podem posar RENAME i el nou nom de la taula que volem.
+	![[Pasted image 20250113182341.png]]
+
+	VIEW:
+	- S'utilitza per editar la informacio que es mostra a una view.
+	//FOTO ALTER VIEW
 # Contrasenya😳
 root:
 p@st@n@g@
