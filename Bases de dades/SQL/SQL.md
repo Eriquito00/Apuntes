@@ -117,7 +117,7 @@ ALTER:
 	![[Pasted image 20250109084949.png]]
 
 	CHANGE:
-	- Podem tambe canviar el nom d'una columna mitjançant la clausula pero hem de tornar a definir la columna.
+	- Fa exactament el mateix que MODIFY pero tambe ens permet canviar el nom de la columna.
 	![[Pasted image 20250115183740.png]]
 
 	DROP:
