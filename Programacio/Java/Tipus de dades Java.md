@@ -52,3 +52,49 @@ Si no es posen parèntesis, les operacions s'executen en el següent ordre:
 3. Suma i resta (+, -)
 4. Relacionals (<, >, <=, >=, \== **PER STRINGS ".equals()"**, !=, 
 5. Lògics (!, &&, ||)
+# Conjunts de dades
+## Set
+### HashSet
+Serveix per emmagatzemar objectes no repetits. Pot contenir un objecte nul com a màxim.
+Algunes de les operacions que es poden fer són:
+- add(e): afegeix un element, si no hi és.
+- remove(o): elimina l'objecte, si hi és.
+- clear(): elimina tots els elements.
+- contains(o): comprova si conté l'objecte.
+- isEmpty(): comprova si no conté cap element.
+- size(): obté el nombre d'elements que conté.
+- toArray(): retorna un array amb tots els objectes.
+## List
+### ArrayList
+Permet emmagatzemar objectes repetits i nulls. Afegir i eliminar elements (especialment entre altres elements) és més costós que amb **LinkedList**.
+A part de les operacions típiques de les col·leccions, es poden utilitzar les següents:
+- add(ndx,e): insereix un elementen la posició ndx.
+- set(ndx,e): canvia l'element de la posició ndx per l'elementen e.
+- get(ndx): retorna l'element que es troba en la posició ndx.
+- indexOf(e): retorna la primera posició en què es troba l'element e.
+### LinkedList
+Implementa les interfícies **List** i **Queue** (de fet, implementa **Deque**, que permet afegir i eliminar elements tant al principi com al final de la cua).
+Algunes operacions especials d'aquesta classe són:
+- addFirst(e): afegeix l'element al principi de la llista.
+- addLast(e): afegeix l'element al final de la llista.
+- add(e): afegeix l'element al final de la llista.
+- getFirst(): retorna el primer element de la llista.
+- getLast(): retorna l'últim element de la llista.
+- get(ndx): retorna l'element de la posició ndx.
+- removeFirst(): retorna **i elimina** el primer element de la llista (genera excepció si llista buida).
+- removeLast(): retorna **i elimina** l'últim element de la llista (genera excepció si llista buida).
+- remove(ndx): retorna **i elimina** l'element de la posició ndx (genera excepció si llista buida).
+## Map
+### HashMap
+És similar a un diccionari: serveix per emmagatzemar objectes identificats per una clau. Totes les claus han de ser diferents i només pot haver-hi una que sigui nul·la.  
+En canvi, els objectes de les diferents claus sí que poden ser nuls o estar repetits.
+- put(key,value): afegeix una clau i l'element associat.
+- get(key): obté l'element associat a la clau.
+- remove(key): elimina la clau i l'element associat.
+- clear(): elimina totes les claus i els elements associats.
+- containsKey(key): comprova si existeix la clau.
+- containsValue(value): comprova si existeix l'objecte.
+- isEmpty(): comprova si no conté cap element.
+- size(): obté el nombre d'elements que conté.
+- keySet(): retorna un **Set** amb les claus del **HashMap**.
+- values(): retorna un **Set** amb els elements del **HashMap**.
