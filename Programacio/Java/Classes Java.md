@@ -12,3 +12,44 @@ Les classes i dades que son estatiques son dades que corresponen directament sob
 `public static int edad = 18;`
 # Dinamiques
 Les classes i dades que son dinamiques s'utilitzen a la programacio orientada a objectes de forma que cada objecte tindra les seves propies dades.
+# Herencia de classes
+A Java podem tenir una super clase com per exemple la clase Persona que te com a subclases Alumne i Profesor de forma que a persona tindriem nom, cognom i dni i a Alumne i Professor tindriem el mateix i a mes a mes les seves especifiques.
+
+A mes a mes tambe tindriem els metodes equals() per comparar les referencies de memoria.
+
+Tambe, toString() que es un metode que s'ha de crear a la classe del objecte y ens serveix per treure un string amb totes les dades del objecte. Si volem crear un metode per comparar les dades de dos objectes hauriem de crear com un "equals()" fet per nosaltres en el que li pasem les dades dels objectes i ens el compari.
+
+Ara per crear una clase mare y una clase filla podem fer-ho de la seguent forma:
+Clase mare
+`public class Animal{...}`
+
+Classes filles
+`public class Mamifer extends Animal{...}`
+`public class Peix extends Animal{...}`
+`public class Ocell extends Animal{...}`
+
+Tambe en el seguent exemple podem veure com portar atributs de la classe mare a les classes filles. Podem veure qeu s'inicialitza un atribut directe per Peix com 'profunditat' i que tenim l'atribut 'nom' de la clase mare:
+
+`public class Peix extends Animal {  
+    ``int profunditat;
+  
+    public Peix(String nom, int profunditat) {  
+        super(nom);
+        this.profunditat = profunditat;
+    }
+  
+    public int getProfunditat() {
+        return profunditat
+    }
+``}
+
+Ara si volem fer una array amb els objectes Animal no hi ha cap problema en afegir les subclases, per exemple si creem una array de la clase Animal podem afegir Peix i Mamifer i tots els que siguin fills de Animal.
+
+``Animal[] animals = new Animal[5];  
+``Animal ovella = new Mamifer("Ovella");  
+``animals[0] = ovella;
+``animals[1] = new Peix("Sardina", 100);
+
+Si volem sapiguer el nom de clase de un Objecte de una array podem utilitzar getClass() per obtenir la clase i getSimpleName() per obtenir el nom simple de la clase.
+
+``String classe = animals[1].**getClass().getSimpleName()**;// classe = "Peix"

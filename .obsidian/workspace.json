@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programacio/Java/Tipus de dades Java.md",
+                "file": "Programacio/Java/Classes Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipus de dades Java"
+              "title": "Classes Java"
             }
           }
         ]
@@ -165,6 +165,9 @@
   },
   "active": "47f53fd7babd303c",
   "lastOpenFiles": [
+    "Programacio/Java/Clases i funcions Java.md",
+    "Programacio/Java/Classes Java.md",
+    "Programacio/Java/Tipus de dades Java.md",
     "Imatges/Pasted image 20250115182826.png",
     "Bases de dades/SQL/SQL.md",
     "Imatges/Pasted image 20250116170308.png",
@@ -176,13 +179,9 @@
     "Imatges/Pasted image 20250116153058.png",
     "Imatges/Pasted image 20250115191758.png",
     "Imatges/Pasted image 20250115191530.png",
-    "Imatges/Pasted image 20250115182850.png",
     "Programacio/Java/Objectes Java.md",
-    "Programacio/Java/Classes Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
-    "Programacio/Java/Tipus de dades Java.md",
     "Programacio/Java/Comentaris Java.md",
-    "Programacio/Java/Clases i funcions Java.md",
     "Programacio/Java/Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
