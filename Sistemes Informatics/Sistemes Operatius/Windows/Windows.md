@@ -98,3 +98,5 @@ Funciona bloquejant o permetent el pas per la xarxa dels paquets de dades.
 - Administracio remota: tecnologia que permet fer canvis a la configuracio d'un equip de manera remota.
 
 La configuracio de xarxa recomanada es que el server tingui com a DNS la seva IP i com a alternativa localhost (127.0.0.1) i el client nomes tingui la IP DNS del servidor.
+
+[[Comandas Windows PowerShell]]

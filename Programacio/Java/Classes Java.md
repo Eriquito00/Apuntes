@@ -53,3 +53,12 @@ Ara si volem fer una array amb els objectes Animal no hi ha cap problema en afeg
 Si volem sapiguer el nom de clase de un Objecte de una array podem utilitzar getClass() per obtenir la clase i getSimpleName() per obtenir el nom simple de la clase.
 
 ``String classe = animals[1].**getClass().getSimpleName()**;// classe = "Peix"
+
+# Classes abstractes
+Les clases abstractes s'utilitzen per a que no es puguin crear objectes d'aquest tipus de clase, es a dir si tenim Animal i com a subclase Peix i Ocell. Podem posar com a clase abstracta la clase Animal per a que no es puguin crear animals generics pero si que es podran crear animals que siguin subclases de Animal, es a dir, podriem crear Peixos pero no Animals.
+
+``public abstract class Animal {  
+    ``public abstract void moure();  
+``}
+
+Si tenim la clase animal d'aquesta forma es podran crear Peixos pero no en si Animals.
