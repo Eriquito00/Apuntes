@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "74c14162745f6d05",
+        "id": "09b82909e303fd7e",
         "type": "tabs",
         "children": [
           {
-            "id": "47f53fd7babd303c",
+            "id": "2c9b1b291b7ef809",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programacio/Java/Classes Java.md",
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Classes Java"
+              "title": "Comandas Windows PowerShell"
             }
           }
         ]
@@ -163,10 +163,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47f53fd7babd303c",
+  "active": "2c9b1b291b7ef809",
   "lastOpenFiles": [
-    "Programacio/Java/Clases i funcions Java.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Programacio/Java/Classes Java.md",
+    "Programacio/Java/Clases i funcions Java.md",
     "Programacio/Java/Tipus de dades Java.md",
     "Imatges/Pasted image 20250115182826.png",
     "Bases de dades/SQL/SQL.md",
