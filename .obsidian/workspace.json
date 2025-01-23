@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "52f060fa0e2672e9",
+        "id": "eb5648116e3d8c2d",
         "type": "tabs",
         "children": [
           {
-            "id": "050c4a0ead7c5467",
+            "id": "06c9b90d00ba79e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Bases de dades/SQL/SQL.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -163,8 +163,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "050c4a0ead7c5467",
+  "active": "06c9b90d00ba79e2",
   "lastOpenFiles": [
+    "Pasted image 20250123122537.png",
+    "Pasted image 20250123115116.png",
+    "Pasted image 20250123114613.png",
+    "Pasted image 20250123114428.png",
+    "Pasted image 20250123113940.png",
+    "Pasted image 20250123113723.png",
+    "Pasted image 20250123113619.png",
+    "Pasted image 20250123113423.png",
+    "Pasted image 20250123113135.png",
+    "Pasted image 20250123113007.png",
+    "Pasted image 20250123112949.png",
+    "Bases de dades/SQL/SQL.md",
     "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Java.md",
@@ -172,17 +184,6 @@
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Programacio/Java/Clases i funcions Java.md",
     "Programacio/Java/Tipus de dades Java.md",
-    "Imatges/Pasted image 20250115182826.png",
-    "Bases de dades/SQL/SQL.md",
-    "Imatges/Pasted image 20250116170308.png",
-    "Imatges/Pasted image 20250116170207.png",
-    "Imatges/Pasted image 20250116164657.png",
-    "Imatges/Pasted image 20250116164516.png",
-    "Imatges/Pasted image 20250116164449.png",
-    "Imatges/Pasted image 20250116153108.png",
-    "Imatges/Pasted image 20250116153058.png",
-    "Imatges/Pasted image 20250115191758.png",
-    "Imatges/Pasted image 20250115191530.png",
     "Programacio/Java/Objectes Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
     "Programacio/Java/Comentaris Java.md",
@@ -205,7 +206,6 @@
     "Sistemes Informatics/Sistemes Operatius/Usuaris i grups Ubuntu.md",
     "Sistemes Informatics/Sistemas.md",
     "Bases de dades/Esquemes/Exercicis Entitat Relacio.md",
-    "Programacio/JavaScript/JavaScript.md",
     "Bases de dades/Historia",
     "desktop.ini",
     "Sistemes Informatics/Altres",

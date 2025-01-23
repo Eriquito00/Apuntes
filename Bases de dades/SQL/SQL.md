@@ -104,7 +104,31 @@ UPDATE:
 
 SELECT:
 - Un select es compon per els atributs de la taula que volem veure, en aquest exemple s'agafen dades de la taula empleats i s'agafaran les dades dels camps nom, cognoms i deparatment_id sempre i quan el departament_id de l'empleat sigui 60, tambe tenim el ORDER BY per dir per quin camp volem ordenar i podem utilitzar DESC per que sigui descendent i ASC perque sigui ascendent.
-![[Pasted image 20250116170308.png]]
+	![[Pasted image 20250116170308.png]]
+
+	FROM: 
+	- S'utilitza per indicar de quina taula provenen les dades de les columnes indicades.
+	![[Pasted image 20250123112816.png]]
+	- Si tenim algun valor repetit i no volem els repetits podem utilitzar DISTINCT.
+	![[Pasted image 20250123113007.png]]
+	- Tambe podem crear una columna que no es guardara amb alguna operacio aritmetica i tambe podem fer-li que mostri un nom personalitzar a la columna.
+	![[Pasted image 20250123113135.png]]
+	- Tant al inici del SELECT com al WHERE podem utilitzar operadors aritmetics com el '<', '>', '=', '!=', entre altres.
+	![[Pasted image 20250123113423.png]]
+	- SOBRETOT si volem comprovar NULL o NOT NULL utilitzarem IS no '='. 
+	![[Pasted image 20250123113619.png]]
+	- A mes a mes tambe podem utilitzar rangs amb BETWEEN, en els quals tant el inicial com el final estan inclosos, igual que NULL podem utilitzar NOT BETWEEN que no incluira ni el minim ni maxim.
+	![[Pasted image 20250123113723.png]]
+	- Tambe podem utilitzar IN per dir que ens retornin el que estan exactament en aquest valor.
+	![[Pasted image 20250123113940.png]]
+	- Si volem un missatge quan hi hagi un NULL a una columna podem utilitzar IFNULL().
+	![[Pasted image 20250123114428.png]]
+	- Si volem fer una cerca d'un patro, com un regex, podem utilitzar LIKE. Podria ser que depenent com tenim configurada la base de dades ens mostrara els valors que començen per la lletra o nomes els que comencin per la lletra MAJUSCULA o minuscula. Tambe tenim RLIKE per regular expresions.
+	![[Pasted image 20250123114613.png]]
+	![[Pasted image 20250123115116.png]]
+	- A MySql no tenim una funcio per crear una columna amb la primera en majuscula y la resta en minuscula pero podem utilitzar aquesta funcio,  'CONCAT(UPPER(LEFT(nom,1)),LOWER(SUBSTRING(nom,1)))'.
+	![[Pasted image 20250123122537.png]]
+	- A MySql tampoc podem fer un random entre un numero i un altre, pero podem utilitzar la seguent funcio, 
 # Dades MySQL
 Les dades a MySQL es poden declarar y crear les columnes d'una taula, tambe crear les Primary Key, Foreign Key, Constraint, Referencies... Per explicar agafarem inicialment aquesta taula.
 ## Creacio i modificacio de taules
