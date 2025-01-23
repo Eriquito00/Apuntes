@@ -128,7 +128,8 @@ SELECT:
 	![[Pasted image 20250123115116.png]]
 	- A MySql no tenim una funcio per crear una columna amb la primera en majuscula y la resta en minuscula pero podem utilitzar aquesta funcio,  'CONCAT(UPPER(LEFT(nom,1)),LOWER(SUBSTRING(nom,1)))'.
 	![[Pasted image 20250123122537.png]]
-	- A MySql tampoc podem fer un random entre un numero i un altre, pero podem utilitzar la seguent funcio, 
+	- A MySql tampoc podem fer un random entre un numero i un altre, pero podem utilitzar la seguent funcio, RAND() \* (max - min + 1).
+	![[Pasted image 20250123144034.png]]
 # Dades MySQL
 Les dades a MySQL es poden declarar y crear les columnes d'una taula, tambe crear les Primary Key, Foreign Key, Constraint, Referencies... Per explicar agafarem inicialment aquesta taula.
 ## Creacio i modificacio de taules
