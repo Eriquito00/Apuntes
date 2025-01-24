@@ -54,7 +54,8 @@ Si volem sapiguer el nom de clase de un Objecte de una array podem utilitzar get
 
 ``String classe = animals[1].**getClass().getSimpleName()**;// classe = "Peix"
 
-# Classes abstractes
+# Abstractes
+## Classes
 Les clases abstractes s'utilitzen per a que no es puguin crear objectes d'aquest tipus de clase, es a dir si tenim Animal i com a subclase Peix i Ocell. Podem posar com a clase abstracta la clase Animal per a que no es puguin crear animals generics pero si que es podran crear animals que siguin subclases de Animal, es a dir, podriem crear Peixos pero no Animals.
 
 ``public abstract class Animal {  
@@ -62,3 +63,20 @@ Les clases abstractes s'utilitzen per a que no es puguin crear objectes d'aquest
 ``}
 
 Si tenim la clase animal d'aquesta forma es podran crear Peixos pero no en si Animals.
+## Funcions
+Tambe igual que les classes podem tenir funcions abstractes, que son funcions que es declaren a les classes abstractes pero no s'els hi dona cap valor ni res del que han de fer, simplement es declaren, y despres a les subclases haurem de dir obligatoriament el que ha de fer.
+
+CLASSE:
+``public abstract class Animal{
+	``public abstract void moure();
+``}
+
+SUBCLASSE:
+``public class Mamifer extends Animal {
+	``public void moure(){
+		``System.out.println("M'estic movent");
+	``}
+``}
+
+D'aquesta manera directament podem fer una funcio que pertany a totes les subclasses pero que sigui personalitzada per cadascuna.
+# Interficies
