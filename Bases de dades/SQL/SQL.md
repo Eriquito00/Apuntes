@@ -130,6 +130,8 @@ SELECT:
 	![[Pasted image 20250123122537.png]]
 	- A MySql tampoc podem fer un random entre un numero i un altre, pero podem utilitzar la seguent funcio, RAND() \* (max - min + 1).
 	![[Pasted image 20250123144034.png]]
+	- Una altre funcio que podem utilitzar es una semblant a fer un if que es CASE. Amb els diferents WHEN que serien els respectius else if y el ultim que es ELSE, aquesta sentencia finalitza amb END AS (nom del camp).
+	![[Pasted image 20250129205312.png]]
 ## Altres funcions per SELECT
 - CONCAT(text,text,text...): Retorna un String amb tots els textos que he introduit.
 - LENGTH(text): Retorna la longitud del String.
@@ -147,6 +149,12 @@ SELECT:
 - SPACE(len): Retorna un string de longitud len només format per espais en blanc.
 - REPLACE(text, from, to): Retorna el string text reemplaçant les ocurrències del string from per el string to.
 - REVERSE(text): Retorna string text amb l'orde dels caràcters en format invers.
+- IFNULL(camp, substitucio): Comprova si el valor es NULL i si es NULL posa el valor que substitueix.
+### Funcions de dates
+- YEAR(camp): Agafa l'any d'una data.
+- MONTH(camp): Agafa el mes d'una data.
+- DAY(camp): Agafa el dia d'una data.
+- CURDATE(): Obte la data del dia actual.
 # Dades MySQL
 Les dades a MySQL es poden declarar y crear les columnes d'una taula, tambe crear les Primary Key, Foreign Key, Constraint, Referencies... Per explicar agafarem inicialment aquesta taula.
 ## Creacio i modificacio de taules
