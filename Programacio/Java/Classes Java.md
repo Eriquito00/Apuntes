@@ -79,4 +79,3 @@ SUBCLASSE:
 ``}
 
 D'aquesta manera directament podem fer una funcio que pertany a totes les subclasses pero que sigui personalitzada per cadascuna.
-# Interficies
