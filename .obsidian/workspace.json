@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b77781c191a7b439",
+        "id": "3d95a1d9b7cd335b",
         "type": "tabs",
         "children": [
           {
-            "id": "c4fd0c1285ddcd4e",
+            "id": "60e81653c9f7fcd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -154,17 +154,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c4fd0c1285ddcd4e",
+  "active": "60e81653c9f7fcd6",
   "lastOpenFiles": [
+    "Pasted image 20250129205312.png",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Clases i funcions Java.md",
     "Bases de dades/SQL/SQL.md",

@@ -130,6 +130,31 @@ SELECT:
 	![[Pasted image 20250123122537.png]]
 	- A MySql tampoc podem fer un random entre un numero i un altre, pero podem utilitzar la seguent funcio, RAND() \* (max - min + 1).
 	![[Pasted image 20250123144034.png]]
+	- Una altre funcio que podem utilitzar es una semblant a fer un if que es CASE. Amb els diferents WHEN que serien els respectius else if y el ultim que es ELSE, aquesta sentencia finalitza amb END AS (nom del camp).
+	![[Pasted image 20250129205312.png]]
+## Altres funcions per SELECT
+- CONCAT(text,text,text...): Retorna un String amb tots els textos que he introduit.
+- LENGTH(text): Retorna la longitud del String.
+- LOWER(text) i LCASE(text): Retorna el String en minuscules.
+- UPPER(text) i UCASE(text): Retorna el String en MAJUSCULES.
+- LEFT(text,length): Retorna els (length) caracters començant per l'esquerra.
+- RIGHT(text,length): Retorna els (length) caracters començant per la dreta.
+- MID(text, pos, len), SUBSTRING(text, pos), SUBSTRING(text, pos, len): S'utilitza per obtenir porcions d'una cadena de text.
+- INSTR(text, sub_text): Retorna la posició de la primera aparició de sub_text dins a text.
+- LOCATE(sub_text, text), LOCATE(sub_text, text, pos): S'utilitza per obtenir porcions d'una cadena de text. A més podem indicar la posició a iniciar la cerca.
+- LPAD(text, len, padtext): Retorna el string text omplint-lo amb el text padtext per l'esquerra fins obtenir la longitud len.
+- RPAD(text,len,padtext): Retorna el string text omplint-lo amb el text padtext per la dreta fins obtenir la longitud len.
+- TRIM(text), LTRIM(text), RTRIM(text): Retorna el text traient els possibles espais en blanc d'esquerra i dreta.
+- REPEAT(text, count): Retorna un string de longitud count repetint el string text.
+- SPACE(len): Retorna un string de longitud len només format per espais en blanc.
+- REPLACE(text, from, to): Retorna el string text reemplaçant les ocurrències del string from per el string to.
+- REVERSE(text): Retorna string text amb l'orde dels caràcters en format invers.
+- IFNULL(camp, substitucio): Comprova si el valor es NULL i si es NULL posa el valor que substitueix.
+### Funcions de dates
+- YEAR(camp): Agafa l'any d'una data.
+- MONTH(camp): Agafa el mes d'una data.
+- DAY(camp): Agafa el dia d'una data.
+- CURDATE(): Obte la data del dia actual.
 # Dades MySQL
 Les dades a MySQL es poden declarar y crear les columnes d'una taula, tambe crear les Primary Key, Foreign Key, Constraint, Referencies... Per explicar agafarem inicialment aquesta taula.
 ## Creacio i modificacio de taules
