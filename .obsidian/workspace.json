@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3d95a1d9b7cd335b",
+        "id": "d30562778ade6e89",
         "type": "tabs",
         "children": [
           {
-            "id": "60e81653c9f7fcd6",
+            "id": "98dfa93ebc26608e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de dades/SQL/SQL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -77,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -154,22 +149,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "60e81653c9f7fcd6",
+  "active": "98dfa93ebc26608e",
   "lastOpenFiles": [
-    "Pasted image 20250130115338.png",
-    "Pasted image 20250129205312.png",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Clases i funcions Java.md",
+    "Imatges/Pasted image 20250129205312.png",
     "Bases de dades/SQL/SQL.md",
+    "Imatges/Pasted image 20250130115338.png",
     "Imatges/Pasted image 20250123112816.png",
     "Imatges/Pasted image 20250123144034.png",
     "Imatges/Pasted image 20250123122537.png",
@@ -178,7 +173,6 @@
     "Imatges/Pasted image 20250123114428.png",
     "Imatges/Pasted image 20250123113940.png",
     "Imatges/Pasted image 20250123113723.png",
-    "Imatges/Pasted image 20250123113619.png",
     "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
