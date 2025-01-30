@@ -130,8 +130,9 @@ SELECT:
 	![[Pasted image 20250123122537.png]]
 	- A MySql tampoc podem fer un random entre un numero i un altre, pero podem utilitzar la seguent funcio, RAND() \* (max - min + 1).
 	![[Pasted image 20250123144034.png]]
-	- Una altre funcio que podem utilitzar es una semblant a fer un if que es CASE. Amb els diferents WHEN que serien els respectius else if y el ultim que es ELSE, aquesta sentencia finalitza amb END AS (nom del camp).
+	- Una altre funcio que podem utilitzar es una semblant a fer un if que es CASE. Amb els diferents WHEN que serien els respectius else if y el ultim que es ELSE, aquesta sentencia finalitza amb END AS (nom del camp). A mes a mes tambe es pot utilitzar mes com un switch com en el seguent exemple
 	![[Pasted image 20250129205312.png]]
+	![[Pasted image 20250130115338.png]]
 ## Altres funcions per SELECT
 - CONCAT(text,text,text...): Retorna un String amb tots els textos que he introduit.
 - LENGTH(text): Retorna la longitud del String.
@@ -155,6 +156,14 @@ SELECT:
 - MONTH(camp): Agafa el mes d'una data.
 - DAY(camp): Agafa el dia d'una data.
 - CURDATE(): Obte la data del dia actual.
+- DATE_FORMAT(camp, estructura): A partir del camp, extreu segons el que demanem, %Y (any), %m (mes numeric) i %d (dia numeric).
+- TIMESTAMPDIFF(volem, camp,camp): Es pot utilitzar per obtenir, dia, mes o any, restant el primer camp amb el segon camp.
+### Funcions per tenir sexe
+- COUNT(): Conta quants compleixen certes condicions.
+- MAX(): Diu el maxim d'unes dades que compleixen certes condicions.
+- MIN(): Diu el minim d'unes dades que compleixen certes condicions.
+- AVG(): Calcula la mitjana d'algunes dades.
+- STD(): Calcula la mitja de dispersio comu, basicament les dades quant mes s'apropin a la mitjana millor.
 # Dades MySQL
 Les dades a MySQL es poden declarar y crear les columnes d'una taula, tambe crear les Primary Key, Foreign Key, Constraint, Referencies... Per explicar agafarem inicialment aquesta taula.
 ## Creacio i modificacio de taules

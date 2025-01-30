@@ -154,17 +154,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "60e81653c9f7fcd6",
   "lastOpenFiles": [
+    "Pasted image 20250130115338.png",
     "Pasted image 20250129205312.png",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Clases i funcions Java.md",
@@ -178,7 +179,6 @@
     "Imatges/Pasted image 20250123113940.png",
     "Imatges/Pasted image 20250123113723.png",
     "Imatges/Pasted image 20250123113619.png",
-    "Imatges/Pasted image 20250123113423.png",
     "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
