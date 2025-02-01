@@ -8,3 +8,5 @@ Java és un llenguatge mixt (compilat i interpretat), de propòsit general (tant
 [[Classes Java]]
 [[Objectes Java]]
 [[Polimorfisme Java]]
+[[Llibreria File Java]]
+[[Apache commons Java]]

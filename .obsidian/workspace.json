@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d30562778ade6e89",
+        "id": "a89c48511051fca3",
         "type": "tabs",
         "children": [
           {
-            "id": "98dfa93ebc26608e",
+            "id": "2bb5a1e392ee9e4e",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -158,23 +158,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "98dfa93ebc26608e",
+  "active": "2bb5a1e392ee9e4e",
   "lastOpenFiles": [
+    "Imatges/Pasted image 20250201205333.png",
+    "Programacio/Java/Fitxers/Apache commons Java.md",
+    "Programacio/Java/Java.md",
+    "Imatges/Pasted image 20250201204003.png",
+    "Programacio/Java/Fitxers/Llibreria File Java.md",
+    "Imatges/Pasted image 20250201205107.png",
+    "Imatges/Pasted image 20250201204747.png",
+    "Imatges/Pasted image 20250201204657.png",
+    "Imatges/Pasted image 20250201204429.png",
+    "Imatges/Pasted image 20250201204421.png",
+    "Imatges/Pasted image 20250201204208.png",
+    "Imatges/Pasted image 20250201204014.png",
+    "Imatges/Pasted image 20250201203345.png",
+    "Programacio/Java/Fitxers",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Clases i funcions Java.md",
-    "Imatges/Pasted image 20250129205312.png",
     "Bases de dades/SQL/SQL.md",
-    "Imatges/Pasted image 20250130115338.png",
-    "Imatges/Pasted image 20250123112816.png",
-    "Imatges/Pasted image 20250123144034.png",
-    "Imatges/Pasted image 20250123122537.png",
-    "Imatges/Pasted image 20250123115116.png",
-    "Imatges/Pasted image 20250123114613.png",
-    "Imatges/Pasted image 20250123114428.png",
-    "Imatges/Pasted image 20250123113940.png",
-    "Imatges/Pasted image 20250123113723.png",
     "Programacio/Java/Polimorfisme Java.md",
-    "Programacio/Java/Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Programacio/Java/Tipus de dades Java.md",
@@ -198,14 +201,11 @@
     "Programacio/Java",
     "Bases de dades/Esquemes/Entitat Relacio.md",
     "Sistemes Informatics/Sistemes Operatius/Usuaris i grups Ubuntu.md",
-    "Sistemes Informatics/Sistemas.md",
-    "Bases de dades/Esquemes/Exercicis Entitat Relacio.md",
     "Bases de dades/Historia",
     "desktop.ini",
     "Sistemes Informatics/Altres",
     "Sistemes Informatics/Sistemes Operatius",
     "Sistemes Informatics/Hardware",
-    "Bases de dades/Esquemes",
     "Sin título.canvas"
   ]
 }
