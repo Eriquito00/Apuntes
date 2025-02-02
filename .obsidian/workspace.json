@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a89c48511051fca3",
+        "id": "2ea7279d3da99e58",
         "type": "tabs",
         "children": [
           {
-            "id": "2bb5a1e392ee9e4e",
+            "id": "6e00897f0c331e83",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Usuaris i Grups Ubuntu"
             }
           }
         ]
@@ -36,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -73,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -158,21 +164,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2bb5a1e392ee9e4e",
+  "active": "6e00897f0c331e83",
   "lastOpenFiles": [
-    "Imatges/Pasted image 20250201205333.png",
+    "Pasted image 20250202171735.png",
+    "Pasted image 20250202171559.png",
+    "Imatges/Pasted image 20250202164651.png",
+    "Imatges/Pasted image 20250202171312.png",
+    "Pasted image 20250202171338.png",
+    "Imatges/Pasted image 20250202171349.png",
+    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
+    "Imatges/Pasted image 20250202170854.png",
+    "Imatges/Pasted image 20250202170805.png",
+    "Imatges/Pasted image 20250202170725.png",
+    "Imatges/Pasted image 20250202170552.png",
+    "Imatges/Pasted image 20250202170349.png",
     "Programacio/Java/Fitxers/Apache commons Java.md",
     "Programacio/Java/Java.md",
-    "Imatges/Pasted image 20250201204003.png",
     "Programacio/Java/Fitxers/Llibreria File Java.md",
-    "Imatges/Pasted image 20250201205107.png",
-    "Imatges/Pasted image 20250201204747.png",
-    "Imatges/Pasted image 20250201204657.png",
-    "Imatges/Pasted image 20250201204429.png",
-    "Imatges/Pasted image 20250201204421.png",
-    "Imatges/Pasted image 20250201204208.png",
-    "Imatges/Pasted image 20250201204014.png",
-    "Imatges/Pasted image 20250201203345.png",
     "Programacio/Java/Fitxers",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Clases i funcions Java.md",
@@ -184,7 +192,6 @@
     "Programacio/Java/Objectes Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
     "Programacio/Java/Comentaris Java.md",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
     "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
     "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
     "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
