@@ -83,7 +83,7 @@ USERADD:
 - elimina l'usuari **com a membre** del grup especificat. Tant l'usuari com el grup seguiran existint, però l'usuari ja no pertany al grup.
 ![[Pasted image 20250202171312.png]]
 
-- En cas de que sigui el grup principal no ho fara.
+- En cas de que sigui el grup principal no ho fara. Haurem de donarli un altre grup com a principal y despres eliminarlo.
 ![[Pasted image 20250202170854.png]]
 
 **delgrup (nomgrup)**
