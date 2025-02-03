@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2ea7279d3da99e58",
+        "id": "4d1faabcff4cf870",
         "type": "tabs",
         "children": [
           {
-            "id": "6e00897f0c331e83",
+            "id": "23b136285c307464",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Usuaris i Grups Ubuntu"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -155,32 +151,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6e00897f0c331e83",
+  "active": "23b136285c307464",
   "lastOpenFiles": [
-    "Pasted image 20250202171735.png",
-    "Pasted image 20250202171559.png",
+    "Programacio/Java/Fitxers/Llibreria System Java.md",
+    "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
+    "Pasted image 20250203112858.png",
+    "Pasted image 20250203112828.png",
+    "Programacio/Java/Fitxers/Llibreria File Java.md",
+    "Programacio/Java/Java.md",
+    "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
+    "Imatges/Pasted image 20250203111703.png",
+    "Imatges/Pasted image 20250203111608.png",
+    "Imatges/Pasted image 20250203111447.png",
+    "Imatges/Pasted image 20250202171559.png",
+    "Imatges/Pasted image 20250203111318.png",
+    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
+    "Imatges/Pasted image 20250202171735.png",
     "Imatges/Pasted image 20250202164651.png",
     "Imatges/Pasted image 20250202171312.png",
-    "Pasted image 20250202171338.png",
-    "Imatges/Pasted image 20250202171349.png",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
-    "Imatges/Pasted image 20250202170854.png",
-    "Imatges/Pasted image 20250202170805.png",
-    "Imatges/Pasted image 20250202170725.png",
-    "Imatges/Pasted image 20250202170552.png",
-    "Imatges/Pasted image 20250202170349.png",
-    "Programacio/Java/Fitxers/Apache commons Java.md",
-    "Programacio/Java/Java.md",
-    "Programacio/Java/Fitxers/Llibreria File Java.md",
     "Programacio/Java/Fitxers",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Clases i funcions Java.md",
@@ -206,8 +203,6 @@
     "Bases de dades/Esquemes/Model relacional.md",
     "Sistemes Informatics/Altres/Particions.md",
     "Programacio/Java",
-    "Bases de dades/Esquemes/Entitat Relacio.md",
-    "Sistemes Informatics/Sistemes Operatius/Usuaris i grups Ubuntu.md",
     "Bases de dades/Historia",
     "desktop.ini",
     "Sistemes Informatics/Altres",

@@ -54,6 +54,3 @@ Amb listRoots() podem obtenir una llista amb totes les particions del dispositiu
 Aqui podem veure la informacio del espai total del disc, l'espai lliure i l'espai que podem utilitzar (no particionat) del disc.
 ![[Pasted image 20250201204657.png]]
 ![[Pasted image 20250201204747.png]]
-## System
-Tambe tenim System per agafar alguna propietat del dispositiu com el nom d'usuari, la carpeta home y la carpeta actual que s'utilitza.
-![[Pasted image 20250201205107.png]]
