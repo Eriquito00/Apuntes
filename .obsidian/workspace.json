@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "23b136285c307464",
+            "id": "a676fd3ab7415e2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Comandas Windows PowerShell"
             }
           }
         ]
@@ -160,12 +164,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "23b136285c307464",
+  "active": "a676fd3ab7415e2c",
   "lastOpenFiles": [
+    "Imatges/Pasted image 20250203112828.png",
     "Programacio/Java/Fitxers/Llibreria System Java.md",
     "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
-    "Pasted image 20250203112858.png",
-    "Pasted image 20250203112828.png",
+    "Imatges/Pasted image 20250203112858.png",
     "Programacio/Java/Fitxers/Llibreria File Java.md",
     "Programacio/Java/Java.md",
     "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
