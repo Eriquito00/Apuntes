@@ -11,8 +11,17 @@
             "id": "d8d63aaf399509a1",
             "type": "leaf",
             "state": {
+<<<<<<< Updated upstream
               "type": "empty",
               "state": {},
+=======
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
+                "mode": "preview",
+                "source": false
+              },
+>>>>>>> Stashed changes
               "icon": "lucide-file",
               "title": "Nueva pestaña"
             }
