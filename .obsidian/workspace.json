@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4d1faabcff4cf870",
+        "id": "0e4caf1bd4dcdd8c",
         "type": "tabs",
         "children": [
           {
-            "id": "a676fd3ab7415e2c",
+            "id": "d8d63aaf399509a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Comandas Windows PowerShell"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -164,10 +159,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a676fd3ab7415e2c",
+  "active": "d8d63aaf399509a1",
   "lastOpenFiles": [
-    "Bases de dades/SQL/MySQL.md",
     "Bases de dades/SQL/Funcions MySQL.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
+    "Bases de dades/SQL/MySQL.md",
     "Bases de dades/SQL/Dades MySQL.md",
     "Bases de dades/SQL/DML MySQL.md",
     "Bases de dades/SQL/DDL MySQL.md",
@@ -193,7 +189,6 @@
     "Bases de dades/SQL/SQL.md",
     "Programacio/Java/Polimorfisme Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Programacio/Java/Tipus de dades Java.md",
     "Programacio/Java/Objectes Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
