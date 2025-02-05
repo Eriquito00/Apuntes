@@ -4,21 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "4d1faabcff4cf870",
+        "id": "99b3deea1bea1dce",
         "type": "tabs",
         "children": [
           {
-            "id": "a676fd3ab7415e2c",
+            "id": "d99e7fdde464ad7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
+                "file": "Bases de dades/SQL/Funcions MySQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comandas Windows PowerShell"
+              "title": "Funcions MySQL"
+            }
+          },
+          {
+            "id": "3bffbaa10099a236",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SQL/Dades MySQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dades MySQL"
+            }
+          },
+          {
+            "id": "5403eb6df5ed86a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SQL/DDL MySQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DDL MySQL"
+            }
+          },
+          {
+            "id": "42275498b96f290d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SQL/DML MySQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DML MySQL"
             }
           }
         ]
@@ -78,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b12f6e3321090a6",
@@ -164,8 +205,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a676fd3ab7415e2c",
+  "active": "d99e7fdde464ad7a",
   "lastOpenFiles": [
+    "Bases de dades/SQL/DML MySQL.md",
+    "Bases de dades/SQL/DDL MySQL.md",
+    "Bases de dades/SQL/Dades MySQL.md",
+    "Bases de dades/SQL/Funcions MySQL.md",
+    "Bases de dades/SQL/MySQL.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Imatges/Pasted image 20250203112828.png",
     "Programacio/Java/Fitxers/Llibreria System Java.md",
     "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
@@ -185,10 +232,8 @@
     "Programacio/Java/Fitxers",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Clases i funcions Java.md",
-    "Bases de dades/SQL/SQL.md",
     "Programacio/Java/Polimorfisme Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Programacio/Java/Tipus de dades Java.md",
     "Programacio/Java/Objectes Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
@@ -202,10 +247,7 @@
     "Sense títol.canvas",
     "Sistemes Informatics/Sistemes Operatius/Windows",
     "Sistemes Informatics/Sistemes Operatius/Ubuntu",
-    "Bases de dades/Esquemes/Historia.md",
     "Bases de dades/SQL",
-    "Bases de dades/Esquemes/Model relacional.md",
-    "Sistemes Informatics/Altres/Particions.md",
     "Programacio/Java",
     "Bases de dades/Historia",
     "desktop.ini",

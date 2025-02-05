@@ -1,4 +1,4 @@
 [[Entitat Relacio]]
 [[Model relacional]]
-[[SQL]]
+[[MySQL]]
 [[Historia]]
