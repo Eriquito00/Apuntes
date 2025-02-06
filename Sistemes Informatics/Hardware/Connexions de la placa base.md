@@ -1,6 +1,7 @@
-# Slots d'expansio
-## Tipus de slots d'expansio
-### El bus PCI
+# Connexions de la placa base
+## Slots d'expansio
+### Tipus de slots d'expansio
+#### El bus PCI
 - El bus PCI vol dir Peripheral Component Interconnect, interconnexio de components periferics.
 - Desenvolupat per Intel als anys 90.
 - Adoptat per molts fabricants fins i tot pels MAC.
@@ -8,7 +9,7 @@ Esta en desus pero encara es troba.
 - 2 versions amb diferent voltatge i velocitat pero el mateix connector
 - Per distingir estan muntades al reves
 
-#### Versio 1
+##### Versio 1
 
 ![](/Imatges/Pasted%20image%2020240930093850.png)
 

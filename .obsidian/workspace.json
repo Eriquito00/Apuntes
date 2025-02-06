@@ -35,7 +35,8 @@
               "title": "Placa base"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,10 +184,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "84ea5f7d5defb7fe",
+  "active": "93f11b075f4df031",
   "lastOpenFiles": [
-    "Sistemes Informatics/Hardware/Placa base.md",
     "Sistemes Informatics/Hardware/Connexions de la placa base.md",
+    "Sistemes Informatics/Hardware/Placa base.md",
     "Imatges/Pasted image 20240930093850.png",
     "Imatges/Pasted.md",
     "Imatges/Pasted image 20240930094943.png",
