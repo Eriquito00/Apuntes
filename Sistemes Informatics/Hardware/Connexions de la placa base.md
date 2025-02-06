@@ -10,25 +10,25 @@ Esta en desus pero encara es troba.
 
 #### Versio 1
 
-![[/Imatges/Pasted image 20240930093850.png]]
+![](/Imatges/Pasted%20image%2020240930093850.png)
 
 #### Versio 2
 
-![[Imatges/Pasted image 20240930094943.png]]
+![](/Imatges/Pasted%20image%2020240930094943.png)
 
 A nivell de targetes podem trobar 3 tipus:
 
 #### Versio 1
 
-![[Imatges/Pasted image 20240930094454.png]]
+![](/Imatges/Pasted%20image%2020240930094454.png)
 
 #### Versio 2
 
-![[Imatges/Pasted image 20240930094541.png]]
+![](/Imatges/Pasted%20image%2020240930094541.png)
 
 #### Versio universal
 
-![[Imatges/Pasted image 20240930094503.png]]
+![](/Imatges/Pasted%20image%2020240930094503.png)
 
 ### El Bus PCI-Express
 - Desenvolupat per Intel a 2004 i basat en PCI
@@ -51,7 +51,7 @@ Cada una d'aquestes linies exclusives amb el controlador es el connector i es de
 Per tant full duplex significa que cada lane pot enviar i rebre dades al mateix temps.
 Podem trobar 4 tipus diferents links PCI-Express que te 4 slots diferents. tambe podem trobar 6 revisions diferents del protocol:
 
-![[Imatges/Pasted image 20240930100516.png]]
+![](/Imatges/Pasted%20image%2020240930100516.png)
 
 ### Diferencia entre PCI i PCIe
 - El color no forma part de l'estandar.
@@ -63,22 +63,22 @@ Podem trobar 4 tipus diferents links PCI-Express que te 4 slots diferents. tambe
 - El PCIe x8 la part de dades es entre 3 y 4 vegades mes llarga que la de alimentacio, no es frequent trobar-ho.
 - El PCIe x16 es tan llarg com un PCI.
 
-![[Imatges/Pasted image 20240930100841.png]]
+![](/Imatges/Pasted%20image%2020240930100841.png)
 
 ### Altres consideracions
 Podem utilitzar altres tarjetes PCIe a altres slots de PCIe, per exemple una targeta de PCIe x8 pot estar a un slot PCIe x16.
 Si connectem un PCIe v1.0 que va a 250MB/s per lane si el conectem a un slot PCIe v3.0 la controladora adaptara la velocidad a la versio mes baixa per tant anira a la velocitat del PCIe v1.0.
 Podem trobar un slot PCIe x4 que tingui la llargada d'un PCIe x16 pero els pins nomes arriben fins al PCIe x4.
 
-![[Imatges/Pasted image 20241001105630.png]]
+![](/Imatges/Pasted%20image%2020241001105630.png)
 
 Tambe podem trobar tarjetes PCIe que tinguin la llargada per entrar a un PCIe x16 pero els pins nomes arriben a ser PCIe x4.
 
-![[Imatges/Pasted image 20241001105221.png]]
+![](/Imatges/Pasted%20image%2020241001105221.png)
 
 Podem trobar PCIe "oberts" que son PCIe que permeten tarjetes mes llargues, per exemple un PCIe x8 que al arribar als 8 no te un limitador que no ens permeti una tarjeta mes gran.
 
-![[Imatges/Pasted image 20241001104740.png]]
+![](/Imatges/Pasted%20image%2020241001104740.png)
 
 Sigui el cas que sigui sempre que el slot PCIe sigui mes gran que el PCIe de la tarjeta es podra connectar.
 
@@ -92,19 +92,19 @@ USB 3.0 = 4.8Gb/s = 600MB/s, tambe es diu SuperSpeed USB i te el plastic de colo
 Amb ajuda de concentradors de USB es poden connectar fins 127 dispositius i poden ser interns o externs.
 Es posible que els USB tenen el logo de USB normal aixo es que son USB 2.0.
 
-![[Imatges/Pasted image 20241001095705.png]]
+![](/Imatges/Pasted%20image%2020241001095705.png)
 
 Tambe pot ser que porti SS que significa que es un USB 3.0.
 
-![[Imatges/Pasted image 20241001095729.png]]
+![](/Imatges/Pasted%20image%2020241001095729.png)
 
 Hi han USB que tenen un logo de carrega i un petit raig que aixo significa que en cas de que s'apaga l'equip aquest USB segueix subministrant.
 
-![[Imatges/Pasted image 20241001095833.png]]
+![](/Imatges/Pasted%20image%2020241001095833.png)
 
 Si el USB te SS10 significa que es un USB 3.1 pero no es cap estandar.
 
-![[Imatges/Pasted image 20241001095811.png]]
+![](/Imatges/Pasted%20image%2020241001095811.png)
 
 Del USB 3.1 tambe incorpora el USB tipus C, es reversible i pot alimentar fins a 100W pensat per substituir els cables d'alimentacio.
 
@@ -119,6 +119,6 @@ Seria idoni que un Disc Dur SATA 1 la controladora tambe sigui SATA 1, un disc S
 De totes formes l'estandar esta proveit de Backward compativility, es a dir compatibilitat amb dispositius antics i Forward compatibility que es compatibilitat amb productes futurs.
 Aixo es pot fer amb un jumper per limitar la velocitat del disc i adaptarse a controladors inferiors, pero nomes es pot rebaixar una versio, es a dir de SATA 3 a SATA 2 o de SATA 2 a SATA 1.
 
-![[Imatges/Pasted image 20241001104327.png]]
+![](/Imatges/Pasted%20image%2020241001104327.png)
 
 Si es el cas contrari, es a dir una controladora SATA 2 i tenim un disc SATA 1 hi han algunes controladores que poden negociar la velocitat i rebaixar la velocitat.
