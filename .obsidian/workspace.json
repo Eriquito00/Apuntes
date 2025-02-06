@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 200
   },
   "right": {
     "id": "9565c7424373b453",
@@ -171,13 +171,14 @@
   },
   "active": "9c92dbaecb832788",
   "lastOpenFiles": [
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
-    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
-    "Proces d'arrencada en Sistemes Operatius.md",
-    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
+    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
+    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
+    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
+    "Proces d'arrencada en Sistemes Operatius.md",
+    "Proces.md",
+    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Comandas.md",
     "Sistemes Informatics/Hardware/Hardware.md",
@@ -198,7 +199,6 @@
     "README.md",
     "Programacio/Introduccio a la programacio.md",
     "Bases de dades/Introduccio a les bases de dades.md",
-    "Bases de dades/SQL/MySQL.md",
-    "Bases de dades/SQL/Exercicis/Exercicis MySQL.md"
+    "Bases de dades/SQL/MySQL.md"
   ]
 }
