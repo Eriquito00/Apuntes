@@ -36,6 +36,6 @@ Els llenguatges interpretats van traduint les instruccions del programa a codi m
 ## Altres llenguatges
 També es poden trobar molts altres llenguatges de programació. Altres per utilitzar metodologies de programació diferents de les habituals o destinades a aplicacions concretes: **Lisp** (inte[...]
 
-[JavaScript](Programacio/JavaScript.md)
+[JavaScript](JavaScript/JavaScript.md)
 
-[Java](Programacio/Java.md)
+[Java](Java/Java.md)
