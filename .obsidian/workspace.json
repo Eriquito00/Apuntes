@@ -20,8 +20,51 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "705478aaaf2afaa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Introduccio a sistemes informatics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduccio a sistemes informatics"
+            }
+          },
+          {
+            "id": "e58e3a9899188e21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programacio/Introduccio a la programacio.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduccio a la programacio"
+            }
+          },
+          {
+            "id": "fa8fe6bca06f6c7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/Introduccio a les bases de dades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduccio a les bases de dades"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,12 +213,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aa2f11cdc75efa63",
+  "active": "e58e3a9899188e21",
   "lastOpenFiles": [
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "README.md",
     "Programacio/Introduccio a la programacio.md",
     "Bases de dades/Introduccio a les bases de dades.md",
-    "README.md",
     "Bases de dades/SQL/MySQL.md",
     "Bases de dades/SQL/Exercicis/Exercicis MySQL.md",
     "Sistemes Informatics/Hardware/Hardware.md",
