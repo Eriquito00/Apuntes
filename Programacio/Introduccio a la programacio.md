@@ -2,16 +2,16 @@
 
 ## Llenguatges compilats
 C, C++ o C#. Són molt eficients però cal utilitzar un compilador diferent per cada llenguatge, sistema operatiu i processador on es vulgui executar.
-![Compilats](Imatges/Compilats.png)
+![Compilats](../Imatges/Compilats.png)
 
 ## Llenguatges interpretats
 Python, JavaScript o PHP. Són poc eficients però es poden executar en qualsevol sistema informàtic que tingui un intèrpret per aquest llenguatge.
-![Interpretats](Imatges/Interpretats.png)
+![Interpretats](../Imatges/Interpretats.png)
 
 ## Llenguatges mixtos
 Java. Són més eficients que els interpretats però menys que els compilats.  
 Necessiten un intèrpret específic per cada sistema informàtic. En el cas de Java, aquest intèrpret s'anomena Màquina Virtual de Java (JVM).
-![Mixtos](Imatges/Mixtos.png)
+![Mixtos](../Imatges/Mixtos.png)
 
 # Evolucio de la programacio
 
