@@ -1,4 +1,5 @@
-# Windows
+# Proces d'arrencada en Sistemes Operatius
+## Windows
 Com arranca Windows Vista MBR BIOS endavant:
 1. Donem al boto per encendre.
 
@@ -22,7 +23,7 @@ Com arranca Windows Vista MBR BIOS endavant:
 6. winload.exe acaba de carregar els moduls que falten del SO, fins arribar a la pantalla de benvinguda o de logon.
 - Benvinguda es quan surt el fons amb l'hora i logon es quan ens demana la contraseña.
 
-# Ubuntu
+## Ubuntu
 Com arranca Ubuntu 22.04 LTS BIOS MBR GRUB 2:
 1. Engeguem el PC amb el boto Power. BIOS dona el control al HDD, concretament al MBR.
 

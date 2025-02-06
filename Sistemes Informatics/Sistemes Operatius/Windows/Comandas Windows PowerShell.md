@@ -1,3 +1,4 @@
+# Comandas Windows PowerShell
 ### Habilitar escriptori remot (no es ps)
 cscript C:\Windows\System32\Scregedit.wsf /ar 0
 ### Activar / Desactivar firewall

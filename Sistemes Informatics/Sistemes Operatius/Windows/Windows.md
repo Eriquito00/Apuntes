@@ -1,5 +1,6 @@
-# Windows Server
-# Xarxes
+# Windows
+## Windows Server
+## Xarxes
 MAC: Medium Access Control
 - Identificador de tota la targeta o dispositiu de xarxa
 - Es unic a nivell mundial, no poden haver 2 dispositius amb la mateixa mac
@@ -99,4 +100,4 @@ Funciona bloquejant o permetent el pas per la xarxa dels paquets de dades.
 
 La configuracio de xarxa recomanada es que el server tingui com a DNS la seva IP i com a alternativa localhost (127.0.0.1) i el client nomes tingui la IP DNS del servidor.
 
-[[Comandas Windows PowerShell]]
+[Comandas Windows PowerShell](Comandas%20Windows%20PowerShell)
