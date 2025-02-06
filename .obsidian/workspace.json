@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ab8f74384c663229",
+        "id": "7cc9ec74cde1a2eb",
         "type": "tabs",
         "children": [
           {
-            "id": "3790b2a5761ff247",
+            "id": "9c92dbaecb832788",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Usuaris i Grups Ubuntu"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -169,14 +165,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3790b2a5761ff247",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
+    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
+    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Proces d'arrencada en Sistemes Operatius.md",
+    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
-    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
-    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
     "Comandas.md",
     "Sistemes Informatics/Hardware/Hardware.md",
     "().md",
@@ -194,11 +192,9 @@
     "Sistemes Informatics/Altres/Virtualitzacio.md",
     "Sistemes Informatics/Altres/Particions.md",
     "README.md",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Programacio/Introduccio a la programacio.md",
     "Bases de dades/Introduccio a les bases de dades.md",
     "Bases de dades/SQL/MySQL.md",
-    "Bases de dades/SQL/Exercicis/Exercicis MySQL.md",
-    "Bases de dades/SQL/Funcions MySQL.md"
+    "Bases de dades/SQL/Exercicis/Exercicis MySQL.md"
   ]
 }
