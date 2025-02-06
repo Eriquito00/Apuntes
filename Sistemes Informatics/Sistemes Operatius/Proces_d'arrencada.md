@@ -1,4 +1,4 @@
-# Proces d'arrencada en Sistemes Operatius
+# Proces d'arrencada
 ## Windows
 Com arranca Windows Vista MBR BIOS endavant:
 1. Donem al boto per encendre.
