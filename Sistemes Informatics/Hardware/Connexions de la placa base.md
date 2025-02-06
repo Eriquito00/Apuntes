@@ -10,7 +10,7 @@ Esta en desus pero encara es troba.
 
 #### Versio 1
 
-![[Imatges/Pasted image 20240930093850.png]]
+![[/Imatges/Pasted image 20240930093850.png]]
 
 #### Versio 2
 
