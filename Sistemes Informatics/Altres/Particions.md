@@ -6,7 +6,7 @@
 - Fisicament es troba en el primer sector del HDD.  
 - Normalment te una longitud de 512 bytes.  
 
-![Pasted image 20241022092627](Imatges/Pasted%20image%2020241022092627.png)
+![Pasted image 20241022092627](/Imatges/Pasted%20image%2020241022092627.png)
 
 ### Tipus de particions MBR
 
