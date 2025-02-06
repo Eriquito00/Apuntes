@@ -49,7 +49,8 @@
               "title": "Virtualitzacio"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,11 +198,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a3beacee161216e",
+  "active": "6ef20d1a0cbb7442",
   "lastOpenFiles": [
+    "Sistemes Informatics/Altres/Conceptes basics.md",
     "Sistemes Informatics/Altres/Virtualitzacio.md",
     "Sistemes Informatics/Altres/Particions.md",
-    "Sistemes Informatics/Altres/Conceptes basics.md",
     "Sistemes Informatics/Altres/Altres.md",
     "README.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
