@@ -5,3 +5,5 @@
 [Ubuntu](./Ubuntu/Ubuntu.md)
 
 [Windows](./Windows/Windows.md)
+
+![](./Proces%20d'arrencada%20en%20Sistemes%20Operatius)
