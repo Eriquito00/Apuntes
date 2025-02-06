@@ -40,4 +40,4 @@ La forma que s'utilitza i la foma clasica
 ## Entitat asociativa
 ![[Pasted image 20241017122320.png]]
 Una entitat asociativa es quan dues entitats relacionades es "transformen" en una entitat mes gran per donar mes sentit a una relacio. Per exemple un client te un prestec d'una casa i la relacio empleat es relaciona amb un empleat PERO el mateix client pot tenir un prestec tambe del seu coche amb un altre empleat.
-[[Introduccio a les bases de dades]]
+[[Exercicis Entitat Relacio]]

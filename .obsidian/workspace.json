@@ -171,12 +171,13 @@
   },
   "active": "34831f4c9b5e3539",
   "lastOpenFiles": [
+    "Bases de dades/Esquemes/Entitat Relacio.md",
+    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
     "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
     "Programacio/Introduccio a la programacio.md",
     "Sistemes Informatics/Hardware/Hardware.md",
     "Hardware/Placa base.md",
     "Sistemes Informatics/Hardware/Placa base.md",
-    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
     "Proces d'arrencada en Sistemes Operatius.md",
@@ -198,7 +199,6 @@
     "Sistemes Informatics/Altres/Virtualitzacio.md",
     "Sistemes Informatics/Altres/Particions.md",
     "README.md",
-    "Bases de dades/Introduccio a les bases de dades.md",
-    "Bases de dades/SQL/MySQL.md"
+    "Bases de dades/Introduccio a les bases de dades.md"
   ]
 }
