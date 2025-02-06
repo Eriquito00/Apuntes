@@ -11,10 +11,14 @@
             "id": "9c92dbaecb832788",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Sistemes Operatius"
             }
           }
         ]
@@ -165,7 +169,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "9c92dbaecb832788",
   "lastOpenFiles": [
     "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
     "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
