@@ -3,4 +3,4 @@
 [[Introduccio a les bases de dades]]
 [[Introduccio a sistemes informatics]]
 
-[Introduccio a la programacio](./Programacio/Introduccio a la programacio.md)
+[Introduccio a la programacio](./Programacio/Introduccio%20a%20la%20programacio.md)
