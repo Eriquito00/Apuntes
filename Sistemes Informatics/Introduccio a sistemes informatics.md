@@ -1,6 +1,7 @@
 # Introduccio a sistemes informatics
-[Hardware](Hardware.md)
 
-[Sistemes Operatius](Sistemes%20Operatius.md)
+[Hardware](./Hardware.md)
 
-[Altres](Altres.md)
+[Sistemes Operatius](./Sistemes%20Operatius.md)
+
+[Altres](./Altres.md)
