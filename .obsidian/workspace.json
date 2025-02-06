@@ -1,29 +1,24 @@
 {
   "main": {
-    "id": "520d4abe10b64954",
+    "id": "e0281c3b1e49ab9a",
     "type": "split",
     "children": [
       {
-        "id": "0e4caf1bd4dcdd8c",
+        "id": "c2f8278af9b63e50",
         "type": "tabs",
         "children": [
           {
-            "id": "d8d63aaf399509a1",
+            "id": "2142cea476a2256c",
             "type": "leaf",
             "state": {
-<<<<<<< Updated upstream
-              "type": "empty",
-              "state": {},
-=======
               "type": "markdown",
               "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
-                "mode": "preview",
+                "file": "Bases de dades/SQL/Exercicis/rrhh.md",
+                "mode": "source",
                 "source": false
               },
->>>>>>> Stashed changes
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "rrhh"
             }
           }
         ]
@@ -32,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2ec7dc5f563cbb83",
+    "id": "723c361f9d80b4ab",
     "type": "split",
     "children": [
       {
-        "id": "517b5ae43165fab5",
+        "id": "2b4d3a209571d79d",
         "type": "tabs",
         "children": [
           {
-            "id": "303f0857d18464e7",
+            "id": "bfaa022e327b787e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
-            "id": "461c220c612b8f2d",
+            "id": "63b65f4cf1d84582",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,41 +61,42 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Buscar"
+              "title": "Cerca"
             }
           },
           {
-            "id": "b3cb6e76c537616a",
+            "id": "856e18fa7ce042f9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Marcadors"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "8b12f6e3321090a6",
+    "id": "9565c7424373b453",
     "type": "split",
     "children": [
       {
-        "id": "43f54c5c9de62038",
+        "id": "b4427166f847f336",
         "type": "tabs",
         "children": [
           {
-            "id": "06ebc5286013b7dd",
+            "id": "5c50aad0e6b4632d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemes Informatics/Altres/Particions.md",
-                "collapseAll": true,
+                "file": "Bases de dades/SQL/Exercicis/rrhh.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -109,45 +105,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Particions"
+              "title": "Retroenllaços per a rrhh"
             }
           },
           {
-            "id": "facebb1f179cc74b",
+            "id": "ed1cf9e35b80f0c3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bases de dades/SQL/Exercicis/rrhh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enllaços sortints de rrhh"
             }
           },
           {
-            "id": "a9b6a89e378008e0",
+            "id": "408425b15d00e073",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Etiquetas"
+              "title": "Etiquetes"
             }
           },
           {
-            "id": "4a65b49f0ae09853",
+            "id": "6a7c02c628a09241",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemes Informatics/Altres/Particions.md"
+                "file": "Bases de dades/SQL/Exercicis/rrhh.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Particions"
+              "title": "Esquema de rrhh"
             }
           }
         ]
@@ -159,64 +161,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d8d63aaf399509a1",
-  "lastOpenFiles": [
-    "Bases de dades/SQL/Funcions MySQL.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
-    "Bases de dades/SQL/MySQL.md",
-    "Bases de dades/SQL/Dades MySQL.md",
-    "Bases de dades/SQL/DML MySQL.md",
-    "Bases de dades/SQL/DDL MySQL.md",
-    "Imatges/Pasted image 20250203112828.png",
-    "Programacio/Java/Fitxers/Llibreria System Java.md",
-    "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
-    "Imatges/Pasted image 20250203112858.png",
-    "Programacio/Java/Fitxers/Llibreria File Java.md",
-    "Programacio/Java/Java.md",
-    "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
-    "Imatges/Pasted image 20250203111703.png",
-    "Imatges/Pasted image 20250203111608.png",
-    "Imatges/Pasted image 20250203111447.png",
-    "Imatges/Pasted image 20250202171559.png",
-    "Imatges/Pasted image 20250203111318.png",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
-    "Imatges/Pasted image 20250202171735.png",
-    "Imatges/Pasted image 20250202164651.png",
-    "Imatges/Pasted image 20250202171312.png",
-    "Programacio/Java/Fitxers",
-    "Programacio/Java/Classes Java.md",
-    "Programacio/Java/Clases i funcions Java.md",
-    "Bases de dades/SQL/SQL.md",
-    "Programacio/Java/Polimorfisme Java.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
-    "Programacio/Java/Tipus de dades Java.md",
-    "Programacio/Java/Objectes Java.md",
-    "Programacio/Java/Entrada i Sortida de dades Java.md",
-    "Programacio/Java/Comentaris Java.md",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
-    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
-    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
-    "Programacio/Introduccio a la programacio.md",
-    "Bases de dades/Introduccio a les bases de dades.md",
-    "Sense títol.canvas",
-    "Sistemes Informatics/Sistemes Operatius/Windows",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu",
-    "Bases de dades/SQL",
-    "Programacio/Java",
-    "Bases de dades/Historia",
-    "desktop.ini",
-    "Sistemes Informatics/Altres",
-    "Sistemes Informatics/Sistemes Operatius",
-    "Sistemes Informatics/Hardware",
-    "Sin título.canvas"
-  ]
+  "active": "2142cea476a2256c",
+  "lastOpenFiles": []
 }
