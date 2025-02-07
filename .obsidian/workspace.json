@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 318.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -185,18 +185,19 @@
   },
   "active": "2f34000976cd4c86",
   "lastOpenFiles": [
+    "Programacio/Java/Fitxers/Llibreria System Java.md",
+    "Programacio/Java/Fitxers Java.md",
+    "Programacio/Java/Fitxers/Llibreria File Java.md",
+    "Llibreria SimpleDateFormat.md",
     "Programacio/Java/Java.md",
     "Programacio/Java/Classes Java.md",
-    "Programacio/Java/Fitxers Java.md",
     "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Tipus de dades Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
     "Programacio/Java/Comentaris Java.md",
     "Programacio/Java/Clases i funcions Java.md",
-    "Programacio/Java/Fitxers/Llibreria File Java.md",
     "Fitxers/Llibreria File Java.md",
     "Fitxers",
-    "Programacio/Java/Fitxers/Llibreria System Java.md",
     "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
     "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
     "Programacio/Java/Objectes Java.md",
@@ -211,7 +212,6 @@
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Programacio/JavaScript/JavaScript.md",
     "Programacio/JavaScript/Expresions regulars JavaScript.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Imatges/Pasted image 20240930093850.png",
     "Imatges/Pasted image 20240930094943.png",
     "Hardware"
