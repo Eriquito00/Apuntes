@@ -1,4 +1,4 @@
-# Comentaris
+# Comentaris Java
 Els comentaris serveixen per anar describint el que fa el nostre codi o algunes parts del nostre codi. De comentaris hi han diferents tipus:
 ### Comentaris fins a final de línia
 Serveixen per posar una explicació breu.

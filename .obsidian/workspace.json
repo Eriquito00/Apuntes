@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2f79821eeee1de09",
+        "id": "eea12314424cbd6d",
         "type": "tabs",
         "children": [
           {
-            "id": "cee0947e95e2c87f",
+            "id": "2f34000976cd4c86",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cee0947e95e2c87f",
+  "active": "2f34000976cd4c86",
   "lastOpenFiles": [
+    "Programacio/Java/Fitxers/Llibreria System Java.md",
+    "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
+    "Programacio/Java/Fitxers/Llibreria File Java.md",
+    "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
+    "Programacio/Java/Fitxers Java.md",
+    "Programacio/Java/Tipus de dades Java.md",
+    "Programacio/Java/Clases i funcions Java.md",
+    "Programacio/Java/Classes Java.md",
+    "Programacio/Java/Entrada i Sortida de dades Java.md",
+    "Programacio/Java/Comentaris Java.md",
+    "Programacio/Java/Polimorfisme Java.md",
+    "Programacio/Java/Objectes Java.md",
     "Programacio/JavaScript/Tipus de dades JavaScript.md",
     "Programacio/JavaScript/Operadors JavaScript.md",
     "Programacio/JavaScript/Modularitat JavaScript.md",
@@ -179,20 +191,8 @@
     "Programacio/JavaScript/JavaScript.md",
     "Programacio/JavaScript/Expresions regulars JavaScript.md",
     "Programacio/Java/Java.md",
-    "Programacio/Java/Tipus de dades Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Usuaris i Grups Ubuntu.md",
-    "Programacio/Introduccio a la programacio.md",
-    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
-    "Programacio/Java/Fitxers Java.md",
-    "Sistemes Informatics/Sistemes Operatius/Ubuntu/Ubuntu.md",
-    "Sistemes Informatics/Sistemes Operatius/Proces_d'arrencada.md",
-    "Proces_d'arrencada.md",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
-    "Bases de dades/Esquemes/Entitat Relacio.md",
-    "Sistemes Informatics/Hardware/Hardware.md",
-    "Hardware/Placa base.md",
     "Imatges/Pasted image 20240930093850.png",
     "Imatges/Pasted image 20240930094943.png",
     "Hardware"

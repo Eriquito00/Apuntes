@@ -1,4 +1,5 @@
-# Tipus de classes
+# Classes Java
+## Tipus de classes
 - **public**: permet l'accés des de qualsevol altra classe.
 - **private**: només permet l'accés des de la mateixa classe.
 - **protected**: permet l'accés des de les classes del mateix paquet i des de les subclasses.
@@ -7,12 +8,12 @@
 Tambe tenim alguns modificadors com: 
 - `static`: indica que es tracta d'un unic membre.
 - `final`: es una dada que no es pot modificar, se li dona un valor al declararla y no es modifica.
-# Estatiques
+## Estatiques
 Les classes i dades que son estatiques son dades que corresponen directament sobre un unic objecte, como nomes hi ha un no es necesari crear objectes ni res. Les dades es declaren de la seguent forma:
 `public static int edad = 18;`
-# Dinamiques
+## Dinamiques
 Les classes i dades que son dinamiques s'utilitzen a la programacio orientada a objectes de forma que cada objecte tindra les seves propies dades.
-# Herencia de classes
+## Herencia de classes
 A Java podem tenir una super clase com per exemple la clase Persona que te com a subclases Alumne i Profesor de forma que a persona tindriem nom, cognom i dni i a Alumne i Professor tindriem el mateix i a mes a mes les seves especifiques.
 
 A mes a mes tambe tindriem els metodes equals() per comparar les referencies de memoria.
@@ -54,8 +55,8 @@ Si volem sapiguer el nom de clase de un Objecte de una array podem utilitzar get
 
 ``String classe = animals[1].**getClass().getSimpleName()**;// classe = "Peix"
 
-# Abstractes
-## Classes
+## Abstractes
+### Classes
 Les clases abstractes s'utilitzen per a que no es puguin crear objectes d'aquest tipus de clase, es a dir si tenim Animal i com a subclase Peix i Ocell. Podem posar com a clase abstracta la clase Animal per a que no es puguin crear animals generics pero si que es podran crear animals que siguin subclases de Animal, es a dir, podriem crear Peixos pero no Animals.
 
 ``public abstract class Animal {  
@@ -63,7 +64,7 @@ Les clases abstractes s'utilitzen per a que no es puguin crear objectes d'aquest
 ``}
 
 Si tenim la clase animal d'aquesta forma es podran crear Peixos pero no en si Animals.
-## Funcions
+### Funcions
 Tambe igual que les classes podem tenir funcions abstractes, que son funcions que es declaren a les classes abstractes pero no s'els hi dona cap valor ni res del que han de fer, simplement es declaren, y despres a les subclases haurem de dir obligatoriament el que ha de fer.
 
 CLASSE:

@@ -1,3 +1,4 @@
+# Polimorfisme Java
 El polimorfisme consta en crear funcions mes especifiques depenent dels nostres objectes, es a dir, els peixo neden, i els mamifers caminen, per tant podem crear una funcio generica de Animal que sigui moure.
 
 ``public class Animal {  
