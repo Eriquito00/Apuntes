@@ -41,10 +41,12 @@ array
 ## Funcions
 NO retorna valor
 - crearem una funcio que contingui void, com aqui:
+
 	![](/Imatges/Pasted%20image%2020241209113824.png)
 
 retorna valor
 - li direm el tipus de valor que retorna com aqui:
+
 	![](/Imatges/Pasted%20image%2020241209114241.png)
 ## Precedència dels operadors
 Si no es posen parèntesis, les operacions s'executen en el següent ordre:
