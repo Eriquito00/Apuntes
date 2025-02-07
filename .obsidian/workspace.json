@@ -35,8 +35,7 @@
               "title": "Java"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,12 +183,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "088a9ae5e5a9c21f",
+  "active": "2f34000976cd4c86",
   "lastOpenFiles": [
-    "Programacio/Java/Fitxers Java.md",
     "Programacio/Java/Java.md",
-    "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Classes Java.md",
+    "Programacio/Java/Fitxers Java.md",
+    "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Tipus de dades Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
     "Programacio/Java/Comentaris Java.md",

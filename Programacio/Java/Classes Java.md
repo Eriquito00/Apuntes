@@ -38,7 +38,7 @@ Tambe en el seguent exemple podem veure com portar atributs de la classe mare a 
 
 `public class Peix extends Animal {  
 
-    ``int profunditat;
+    int profunditat;
   
     public Peix(String nom, int profunditat) {  
     
@@ -76,7 +76,7 @@ Les clases abstractes s'utilitzen per a que no es puguin crear objectes d'aquest
 
 ``public abstract class Animal {  
 
-    ``public abstract void moure();  
+    public abstract void moure();  
     
 ``}
 
@@ -88,7 +88,7 @@ CLASSE:
 
 ``public abstract class Animal{
 
-	``public abstract void moure();
+	public abstract void moure();
 	
 ``}
 
@@ -96,11 +96,11 @@ SUBCLASSE:
 
 ``public class Mamifer extends Animal {
 
-	``public void moure(){
+	public void moure(){
 	
-		``System.out.println("M'estic movent");
+		System.out.println("M'estic movent");
 
-	``}
+	}
 	
 ``}
 
