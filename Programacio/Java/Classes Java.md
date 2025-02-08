@@ -36,25 +36,19 @@ Classes filles
 
 Tambe en el seguent exemple podem veure com portar atributs de la classe mare a les classes filles. Podem veure qeu s'inicialitza un atribut directe per Peix com 'profunditat' i que tenim l'atribut 'nom' de la clase mare:
 
-`public class Peix extends Animal {  
-
+```Java
+public class Peix extends Animal {  
     int profunditat;
-  
     public Peix(String nom, int profunditat) {  
-    
         super(nom);
-        
         this.profunditat = profunditat;
-        
     }
-  
+
     public int getProfunditat() {
-    
-        return profunditat
-        
-    }
-    
-``}
+        return profunditat   
+    } 
+}
+```
 
 Ara si volem fer una array amb els objectes Animal no hi ha cap problema en afegir les subclases, per exemple si creem una array de la clase Animal podem afegir Peix i Mamifer i tots els que siguin fills de Animal.
 
@@ -74,11 +68,11 @@ Si volem sapiguer el nom de clase de un Objecte de una array podem utilitzar get
 ### Classes
 Les clases abstractes s'utilitzen per a que no es puguin crear objectes d'aquest tipus de clase, es a dir si tenim Animal i com a subclase Peix i Ocell. Podem posar com a clase abstracta la clase Animal per a que no es puguin crear animals generics pero si que es podran crear animals que siguin subclases de Animal, es a dir, podriem crear Peixos pero no Animals.
 
-``public abstract class Animal {  
-
-    public abstract void moure();  
-    
-``}
+```Java
+public abstract class Animal {  
+    public abstract void moure();      
+}
+```
 
 Si tenim la clase animal d'aquesta forma es podran crear Peixos pero no en si Animals.
 ### Funcions
@@ -86,22 +80,20 @@ Tambe igual que les classes podem tenir funcions abstractes, que son funcions qu
 
 CLASSE:
 
-``public abstract class Animal{
-
+```Java
+public abstract class Animal{
 	public abstract void moure();
-	
-``}
+}
+```
 
 SUBCLASSE:
 
-``public class Mamifer extends Animal {
-
+```Java
+public class Mamifer extends Animal {
 	public void moure(){
-	
 		System.out.println("M'estic movent");
-
 	}
-	
-``}
+}
+```
 
 D'aquesta manera directament podem fer una funcio que pertany a totes les subclasses pero que sigui personalitzada per cadascuna.

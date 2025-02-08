@@ -71,7 +71,9 @@ Aquestes funcions necessiten un o dos paràmetres i retornen un resultat:
 ```javascript
 // Enter aleatori entre 'min' i 'max', tots dos inclosos
 let n = Math.floor((Math.random() * (max - min + 1) + min));
+```
 
+```JavaScript
 // Real aleatori des de 'min' fins a 'max' (aquest últim no inclòs)
 let d = Math.random() * (max - min) + min;
 ```

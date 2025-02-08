@@ -11,10 +11,14 @@
             "id": "8c491a2f0658dded",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programacio/Java/Polimorfisme Java.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Polimorfisme Java"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -156,27 +160,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "8c491a2f0658dded",
   "lastOpenFiles": [
+    "Programacio/Java/Classes Java.md",
+    "Programacio/Java/Entrada i Sortida de dades Java.md",
+    "Programacio/JavaScript/Metodes JavaScript.md",
+    "Programacio/JavaScript/Condicionals JavaScript.md",
+    "Programacio/JavaScript/JavaScript.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Programacio/Java/Fitxers Java.md",
     "Programacio/Java/Fitxers/Llibreria System Java.md",
     "Programacio/Java/Fitxers/Llibreria File Java.md",
     "Llibreria SimpleDateFormat.md",
     "Programacio/Java/Java.md",
-    "Programacio/Java/Classes Java.md",
     "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Tipus de dades Java.md",
-    "Programacio/Java/Entrada i Sortida de dades Java.md",
     "Programacio/Java/Comentaris Java.md",
     "Programacio/Java/Clases i funcions Java.md",
     "Fitxers/Llibreria File Java.md",
@@ -187,13 +194,10 @@
     "Programacio/JavaScript/Tipus de dades JavaScript.md",
     "Programacio/JavaScript/Operadors JavaScript.md",
     "Programacio/JavaScript/Modularitat JavaScript.md",
-    "Programacio/JavaScript/Metodes JavaScript.md",
     "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
     "Programacio/JavaScript/Deteccio d'errors JavaScript.md",
-    "Programacio/JavaScript/Condicionals JavaScript.md",
     "Programacio/JavaScript/Comentaris i Introduir dades JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
-    "Programacio/JavaScript/JavaScript.md",
     "Imatges/Pasted image 20240930093850.png",
     "Imatges/Pasted image 20240930094943.png",
     "Hardware"
