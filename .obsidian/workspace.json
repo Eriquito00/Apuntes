@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f8a86ce8d7af5416",
+        "id": "87e68468016feee0",
         "type": "tabs",
         "children": [
           {
-            "id": "8c491a2f0658dded",
+            "id": "08ceb358e63b4b1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programacio/Java/Polimorfisme Java.md",
+                "file": "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Polimorfisme Java"
+              "title": "Llibreria apache commons Java"
             }
           }
         ]
@@ -169,8 +169,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8c491a2f0658dded",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Imatges/Pasted image 20250209192225.png",
+    "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Classes Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
     "Programacio/JavaScript/Metodes JavaScript.md",
@@ -182,7 +184,6 @@
     "Programacio/Java/Fitxers/Llibreria File Java.md",
     "Llibreria SimpleDateFormat.md",
     "Programacio/Java/Java.md",
-    "Programacio/Java/Polimorfisme Java.md",
     "Programacio/Java/Tipus de dades Java.md",
     "Programacio/Java/Comentaris Java.md",
     "Programacio/Java/Clases i funcions Java.md",
@@ -197,7 +198,6 @@
     "Programacio/JavaScript/Estructures de repeticio JavaScript.md",
     "Programacio/JavaScript/Deteccio d'errors JavaScript.md",
     "Programacio/JavaScript/Comentaris i Introduir dades JavaScript.md",
-    "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Imatges/Pasted image 20240930093850.png",
     "Imatges/Pasted image 20240930094943.png",
     "Hardware"
