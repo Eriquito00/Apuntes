@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"a5024928615d5e93","x":120,"y":-220,"width":400,"height":400,"type":"file","file":"Programacio/Java/Fitxers/Llibreria apache commons Java.md"},
+		{"id":"55bebeb075a94daf","x":-580,"y":-260,"width":400,"height":269,"type":"file","file":"Imatges/Pasted image 20250209192516.png"},
+		{"id":"db1f98af136ff516","x":-460,"y":100,"width":250,"height":340,"type":"text","text":"dwadwadha"}
+	],
+	"edges":[
+		{"id":"5b85cac7242ae3d1","fromNode":"a5024928615d5e93","fromSide":"left","toNode":"55bebeb075a94daf","toSide":"right"},
+		{"id":"5d1a600260ada16b","fromNode":"db1f98af136ff516","fromSide":"right","toNode":"a5024928615d5e93","toSide":"bottom"}
+	]
+}
