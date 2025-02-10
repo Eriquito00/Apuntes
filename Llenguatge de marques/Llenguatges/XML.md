@@ -20,6 +20,16 @@ Aqui es pot veure que la estructura es de etiquetes dins d'etiquetes segons les 
 ## Tipus de validadors per XML
 Principalment com a validadors de XML tenim un mes antic que es DTD i altre mes actual que es XSD. Aqui podem anar a veure quina sintaxi i com podem utilitzar cadascun.
 
-[DTD](./DTD.md)
+[DTD](Validadors%20XML/DTD.md)
 
-[XSD](./XSD.md)
+[XSD](Validadors%20XML/XSD.md)
+
+### Diferencies entre DTD i XSD
+
+| Característica     | DTD                         | XSD                                          |
+| ------------------ | --------------------------- | -------------------------------------------- |
+| **Sintaxi**        | No és XML                   | És XML                                       |
+| **Tipus de dades** | Només text (`#PCDATA`)      | `string`, `integer`, `boolean`, `date`, etc. |
+| **Restriccions**   | Limitades                   | Avançades (mida, patrons, rangs)             |
+| **Espais de noms** | No suportats                | Suport per `xmlns`                           |
+| **Compatibilitat** | Documents senzills o antics | Estructures modernes i complexes             |

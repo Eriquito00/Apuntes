@@ -4,7 +4,3 @@
 [CSS](./Llenguatges/CSS.md)
 
 [XML](./Llenguatges/XML.md)
-
-[DTD](./Llenguatges/DTD.md)
-
-[XSD](./Llenguatges/XSD.md)
