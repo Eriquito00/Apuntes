@@ -9,6 +9,7 @@ CREATE:
 
 	TABLE:
 	- Tambe podem afegir les columnes a la taula nomes crearla de forma que ja quedi una taula estructurada desde un inici.
+	
 	![](/Imatges/Pasted%20image%2020250113182814.png)
 
 	VIEW:
