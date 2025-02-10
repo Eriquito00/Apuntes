@@ -171,10 +171,12 @@
   },
   "active": "e220d11ad5d984dc",
   "lastOpenFiles": [
-    "Bases de dades/SQL/MySQL.md",
+    "Bases de dades/ER i Relacional/Model relacional.md",
     "Bases de dades/Introduccio a les bases de dades.md",
+    "Bases de dades/ER i Relacional/Exercicis Entitat Relacio.md",
     "Bases de dades/ER i Relacional/Entitat Relacio.md",
     "Bases de dades/Historia/Historia.md",
+    "Bases de dades/SQL/MySQL.md",
     "Historia/Historia/Historia.md",
     "Historia/Historia",
     "Historia",
@@ -209,8 +211,6 @@
     "Programacio/JavaScript/Condicionals JavaScript.md",
     "Programacio/JavaScript/JavaScript.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
-    "Programacio/Java/Fitxers Java.md",
-    "Llibreria SimpleDateFormat.md",
     "Fitxers",
     "Hardware"
   ]

@@ -1,3 +1,4 @@
+# Entitat Relacio
 ## Entitat
 Una **entitat** és qualsevol objecte o concepte del món real que pot ser identificat de manera única i sobre el qual es vol emmagatzemar informació en una base de dades. Sempre es posa en majuscula y en singular.
 ## Entitat Feble
@@ -40,4 +41,5 @@ La forma que s'utilitza i la foma clasica
 ## Entitat asociativa
 ![[Pasted image 20241017122320.png]]
 Una entitat asociativa es quan dues entitats relacionades es "transformen" en una entitat mes gran per donar mes sentit a una relacio. Per exemple un client te un prestec d'una casa i la relacio empleat es relaciona amb un empleat PERO el mateix client pot tenir un prestec tambe del seu coche amb un altre empleat.
-[[Exercicis Entitat Relacio]]
+
+[Exercicis Entitat Relacio](./Exercicis%20Entitat%20Relacio.md)
