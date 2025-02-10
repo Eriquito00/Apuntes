@@ -1,3 +1,4 @@
+# Funcions MySQL
 - CONCAT(text,text,text...): Retorna un String amb tots els textos que he introduit.
 - LENGTH(text): Retorna la longitud del String.
 - LOWER(text) i LCASE(text): Retorna el String en minuscules.
@@ -33,28 +34,39 @@
 ## Funcions MySQL
 ### IS NULL o NOT NULL
 - SOBRETOT si volem comprovar NULL o NOT NULL utilitzarem IS no '='. 
+
 	![[Pasted image 20250123113619.png]]
 
 ### BETWEEN
 - A mes a mes tambe podem utilitzar rangs amb BETWEEN, en els quals tant el inicial com el final estan inclosos, igual que NULL podem utilitzar NOT BETWEEN que no incluira ni el minim ni maxim.
+
 	![[Pasted image 20250123113723.png]]
+
 ### IN
 - Tambe podem utilitzar IN per dir que ens retornin el que estan exactament en aquest valor.
+
 	![[Pasted image 20250123113940.png]]
+
 - Si volem un missatge quan hi hagi un NULL a una columna podem utilitzar IFNULL().
 	![[Pasted image 20250123114428.png]]
+
 ### LIKE i RLIKE
 - Si volem fer una cerca d'un patro, com un regex, podem utilitzar LIKE. Podria ser que depenent com tenim configurada la base de dades ens mostrara els valors que començen per la lletra o nomes els que comencin per la lletra MAJUSCULA o minuscula. Tambe tenim RLIKE per regular expresions.
 	![[Pasted image 20250123114613.png]]
 	![[Pasted image 20250123115116.png]]
 ## CASE
-- Una altre funcio que podem utilitzar es una semblant a fer un if que es CASE. Amb els diferents WHEN que serien els respectius else if y el ultim que es ELSE, aquesta sentencia finalitza amb END AS (nom del camp). A mes a mes tambe es pot utilitzar mes com un switch com en el seguent exemple
+- Una altre funcio que podem utilitzar es una semblant a fer un if que es CASE. Amb els diferents WHEN que serien els respectius else if y el ultim que es ELSE, aquesta sentencia finalitza amb END AS (nom del camp). A mes a mes tambe es pot utilitzar mes com un switch com en el seguent exemple:
+
 	![[Pasted image 20250129205312.png]]
+
 	![[Pasted image 20250130115338.png]]
+
 ## Funcions fetes a MySQL
 ### Formata un string amb un format primera majuscula y resta minuscula
 - A MySql no tenim una funcio per crear una columna amb la primera en majuscula y la resta en minuscula pero podem utilitzar aquesta funcio,  'CONCAT(UPPER(LEFT(nom,1)),LOWER(SUBSTRING(nom,1)))'.
 	![[Pasted image 20250123122537.png]]
+
 ### Random entre 2 numeros
 - A MySql tampoc podem fer un random entre un numero i un altre, pero podem utilitzar la seguent funcio, RAND() \* (max - min + 1).
+
 	![[Pasted image 20250123144034.png]]

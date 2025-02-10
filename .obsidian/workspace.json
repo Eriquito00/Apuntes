@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "9b9e70838cb14bf3",
+        "id": "38d1786ed1ea050d",
         "type": "tabs",
         "children": [
           {
-            "id": "fe2e37fb147d764d",
+            "id": "bcced95c684dd681",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de dades/Introduccio a les bases de dades.md",
+                "file": "Bases de dades/SQL/MySQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduccio a les bases de dades"
+              "title": "MySQL"
+            }
+          },
+          {
+            "id": "9ae4a67b85f40c7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SQL/MySQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MySQL"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,20 +184,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fe2e37fb147d764d",
+  "active": "9ae4a67b85f40c7e",
   "lastOpenFiles": [
-    "Bases de dades/ER i Relacional/Model relacional.md",
+    "Bases de dades/SQL/Funcions MySQL.md",
+    "Bases de dades/SQL/DML MySQL.md",
+    "Bases de dades/SQL/DDL MySQL.md",
+    "Bases de dades/SQL/Dades MySQL.md",
+    "Bases de dades/SQL/MySQL.md",
+    "Bases de dades/SQL/Exercicis/Exercicis MySQL.md",
+    "Dades MySQL.md",
     "Bases de dades/Introduccio a les bases de dades.md",
-    "Bases de dades/ER i Relacional/Entitat Relacio.md",
+    "Bases de dades/Historia/Historia.md",
+    "Bases de dades/ER i Relacional/Model relacional.md",
     "Bases de dades/ER i Relacional/Exercicis Entitat Relacio.md",
+    "Bases de dades/ER i Relacional/Entitat Relacio.md",
     "![](/Imatges/Pasted%20image%2020241003110453.png).md",
     "![](/Imatges",
     "![](",
-    "Bases de dades/Historia/Historia.md",
     "Imatges/Pasted image.md",
     "Imatges.md",
     "Programacio/JavaScript/Comentaris i Introduir dades JavaScript.md",
-    "Bases de dades/SQL/MySQL.md",
     "Historia/Historia/Historia.md",
     "Historia/Historia",
     "Historia",
@@ -198,9 +219,6 @@
     "Programacio/Java/Fitxers/Llibreria File Java.md",
     "Programacio/Java/Java.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
-    "InsertarImagen.md.md",
-    "Pasted image 20241008093513.md",
-    "Pasted image 20241003101042.md",
     "Imatges/Pasted Image 20240918113759_391.png",
     "Imatges/Pasted image 20240923084131.png",
     "Imatges/Pasted image 20250209192225.png",
@@ -209,10 +227,7 @@
     "Imatges/Pasted image 20240920085246.png",
     "Imatges/{E1DD1D3C-9F78-4924-B1F8-1BEC7FF16880}.png",
     "Imatges/Pasted image 20241018085308.png",
-    "09-02-2025.md",
     "Sin título.canvas",
-    "Programacio/Java/Polimorfisme Java.md",
-    "Programacio/Java/Entrada i Sortida de dades Java.md",
     "Fitxers",
     "Hardware"
   ]
