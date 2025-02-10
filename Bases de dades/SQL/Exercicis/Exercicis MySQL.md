@@ -1,1 +1,3 @@
-[[rrhh]]
+# Exercicis MySQL
+
+[rrhh](./rrhh.md)

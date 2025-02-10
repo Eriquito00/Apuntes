@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de dades/SQL/DDL MySQL.md",
+                "file": "Bases de dades/SQL/Exercicis/rrhh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DDL MySQL"
+              "title": "rrhh"
             }
           }
         ],
@@ -186,12 +186,13 @@
   },
   "active": "e9bf7262f7a50f27",
   "lastOpenFiles": [
+    "Bases de dades/SQL/Exercicis/Exercicis MySQL.md",
+    "Bases de dades/SQL/Exercicis/rrhh.md",
+    "Bases de dades/SQL/DDL MySQL.md",
     "Bases de dades/SQL/MySQL.md",
     "Bases de dades/SQL/Funcions MySQL.md",
     "Bases de dades/SQL/DML MySQL.md",
-    "Bases de dades/SQL/DDL MySQL.md",
     "Bases de dades/SQL/Dades MySQL.md",
-    "Bases de dades/SQL/Exercicis/Exercicis MySQL.md",
     "Dades MySQL.md",
     "Bases de dades/Introduccio a les bases de dades.md",
     "Bases de dades/Historia/Historia.md",
@@ -218,7 +219,6 @@
     "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
     "Programacio/Java/Fitxers/Llibreria File Java.md",
     "Programacio/Java/Java.md",
-    "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Imatges/Pasted Image 20240918113759_391.png",
     "Imatges/Pasted image 20240923084131.png",
     "Imatges/Pasted image 20250209192225.png",

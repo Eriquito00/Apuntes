@@ -1,5 +1,6 @@
-# 1.2 Base de dades Recursos Humans (RRHH)
-## 1.2.3 Consultes sobre una taula amb funcions
+# RRHH
+## 1.2 Base de dades Recursos Humans (RRHH)
+### 1.2.3 Consultes sobre una taula amb funcions
 
 1. Llista totes les columnes de la taula empleats.
 ```mysql
@@ -196,7 +197,7 @@ SELECT COUNT(empleat_id) AS SenseComissio
 WHERE pct_comissio IS NULL;
 ```
 
-## 1.2.4 Consultes sobre una taula utilitzant agrupaments
+### 1.2.4 Consultes sobre una taula utilitzant agrupaments
 
 1. Quants empleats van ser contractats l'any passat.
 ```mysql
@@ -318,7 +319,7 @@ SELECT COUNT(empleat_id) AS cobra_mucho
 WHERE salari > 9000;
 ```
 
-## 1.2.5 Consultes multitaula (JOINs)
+### 1.2.5 Consultes multitaula (JOINs)
 
 18. Calcula el nombre d' empleats que treballen en cadascun dels departaments. El resultat d' aquesta consulta també ha d' incloure aquells departaments que no tenen cap empleat associat.
 19. ----Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú.
@@ -340,27 +341,27 @@ WHERE salari > 9000;
 34. Retorna un llistat amb els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
 
 
-## 1.2.6 Subconsultes
+### 1.2.6 Subconsultes
 
-### 1.2.6.1 Amb operadors bàsics de comparació
+#### 1.2.6.1 Amb operadors bàsics de comparació
 
 35. Retorna un llistat amb tots els empleats que té el departament de Sistemes. (Sense utilitzar INNER JOIN).
 36. Retorna el nom del departament amb major pressupost i la quantitat que té assignada.
 37. Retorna el nom del departament amb menor pressupost i la quantitat que té assignada.
 
-### 1.2.6.2 Subconsultes amb ALL i ANY
+#### 1.2.6.2 Subconsultes amb ALL i ANY
 
 38. Retorna el nom del departament amb major pressupost i la quantitat que té assignada. Sense fer ús de MAX, ORDER BY ni LIMIT.
 39. Retorna el nom del departament amb menor pressupost i la quantitat que té assignada. Sense fer ús de MIN, ORDER BY ni LIMIT.
 40. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant ALL o ANY).
 41. Retorna els noms dels departaments que no tenen empleats associats. (Utilitzant ALL o ANY).
 
-### 1.2.6.3 Subconsultes amb IN i NOT IN
+#### 1.2.6.3 Subconsultes amb IN i NOT IN
 
 42. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant IN o NOT IN).
 43. Retorna els noms dels departaments que no tenen empleats associats. (Utilitzant IN o NOT IN).
 
-### 1.2.6.4 Subconsultes amb EXISTS i NOT EXISTS
+#### 1.2.6.4 Subconsultes amb EXISTS i NOT EXISTS
 
 44. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
 45. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
