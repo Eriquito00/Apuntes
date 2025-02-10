@@ -2,9 +2,9 @@
 Les dades a MySQL es poden declarar y crear les columnes d'una taula, tambe crear les Primary Key, Foreign Key, Constraint, Referencies... Per explicar agafarem inicialment aquesta taula.
 ## Creacio i modificacio de taules
 
-![[Pasted image 20250113182905.png]]
+![](/Imatges/Pasted%20image%2020250113182905.png)
 
-![[Pasted image 20250113195834.png]]
+![](/Imatges/Pasted%20image%2020250113195834.png)
 
 Entre altres coses d'aquesta taula podem veure algunes caracteristiques sobre algunes columnes de la taula. Com UNSIGNED, NOT NULL o AUTO_INCREMENT, aqui podem veure per a que serveix cadascun:
 

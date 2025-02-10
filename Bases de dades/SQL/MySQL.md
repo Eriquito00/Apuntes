@@ -10,6 +10,7 @@
 [Exercicis MySQL](./Exercicis/Exercicis%20MySQL.md)
 # Contrasenya😳
 root:
-p@st@n@g@
+- p@st@n@g@
+
 pere pi:
-pastanaga
+- pastanaga
