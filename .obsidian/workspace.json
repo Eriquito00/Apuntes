@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "900068d1d1a77942",
+        "id": "08b3ed4c9261652d",
         "type": "tabs",
         "children": [
           {
-            "id": "46bb74564f4f4122",
+            "id": "e220d11ad5d984dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/Introduccio a les bases de dades.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Introduccio a les bases de dades"
             }
           }
         ]
@@ -162,12 +166,30 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "daily-notes:Abrir la nota de hoy": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "e220d11ad5d984dc",
   "lastOpenFiles": [
+    "Bases de dades/SQL/MySQL.md",
+    "Bases de dades/Introduccio a les bases de dades.md",
+    "Bases de dades/ER i Relacional/Entitat Relacio.md",
+    "Bases de dades/Historia/Historia.md",
+    "Historia/Historia/Historia.md",
+    "Historia/Historia",
+    "Historia",
+    "Bases de dades/Historia",
+    "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
+    "Imatges/Pasted image 20250210163438.png",
+    "Imatges/Pasted image 20250210163057.png",
+    "README.md",
+    "Programacio/Java/Classes Java.md",
+    "Programacio/Java/Comentaris Java.md",
+    "Programacio/Java/Fitxers/Llibreria System Java.md",
+    "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
+    "Programacio/Java/Fitxers/Llibreria File Java.md",
+    "Programacio/Java/Java.md",
+    "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "InsertarImagen.md.md",
     "Pasted image 20241008093513.md",
     "Pasted image 20241003101042.md",
@@ -178,34 +200,18 @@
     "Imatges/Pasted image 20250115183220.png",
     "Imatges/Pasted image 20240920085246.png",
     "Imatges/{E1DD1D3C-9F78-4924-B1F8-1BEC7FF16880}.png",
-    "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
     "Imatges/Pasted image 20241018085308.png",
-    "Imatges/Pasted image 20240926104736.png",
-    "Imatges/Pasted image 20241018082916.png",
     "09-02-2025.md",
     "Sin título.canvas",
-    "Programacio/Java/Fitxers/Llibreria File Java.md",
     "Programacio/Java/Polimorfisme Java.md",
-    "Programacio/Java/Classes Java.md",
     "Programacio/Java/Entrada i Sortida de dades Java.md",
     "Programacio/JavaScript/Metodes JavaScript.md",
     "Programacio/JavaScript/Condicionals JavaScript.md",
     "Programacio/JavaScript/JavaScript.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
     "Programacio/Java/Fitxers Java.md",
-    "Programacio/Java/Fitxers/Llibreria System Java.md",
     "Llibreria SimpleDateFormat.md",
-    "Programacio/Java/Java.md",
-    "Programacio/Java/Tipus de dades Java.md",
-    "Programacio/Java/Comentaris Java.md",
-    "Programacio/Java/Clases i funcions Java.md",
-    "Fitxers/Llibreria File Java.md",
     "Fitxers",
-    "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
-    "Programacio/Java/Objectes Java.md",
-    "Programacio/JavaScript/Tipus de dades JavaScript.md",
-    "Programacio/JavaScript/Operadors JavaScript.md",
-    "Programacio/JavaScript/Modularitat JavaScript.md",
     "Hardware"
   ]
 }

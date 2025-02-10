@@ -1,8 +1,8 @@
 # Introduccio a les bases de dades
-[Entitat Relacio](Entitat%20Relacio.md)
+[Historia](./Historia/Historia.md)
 
-[Model relacional](Model%20relacional.md)
+[Entitat Relacio](./ER%20i%20Relacional/Entitat%20Relacio.md)
 
-[MySQL](MySQL.md)
+[Model relacional](./ER%20i%20Relacional/Model%20relacional.md)
 
-[Historia](Historia.md)
+[MySQL](./SQL/MySQL.md)
