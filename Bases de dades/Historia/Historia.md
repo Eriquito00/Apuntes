@@ -27,7 +27,9 @@ Aspirants: Bones funcionalitats pero no arriben a líders.
 Visionaris: Tenen habilitat per anticipar-se pero no tenen plataforma solida.
 Nínxols específics: Enfocats en determinades áreas de les tecnologies.
 Exemples com AWS i MongoDB han evolucionat en aquest quadrant, adaptant-se i millorant les seves capacitats.
+
 ![[Pasted image 20241127164756.png]]
+
 #### Sistema d’Informació:
 Conjunt d'elements relacionats entre si d’acord a certes regles que aporten a l'organització la informació necessària per a l’acompliment dels seus propòsits.
 #### Distribucio de BBDD
@@ -41,7 +43,9 @@ S’inventen les cintes magnètiques, aquestes només es poden llegir de forma s
 Les cintes emmagatzemaven fitxers amb registres que es processaven seqüencialment juntament amb fitxers de moviments per generar nous fitxers actualitzats.
 
 Això era conegut com a la generació zero dels sistemes de base de dades, ja que llavors no existia ni el concepte de base de dades.
+
 ![[Pasted image 20241127165109.png]]
+
 ***
 ## Decada dels 60
 El 1961 Charles Bachman va dissenyar el primer SGBD generalitzat.
@@ -51,11 +55,15 @@ CAP:
 C: Consistencia.
 A: Disponibilitat.
 P: Tolerancia a Particions.
+
 ![[Pasted image 20241209172322.png]]
+
 Gracies a això al 1969 es concep el primer model de BBDD conegut com CODASYL i posteriorment el va desenvolupar IBM.
 
 Van apareixer les bases de dades jerarquiques i en xarxa:
+
 ![[Pasted image 20241127165354.png]]
+
 ***
 ## Decada dels 70
 Edgar Frank Codd en la década de los 70s creo el modelo relacional.
@@ -75,13 +83,19 @@ IBM crea el llenguatge SQL durant la dècada dels 80s, concretament a l’any 19
 ***
 ## Anys 90:
 Al final de la década de los 90s IBM y ORACLE crearon las bases de datos orientadas a objetos (ODBMS).
-***
+
 ![[Pasted image 20241209171518.png]]
+
 ***
 ## Personatges importants
 Charles Bachman: dissenyador del primer SGBD generalitzat.
+
 ![[Pasted image 20241209173016.png]]
+
 Edgar Frank "Ted" Codd: creador del model relacional.
+
 ![[Pasted image 20241209173036.png]]
+
 Peter Chen: creador del model Entitat-Relacio.
+
 ![[Pasted image 20241209173052.png]]
