@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9d0090558b7792be",
+        "id": "b5c566ae41dd7c82",
         "type": "tabs",
         "children": [
           {
-            "id": "4ab78634822a2a49",
+            "id": "cf1b4e22bf9a6dba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Llenguatge de marques/Llenguatges/XML.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "XML"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.51103591918945,
-    "collapsed": true
+    "width": 271.51103591918945
   },
   "right": {
     "id": "9565c7424373b453",
@@ -166,8 +169,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4ab78634822a2a49",
+  "active": "cf1b4e22bf9a6dba",
   "lastOpenFiles": [
+    "Llenguatge de marques/Llenguatges/CSS.md",
+    "Llenguatge de marques/Llenguatges/XSD.md",
+    "Llenguatge de marques/Llenguatges/DTD.md",
+    "Llenguatge de marques/Llenguatges/XML.md",
+    "Llenguatge de marques/Llenguatges/HTML.md",
+    "Llenguatge de marques/Llenguatges",
+    "Llenguatge de marques/Introduccio a llenguatges de marques.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Bases de dades/Introduccio a les bases de dades.md",
+    "Programacio/Introduccio a la programacio.md",
+    "Programacio/Tipus de llenguatges.md",
+    "Llenguatge de marques",
     "Imatges/Pasted image.md",
     "Bases de dades/SQL/MySQL.md",
     "Bases de dades/SQL/Exercicis/rrhh.md",
@@ -177,7 +192,6 @@
     "Bases de dades/SQL/DML MySQL.md",
     "Bases de dades/SQL/Dades MySQL.md",
     "Dades MySQL.md",
-    "Bases de dades/Introduccio a les bases de dades.md",
     "Bases de dades/Historia/Historia.md",
     "Bases de dades/ER i Relacional/Model relacional.md",
     "Bases de dades/ER i Relacional/Exercicis Entitat Relacio.md",
@@ -187,20 +201,11 @@
     "![](",
     "Imatges.md",
     "Programacio/JavaScript/Comentaris i Introduir dades JavaScript.md",
-    "Historia/Historia/Historia.md",
     "Historia/Historia",
     "Historia",
     "Bases de dades/Historia",
-    "Programacio/Java/Fitxers/Llibreria apache commons Java.md",
     "Imatges/Pasted image 20250210163438.png",
     "Imatges/Pasted image 20250210163057.png",
-    "README.md",
-    "Programacio/Java/Classes Java.md",
-    "Programacio/Java/Comentaris Java.md",
-    "Programacio/Java/Fitxers/Llibreria System Java.md",
-    "Programacio/Java/Fitxers/Llibreria SimpleDateFormat.md",
-    "Programacio/Java/Fitxers/Llibreria File Java.md",
-    "Programacio/Java/Java.md",
     "Imatges/Pasted Image 20240918113759_391.png",
     "Imatges/Pasted image 20240923084131.png",
     "Imatges/Pasted image 20250209192225.png",
