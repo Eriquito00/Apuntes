@@ -28,7 +28,7 @@ Visionaris: Tenen habilitat per anticipar-se pero no tenen plataforma solida.
 Nínxols específics: Enfocats en determinades áreas de les tecnologies.
 Exemples com AWS i MongoDB han evolucionat en aquest quadrant, adaptant-se i millorant les seves capacitats.
 
-![[Pasted image 20241127164756.png]]
+![Pasted image 20241127164756.png](/Imatges/Pasted%20image%2020241127164756.png)
 
 #### Sistema d’Informació:
 Conjunt d'elements relacionats entre si d’acord a certes regles que aporten a l'organització la informació necessària per a l’acompliment dels seus propòsits.
@@ -44,7 +44,7 @@ Les cintes emmagatzemaven fitxers amb registres que es processaven seqüencialme
 
 Això era conegut com a la generació zero dels sistemes de base de dades, ja que llavors no existia ni el concepte de base de dades.
 
-![[Pasted image 20241127165109.png]]
+![Pasted image 20241127165109.png](/Imatges/Pasted%20image%2020241127165109.png)
 
 ***
 ## Decada dels 60
@@ -56,13 +56,13 @@ C: Consistencia.
 A: Disponibilitat.
 P: Tolerancia a Particions.
 
-![[Pasted image 20241209172322.png]]
+![Pasted image 20241209172322.png](/Imatges/Pasted%20image%2020241209172322.png)
 
 Gracies a això al 1969 es concep el primer model de BBDD conegut com CODASYL i posteriorment el va desenvolupar IBM.
 
 Van apareixer les bases de dades jerarquiques i en xarxa:
 
-![[Pasted image 20241127165354.png]]
+![Pasted image 20241127165354.png](/Imatges/Pasted%20image%2020241127165354.png)
 
 ***
 ## Decada dels 70
@@ -84,18 +84,18 @@ IBM crea el llenguatge SQL durant la dècada dels 80s, concretament a l’any 19
 ## Anys 90:
 Al final de la década de los 90s IBM y ORACLE crearon las bases de datos orientadas a objetos (ODBMS).
 
-![[Pasted image 20241209171518.png]]
+![Pasted image 20241209171518.png](/Imatges/Pasted%20image%2020241209171518.png)
 
 ***
 ## Personatges importants
 Charles Bachman: dissenyador del primer SGBD generalitzat.
 
-![[Pasted image 20241209173016.png]]
+![Pasted image 20241209173016.png](/Imatges/Pasted%20image%2020241209173016.png)
 
 Edgar Frank "Ted" Codd: creador del model relacional.
 
-![[Pasted image 20241209173036.png]]
+![Pasted image 20241209173036.png](/Imatges/Pasted%20image%2020241209173036.png)
 
 Peter Chen: creador del model Entitat-Relacio.
 
-![[Pasted image 20241209173052.png]]
+![Pasted image 20241209173052.png](/Imatges/Pasted%20image%2020241209173052.png)
