@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "46131110a4a64abf",
+        "id": "ce2b04bff23a2e4e",
         "type": "tabs",
         "children": [
           {
-            "id": "1fa56788ee053655",
+            "id": "06993c612dd20127",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "06993c612dd20127",
   "lastOpenFiles": [
+    "Bases de dades/SQL/DML MySQL.md",
+    "Bases de dades/SQL/Funcions MySQL.md",
+    "Bases de dades/SQL/Dades MySQL.md",
     "Bases de dades/SQL/Exercicis/rrhh.md",
     "Bases de dades/SQL/Exercicis/BBDD/bbdd_rrhh.sql",
     "Bases de dades/SQL/Exercicis/BBDD/bbdd_rrhh.txt",
@@ -193,9 +196,6 @@
     "Imatges/Pasted image.md",
     "Bases de dades/SQL/MySQL.md",
     "Bases de dades/SQL/DDL MySQL.md",
-    "Bases de dades/SQL/Funcions MySQL.md",
-    "Bases de dades/SQL/DML MySQL.md",
-    "Bases de dades/SQL/Dades MySQL.md",
     "Dades MySQL.md",
     "Bases de dades/Historia/Historia.md",
     "Bases de dades/ER i Relacional/Model relacional.md",
