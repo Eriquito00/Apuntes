@@ -1,5 +1,6 @@
 # RRHH
 ## 1.2 Base de dades Recursos Humans (RRHH)
+Aqui tens la [Base de dades de RRHH](./BBDD/bbdd_rrhh.sql)
 ### 1.2.3 Consultes sobre una taula amb funcions
 
 1. Llista totes les columnes de la taula empleats.
