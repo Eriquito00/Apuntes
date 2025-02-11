@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eabd83e80800cd3c",
+        "id": "c6e166b8929cd579",
         "type": "tabs",
         "children": [
           {
-            "id": "7d4b7529b7138358",
+            "id": "37f07389486ce68a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandas Windows PowerShell.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Comandas Windows PowerShell"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.51103591918945
+    "width": 271.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -156,19 +161,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "daily-notes:Abrir la nota de hoy": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7d4b7529b7138358",
+  "active": "37f07389486ce68a",
   "lastOpenFiles": [
-    "Llenguatge de marques/Llenguatges/XML.md",
     "Llenguatge de marques/Introduccio a llenguatge de marques.md",
+    "Llenguatge de marques/Llenguatges/XML.md",
     "Llenguatge de marques/Llenguatges/Validadors XML/DTD.md",
     "Llenguatge de marques/Llenguatges/Validadors XML/XSD.md",
     "Llenguatge de marques/Llenguatges/Validadors XML",
