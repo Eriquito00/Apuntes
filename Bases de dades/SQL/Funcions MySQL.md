@@ -16,6 +16,7 @@
 - REPLACE(text, from, to): Retorna el string text reemplaçant les ocurrències del string from per el string to.
 - REVERSE(text): Retorna string text amb l'orde dels caràcters en format invers.
 - IFNULL(camp, substitucio): Comprova si el valor es NULL i si es NULL posa el valor que substitueix.
+- CAST(): s'utilitza per cambiar un tipus de dada a un altre, per exemple de "UNSIGNED" a "SIGNED".
 ## Funcions de dates
 - YEAR(camp): Agafa l'any d'una data.
 - MONTH(camp): Agafa el mes d'una data.
@@ -30,6 +31,7 @@
 - MIN(): Diu el minim d'unes dades que compleixen certes condicions.
 - AVG(): Calcula la mitjana d'algunes dades.
 - STD(): Calcula la mitja de dispersio comu, basicament les dades quant mes s'apropin a la mitjana millor.
+- ABS(): Retorna el numero absolut, eliminant qualsevol numero negatiu.
 
 ## Funcions MySQL
 ### IS NULL o NOT NULL
