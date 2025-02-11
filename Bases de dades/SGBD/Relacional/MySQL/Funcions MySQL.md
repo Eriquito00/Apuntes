@@ -16,7 +16,7 @@
 - REPLACE(text, from, to): Retorna el string text reemplaçant les ocurrències del string from per el string to.
 - REVERSE(text): Retorna string text amb l'orde dels caràcters en format invers.
 - IFNULL(camp, substitucio): Comprova si el valor es NULL i si es NULL posa el valor que substitueix.
-- CAST(): s'utilitza per cambiar un tipus de dada a un altre, per exemple de "UNSIGNED" a "SIGNED".
+- CAST(camp AS ...): s'utilitza per cambiar un tipus de dada a un altre, per exemple de "UNSIGNED" a "SIGNED".
 ## Funcions de dates
 - YEAR(camp): Agafa l'any d'una data.
 - MONTH(camp): Agafa el mes d'una data.
@@ -24,7 +24,7 @@
 - CURDATE(): Obte la data del dia actual.
 - NOW(): Obte la data Y HORA del dia y hora actuals.
 - DATE_FORMAT(camp, estructura): A partir del camp, extreu segons el que demanem, %Y (any), %m (mes numeric) i %d (dia numeric).
-- TIMESTAMPDIFF(volem, camp,camp): Es pot utilitzar per obtenir, dia, mes o any, restant el primer camp amb el segon camp.
+- TIMESTAMPDIFF(volem, camp, camp): Es pot utilitzar per obtenir, dia, mes o any, restant el primer camp amb el segon camp.
 ## Funcions de calcul
 - COUNT(): Conta quants compleixen certes condicions.
 - MAX(): Diu el maxim d'unes dades que compleixen certes condicions.

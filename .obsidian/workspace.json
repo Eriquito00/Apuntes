@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "739db2901a92732e",
+        "id": "e271fe020091e7ee",
         "type": "tabs",
         "children": [
           {
-            "id": "5ebc9737188f16f8",
+            "id": "7c450d376746a760",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5ebc9737188f16f8",
+  "active": "7c450d376746a760",
   "lastOpenFiles": [
+    "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Dades MySQL.md",
+    "Imatges/Pasted image 20250211151602.png",
+    "Imatges/Pasted image 20250211151344.png",
+    "Imatges/Pasted image 20250211151216.png",
+    "Imatges/Pasted image 20250211151100.png",
     "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Bases de dades/SGBD/Sistemes Gestors de Bases de Dades.md",
@@ -178,12 +185,9 @@
     "Bases de dades/SGBD/No Relacional",
     "Bases de dades/SGBD/Relacional",
     "Bases de dades/SGBD/Relacional/MySQL/DDL MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Bases de dades/MySQL/Exercicis",
     "Bases de dades/MySQL",
     "Bases de dades/SGBD",
-    "Bases de dades/SGBD/Relacional/MySQL/Dades MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/BBDD/bbdd_rrhh.sql",
     "Bases de dades/SQL/Exercicis/BBDD/bbdd_rrhh.txt",
@@ -202,17 +206,12 @@
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Programacio/Introduccio a la programacio.md",
     "Programacio/Tipus de llenguatges.md",
-    "Imatges/Pasted image.md",
     "Imatges/Pasted image 20250210163438.png",
     "Imatges/Pasted image 20250210163057.png",
     "Imatges/Pasted Image 20240918113759_391.png",
     "Imatges/Pasted image 20240923084131.png",
     "Imatges/Pasted image 20250209192225.png",
     "Imatges/Pasted image 20240926105454.png",
-    "Imatges/Pasted image 20250115183220.png",
-    "Imatges/Pasted image 20240920085246.png",
-    "Imatges/{E1DD1D3C-9F78-4924-B1F8-1BEC7FF16880}.png",
-    "Imatges/Pasted image 20241018085308.png",
     "Sin título.canvas"
   ]
 }

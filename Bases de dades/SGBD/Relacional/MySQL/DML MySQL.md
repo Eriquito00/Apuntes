@@ -35,7 +35,23 @@ SELECT:
 	- Tambe podem crear una columna que no es guardara amb alguna operacio aritmetica i tambe podem fer-li que mostri un nom personalitzar a la columna.
 	
 	![](/Imatges/Pasted%20image%2020250123113135.png)
-	
+
+	WHERE:
 	- Tant al inici del SELECT com al WHERE podem utilitzar operadors aritmetics com el '<', '>', '=', '!=', entre altres.
 	
 	![](/Imatges/Pasted%20image%2020250123113423.png)
+
+	GROUP BY:
+	- S'utilitza per crear un grup segons la columna que li diem i les dades que volem mostrar, per exemple si volem mostrar la mitjana de salari segons un codi de feina com a la consulta que podem veure.
+	
+	![](../../../../Imatges/Pasted%20image%2020250211151344.png)
+
+	ORDER BY:
+	- S'utilitza per ordenar els resultats que donem a la consulta en un format ascendent o descendent segons el camp que li diguem.
+	
+	![](../../../../Imatges/Pasted%20image%2020250211151100.png)
+
+	HAVING:
+	- Despres tenim el HAVING que seria com un "WHERE" del nostre GROUP BY, s'utilitza per posar condicions logiques com al WHERE pero aquest s'executa mes tard per tant el podem utilitzar amb algunes funcions que requereixen fer algun calcul y despres comprovar el calcul, cosa que amb el WHERE no podriem o seria menys eficient.
+	
+	![](../../../../Imatges/Pasted%20image%2020250211151602.png)
