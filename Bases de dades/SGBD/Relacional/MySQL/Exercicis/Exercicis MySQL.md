@@ -1,3 +1,3 @@
 # Exercicis MySQL
 
-[RRHH](./rrhh.md)
+[RRHH](rrhh.md)

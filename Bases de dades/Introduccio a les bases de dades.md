@@ -5,4 +5,4 @@
 
 [Model relacional](./ER%20i%20Relacional/Model%20relacional.md)
 
-[MySQL](./SQL/MySQL.md)
+[Sistemes Gestors de Bases de Dades](SGBD/Sistemes%20Gestors%20de%20Bases%20de%20Dades.md)
