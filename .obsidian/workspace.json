@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e271fe020091e7ee",
+        "id": "bbd4a6ea9cdd8dfc",
         "type": "tabs",
         "children": [
           {
-            "id": "7c450d376746a760",
+            "id": "1e13a7bbfd86e206",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
+                "file": "Llenguatge de marques/Llenguatges/Validadors JSON/JSD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rrhh"
+              "title": "JSD"
             }
           }
         ]
@@ -170,8 +170,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7c450d376746a760",
+  "active": "1e13a7bbfd86e206",
   "lastOpenFiles": [
+    "Llenguatge de marques/Llenguatges/JSON.md",
+    "Llenguatge de marques/Llenguatges/Validadors JSON/JSD.md",
+    "Llenguatge de marques/Llenguatges/Validadors JSON",
+    "Llenguatge de marques/Introduccio a llenguatge de marques.md",
+    "Llenguatge de marques/Llenguatges/Validadors XML/XSD.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Bases de dades/Esquemes/Entitat Relacio.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Imatges/Pasted image 20250212115238.png",
@@ -200,24 +206,18 @@
     "Bases de dades/MySQL/Exercicis",
     "Bases de dades/MySQL",
     "Bases de dades/SGBD",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/BBDD/bbdd_rrhh.sql",
     "Bases de dades/SQL/Exercicis/BBDD/bbdd_rrhh.txt",
     "Bases de dades/SQL/Exercicis/BBDD/Sin confirmar 694041.crdownload",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/BBDD",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
-    "Llenguatge de marques/Introduccio a llenguatge de marques.md",
     "Llenguatge de marques/Llenguatges/XML.md",
     "Llenguatge de marques/Llenguatges/Validadors XML/DTD.md",
-    "Llenguatge de marques/Llenguatges/Validadors XML/XSD.md",
     "Llenguatge de marques/Llenguatges/CSS.md",
     "Llenguatge de marques/Llenguatges/HTML.md",
     "Llenguatges/HTML.md",
     "README.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
-    "Programacio/Introduccio a la programacio.md",
-    "Programacio/Tipus de llenguatges.md",
     "Sin título.canvas"
   ]
 }

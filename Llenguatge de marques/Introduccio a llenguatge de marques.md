@@ -4,3 +4,5 @@
 [CSS](./Llenguatges/CSS.md)
 
 [XML](./Llenguatges/XML.md)
+
+[JSON](./Llenguatges/JSON.md)
