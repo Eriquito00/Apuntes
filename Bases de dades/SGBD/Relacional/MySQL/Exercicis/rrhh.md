@@ -360,15 +360,14 @@ WHERE localitzacio_id IN(1400,1700,2500);
 
 5. Escriu una consulta per mostrar el nom de cada departament, la ciutat on està localitzat el departament, el número d’empleats i el salari mig per tots els empleats d’aquell departament. Anomena les columnes com Nom, Ciutat, Num_Empleats i Salari_Mig respectivament. Arrodoneix el salari mig a dos decimals. Ordena la informació per nom de departament. Intenta de mostrar els punts de miler i la coma com a símbol separador dels valors decimals.
 
-
-
-----
-6. Retorna un llistat amb **tots els empleats** juntament amb les dades dels departaments on treballen. Aquest llistat també ha d' incloure els empleats que no tenen cap departament associat.
-7. Retorna un llistat on només apareguin aquells empleats que no tenen cap departament associat.
-8. Retorna un llistat on només apareguin aquells departaments que no tenen cap empleat associat.
-9. Retorna un llistat amb tots els empleats juntament amb les dades dels departaments on treballen. El llistat ha d' incloure els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
-10. Retorna un llistat amb els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
-
+```SQL
+SELECT d.nom AS Nom, l.ciutat AS Ciutat, COUNT(e.empleat_id) AS Num_Empleats, FORMAT(ROUND(AVG(e.salari), 2),2) AS Salari_Mig
+	FROM localitzacions AS l 
+    INNER JOIN departaments AS d ON d.localitzacio_id = l.localitzacio_id
+    INNER JOIN empleats AS e ON d.departament_id = e.departament_id
+GROUP BY d.departament_id
+ORDER BY Nom;
+```
 
 ### 1.2.6 Subconsultes
 
