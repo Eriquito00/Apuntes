@@ -11,10 +11,14 @@
             "id": "7c450d376746a760",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "rrhh"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.51103591918945
+    "width": 271.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -156,24 +161,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "7c450d376746a760",
   "lastOpenFiles": [
+    "Bases de dades/Esquemes/Entitat Relacio.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
+    "Imatges/Pasted image 20250212115238.png",
+    "Imatges/Pasted image 20250212115224.png",
+    "Imatges/Pasted image 20250212114448.png",
+    "Imatges/Pasted image 20250212114009.png",
+    "Imatges/Pasted image 20250212113850.png",
+    "Imatges/Pasted image 20250212113816.png",
+    "Imatges/Pasted image 20250212113443.png",
     "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Dades MySQL.md",
     "Imatges/Pasted image 20250211151602.png",
     "Imatges/Pasted image 20250211151344.png",
     "Imatges/Pasted image 20250211151216.png",
-    "Imatges/Pasted image 20250211151100.png",
     "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Bases de dades/SGBD/Sistemes Gestors de Bases de Dades.md",
@@ -206,12 +218,6 @@
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Programacio/Introduccio a la programacio.md",
     "Programacio/Tipus de llenguatges.md",
-    "Imatges/Pasted image 20250210163438.png",
-    "Imatges/Pasted image 20250210163057.png",
-    "Imatges/Pasted Image 20240918113759_391.png",
-    "Imatges/Pasted image 20240923084131.png",
-    "Imatges/Pasted image 20250209192225.png",
-    "Imatges/Pasted image 20240926105454.png",
     "Sin título.canvas"
   ]
 }

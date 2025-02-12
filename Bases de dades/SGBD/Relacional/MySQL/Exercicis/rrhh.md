@@ -322,47 +322,75 @@ WHERE salari > 9000;
 
 ### 1.2.5 Consultes multitaula (JOINs)
 
-18. Calcula el nombre d' empleats que treballen en cadascun dels departaments. El resultat d' aquesta consulta també ha d' incloure aquells departaments que no tenen cap empleat associat.
-19. ----Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú.
-20. Retorna un llistat amb els empleats i les dades dels departaments on treballa cadascú. Ordena el resultat, en primer lloc pel nom del departament (en ordre alfabètic) i en segon lloc pels cognoms i el nom dels empleats.
-21. Retorna un llistat amb el codi i el nom del departament, només d' aquells departaments que tenen empleats.
-22. Retorna un llistat amb el codi, el nom del departament i el valor del pressupost actual de què disposa, només d' aquells departaments que tenen empleats. El valor del pressupost actual el pot calcular restant al valor del pressupost inicial (columna pressupost) el valor de les despeses que ha generat (columna despeses).
-23. Retorna el nom del departament on treballa l' empleat que té el nif 38382980M.
-24. Retorna el nom del departament on treballa l'empleat Pepe Ruiz Santana.
-25. Retorna un llistat amb les dades dels empleats que treballen al departament d' R + D. Ordena el resultat alfabèticament.
-26. Retorna un llistat amb les dades dels empleats que treballen al departament de Sistemes, Comptabilitat o R + D. Ordena el resultat alfabèticament.
-27. Retorna una llista amb el nom dels empleats que tenen els departaments que **no** tenen un pressupost entre 100000 i 200000 euros.
-28. Retorna un llistat amb el nom dels departaments on hi ha algun empleat el segon cognom del qual sigui NULL. Tingui en compte que no ha de mostrar noms de departaments que estiguin repetits.
-29. Mostra el nombre d'empleats que hi ha a cada departament. Has de retornar dues columnes, una amb el nom del departament i una altra amb el nombre d'empleats que té assignats.
+1. Mostra de cada empleat, el nom del departament, cognoms i nom de l’empleat. Ordena les dades per nom departament, cognoms i nom de forma ascendent.
+
+```SQL
+SELECT d.nom, e.cognoms, e.nom
+	FROM empleats AS e INNER JOIN departaments AS d
+	ON e.departament_id = d.departament_id
+ORDER BY d.nom, e.cognoms, e.nom;
+```
+
+2. Mostra de cada departament, el codi, el nom de departament, l’adreça, el codi postal i el nomde la ciutat.
+
+```SQL
+SELECT d.departament_id, d.nom, l.adreca, l.codi_postal, l.ciutat
+	FROM localitzacions AS l INNER JOIN departaments AS d
+	ON l.localitzacio_id = d.localitzacio_id;
+```
+
+3. Mostra del departament de 'Marketing', el codi, el nom de departament, l'adreça, el codi postal i el nom de la ciutat. Per simplificar l'escriptura dona un alias a les taules (per exemple d per departaments i l per localitzacions).
+
+```SQL
+SELECT d.departament_id, d.nom, l.adreca, l.codi_postal, l.ciutat
+	FROM localitzacions AS l INNER JOIN departaments AS d
+	ON l.localitzacio_id = d.localitzacio_id
+WHERE d.nom = "Marketing";
+```
+
+4. De les localitzacions amb codi 1400, 1700 i 2500, ens interessa saber el seu codi, el nom de la ciutat, el nom de l’estat/província, el nom del país i el nom de la regió. Ordena per codi localització.
+
+```SQL
+SELECT l.localitzacio_id, l.ciutat, l.estat_provincia, p.nom, r.nom
+	FROM localitzacions AS l INNER JOIN paisos AS p
+    ON l.pais_id = p.pais_id INNER JOIN regions AS r
+    ON r.regio_id = p.regio_id
+WHERE localitzacio_id IN(1400,1700,2500);
+```
+
+5. Escriu una consulta per mostrar el nom de cada departament, la ciutat on està localitzat el departament, el número d’empleats i el salari mig per tots els empleats d’aquell departament. Anomena les columnes com Nom, Ciutat, Num_Empleats i Salari_Mig respectivament. Arrodoneix el salari mig a dos decimals. Ordena la informació per nom de departament. Intenta de mostrar els punts de miler i la coma com a símbol separador dels valors decimals.
+
+
+
 ----
-30. Retorna un llistat amb **tots els empleats** juntament amb les dades dels departaments on treballen. Aquest llistat també ha d' incloure els empleats que no tenen cap departament associat.
-31. Retorna un llistat on només apareguin aquells empleats que no tenen cap departament associat.
-32. Retorna un llistat on només apareguin aquells departaments que no tenen cap empleat associat.
-33. Retorna un llistat amb tots els empleats juntament amb les dades dels departaments on treballen. El llistat ha d' incloure els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
-34. Retorna un llistat amb els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
+6. Retorna un llistat amb **tots els empleats** juntament amb les dades dels departaments on treballen. Aquest llistat també ha d' incloure els empleats que no tenen cap departament associat.
+7. Retorna un llistat on només apareguin aquells empleats que no tenen cap departament associat.
+8. Retorna un llistat on només apareguin aquells departaments que no tenen cap empleat associat.
+9. Retorna un llistat amb tots els empleats juntament amb les dades dels departaments on treballen. El llistat ha d' incloure els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
+10. Retorna un llistat amb els empleats que no tenen cap departament associat i els departaments que no tenen cap empleat associat. Ordeni el llistat alfabèticament pel nom del departament.
 
 
 ### 1.2.6 Subconsultes
 
 #### 1.2.6.1 Amb operadors bàsics de comparació
 
-35. Retorna un llistat amb tots els empleats que té el departament de Sistemes. (Sense utilitzar INNER JOIN).
-36. Retorna el nom del departament amb major pressupost i la quantitat que té assignada.
-37. Retorna el nom del departament amb menor pressupost i la quantitat que té assignada.
+11. Retorna un llistat amb tots els empleats que té el departament de Sistemes. (Sense utilitzar INNER JOIN).
+12. Retorna el nom del departament amb major pressupost i la quantitat que té assignada.
+13. Retorna el nom del departament amb menor pressupost i la quantitat que té assignada.
 
 #### 1.2.6.2 Subconsultes amb ALL i ANY
 
-38. Retorna el nom del departament amb major pressupost i la quantitat que té assignada. Sense fer ús de MAX, ORDER BY ni LIMIT.
-39. Retorna el nom del departament amb menor pressupost i la quantitat que té assignada. Sense fer ús de MIN, ORDER BY ni LIMIT.
-40. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant ALL o ANY).
-41. Retorna els noms dels departaments que no tenen empleats associats. (Utilitzant ALL o ANY).
+14. Retorna el nom del departament amb major pressupost i la quantitat que té assignada. Sense fer ús de MAX, ORDER BY ni LIMIT.
+15. Retorna el nom del departament amb menor pressupost i la quantitat que té assignada. Sense fer ús de MIN, ORDER BY ni LIMIT.
+16. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant ALL o ANY).
+17. Retorna els noms dels departaments que no tenen empleats associats. (Utilitzant ALL o ANY).
 
 #### 1.2.6.3 Subconsultes amb IN i NOT IN
 
-42. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant IN o NOT IN).
-43. Retorna els noms dels departaments que no tenen empleats associats. (Utilitzant IN o NOT IN).
+18. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant IN o NOT IN).
+19. Retorna els noms dels departaments que no tenen empleats associats. (Utilitzant IN o NOT IN).
 
 #### 1.2.6.4 Subconsultes amb EXISTS i NOT EXISTS
 
-44. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
-45. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
+20. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
+21. Retorna els noms dels departaments que tenen empleats associats. (Utilitzant EXISTS o NOT EXISTS).
