@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funcions MySQL"
+              "title": "Comandes Windows PowerShell"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -161,17 +161,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "0aade5ff18f2af1a",
   "lastOpenFiles": [
+    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Llenguatge de marques/Llenguatges/Validadors JSON/JSD.md",
@@ -187,7 +188,6 @@
     "Imatges/Pasted image 20250212113850.png",
     "Imatges/Pasted image 20250212113816.png",
     "Imatges/Pasted image 20250212113443.png",
-    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Dades MySQL.md",
     "Imatges/Pasted image 20250211151602.png",
     "Imatges/Pasted image 20250211151344.png",
