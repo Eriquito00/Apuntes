@@ -1,4 +1,6 @@
 # Comandas Windows PowerShell
+
+**ELS \[\] SIGNIFIQUEN QUE SON ATRIBUTS OPCIONALS**
 ## Habilitar escriptori remot (no es ps)
 cscript C:\Windows\System32\Scregedit.wsf /ar 0
 ## Activar / Desactivar firewall
@@ -38,3 +40,26 @@ Copy-Item -Path "(origen)" -Destination "(desti)" -Force
 slmgr /ipk (clau producte)
 ## Instalar servei de domini (o altres)
 Install-WindowsFeature (nom de la caracteristica) -IncludeManagementTools (per instalar dependencies)
+## Executar amb altres credencials
+
+- Executa un executable amb l'usuari que diem.
+
+Start-Process "executable" -Credential "usuari (si no posem res amb l'usuari que executa)"
+	\[-ArgumentList "arguments"\]
+
+- Executa un executable amb un usuari administrador
+
+Start-Process "executable" \[-ArgumentList "usuari (si no posem res amb l'usuari que executa)"\]
+	\[-Verb runas\]
+
+- Ens mostra els processos actius.
+
+Get-Process
+
+- Ens mostra els processos que estan actius amb el nom establert
+
+Get-Process -Name ""nom process""
+
+- Ens mostra els processos que estan actius amb el nom establert i quin usuari l'executa, nomes ho pot executar un administrador.
+
+Get-Process -Name ""nom process"" -IncludeUserName

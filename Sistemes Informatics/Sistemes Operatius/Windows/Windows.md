@@ -101,3 +101,5 @@ Funciona bloquejant o permetent el pas per la xarxa dels paquets de dades.
 La configuracio de xarxa recomanada es que el server tingui com a DNS la seva IP i com a alternativa localhost (127.0.0.1) i el client nomes tingui la IP DNS del servidor.
 
 [Comandes Windows PowerShell](Comandes%20Windows%20PowerShell.md)
+
+[Eines administratives WS 2022](Eines%20administratives%20WS%202022.md)
