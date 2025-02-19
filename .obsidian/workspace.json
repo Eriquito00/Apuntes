@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0fdcdefc13910e52",
+        "id": "1697ce5d30d3a083",
         "type": "tabs",
         "children": [
           {
-            "id": "1584bf37f6ae7d86",
+            "id": "0c377ba1feaa37bb",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -156,17 +156,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1584bf37f6ae7d86",
+  "active": "0c377ba1feaa37bb",
   "lastOpenFiles": [
+    "Git i GitHub/Introduccion a Git i GitHub.md",
+    "Git i GitHub/Lista de comandos Git i Bash.md",
+    "Git i GitHub/Conceptos de Git .md",
+    "Lista de comandos Git.md",
+    "README.md",
+    "Git i GitHub",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
@@ -206,12 +212,7 @@
     "Bases de dades/SGBD",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/BBDD/bbdd_rrhh.sql",
     "Bases de dades/SQL/Exercicis/BBDD/bbdd_rrhh.txt",
-    "Bases de dades/SQL/Exercicis/BBDD/Sin confirmar 694041.crdownload",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
-    "Llenguatge de marques/Llenguatges/XML.md",
-    "Llenguatge de marques/Llenguatges/Validadors XML/DTD.md",
-    "Llenguatge de marques/Llenguatges/CSS.md",
-    "Llenguatge de marques/Llenguatges/HTML.md",
     "Sin título.canvas"
   ]
 }
