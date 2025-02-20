@@ -371,7 +371,7 @@ ORDER BY Nom;
 
 6. Partint de l’historial de treballs, volem saber els empleats que han treballat en més d’una feina. Volem saber el codi d’empleat, el seu nom i cognoms i el número de feines que ha tingut. Anomena la columna id_empleat com a CodiEmpl i el numero de feines com a Num_feines. Ordena la informació per nom i cognoms d’empleat.
 
-```MySQL
+```SQL
 SELECT e.empleat_id AS CodiEmpl, e.nom, e.cognoms, COUNT(hf.feina_codi) AS Num_feines
 	FROM historial_feines AS hf INNER JOIN empleats AS e ON hf.empleat_id = e.empleat_id
 GROUP BY e.empleat_id
@@ -381,7 +381,7 @@ ORDER BY e.nom ASC, e.cognoms ASC;
 
 7. Obtenir el codi d’empleat, nom i cognoms, nom de departament i salari del primer empleat que té el salari més baix.
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.nom, e.cognoms, d.nom, MIN(e.salari) AS salari_min
 	FROM empleats AS e 
     LEFT JOIN departaments AS d ON e.departament_id = d.departament_id
@@ -392,7 +392,7 @@ LIMIT 1;
 
 8. Volem saber, dels empleats que van ser contractats abans del 1999 i que tenen un salari entre 10000 i 20000, quins pertanyen al departament de Vendes o de Comptes. Mostrar el codi empleat, nom i cognoms, salari, l’any de la data de contractació i el nom de departament. 
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.nom, e.cognoms, e.salari, e.data_contractacio, d.nom
 	FROM empleats AS e
     INNER JOIN departaments AS d ON e.departament_id = d.departament_id
@@ -401,7 +401,7 @@ WHERE YEAR(e.data_contractacio) < 1999 AND e.salari BETWEEN 10000 AND 20000 AND 
 
 9. Mostra el nom del departament, cognoms i nom de tots els empleats ( encara que no tinguin assignat cap departament ). Ordena les dades per nom departament, cognom i nom. 
 
-```MySQL
+```SQL
 SELECT d.nom, e.cognoms, e.nom
 	FROM departaments AS d
     RIGHT JOIN empleats AS e ON e.departament_id = d.departament_id
@@ -410,7 +410,7 @@ ORDER BY d.nom, e.cognoms, e.nom;
 
 10. Volem saber, de cada departament, els empleats que té assignats. Mostra el codi de departament, nom del departament, cognoms i nom de l’empleat ( mostra tots els departaments encara que no tinguin assignat cap empleat ). Ordena les dades per nom departament, cognoms i nom d’empleat. 
 
-```MySQL
+```SQL
 SELECT d.departament_id, d.nom, e.cognoms, e.nom
 	FROM departaments AS d
     LEFT JOIN empleats AS e ON e.departament_id = d.departament_id
@@ -419,7 +419,7 @@ ORDER BY d.nom, e.cognoms, e.nom;
 
 11. Volem mostrar el nom del departament i el número d’empleats que té. Ordena la informació per nom de departament. 
 
-```MySQL
+```SQL
 SELECT d.nom, COUNT(e.departament_id) AS qt
 	FROM departaments AS d
     INNER JOIN empleats AS e ON e.departament_id = d.departament_id
@@ -428,7 +428,7 @@ GROUP BY d.departament_id;
 
 12. Partint de la consulta anterior, volem incloure també en el llistat dels departaments que no tenen cap empleat assignat. 
 
-```MySQL
+```SQL
 SELECT d.nom, COUNT(e.departament_id) AS qt
 	FROM departaments AS d
     LEFT JOIN empleats AS e ON e.departament_id = d.departament_id
@@ -437,7 +437,7 @@ GROUP BY d.departament_id;
 
 13. Mostra els empleats que treballen com a 'Programadors' o 'Venedors' . Volem saber el codi empleat, cognoms, el nom del treball el seu salari, i el salari mínim de la feina a la que estan assignats. 
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.cognoms, f.nom_treball, e.salari, f.salari_min
 	FROM departaments AS d
     INNER JOIN empleats AS e ON d.departament_id = e.departament_id
@@ -447,7 +447,7 @@ WHERE f.nom_treball IN ("Programador", "Venedor");
 
 14. Partint de la consulta anterior mostra només els que guanyen més de 1000 euros respecte el salari mínim. 
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.cognoms, f.nom_treball, e.salari, f.salari_min
 	FROM departaments AS d
     INNER JOIN empleats AS e ON d.departament_id = e.departament_id
@@ -457,7 +457,7 @@ WHERE f.nom_treball IN ("Programador", "Venedor") AND (f.salari_min + 1000) < e.
 
 15. Partint de la taula historial de treballs, volem saber el nom i cognoms, la data inici i fi que va realitzar el treball, el nom del treball i el nom del departament on va estar assignat. 
 
-```MySQL
+```SQL
 SELECT e.nom, e.cognoms, hf.data_inici, hf.data_fi, f.nom_treball, d.nom
 	FROM empleats AS e
     INNER JOIN historial_feines AS hf ON e.empleat_id = hf.empleat_id
@@ -467,7 +467,7 @@ SELECT e.nom, e.cognoms, hf.data_inici, hf.data_fi, f.nom_treball, d.nom
 
 16. Volem saber, de cada empleat, el codi d'empleat, el nom i cognoms, el seu salari, el nom del treball que tenen assignat, el nom del departament, la ciutat del departament, el nom de país i el nom de la regió. No cal que mostrar els empleats que no tinguin cap departament o feina
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.nom, e.cognoms, e.salari, f.nom_treball, d.nom, l.ciutat, p.nom, r.nom
 	FROM feines AS f
     INNER JOIN empleats AS e ON e.feina_codi = f.feina_codi
@@ -479,7 +479,7 @@ SELECT e.empleat_id, e.nom, e.cognoms, e.salari, f.nom_treball, d.nom, l.ciutat,
 
 17. De la consulta anterior mostra també aquells que no tenen cap departament assignat.
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.nom, e.cognoms, e.salari, f.nom_treball, d.nom, l.ciutat, p.nom, r.nom
 	FROM feines AS f
     INNER JOIN empleats AS e ON e.feina_codi = f.feina_codi
@@ -491,7 +491,7 @@ SELECT e.empleat_id, e.nom, e.cognoms, e.salari, f.nom_treball, d.nom, l.ciutat,
 
 18. De la consulta anterior mostra també aquelles que no tenen cap feina assignada.
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.nom, e.cognoms, e.salari, f.nom_treball, d.nom, l.ciutat, p.nom, r.nom
 	FROM feines AS f
     LEFT JOIN empleats AS e ON e.feina_codi = f.feina_codi
@@ -503,7 +503,7 @@ SELECT e.empleat_id, e.nom, e.cognoms, e.salari, f.nom_treball, d.nom, l.ciutat,
 
 19. Volem saber, dels empleats que tenen assignat cap ( jefe ), el codi d’empleat, nom i cognoms i les dades del seu cap ( codi empleat, nom i cognoms ).
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.nom, e.cognoms, e2.nom, e2.cognoms
 	FROM empleats AS e
 	INNER JOIN empleats AS e2 ON e.id_cap = e2.empleat_id;
@@ -511,7 +511,7 @@ SELECT e.empleat_id, e.nom, e.cognoms, e2.nom, e2.cognoms
 
 20. Partint de la consulta anterior, ens agradaria afegir la data de contractació tant de l’empleat com la del seu cap, però només volem saber la informació dels empleats que han estat contractats abans que els seus caps.
 
-```MySQL
+```SQL
 SELECT e.empleat_id, e.nom, e.cognoms, e.data_contractacio, e2.nom, e2.cognoms, e2.data_contractacio
 	FROM empleats AS e
 	INNER JOIN empleats AS e2 ON e.id_cap = e2.empleat_id
@@ -520,6 +520,13 @@ WHERE e.data_contractacio < e2.data_contractacio ;
 
 21. Volem saber el número total d’empleats contractats durant el 1996, 1997 i 1998 i el total d’empleats contractats durant aquests anys. Cal mostrar la informació tal com s’indica en la figura.
 
-```MySQL
+![](../../../../../Imatges/Pasted%20image%2020250220153441.png)
 
+```SQL
+SELECT (SELECT COUNT(empleat_id) FROM empleats WHERE YEAR(data_contractacio) = 1996) AS Any_1996,
+	(SELECT COUNT(empleat_id) FROM empleats WHERE YEAR(data_contractacio) = 1997) AS Any_1997,
+    (SELECT COUNT(empleat_id) FROM empleats WHERE YEAR(data_contractacio) = 1998) AS Any_1998,
+    (SELECT COUNT(empleat_id) FROM empleats WHERE YEAR(data_contractacio) IN(1996,1997,1998)) AS Total
+	FROM empleats
+LIMIT 1;
 ```
