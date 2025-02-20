@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8fb9f933832382a1",
+        "id": "87592a2b1f27870b",
         "type": "tabs",
         "children": [
           {
-            "id": "9a5ea58976ad7ab4",
+            "id": "c7a930da1a6f8ec7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.51103591918945,
-    "collapsed": true
+    "width": 271.51103591918945
   },
   "right": {
     "id": "9565c7424373b453",
@@ -166,8 +165,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9a5ea58976ad7ab4",
+  "active": "c7a930da1a6f8ec7",
   "lastOpenFiles": [
+    "Programacio/Java/Llibreries/Llibreria PrintStream.md",
+    "Programacio/Java/Llibreries/Llibreria FileWriter.md",
+    "Programacio/Java/Llibreries/Llibreries Java.md",
+    "Programacio/Java/Llibreries/Llibreria Scanner.md",
+    "Llibreries",
+    "Programacio/Java/Llibreries/Llibreria File Java.md",
+    "Programacio/Java/Fitxers Java.md",
+    "Programacio/Java/Llibreries/Llibreria apache commons Java.md",
+    "Imatges/Pasted image 20250220221616.png",
+    "Imatges/Pasted image 20250220221318.png",
+    "Programacio/Java/Llibreries/Llibreria System Java.md",
+    "Programacio/Java/Llibreries/Llibreria SimpleDateFormat.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Imatges/Pasted image 20250220153441.png",
@@ -191,28 +202,16 @@
     "Llenguatge de marques/Llenguatges/Validadors JSON",
     "Llenguatge de marques/Introduccio a llenguatge de marques.md",
     "Llenguatge de marques/Llenguatges/Validadors XML/XSD.md",
-    "Bases de dades/Esquemes/Entitat Relacio.md",
     "Imatges/Pasted image 20250212115238.png",
     "Imatges/Pasted image 20250212115224.png",
     "Imatges/Pasted image 20250212114448.png",
     "Imatges/Pasted image 20250212114009.png",
     "Imatges/Pasted image 20250212113850.png",
-    "Imatges/Pasted image 20250212113816.png",
-    "Imatges/Pasted image 20250212113443.png",
-    "Bases de dades/SGBD/Relacional/MySQL/Dades MySQL.md",
-    "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
-    "Bases de dades/SGBD/Sistemes Gestors de Bases de Dades.md",
-    "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
-    "Bases de dades/Introduccio a les bases de dades.md",
-    "Relacional/Sistemes No Relacionals.md",
     "Relacional",
-    "Bases de dades/MySQL/Exercicis/Exercicis MySQL.md",
     "Bases de dades/SGBD/No Relacional",
     "Bases de dades/SGBD/Relacional",
     "Bases de dades/MySQL/Exercicis",
     "Bases de dades/MySQL",
-    "Bases de dades/SGBD",
     "Sin título.canvas"
   ]
 }
