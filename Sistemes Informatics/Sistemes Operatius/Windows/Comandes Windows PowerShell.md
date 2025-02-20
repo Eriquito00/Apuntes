@@ -63,3 +63,22 @@ Get-Process -Name ""nom process""
 - Ens mostra els processos que estan actius amb el nom establert i quin usuari l'executa, nomes ho pot executar un administrador.
 
 Get-Process -Name ""nom process"" -IncludeUserName
+
+- Para un proces que esta en curs en base a la ID del process, podem altres parametres com -Force  per forçar a que es tanqui el process 
+
+Stop-Process -Id (id del process) \[-Force\]
+
+## Viatjar entre entorns
+- Si estem a PowerShell i volem anar a cmd podem executar la seguent comanda a cmd. Aixi tindrem les comandes de cmd dins de la nostre terminal de powershell.
+
+cmd
+
+- Si volem executar comandes de PowerShell a cmd podem fer el seguent. Aixi podem executar comandes de powershell desde cmd pero el que fara en veritat sera executar la comanda en powershell y donarnos el resultat per cmd no l'executa directe al cmd
+
+powershell /c (comanda)
+
+## Control de dispositius
+- Apagar un dispositiu mitjançant el seu hostname. I tambe podem utilitzar el parametre -Force per forçar que s'apagui el dispositiu, la estructura hauria de ser amb un " \`" si volem fer un canvi de linea per posar mes parametres
+
+Stop-Computer -ComputerName (hostname)
+

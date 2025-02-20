@@ -11,8 +11,12 @@
             "id": "0c377ba1feaa37bb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
               "title": "Nueva pestaña"
             }
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.51103591918945
+    "width": 271.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -175,12 +180,9 @@
     "Git i GitHub",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Imatges/Pasted image 20250217093907.png",
     "Imatges/Pasted image 20250217093842.png",
-    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Llenguatge de marques/Llenguatges/Validadors JSON/JSD.md",
     "Llenguatge de marques/Llenguatges/JSON.md",
     "Llenguatge de marques/Llenguatges/Validadors JSON",
