@@ -44,12 +44,12 @@ Install-WindowsFeature (nom de la caracteristica) -IncludeManagementTools (per i
 
 - Executa un executable amb l'usuari que diem.
 
-Start-Process "executable" -Credential "usuari (si no posem res amb l'usuari que executa)"
+Start-Process "executable" -Credential "usuari (si no posem res amb l'usuari que executa, ha de ser nom de Net-Bios)"
 	\[-ArgumentList "arguments"\]
 
 - Executa un executable amb un usuari administrador
 
-Start-Process "executable" \[-ArgumentList "usuari (si no posem res amb l'usuari que executa)"\]
+Start-Process "executable" \[-ArgumentList "usuari (si no posem res amb l'usuari que executa, ha de ser nom de Net-Bios)"\]
 	\[-Verb runas\]
 
 - Ens mostra els processos actius.
@@ -82,3 +82,13 @@ powershell /c (comanda)
 
 Stop-Computer -ComputerName (hostname)
 
+- Reiniciar un dispositiu i utilitza tambe -ComputerName i el hostname
+
+Restart-Computer -ComputerName (hostname)
+
+- AQUESTA COMANDA NOMES ES POT UTILITZAR SI PERTANY A UN DOMINI. Serveix per enviar un missatge a un dispositiu. Tenint el hostname i posant titol i missatge, el titol i el missatge entre "".
+
+Send-RDUserMessage -HostServer (hostname)\`
+	-UnifieldSessionID 1
+	-MessageTitle "(titol del missatge)"
+	-MessageBody "(missatge que volem enviar)"
