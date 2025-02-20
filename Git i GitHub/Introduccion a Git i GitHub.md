@@ -2,9 +2,9 @@
 
 ## Enlaces de interes:
 
-[Lista de comandos de Git](Lista%20de%20comandos%20Git%20i%20Bash.md)
+[Lista de comandos de Git](Apuntes/Lista%20de%20comandos%20Git%20i%20Bash.md)
 
-[Conceptos de Git](./Conceptos%20de%20Git%20.md)
+[Conceptos de Git](Apuntes/Conceptos%20de%20Git%20.md)
 
 [Descargar Git](https://git-scm.com/downloads)
 
