@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -156,12 +156,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
@@ -173,7 +173,6 @@
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "desktop.ini",
     "Git i GitHub/Apuntes/Lista de comandos Git i Bash.md",
-    "Git i GitHub/Apuntes/Conceptos de Git .md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
     "Git i GitHub/Apuntes",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
@@ -189,30 +188,16 @@
     "Llenguatge de marques/Llenguatges/Validadors JSON",
     "Llenguatge de marques/Introduccio a llenguatge de marques.md",
     "Llenguatge de marques/Llenguatges/Validadors XML/XSD.md",
-    "Bases de dades/Esquemes/Entitat Relacio.md",
     "Imatges/Pasted image 20250212115238.png",
     "Imatges/Pasted image 20250212115224.png",
     "Imatges/Pasted image 20250212114448.png",
     "Imatges/Pasted image 20250212114009.png",
     "Imatges/Pasted image 20250212113850.png",
-    "Imatges/Pasted image 20250212113816.png",
-    "Imatges/Pasted image 20250212113443.png",
-    "Bases de dades/SGBD/Relacional/MySQL/Dades MySQL.md",
-    "Imatges/Pasted image 20250211151602.png",
-    "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
-    "Bases de dades/SGBD/Sistemes Gestors de Bases de Dades.md",
-    "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
-    "Bases de dades/Introduccio a les bases de dades.md",
-    "Relacional/Sistemes No Relacionals.md",
     "Relacional",
-    "Bases de dades/MySQL/Exercicis/Exercicis MySQL.md",
     "Bases de dades/SGBD/No Relacional",
     "Bases de dades/SGBD/Relacional",
-    "Bases de dades/SGBD/Relacional/MySQL/DDL MySQL.md",
     "Bases de dades/MySQL/Exercicis",
     "Bases de dades/MySQL",
-    "Bases de dades/SGBD",
     "Sin título.canvas"
   ]
 }
