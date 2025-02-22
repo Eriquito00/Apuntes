@@ -45,5 +45,5 @@ ArrayList<String> llista = new ArrayList<String>();
 llista.forEach(System.out::println);
 
 //Amb funcio lambda al foreach
-llista.forEach(e -> System.out:println(e));
+llista.forEach(e -> System.out.println(e));
 ```

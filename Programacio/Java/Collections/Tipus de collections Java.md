@@ -3,8 +3,8 @@ Les collections serveixen per emmagatzemar un grup d'objectes, hi n'hi han de va
 
 ![](../../../Imatges/Pasted%20image%2020250222125844.png)
 ## List
-Permet emmagatzemar de forma sequencial, tal cual com a una array, aixi es com ho fa ArrayList:
-### ArrayList
+Permet emmagatzemar de forma sequencial, tal cual com a una array, aixi es com ho fa ArrayList i a mes a mes totes le funcions que podem aplicar a ArrayList podem aplicarli a LinkedList.
+### ArrayList i LinkedList
 Es similar a una array pero que no te una longitud limitada, per tant podem utilitzarla per emmagatzemar dades sense limit.
 
 - add("pos",element): insereix una dada a la arraylist a la posicio determinada.
@@ -21,6 +21,9 @@ Un exemple de arrayList seria la seguent:
 //Importacio de la llibreria
 import java.util.ArrayList;
 ArrayList<String> cars = new ArrayList<String>();
+
+//import java.util.LinkedList;
+//LinkedList<String> cars = new LinkedList<String>();
 
 //add
 cars.add("Volvo");
@@ -48,9 +51,30 @@ cars.indexOf("Volvo"); //Retornaria 0 ja que esta a la posicio 0
 ```
 
 ---
+## Dueque i Queue
 A mes a mes de les Array list tenim Queue i Deque que permeten emmagatzemar en una llista objectes pero que funcionen com una cua, Tenim com a Deque i Queue a LinkedList que ens dona les dues utilitats:
-### LinkedList
-LinkedList funciona exactament igual que ArrayList pero te algunes funcions extres, tot i aixo ArrayList s'utilitza mes i es mes eficient.
+### LinkedList com Queue
+LinkedList funciona exactament igual que ArrayList pero te algunes funcions extres, tot i aixo ArrayList s'utilitza mes i es mes eficient, les seguents funcions son per poder utilitzar LinkedList com Queue.
+
+- offer(): afegeix un element al final de la cua
+- peek(): retorna el primer element de la cua sense eliminarlo.
+- poll(): elimina i retorna el primer element de la cua
+
+```JAVA
+//Importacio de la llibreria
+import java.util.LinkedList;
+LinkedList<String> cars = new LinkedList<String>();
+
+cars.offer("Volvo");
+cars.offer("Mercedes");
+cars.offer("Bmw");
+
+cars.peek(); //Retorna "Volvo"
+
+cars.poll(); //Elimina "Volvo"
+```
+### LinkedList com Deque
+LinkedList funciona exactament igual que ArrayList pero te algunes funcions extres, tot i aixo ArrayList s'utilitza mes i es mes eficient, les seguents funcions son per poder utilitzar LinkedList com deque.
 
 - addFirst(): afegeix el item al inici de la llista.
 - addLast(): afegeix el item al final de la llista.
