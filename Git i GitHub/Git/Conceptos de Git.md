@@ -21,5 +21,17 @@ Para combinar las ramas se usa un termino llamado ***MERGE*** que es basicamente
 Componente basico de la linea de tiempo de un proyecto de Git, un commit seria basicamente una "instantanea" o una "imagen" del proyecto en el momento de hacer el commit. De esta forma cuando un commit hay algun archivo mal hecho o que da un error y queremos volver a antes de hacerlo podemos volver al anterior commit que hemos hecho.
 
 ESCRIBIR MENSAJES DESCRIPTIVOS EN LOS COMMIT ES MUY UTIL PARA DESCRIBIR LOS CAMBIOS QUE SE HAN EJECUTADO EN DICHO COMMIT.
+
+Registran los cambios que se han hecho entre archivos respecto al anterior commit. Guardan tanto cuando se:
+
+- Eliminan
+- Crear
+- Mueven
+- Cambian de nombre
+- Quien ha hecho el commit
+- Fecha i hora
+- **Commentario que ponemos al hacerlo**
+
+Cada commit tiene su Hash que es un algoritmo que crea un codigo unico en este caso para cada commit.
 ## GitBash
 Es una herramienta que permite ejecutar comandos de Git, es una linea de comandos que se instala automaticamente al instalar Git, este sera el acceso que tenemos entre nosotros (desarrollador) y el proyecto (repositorio).
