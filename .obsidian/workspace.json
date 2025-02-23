@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fba9db69b447be3f",
+        "id": "c00cd01ef75c0ced",
         "type": "tabs",
         "children": [
           {
-            "id": "bac1d3c105224042",
+            "id": "1ddd23eaeca849eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Funcions MySQL"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.51103591918945,
-    "collapsed": true
+    "width": 249.51103591918945
   },
   "right": {
     "id": "9565c7424373b453",
@@ -170,15 +165,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bac1d3c105224042",
+  "active": "1ddd23eaeca849eb",
   "lastOpenFiles": [
+    "Git i GitHub/Introduccion a Git i GitHub.md",
+    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
+    "Git i GitHub/Git/Git.md",
+    "Git i GitHub/Git/Conceptos de Git.md",
+    "Git/Git.md",
+    "Git",
+    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Imatges/Pasted image 20250223162133.png",
     "Imatges/Pasted image 20250223162020.png",
-    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
-    "Git i GitHub/Introduccion a Git i GitHub.md",
-    "Git i GitHub/Git/Conceptos de Git.md",
     "Git i GitHub/Git/Areas de Git.md",
-    "Git i GitHub/Git/Git.md",
     "Git i GitHub/GitHub",
     "Git i GitHub/Apuntes/Sin título.md",
     "Git i GitHub/Git",
@@ -204,7 +202,6 @@
     "Llibreries/Llibreria File Java.md",
     "Llibreries",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "desktop.ini",
     "Git i GitHub/Apuntes",
     "Git i GitHub",
@@ -215,9 +212,7 @@
     "Imatges/Pasted image 20250212115224.png",
     "Imatges/Pasted image 20250212114448.png",
     "Imatges/Pasted image 20250212114009.png",
-    "Imatges/Pasted image 20250212113850.png",
     "Relacional",
-    "Bases de dades/SGBD/No Relacional",
     "Sin título.canvas"
   ]
 }

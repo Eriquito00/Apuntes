@@ -45,14 +45,39 @@ Elimina un archivo de un directorio o area del repositorio.
 Flags:
 - --cached: Quita un archivo del area de preparacion i lo devuelve al area del directorio de trabajo para que NO sea incluido en el proximo commit.
 - sin flag: borrara el archivo con ese nombre CUIDADO.
-### git commit (atributo) (mensaje del commit)
+### git commit (atributo | flag) (mensaje del commit)
 Basicamente hace un commit con los cambios en el area de preparacion.
 
 Atributos:
 - -m: Pone un pequeño titulo al commit. Permite mensaje de commit entre "".
 - sin atributo: Nos llevara a nuestro editor de codigo que hayamos puesto o nos abrira un archivo con la informacion de lo que se hara en el commit i tendremos que poner ahi nuestro mensaje del commit.
+
+Flags:
+- --amend: Permite modificar el ultimo commit que hemos hecho, permitiendo cambiar el mensaje del commit. CUIDADO: solo usar cuando se usan repositorios locales ya que si se ha hecho el commit i otro developer ya ha obtenido esos cambios habra poblemas en el proyecto. No permite mensaje de commit.
 ### git log
 Muestra el historial de commits a nuestro repositorio. I junto a ello toda la informacion del commit i los archivos que se han añadido etc...
+### git reset (flag) (referencia al commit)
+Nos devuelve commits atras segun los commits que queramos volver atras.
+
+Flags:
+- --soft: Nos retrocede x numero de commits i los cambios que han habido desde aquel commit hasta el actual nos los deja en los archivos que tenemos en el repositorio pero no estaran guardados en el repositorio.
+- --hard: Nos retrocede x numero de commits i los cambios que han habido desde aquel commit hasta el actual no nos los guarda y simplemente nos devuelve los archivos al estado en el que estaban en ese anterior commit.
+
+Referencias:
+- HEAD~x: Aqui nos referimos a quantos commits queremos volver atras, es decir si tenemos 4 commits atras podemos sustituir la x por, por ejemplo 1 para volver al commit numero 3, es decir retroceder 1 commit.
+### git branch (atributo) (nombre de la rama) (nombre nuevo de la rama)
+**Ves con cuidado al crear una rama ya que si ejecutas este comando en la rama inicial se creara una subrama en base a esa pero si lo ejecutas en una subrama de la rama principal se creara una subrama de la subrama.**
+
+Atributos:
+- -m: Podemos usarlo directamente con un nombre, de forma que cambiaria el nombre de la rama ACTUAL o podemos poner primero el nombre de una rama existente i despues el nombre nuevo que queremos assignar.
+- -d: Elimina de forma permanente la rama con el nombre que le hemos puesto. SOLO SE PUEDE HACER EN REPOSITORIOS LOCALES.
+- sin atributo: Creara una rama nueva con el nombre establecido en el repositorio. Si simplemente ponemos git branch nos mostrara todas las ramas del repositorio y nos señalara en que rama estamos ahora mismo.
+### git checkout (nombre de la rama)
+Nos permite viajar entre las ramas de nuestro repositorio, simplemente ponemos el nombre de la rama que ya tiene que existir previamente y nos llevara a ella. Nos mostrara la rama a la que hemos ido.
+### git checkout -b (nombre de la rama)
+**Ves con cuidado al crear una rama ya que si ejecutas este comando en la rama inicial se creara una subrama en base a esa pero si lo ejecutas en una subrama de la rama principal se creara una subrama de la subrama.**
+
+En este caso nos combina el uso de branch i checkout, basicamente nos creara una rama con el nombre que hemos puesto i nos llevara directamente a la rama que acabamos de crear.
 
 
 
@@ -63,8 +88,4 @@ git diff
 
 git diff --staged
 
-git add
-
 git restore "Nombre del archivo"
-
-git commit --amend

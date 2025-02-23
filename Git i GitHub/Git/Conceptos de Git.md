@@ -14,9 +14,13 @@ Un repositorio es un "proyecto" en el que se almacena toda la informacion, norma
 
 Si tenemos un proyecto con varios desarrolladores en vez de tener cada uno su repositorio local de Git se usa GitHub para poder tener un repositorio y que cada uno haga una copia de dicho repositorio y poder subir o obtener los cambios que hayamos hecho o otros hayan hecho.
 ## Ramas
-Una rama es una copia exacta i paralela de un proyecto, se recomienda crear como minimo una rama a parte de la principal que contiene el proyecto en su "fase final" para guardar en esta rama paralela los nuevos cambios y si todo funciona correctamente esta vez si enviarlo a la rama principal.
+Una rama es una copia exacta i paralela de un proyecto, se recomienda crear como minimo una rama a parte de la principal que contiene el proyecto en su "fase final" para guardar en esta rama paralela NO DEFINITIVA los nuevos cambios y si todo funciona correctamente esta vez si enviarlo a la rama principal.
 
 Para combinar las ramas se usa un termino llamado ***MERGE*** que es basicamente juntar una rama con contenido ya comprovado y correcto a otra rama.
+
+Una rama en Git es basicamente una linea independiente de dessarrollo del repositorio, es decir, si queremos probar alguna cosa un tanto arriesgada en nuestro repositorio, podemos crear una rama del proyecto basado en el ultimo commit y probar en esta nueva rama sin miedo a que no funcione el codigo despues de probarlo.
+
+Ala vez tambien podemos seguir haciendo cambios en la rama principal y despues combinar la rama que habiamos creado con la rama inicial del proyecto.
 ## Commit
 Componente basico de la linea de tiempo de un proyecto de Git, un commit seria basicamente una "instantanea" o una "imagen" del proyecto en el momento de hacer el commit. De esta forma cuando un commit hay algun archivo mal hecho o que da un error y queremos volver a antes de hacerlo podemos volver al anterior commit que hemos hecho.
 
