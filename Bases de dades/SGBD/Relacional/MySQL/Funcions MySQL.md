@@ -52,10 +52,21 @@
 - Si volem un missatge quan hi hagi un NULL a una columna podem utilitzar IFNULL().
 	![](/Imatges/Pasted%20image%2020250123114428.png)
 
-### LIKE i RLIKE
+### Regular expresions
 - Si volem fer una cerca d'un patro, com un regex, podem utilitzar LIKE. Podria ser que depenent com tenim configurada la base de dades ens mostrara els valors que començen per la lletra o nomes els que comencin per la lletra MAJUSCULA o minuscula. Tambe tenim RLIKE per regular expresions.
+	LIKE:
+	
 	![](/Imatges/Pasted%20image%2020250123114613.png)
 	![](/Imatges/Pasted%20image%2020250123115116.png)
+	RLIKE i REGEXP:
+	On he posat REGEXP podem posar tambe RLIKE, funcionen exactament igual nomes que RLIKE va amb "" y dins la expresio regular i REGEXP funciona amb ''.
+	
+	![](../../../../Imatges/Pasted%20image%2020250223162020.png)
+	
+	REGEXP_SUBSTR:
+	Aqui podem veure que el que fa REGEXP_SUBSTR es extreure un tros d'un string utilitzant regular expresions i en aquest cas ha servit per comparar.
+	
+	![](../../../../Imatges/Pasted%20image%2020250223162133.png)
 ## CASE
 - Una altre funcio que podem utilitzar es una semblant a fer un if que es CASE. Amb els diferents WHEN que serien els respectius else if y el ultim que es ELSE, aquesta sentencia finalitza amb END AS (nom del camp). A mes a mes tambe es pot utilitzar mes com un switch com en el seguent exemple:
 
