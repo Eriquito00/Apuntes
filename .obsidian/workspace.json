@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a2bf6fc3f5755123",
+        "id": "9788b3ecba02efa5",
         "type": "tabs",
         "children": [
           {
-            "id": "affdc61988a8c74e",
+            "id": "570aaa2b03c86661",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -160,22 +161,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "affdc61988a8c74e",
+  "active": "570aaa2b03c86661",
   "lastOpenFiles": [
+    "Programacio/Java/Collections/Tipus de collections Java.md",
     "Programacio/Java/Collections/Recorrer collections Java.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "desktop.ini",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
-    "Programacio/Java/Collections/Tipus de collections Java.md",
     "Programacio/Java/Collections/Ordenar collections Java.md",
     "Programacio/Java/Collections/Collections Java.md",
     "Git i GitHub/Git/Git.md",
