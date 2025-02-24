@@ -92,3 +92,7 @@ Send-RDUserMessage -HostServer (hostname)\`
 	-UnifieldSessionID 1
 	-MessageTitle "(titol del missatge)"
 	-MessageBody "(missatge que volem enviar)"
+## Temps d'espera
+- Fa que el script esperi cert temps per seguir executant la resta de comandes.
+
+Start-Sleep -Seconds (-Miliseconds) (temps de espera)

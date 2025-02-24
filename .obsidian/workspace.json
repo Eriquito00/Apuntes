@@ -11,10 +11,14 @@
             "id": "e344e4ffa21d76a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Comandes Windows PowerShell"
             }
           }
         ]
@@ -165,8 +169,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "e344e4ffa21d76a3",
   "lastOpenFiles": [
+    "desktop.ini",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Programacio/Java/Collections/Tipus de collections Java.md",
     "Programacio/Java/Collections/Recorrer collections Java.md",
     "Programacio/Java/Collections/Ordenar collections Java.md",
@@ -205,7 +211,6 @@
     "Programacio/Java/Fitxers/Llibreria Scanner.md",
     "Programacio/Java/Fitxers/Llibreria System Java.md",
     "Llibreria File Java.md",
-    "Llibreries/Llibreria File Java.md",
     "Imatges/Pasted image 20250217093907.png",
     "Imatges/Pasted image 20250217093842.png",
     "Imatges/Pasted image 20250212115238.png",
