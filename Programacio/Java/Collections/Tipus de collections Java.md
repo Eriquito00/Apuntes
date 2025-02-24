@@ -54,7 +54,7 @@ cars.indexOf("Volvo"); //Retornaria 0 ja que esta a la posicio 0
 ## Dueque i Queue
 A mes a mes de les Array list tenim Queue i Deque que permeten emmagatzemar en una llista objectes pero que funcionen com una cua, Tenim com a Deque i Queue a LinkedList que ens dona les dues utilitats:
 - Deque (cua): es por implementar LinkedList i basicament s'implementen elements al final i es treuen els elements desde el principi.
-- Queue: (pila): tambe es pot implementar LinkedList i basicament d'afegeixen elements al final i es treuen elements del final.
+- Queue (pila): tambe es pot implementar LinkedList i basicament d'afegeixen elements al final i es treuen elements del final.
 ### LinkedList com Queue
 LinkedList funciona exactament igual que ArrayList pero te algunes funcions extres, tot i aixo ArrayList s'utilitza mes i es mes eficient, les seguents funcions son per poder utilitzar LinkedList com Queue.
 
