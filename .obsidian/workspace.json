@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c00cd01ef75c0ced",
+        "id": "31888180532333ab",
         "type": "tabs",
         "children": [
           {
-            "id": "1ddd23eaeca849eb",
+            "id": "e344e4ffa21d76a3",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.51103591918945
+    "width": 221.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -156,20 +156,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1ddd23eaeca849eb",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Git i GitHub/Introduccion a Git i GitHub.md",
-    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
+    "Programacio/Java/Collections/Tipus de collections Java.md",
+    "Programacio/Java/Collections/Recorrer collections Java.md",
+    "Programacio/Java/Collections/Ordenar collections Java.md",
+    "Programacio/Java/Collections/Collections Java.md",
     "Git i GitHub/Git/Git.md",
+    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
+    "Git i GitHub/Introduccion a Git i GitHub.md",
+    "Llenguatge de marques/Llenguatges/Validadors JSON/desktop.ini",
+    "Programacio/Java/desktop.ini",
+    "Sistemes Informatics/Sistemes Operatius/desktop.ini",
+    "Sistemes Informatics/Altres/desktop.ini",
+    "Sistemes Informatics/Hardware/desktop.ini",
+    "Bases de dades/Esquemes/desktop.ini",
     "Git i GitHub/Git/Conceptos de Git.md",
     "Git/Git.md",
     "Git",
@@ -180,10 +190,6 @@
     "Git i GitHub/GitHub",
     "Git i GitHub/Apuntes/Sin título.md",
     "Git i GitHub/Git",
-    "Programacio/Java/Collections/Recorrer collections Java.md",
-    "Programacio/Java/Collections/Tipus de collections Java.md",
-    "Programacio/Java/Collections/Ordenar collections Java.md",
-    "Programacio/Java/Collections/Collections Java.md",
     "Imatges/Pasted image 20250222135801.png",
     "Com recorrer una collection.md",
     "().md",
@@ -200,19 +206,12 @@
     "Programacio/Java/Fitxers/Llibreria System Java.md",
     "Llibreria File Java.md",
     "Llibreries/Llibreria File Java.md",
-    "Llibreries",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
-    "desktop.ini",
-    "Git i GitHub/Apuntes",
-    "Git i GitHub",
     "Imatges/Pasted image 20250217093907.png",
     "Imatges/Pasted image 20250217093842.png",
-    "Llenguatge de marques/Llenguatges/Validadors JSON",
     "Imatges/Pasted image 20250212115238.png",
     "Imatges/Pasted image 20250212115224.png",
     "Imatges/Pasted image 20250212114448.png",
     "Imatges/Pasted image 20250212114009.png",
-    "Relacional",
     "Sin título.canvas"
   ]
 }
