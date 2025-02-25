@@ -42,15 +42,17 @@ slmgr /ipk (clau producte)
 Install-WindowsFeature (nom de la caracteristica) -IncludeManagementTools (per instalar dependencies)
 ## Executar amb altres credencials
 
-- Executa un executable amb l'usuari que diem.
+- Executa un executable amb l'usuari que diem. Com aquesta comanda es una mica complexa aqui tenim un exemple, que basicament inicia un Process powershell per parar un altre process  powershell amb credencials administrador.
 
 Start-Process "executable" -Credential "usuari (si no posem res amb l'usuari que executa, ha de ser nom de Net-Bios)"
 	\[-ArgumentList "arguments"\]
 
+![](../../../Imatges/Pasted%20image%2020250225095947.png)
+
 - Executa un executable amb un usuari administrador
 
 Start-Process "executable" \[-ArgumentList "usuari (si no posem res amb l'usuari que executa, ha de ser nom de Net-Bios)"\]
-	\[-Verb runas\]
+	\[-Verb runas\] (SEMPRE DEMANARA EL PERFIL D'ADMINISTRADOR)
 
 - Ens mostra els processos actius.
 
@@ -75,7 +77,7 @@ cmd
 
 - Si volem executar comandes de PowerShell a cmd podem fer el seguent. Aixi podem executar comandes de powershell desde cmd pero el que fara en veritat sera executar la comanda en powershell y donarnos el resultat per cmd no l'executa directe al cmd
 
-powershell /c (comanda)
+powershell /c (comanda) (EL "/c" ES PER A QUE EXECUTI AMB L'ENTORN QUE DEMANEM I DESPRES ES TANQUI)
 
 ## Control de dispositius
 - Apagar un dispositiu mitjançant el seu hostname. I tambe podem utilitzar el parametre -Force per forçar que s'apagui el dispositiu, la estructura hauria de ser amb un " \`" si volem fer un canvi de linea per posar mes parametres
