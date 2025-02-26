@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5,
-    "collapsed": true
+    "width": 221.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de dades/SQL/Funcions MySQL.md",
+                "file": "Sistemes Informatics/Sistemes Operatius/Xarxes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Retroenllaços per a Funcions MySQL"
+              "title": "Enlaces entrantes de Xarxes"
             }
           },
           {
@@ -143,16 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de dades/SQL/Funcions MySQL.md",
+                "file": "Sistemes Informatics/Sistemes Operatius/Xarxes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Funcions MySQL"
+              "title": "Esquema de Xarxes"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -161,25 +161,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "62a8bf9de608e9e7",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
+    "Sistemes Informatics/Sistemes Operatius/Xarxes.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "Sistemes Informatics/Altres/Altres.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Imatges/Pasted image 20250225095947.png",
     "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Git i GitHub/Git/Git.md",
     "Programacio/Java/Collections/Tipus de collections Java.md",
     "Programacio/Java/Collections/Recorrer collections Java.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "desktop.ini",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Programacio/Java/Collections/Ordenar collections Java.md",
     "Programacio/Java/Collections/Collections Java.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
@@ -209,15 +213,11 @@
     "Programacio/Java/Fitxers/Llibreries Fitxers/Llibreries Java.md",
     "Imatges/Pasted image 20250222125844.png",
     "Programacio/Java/Fitxers/Llibreria FileWriter.md",
-    "Programacio/Java/Fitxers/Llibreria PrintStream.md",
-    "Programacio/Java/Fitxers/Llibreria Scanner.md",
-    "Programacio/Java/Fitxers/Llibreria System Java.md",
     "Imatges/Pasted image 20250217093907.png",
     "Imatges/Pasted image 20250217093842.png",
     "Imatges/Pasted image 20250212115238.png",
     "Imatges/Pasted image 20250212115224.png",
     "Imatges/Pasted image 20250212114448.png",
-    "Imatges/Pasted image 20250212114009.png",
     "Sin título.canvas"
   ]
 }
