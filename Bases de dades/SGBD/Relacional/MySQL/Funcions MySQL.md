@@ -67,13 +67,22 @@
 	Aqui podem veure que el que fa REGEXP_SUBSTR es extreure un tros d'un string utilitzant regular expresions i en aquest cas ha servit per comparar.
 	
 	![](../../../../Imatges/Pasted%20image%2020250223162133.png)
-## CASE
+### CASE
 - Una altre funcio que podem utilitzar es una semblant a fer un if que es CASE. Amb els diferents WHEN que serien els respectius else if y el ultim que es ELSE, aquesta sentencia finalitza amb END AS (nom del camp). A mes a mes tambe es pot utilitzar mes com un switch com en el seguent exemple:
 
 	![](/Imatges/Pasted%20image%2020250129205312.png)
 
 	![](/Imatges/Pasted%20image%2020250130115338.png)
+### UNION i UNION ALL
+- UNION i UNION ALL s'utilitzen per fer que en una mateixa consulta surtin els resultats de dues o mes consultes, es totalment necesari que els valors de les columnes dels dos select siguin el mateix tipus, es a dir si la primera columna del primer select es CHAR, la primera columna del segon select tambe ha de ser CHAR, i aixi amb totes les columnes de totes les select que volguem unificar.
 
+	![](../../../../Imatges/Pasted%20image%2020250226205923.png)
+	
+	![](../../../../Imatges/Pasted%20image%2020250226205944.png)
+
+- La unica caracteristica que diferencia UNION i UNION ALL es que UNION si hi ha una fila completament exacte a un altre nomes es queda amb una. Aqui podem veure que la mateixa consulta a la mateixa taula amb UNION ens dona sense duplicats i UNION ALL ens ho dona tot.
+
+	![](../../../../Imatges/Pasted%20image%2020250226210110.png)
 ## Funcions fetes a MySQL
 ### Formata un string amb un format primera majuscula y resta minuscula
 - A MySql no tenim una funcio per crear una columna amb la primera en majuscula y la resta en minuscula pero podem utilitzar aquesta funcio,  'CONCAT(UPPER(LEFT(nom,1)),LOWER(SUBSTRING(nom,1)))'.

@@ -39,6 +39,10 @@ Nos muestra el estado del repositorio, entre la informacion el ultimo commit, qu
 Añade un archivo del area de directorio de trabajo al area de preparacion para poder añadirlo en el proximo commit.
 
 EN VEZ DE PONER NOMBRE DE ARCHIVO PODEMOS PONER UN "." PARA AÑADIR TODOS LOS ARCHIVOS QUE ESTEN PENDIENTES AL AREA DE PREPARACION.
+### git diff
+Nos muestra los cambios de cada fichero que se han hecho antes de hacer un git add, asi podremos ver lo que tenia el archivo antes del ultimo commit y el estado actual del archivo.
+### git restore (Nombre del archivo)
+Nos restaura el estado del archivo al estado como estaba en el ultimo commit. Asi en caso de no haber hecho un commit aun y querer restaurar el archivo al estado del ultimo commit porque no queremos los cambios que hemos hecho.
 ### git rm (flag) (nombre archivo)
 Elimina un archivo de un directorio o area del repositorio.
 
@@ -54,8 +58,16 @@ Atributos:
 
 Flags:
 - --amend: Permite modificar el ultimo commit que hemos hecho, permitiendo cambiar el mensaje del commit. CUIDADO: solo usar cuando se usan repositorios locales ya que si se ha hecho el commit i otro developer ya ha obtenido esos cambios habra poblemas en el proyecto. No permite mensaje de commit.
-### git log
+### git log (flag | atributo)
 Muestra el historial de commits a nuestro repositorio. I junto a ello toda la informacion del commit i los archivos que se han añadido etc...
+
+Flags:
+- --oneline: muestra los commits de forma mas simplificada con la descripcion.
+- sin flag: muestra toda la informacion de todos los commits de forma mas completa.
+
+Atributos:
+- -p: muestra los commits hechos con la informacion de que archivos se han modificado en cada uno y el contenido que tenia anteriormente y el contenido que se ha cambiado en ese commit.
+- sin atributo: muestra toda la informacion de todos los commits de forma mas completa.
 ### git reset (flag) (referencia al commit)
 Nos devuelve commits atras segun los commits que queramos volver atras.
 
@@ -78,14 +90,10 @@ Nos permite viajar entre las ramas de nuestro repositorio, simplemente ponemos e
 **Ves con cuidado al crear una rama ya que si ejecutas este comando en la rama inicial se creara una subrama en base a esa pero si lo ejecutas en una subrama de la rama principal se creara una subrama de la subrama.**
 
 En este caso nos combina el uso de branch i checkout, basicamente nos creara una rama con el nombre que hemos puesto i nos llevara directamente a la rama que acabamos de crear.
+### git merge (nombre rama que quiero fusionar | flag)
+**ANTES DE FUSIONAR TIENES QUE ESTAR EN LA RAMA QUE RECIBE LOS CAMBIOS.**
+Fusiona la rama que especificamos con la rama en la que nos encontramos. Tambien como las fusionamos podemos ver los commits que se han hecho en la rama que ha sido fusionada.
 
-
-
-
-
-
-git diff
-
-git diff --staged
-
-git restore "Nombre del archivo"
+Flags:
+- --continue: En caso de haber tenido conflictos, una vez se han arreglado en vez de hacer un commit podemos usar merge con continue para confirmar el merge y finalizar.
+- sin flag: Si estamos en una rama i ponemos el nombre de otra nos hara el merge.

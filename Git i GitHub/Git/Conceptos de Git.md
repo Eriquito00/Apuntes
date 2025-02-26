@@ -37,5 +37,9 @@ Registran los cambios que se han hecho entre archivos respecto al anterior commi
 - **Commentario que ponemos al hacerlo**
 
 Cada commit tiene su Hash que es un algoritmo que crea un codigo unico en este caso para cada commit.
+## Merge
+Nos permite combinar ramas. Se usa sobretodo cuando queremos aplicar alguna funcion un tanto arriesgada y para ello creamos una rama, una vez la funcionalidad esta aplicada y probada y todo funciona correctamente podemos hacer el merge para volver a fusionar la rama en la que hemos hecho esta funcionalidad con el proyecto principal.
+
+Es un proceso que permite combinar varias lineas independientes de desarrollo en una sola rama una vez ya no necesitamos esas ramas sobre las que hemos hecho esos cambios experimentales. **Para fusionar ramas tienes que estar en la rama que RECIBIRA el merge**.
 ## GitBash
 Es una herramienta que permite ejecutar comandos de Git, es una linea de comandos que se instala automaticamente al instalar Git, este sera el acceso que tenemos entre nosotros (desarrollador) y el proyecto (repositorio).
