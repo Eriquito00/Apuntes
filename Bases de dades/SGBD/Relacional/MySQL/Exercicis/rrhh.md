@@ -361,7 +361,7 @@ WHERE localitzacio_id IN(1400,1700,2500);
 5. Escriu una consulta per mostrar el nom de cada departament, la ciutat on està localitzat el departament, el número d’empleats i el salari mig per tots els empleats d’aquell departament. Anomena les columnes com Nom, Ciutat, Num_Empleats i Salari_Mig respectivament. Arrodoneix el salari mig a dos decimals. Ordena la informació per nom de departament. Intenta de mostrar els punts de miler i la coma com a símbol separador dels valors decimals.
 
 ```SQL
-SELECT d.nom AS Nom, l.ciutat AS Ciutat, COUNT(e.empleat_id) AS Num_Empleats, FORMAT(ROUND(AVG(e.salari), 2),2) AS Salari_Mig
+SELECT d.nom AS Nom, l.ciutat AS Ciutat, COUNT(e.empleat_id) AS Num_Empleats, FORMAT(ROUND(AVG(e.salari), 2),2, 'es_ES') AS Salari_Mig
 	FROM localitzacions AS l 
     INNER JOIN departaments AS d ON d.localitzacio_id = l.localitzacio_id
     INNER JOIN empleats AS e ON d.departament_id = e.departament_id

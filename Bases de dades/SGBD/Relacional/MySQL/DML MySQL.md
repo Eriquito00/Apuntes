@@ -18,6 +18,7 @@ UPDATE:
 
 ![](/Imatges/Pasted%20image%2020250116170207.png)
 
+## Consultes a una sola taula (Nivell 1)
 SELECT:
 - Un select es compon per els atributs de la taula que volem veure, en aquest exemple s'agafen dades de la taula empleats i s'agafaran les dades dels camps nom, cognoms i deparatment_id sempre i quan el departament_id de l'empleat sigui 60, tambe tenim el ORDER BY per dir per quin camp volem ordenar i podem utilitzar DESC per que sigui descendent i ASC perque sigui ascendent.
 
@@ -80,7 +81,7 @@ SELECT:
 	- Despres tenim el HAVING que seria com un "WHERE" del nostre GROUP BY, s'utilitza per posar condicions logiques com al WHERE pero aquest s'executa mes tard per tant el podem utilitzar amb algunes funcions que requereixen fer algun calcul y despres comprovar el calcul, cosa que amb el WHERE no podriem o seria menys eficient.
 	
 		![](../../../../Imatges/Pasted%20image%2020250211151602.png)
-## Consultes de varies taules
+## Consultes de varies taules (Nivell 2)
 Per fer consultes de varies taules podem utilitzar exactament la mateixa estructura pero amb algunes variacions per aclarar quina columna es de quina taula, quan fem combinacions entre dues taules tots els valors d'una taula es combinen amb un altre taula.
 
 ```SQL
@@ -115,3 +116,21 @@ SELECT e.nom, e.cognoms, e.departament_id,
 	FROM empleats e INNER JOIN departaments d ON e.departament_id = d.departament_id;
 ```
 
+## Subconsultes (Nivell 3)
+Les subconsultes son consultes exactament normals pero que ens permeten substituir valors literals (fixes) o valors dinamics per una consulta dins de la consulta inicial.
+### Tipus escalat
+
+```SQL
+SELECT *
+	FROM empleats
+WHERE salari < (SELECT AVG(salari) FROM empleats);
+```
+
+Aqui podem veure que la subconsulta esta entre parentesis i substitueix a un valor dinamic que podria ser calculat a la mateixa consulta o a un valor fixe pel resultat d'aquesta subconsulta. Podem veure que es de tipus escalat ja que la subconsulta que ens calcula la mitjana nomes retorna una columna i una fila.
+### Tipus llista
+#### IN
+#### ANY
+#### ALL
+### Tipus multi-columna
+### Amb mes d'un atribut
+### EXISTS

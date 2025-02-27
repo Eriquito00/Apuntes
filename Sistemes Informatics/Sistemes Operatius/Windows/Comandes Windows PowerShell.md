@@ -90,9 +90,9 @@ Restart-Computer -ComputerName (hostname)
 
 - AQUESTA COMANDA NOMES ES POT UTILITZAR SI PERTANY A UN DOMINI. Serveix per enviar un missatge a un dispositiu. Tenint el hostname i posant titol i missatge, el titol i el missatge entre "".
 
-Send-RDUserMessage -HostServer (hostname)\`
-	-UnifieldSessionID 1
-	-MessageTitle "(titol del missatge)"
+Send-RDUserMessage -HostServer (hostname) \`
+	-UnifieldSessionID 1 \`
+	-MessageTitle "(titol del missatge)" \`
 	-MessageBody "(missatge que volem enviar)"
 ## Temps d'espera
 - Fa que el script esperi cert temps per seguir executant la resta de comandes.
