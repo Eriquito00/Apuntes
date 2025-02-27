@@ -128,9 +128,112 @@ WHERE salari < (SELECT AVG(salari) FROM empleats);
 
 Aqui podem veure que la subconsulta esta entre parentesis i substitueix a un valor dinamic que podria ser calculat a la mateixa consulta o a un valor fixe pel resultat d'aquesta subconsulta. Podem veure que es de tipus escalat ja que la subconsulta que ens calcula la mitjana nomes retorna una columna i una fila.
 ### Tipus llista
+Basicament que la subconsulta que fem pot crear nomes una sola columa amb el numero de files que sigui.
 #### IN
+
+```SQL
+SELECT e.nom
+	FROM empleats e
+WHERE e.departament_id IN (SELECT d.departament_id
+								FROM departaments d
+							WHERE d.nom RLIKE '_H$');
+```
+
+La estructura simple es basica i es que la consulta mostrara els empleats que el id de departament que pertanyen estigui a la llista que crea aquesta subconsulta.
+
+![](../../../../Imatges/Pasted%20image%2020250227143214.png)
+![](../../../../Imatges/Pasted%20image%2020250227143318.png)
+
+Aquests serien els id dels departaments dels quals el seu nom finalitzi amb \_H. I podem veure que el resultat de la consulta sencera es el nom dels empleats els quals pertanyen a aquests departaments.
 #### ANY
+
+```SQL
+SELECT e.nom, e.salari
+	FROM empleats e
+WHERE e.salari < ANY (SELECT e2.salari
+						FROM empleats e2
+					WHERE e2.departament_id = 60);
+```
+
+```SQL
+SELECT e.nom, e.salari
+	FROM empleats e
+WHERE e.salari < (SELECT MAX(e2.salari)
+						FROM empleats e2
+					WHERE e2.departament_id = 60);
+```
+
+Aqui podem veure que aquestes dues consultes ens donaran exactament el mateix resultat, aixo es perque podem fer-ho en format llista o ja agafar el salari mes gran d'una llista. ANY o el camp maxim d'una columna s'utilitza per agafar les dades de forma que si algun salari es mes petit que algun salari que te la subconsulta de ANY directament agafara aquesta dada.
+
+![](../../../../Imatges/Pasted%20image%2020250227144241.png)
+![](../../../../Imatges/Pasted%20image%2020250227144258.png)
+
+Aqui podem veure el resultat de la subconsulta i el de la consulta, podem veure que tots els salaris son mes petits que el salari maxim de la subconsulta que en aquest cas es 9000. Pero per exemple el salari de "Diana" ja es mes petit que 6000 per tant aquest salari ja entra directament per el 9000 i per el 6000, pero aixo ens dona "igual" quan utilitzem el MAX ja que directament agafa el mes gran i sempre i quan sigui mes petit agafara la dada.
 #### ALL
+
+```SQL
+SELECT e.nom, e.salari
+	FROM empleats e
+WHERE e.salari < ALL (SELECT e2.salari
+						FROM empleats e2
+					WHERE e2.departament_id = 60);
+```
+
+```SQL
+SELECT e.nom, e.salari
+	FROM empleats e
+WHERE e.salari < (SELECT MIN(e2.salari)
+						FROM empleats e2
+					WHERE e2.departament_id = 60);
+```
+
+Aqui podem veure que aquestes dues consultes ens donaran exactament el mateix resultat, aixo es perque podem fer-ho en format llista o ja agafar el salari mes gran d'una llista. ALL o el camp minim d'una columna s'utilitza per agafar les dades de forma que si alguna dada es mes petita que absolutament totes les dades de la subconsulta, llavors l'agafa.
+
+![](../../../../Imatges/Pasted%20image%2020250227144241.png)
+![](../../../../Imatges/Pasted%20image%2020250227145200.png)
+
+Aqui podem veure que nomes ens ha agafat les dades dels empleats dels quals el seu salari sigui mes petit que absolutament totes les dades de la subconsulta, per tant podriem agafar el MIN i sempre i quan sigui mes petit que el minim hauriem d'agafar aquella dada.
 ### Tipus multi-columna
+
+```SQL
+SELECT a.nom, a.salari
+	FROM (SELECT e.nom, e.salari, e.data_contractacio
+		FROM empleats e) AS a
+WHERE YEAR(a.data_contractacio) = 1999;
+```
+
+Aqui podem veure una consulta amb una consulta com a taula, aquesta subconsulta pot tenir un o mes columnes i una o mes files.
+
+![](../../../../Imatges/Pasted%20image%2020250227152728.png)
+![](../../../../Imatges/Pasted%20image%2020250227152740.png)
+
+Aqui podem veure la subconsulta que hem utilitzat com a taula per fer la consulta i tenim el resultat com una consulta normal i corrent nomes que hem utilitzar en comptes de una taula real una taula feta a base de una subconsulta.
+
+A mes a mes si no volem tenir aquesta taula a la nostre base de dades podem crear una VIEW per poder utilitzar aquesta consulta com a taula sense necesitat de tenir una taula a la nostre base de dades.
 ### Amb mes d'un atribut
+
+```SQL
+SELECT e.nom, e.salari
+	FROM empleats e
+WHERE (e.nom, e.salari) = (SELECT nom, salari
+								FROM empleats
+							ORDER BY salari DESC
+							LIMIT 1);
+```
+
+Aqui podem veure que estem comparant dues dades a la vegada a una mateixa subconsulta, aixo ens serveix si volem trobar alguna dada a la qual es requereixi que concideixin les seves dades.
+
+Com per exemple en aquest cas que volem sapiguer comparant el nom i el salari amb el nom i el salari del empleat que mes cobra, amb aixo podem obtenir totes les dades que concideixim amb els atributs que comparem de la consulta amb el resultat de la subconsulta.
 ### EXISTS
+
+```SQL
+SELECT e.nom, e.salari, e.data_contractacio
+	FROM empleats e
+WHERE EXISTS (SELECT *
+				FROM empleats e2
+			WHERE e.empleat_id = e2.id_cap);
+```
+
+Aqui podem veure que he utilitzat exists per comparar el id del empleat amb el id dels caps (jefes) de la mateixa taula empleats, basicament exists comprova que al camp que li diem dins de la subconsulta estigui al segon camp que es un camp de la consulta inicial.
+
+Sempre compararem un camp de la mateixa subconsulta amb un camp de la consulta a la que pertany. Les columnes o dades que retornem al SELECT de la subconsulta son irrellevants, no serveixen per res.
