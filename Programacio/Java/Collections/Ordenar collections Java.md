@@ -74,3 +74,7 @@ int total = caixes.stream()
 		.filter(x -> x.getPes() > 5)
 		.count();
 ```
+## HashCode
+hashset necesita tener dentro de los ojetos que se van a diferenciar un editificador unico entre todos los objetos para pode compararlo en hashset i en el equals en cas de que colisionin les id que hem escollit pels objectes podem matitzar mes y comprovar altres dades dels objectes per comprovar si es exactament el mateix objecte, si es totalment igual no l'afegeix i l'ignora i si no es totalment igual si que l'afegeix encara que el id sigui igual al d'un altre.
+
+hashmap es clave - valor, con el hascode mirara la key i en caso de que la key sea exactamente igual a otro elemento entonces creara colision y lo enviara al equals i el equals comparara todos los atributos del objeto con el resto de objetos para comprobar si absolutamente todos los atributos del objeto son iguales al de otro objeto, si son iguales entonces no añadira el objeto i si son diferentes entonces si que lo añadira, en caso de usar valores simples como Integer o String seria mas utilitario ya que para comparar si hay objetos iguales es mas util hashset.
