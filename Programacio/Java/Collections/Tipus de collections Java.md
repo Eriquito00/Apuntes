@@ -214,3 +214,24 @@ cars.clear(); //deixara el HashMap buit
 ```
 
 ---
+## Cues amb Prioritat
+Les cues amb prioritat ens serveixen per tenir una cua ordenades segon les nostre necesitat. Les cues no estaran ordenades inicialment si no que nosaltres anirem afegint valors i a l'hora de treure els valors ens els treura en el ordre de prioritat que hem establert.
+
+```JAVA
+//MAIN
+PriorityQueue<Compra> compras = new PriorityQueue<>();  
+Compra a1 = new Compra(true, "Eric", "1", LocalDateTime.now());  
+Compra a2 = new Compra(false, "Iker", "15", LocalDateTime.now());  
+Compra a3 = new Compra(true, "Davis", "12", LocalDateTime.now());  
+Compra a4 = new Compra(false, "Axel", "9", LocalDateTime.now());  
+Compra a5 = new Compra(false, "Sergio", "5", LocalDateTime.now());
+
+//CLASE "Compra"
+public int compareTo(Object o) {  
+    if (((Compra) o).isPrime() && !this.prime) return 1;  
+    if (!((Compra) o).isPrime() && this.prime) return -1;  
+    return this.dataHora.compareTo(((Compra) o).dataHora);  
+}
+```
+
+Aqui podem veure que tenim la nostre PriorityQueue amb les dades de les compres i qui les ha fet. Si volem ordenar aquesta clase haurem d'implementar Comparable a la clase que anira comparant els valors de PriorityQueue, aqui podem veure que estic donant prioritat a les compres que son Prime i a mes a mes que si les dues son prime o les dues no son prime que les ordeni segons la dataHora en la que s'ha fet la compra.

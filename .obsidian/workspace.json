@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aaa16069d8e19ca1",
+        "id": "3d6ac0de2a04d2a3",
         "type": "tabs",
         "children": [
           {
-            "id": "e3fdf3a3797578c2",
+            "id": "ef2c862147d6011d",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -157,17 +157,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e3fdf3a3797578c2",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Programacio/Java/Collections/Tipus de collections Java.md",
+    "Programacio/Java/Collections/Recorrer collections Java.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Imatges/Pasted image 20250227152740.png",
     "Imatges/Pasted image 20250227152728.png",
@@ -193,8 +195,6 @@
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Sistemes Informatics/Altres/Altres.md",
-    "Programacio/Java/Collections/Tipus de collections Java.md",
-    "Programacio/Java/Collections/Recorrer collections Java.md",
     "desktop.ini",
     "Programacio/Java/Collections/Ordenar collections Java.md",
     "Programacio/Java/Collections/Collections Java.md",
