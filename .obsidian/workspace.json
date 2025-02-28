@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d6ac0de2a04d2a3",
+        "id": "bc2dc77c5f5f698d",
         "type": "tabs",
         "children": [
           {
-            "id": "ef2c862147d6011d",
+            "id": "b5c985358c882de0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,10 +166,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "b5c985358c882de0",
   "lastOpenFiles": [
-    "Programacio/Java/Collections/Tipus de collections Java.md",
     "Programacio/Java/Collections/Recorrer collections Java.md",
+    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
+    "Git i GitHub/Git/Git.md",
+    "Programacio/Java/Collections/Tipus de collections Java.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Imatges/Pasted image 20250227152740.png",
     "Imatges/Pasted image 20250227152728.png",
@@ -181,9 +183,7 @@
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Xarxes.md",
-    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
-    "Git i GitHub/Git/Git.md",
     "Git i GitHub/Git/Conceptos de Git.md",
     "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Imatges/Pasted image 20250226210110.png",
