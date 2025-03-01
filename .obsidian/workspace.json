@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6a1aa6c7b197dbd0",
+        "id": "394235abe20ac825",
         "type": "tabs",
         "children": [
           {
-            "id": "20a98ae558c1c38b",
+            "id": "b56e66abf76b0ad4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programacio/Java/Collections/Ordenar collections Java.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Ordenar collections Java"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -161,23 +157,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "20a98ae558c1c38b",
+  "active": "b56e66abf76b0ad4",
   "lastOpenFiles": [
     "Programacio/Java/Collections/Ordenar collections Java.md",
     "Programacio/Java/Collections/Collections Java.md",
+    "Programacio/Java/Collections/Tipus de collections Java.md",
     "Programacio/Java/Collections/Recorrer collections Java.md",
     "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Git i GitHub/Git/Git.md",
-    "Programacio/Java/Collections/Tipus de collections Java.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Imatges/Pasted image 20250227152740.png",
     "Imatges/Pasted image 20250227152728.png",
