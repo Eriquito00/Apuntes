@@ -1,4 +1,15 @@
 # XML
+## Tipus de validadors per XML
+Principalment com a validadors de XML tenim un mes antic que es DTD i altre mes actual que es XSD. Aqui podem anar a veure quina sintaxi i com podem utilitzar cadascun.
+
+[DTD](Validadors%20XML/DTD.md)
+
+[XSD](Validadors%20XML/XSD.md)
+## Conversio i adaptacio de documents XML
+Aqui tenim un dels formats per convertir per exemple els nostres XML a HTML i adaptar l'informacio del nostre fitxer XML, en aquest cas tenim XSL:
+
+
+
 La sintaxi de xml es molt i molt senzilla, son senzillament etiquetes que nosaltres posem el nom que millor convengui a les nostres necesitats i posarem etiquetes dins d'etiquetes.
 
 ```XML
@@ -16,14 +27,6 @@ La sintaxi de xml es molt i molt senzilla, son senzillament etiquetes que nosalt
 ```
 
 Aqui es pot veure que la estructura es de etiquetes dins d'etiquetes segons les dades que volem guardar.
-
-## Tipus de validadors per XML
-Principalment com a validadors de XML tenim un mes antic que es DTD i altre mes actual que es XSD. Aqui podem anar a veure quina sintaxi i com podem utilitzar cadascun.
-
-[DTD](Validadors%20XML/DTD.md)
-
-[XSD](Validadors%20XML/XSD.md)
-
 ### Diferencies entre DTD i XSD
 
 | Característica     | DTD                         | XSD                                          |
