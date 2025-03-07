@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "394235abe20ac825",
+        "id": "2e521f2834b9f155",
         "type": "tabs",
         "children": [
           {
-            "id": "b56e66abf76b0ad4",
+            "id": "f0bbb3ffa86eecb0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b56e66abf76b0ad4",
+  "active": "f0bbb3ffa86eecb0",
   "lastOpenFiles": [
+    "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML/XSL.md",
+    "Llenguatge de marques/Llenguatges/Validadors XML/XSD.md",
+    "Llenguatge de marques/Llenguatges/XML.md",
+    "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML",
     "Programacio/Java/Collections/Ordenar collections Java.md",
     "Programacio/Java/Collections/Collections Java.md",
     "Programacio/Java/Collections/Tipus de collections Java.md",
@@ -209,10 +213,7 @@
     "Git i GitHub/Git/Areas de Git.md",
     "Git i GitHub/GitHub",
     "Git i GitHub/Apuntes/Sin título.md",
-    "Git i GitHub/Git",
     "Com recorrer una collection.md",
-    "().md",
-    "Programacio/Java/Fitxers/Llibreries de fitxers Java.md",
     "Sin título.canvas"
   ]
 }
