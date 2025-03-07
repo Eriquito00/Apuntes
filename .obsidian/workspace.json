@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2e521f2834b9f155",
+        "id": "12e7441c30adb102",
         "type": "tabs",
         "children": [
           {
-            "id": "f0bbb3ffa86eecb0",
+            "id": "e26e8a64bf9c13cf",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -157,28 +158,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f0bbb3ffa86eecb0",
+  "active": "e26e8a64bf9c13cf",
   "lastOpenFiles": [
+    "Git i GitHub/Introduccion a Git i GitHub.md",
+    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
+    "Git i GitHub/GitHub/Conceptos de GitHub.md",
+    "Git i GitHub/GitHub/GitHub.md",
+    "Git i GitHub/Git/Git.md",
+    "Git i GitHub/GitHub",
+    "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
+    "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
+    "Programacio/Java/Collections/Collections Java.md",
+    "Programacio/Java/Java.md",
+    "Programacio/Introduccio a la programacio.md",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML/XSL.md",
     "Llenguatge de marques/Llenguatges/Validadors XML/XSD.md",
     "Llenguatge de marques/Llenguatges/XML.md",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML",
     "Programacio/Java/Collections/Ordenar collections Java.md",
-    "Programacio/Java/Collections/Collections Java.md",
     "Programacio/Java/Collections/Tipus de collections Java.md",
     "Programacio/Java/Collections/Recorrer collections Java.md",
-    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
-    "Git i GitHub/Git/Git.md",
-    "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Imatges/Pasted image 20250227152740.png",
     "Imatges/Pasted image 20250227152728.png",
     "Imatges/Pasted image 20250227145200.png",
@@ -189,18 +198,15 @@
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Xarxes.md",
-    "Git i GitHub/Introduccion a Git i GitHub.md",
     "Git i GitHub/Git/Conceptos de Git.md",
     "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Imatges/Pasted image 20250226210110.png",
     "Imatges/Pasted image 20250226205944.png",
     "Imatges/Pasted image 20250226205923.png",
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
-    "Sistemes Informatics/Altres/Altres.md",
     "desktop.ini",
     "Llenguatge de marques/Llenguatges/Validadors JSON/desktop.ini",
     "Programacio/Java/desktop.ini",
@@ -208,12 +214,7 @@
     "Sistemes Informatics/Altres/desktop.ini",
     "Sistemes Informatics/Hardware/desktop.ini",
     "Bases de dades/Esquemes/desktop.ini",
-    "Git/Git.md",
     "Git",
-    "Git i GitHub/Git/Areas de Git.md",
-    "Git i GitHub/GitHub",
-    "Git i GitHub/Apuntes/Sin título.md",
-    "Com recorrer una collection.md",
     "Sin título.canvas"
   ]
 }

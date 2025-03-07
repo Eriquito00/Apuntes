@@ -97,3 +97,5 @@ Fusiona la rama que especificamos con la rama en la que nos encontramos. Tambien
 Flags:
 - --continue: En caso de haber tenido conflictos, una vez se han arreglado en vez de hacer un commit podemos usar merge con continue para confirmar el merge y finalizar.
 - sin flag: Si estamos en una rama i ponemos el nombre de otra nos hara el merge.
+### git clone (enlace al repositorio)
+Clona un repositorio de GitHub a nuestro dispositivo local mediante el enlace que podemos conseguir en el repositorio que queramos clonar. Tambien obtenemos todos los commits i la informacion de las versiones.

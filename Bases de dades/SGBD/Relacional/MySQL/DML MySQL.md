@@ -135,8 +135,8 @@ Basicament que la subconsulta que fem pot crear nomes una sola columa amb el num
 SELECT e.nom
 	FROM empleats e
 WHERE e.departament_id IN (SELECT d.departament_id
-								FROM departaments d
-							WHERE d.nom RLIKE '_H$');
+		FROM departaments d
+	WHERE d.nom RLIKE '_H$');
 ```
 
 La estructura simple es basica i es que la consulta mostrara els empleats que el id de departament que pertanyen estigui a la llista que crea aquesta subconsulta.
@@ -151,16 +151,16 @@ Aquests serien els id dels departaments dels quals el seu nom finalitzi amb \_H.
 SELECT e.nom, e.salari
 	FROM empleats e
 WHERE e.salari < ANY (SELECT e2.salari
-						FROM empleats e2
-					WHERE e2.departament_id = 60);
+		FROM empleats e2
+	WHERE e2.departament_id = 60);
 ```
 
 ```SQL
 SELECT e.nom, e.salari
 	FROM empleats e
 WHERE e.salari < (SELECT MAX(e2.salari)
-						FROM empleats e2
-					WHERE e2.departament_id = 60);
+		FROM empleats e2
+	WHERE e2.departament_id = 60);
 ```
 
 Aqui podem veure que aquestes dues consultes ens donaran exactament el mateix resultat, aixo es perque podem fer-ho en format llista o ja agafar el salari mes gran d'una llista. ANY o el camp maxim d'una columna s'utilitza per agafar les dades de forma que si algun salari es mes petit que algun salari que te la subconsulta de ANY directament agafara aquesta dada.
@@ -175,16 +175,16 @@ Aqui podem veure el resultat de la subconsulta i el de la consulta, podem veure 
 SELECT e.nom, e.salari
 	FROM empleats e
 WHERE e.salari < ALL (SELECT e2.salari
-						FROM empleats e2
-					WHERE e2.departament_id = 60);
+		FROM empleats e2
+	WHERE e2.departament_id = 60);
 ```
 
 ```SQL
 SELECT e.nom, e.salari
 	FROM empleats e
 WHERE e.salari < (SELECT MIN(e2.salari)
-						FROM empleats e2
-					WHERE e2.departament_id = 60);
+		FROM empleats e2
+	WHERE e2.departament_id = 60);
 ```
 
 Aqui podem veure que aquestes dues consultes ens donaran exactament el mateix resultat, aixo es perque podem fer-ho en format llista o ja agafar el salari mes gran d'una llista. ALL o el camp minim d'una columna s'utilitza per agafar les dades de forma que si alguna dada es mes petita que absolutament totes les dades de la subconsulta, llavors l'agafa.
@@ -216,9 +216,9 @@ A mes a mes si no volem tenir aquesta taula a la nostre base de dades podem crea
 SELECT e.nom, e.salari
 	FROM empleats e
 WHERE (e.nom, e.salari) = (SELECT nom, salari
-								FROM empleats
-							ORDER BY salari DESC
-							LIMIT 1);
+		FROM empleats
+	ORDER BY salari DESC
+	LIMIT 1);
 ```
 
 Aqui podem veure que estem comparant dues dades a la vegada a una mateixa subconsulta, aixo ens serveix si volem trobar alguna dada a la qual es requereixi que concideixin les seves dades.
@@ -230,8 +230,8 @@ Com per exemple en aquest cas que volem sapiguer comparant el nom i el salari am
 SELECT e.nom, e.salari, e.data_contractacio
 	FROM empleats e
 WHERE EXISTS (SELECT *
-				FROM empleats e2
-			WHERE e.empleat_id = e2.id_cap);
+		FROM empleats e2
+	WHERE e.empleat_id = e2.id_cap);
 ```
 
 Aqui podem veure que he utilitzat exists per comparar el id del empleat amb el id dels caps (jefes) de la mateixa taula empleats, basicament exists comprova que al camp que li diem dins de la subconsulta estigui al segon camp que es un camp de la consulta inicial.
