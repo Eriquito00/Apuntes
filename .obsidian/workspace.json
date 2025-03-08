@@ -11,10 +11,14 @@
             "id": "e26e8a64bf9c13cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Funcions MySQL"
             }
           }
         ]
