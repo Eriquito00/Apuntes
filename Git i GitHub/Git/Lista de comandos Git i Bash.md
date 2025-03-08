@@ -84,12 +84,14 @@ Atributos:
 - -m: Podemos usarlo directamente con un nombre, de forma que cambiaria el nombre de la rama ACTUAL o podemos poner primero el nombre de una rama existente i despues el nombre nuevo que queremos assignar.
 - -d: Elimina de forma permanente la rama con el nombre que le hemos puesto. SOLO SE PUEDE HACER EN REPOSITORIOS LOCALES.
 - sin atributo: Creara una rama nueva con el nombre establecido en el repositorio. Si simplemente ponemos git branch nos mostrara todas las ramas del repositorio y nos señalara en que rama estamos ahora mismo.
-### git checkout (nombre de la rama)
+### git checkout (atributos) (nombre de la rama)
 Nos permite viajar entre las ramas de nuestro repositorio, simplemente ponemos el nombre de la rama que ya tiene que existir previamente y nos llevara a ella. Nos mostrara la rama a la que hemos ido.
-### git checkout -b (nombre de la rama)
+
 **Ves con cuidado al crear una rama ya que si ejecutas este comando en la rama inicial se creara una subrama en base a esa pero si lo ejecutas en una subrama de la rama principal se creara una subrama de la subrama.**
 
-En este caso nos combina el uso de branch i checkout, basicamente nos creara una rama con el nombre que hemos puesto i nos llevara directamente a la rama que acabamos de crear.
+Atributos:
+- -b: En este caso nos combina el uso de branch i checkout, basicamente nos creara una rama con el nombre que hemos puesto i nos llevara directamente a la rama que acabamos de crear.
+- sin atributos: nos permite viajar entre ramas de nuestro repositorio TANTO LOCAL COMO REMOTO.
 ### git merge (nombre rama que quiero fusionar | flag)
 **ANTES DE FUSIONAR TIENES QUE ESTAR EN LA RAMA QUE RECIBE LOS CAMBIOS.**
 Fusiona la rama que especificamos con la rama en la que nos encontramos. Tambien como las fusionamos podemos ver los commits que se han hecho en la rama que ha sido fusionada.
@@ -99,3 +101,20 @@ Flags:
 - sin flag: Si estamos en una rama i ponemos el nombre de otra nos hara el merge.
 ### git clone (enlace al repositorio)
 Clona un repositorio de GitHub a nuestro dispositivo local mediante el enlace que podemos conseguir en el repositorio que queramos clonar. Tambien obtenemos todos los commits i la informacion de las versiones.
+### git remote (atributo)
+Vemos el nombre que se ha assignado o el nombre que tiene el repositorio en GitHub.
+
+Atributos:
+- -v: nos muestra las operaciones que podemos hacer en esa rama como "fetch" i "push" i las respectivas URL.
+- sin atributo: nos muestra el nombre del repositorio remoto.
+#### git remote add origin (link al repositorio)
+Gracias a git remote en caso de tener nuestro repositorio local i despues querer migrarlo a GitHub podemos ejecutar esta comanda y asi enlazar nuestro repositorio local con el repositorio remoto, estos son los pasos: 
+1. Crear el repositorio remoto en GitHub.
+2. Enlazarlo con git remote add i el link del repositorio.
+3. Hacer el push para subirlo todo al repositorio remoto.
+### git push (nombre repositorio remoto) (nombre rama)
+Sube todos los cambios que hemos hecho en nuestros commits a nuestro repositorio remoto, normalmente el nombre del repositorio es "origin" i el nombre de la rama principal "main".
+### git pull (nombre repositorio remoto) (nombre rama)
+Usado para obtener el contenido de un repositorio remoto para que el repositorio local tenga los cambios que se han hecho y que ya tiene el repositorio remoto, normalmente el nombre del repositorio es "origin" i el nombre de la rama principal "main".
+### git fetch (nombre repositorio remoto) (nombre rama)
+Usado para saber si hay cambios en el repositorio remoto que podamos traer a nuestro repositorio local SIN TRAERLOS solo nos muestra si hay nuevos cambios o no, normalmente el nombre del repositorio es "origin" i el nombre de la rama principal "main".

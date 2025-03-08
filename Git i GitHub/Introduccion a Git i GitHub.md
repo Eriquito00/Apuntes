@@ -12,4 +12,4 @@ Git es un sistema de control de versiones, por linea de comandos que nos permite
 
 GitHub es un entorno mas amable que nos permite hacer las funciones de Git y otras cosas mas que nos ofrece GitHub, solo que en un entorno en la nube. Tambien se podria decir que se un servicio de hosting para almacenar proyectos de desarrollo de software.
 
-[ESTADO ACTUAL CURSO GIT Y GITHUB](https://youtu.be/mBYSUUnMt9M?t=12928)
+[ESTADO ACTUAL CURSO GIT Y GITHUB](https://youtu.be/mBYSUUnMt9M?t=16136)
