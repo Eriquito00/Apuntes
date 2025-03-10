@@ -18,3 +18,5 @@ Java és un llenguatge mixt (compilat i interpretat), de propòsit general (tant
 [Llibreries de fitxers Java](Fitxers/Llibreries%20de%20fitxers%20Java.md)
 
 [Collections Java](Collections/Collections%20Java.md)
+
+[Excepcions Java](Excepcions/Excepcions%20Java.md)

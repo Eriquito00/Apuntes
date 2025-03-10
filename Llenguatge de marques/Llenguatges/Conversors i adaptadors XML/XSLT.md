@@ -1,4 +1,4 @@
-# XSL
+# XSLT
 XSL es una forma de transformar els nostres XML a un document HTML amb la informacio del XML, aixi podrem mostrar la informacio del nostre XML en aquest format, poguent aplicar CSS i amb una estructura mes visible i entenedora per l'usuari. Aqui tenim un exemple de un document XSL:
 
 ```XML

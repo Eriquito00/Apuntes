@@ -8,7 +8,7 @@ Principalment com a validadors de XML tenim un mes antic que es DTD i altre mes 
 ## Conversio i adaptacio de documents XML
 Aqui tenim un dels formats per convertir per exemple els nostres XML a HTML i adaptar l'informacio del nostre fitxer XML, en aquest cas tenim XSL:
 
-
+[XSLT](Conversors%20i%20adaptadors%20XML/XSLT.md)
 
 La sintaxi de xml es molt i molt senzilla, son senzillament etiquetes que nosaltres posem el nom que millor convengui a les nostres necesitats i posarem etiquetes dins d'etiquetes.
 
