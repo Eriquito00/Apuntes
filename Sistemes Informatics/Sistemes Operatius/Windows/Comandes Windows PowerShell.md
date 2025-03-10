@@ -98,3 +98,50 @@ Send-RDUserMessage -HostServer (hostname) \`
 - Fa que el script esperi cert temps per seguir executant la resta de comandes.
 
 Start-Sleep -Seconds (-Miliseconds) (temps de espera)
+## Historial de comandes
+- Ens dona l'historial de les ultimes comandes que hem introduit i podem crear un fitxer amb l'historial.
+
+Get-History
+
+- Tambe podem guardar l'historial a un fitxer aixi:
+
+Get-History > (nom fitxer i extensio)
+## Crear usuaris
+- Crea un usuari de domini amb el nom que posem
+
+New-ADUser (-Name) (nom usuari)
+
+- A aquest usuari li falten les coses me importants, la forma d'iniciar sesio tant local com per domini amb el @ del domini.
+
+New-ADUser -Name (nom usuari) \`
+    -SamAccountName (nom usuari) \`
+    -UserPrincipalName (nom usuari)@(extensio domini) \`
+	-Enabled $true o $false (usuari habilitat) \`
+
+- Tambe podem fer que al crear l'usuari ens demani la contraseña utilitzant la comanda Read-Host:
+
+Read-Host -AsSecureString "(missatge)"
+
+- O podem fer que ho faci creant-lo amb la contraseña que volem:
+
+ConvertTo-SecureString "(contraseña)" -AsPlainText -Force
+
+- Y podem aplicar-ho a la anterior de la seguent manera, entre parentesis per executar abans aquesta comanda.
+
+New-ADUser -Name (nom usuari) `
+    -SamAccountName (nom usuari) \`
+    -UserPrincipalName (nom usuari)@(extensio domini) \`
+	-Enabled $true o $false (usuari habilitat) \`
+	-AccountPassword (Read-Host -AsSecureString "(missatge)")
+
+New-ADUser -Name (nom usuari) `
+    -SamAccountName (nom usuari) \`
+    -UserPrincipalName (nom usuari)@(extensio domini) \`
+	-Enabled $true o $false (usuari habilitat) \`
+	-AccountPassword (ConvertTo-SecureString "(contraseña)" -AsPlainText -Force)
+
+- Tambe podem posar el nom de pila, el nom de mostra i els cognoms amb els seguents parametres:
+
+-DisplayName "(nom)" //Nom per mostrar
+-GivenName "(nom)" //Nom de pila
+-Surname "(nom)" //Cognoms
