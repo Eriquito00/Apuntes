@@ -134,7 +134,7 @@ New-ADUser -Name (nom usuari) `
 	-Enabled $true o $false (usuari habilitat) \`
 	-AccountPassword (Read-Host -AsSecureString "(missatge)")
 
-New-ADUser -Name (nom usuari) `
+New-ADUser -Name (nom usuari) \`
     -SamAccountName (nom usuari) \`
     -UserPrincipalName (nom usuari)@(extensio domini) \`
 	-Enabled $true o $false (usuari habilitat) \`
@@ -145,3 +145,10 @@ New-ADUser -Name (nom usuari) `
 -DisplayName "(nom)" //Nom per mostrar
 -GivenName "(nom)" //Nom de pila
 -Surname "(nom)" //Cognoms
+
+- Tambe tenim opcions per la contraseña com les seguents:
+//FALTA DECIR QUE HACE CADA UNA
+
+-ChangePasswordLogon (true o false) //Que pugui cambiar la contraseña l'usuari
+-PasswordNeverExpires (true o false) //Que la contraseña expiri
+-CannotChangePassword (true o false) //Que l'usuari no pugui cambiar la contraseña
