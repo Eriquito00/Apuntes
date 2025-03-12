@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7c861ebadb2e00d4",
+        "id": "4ebc8ee069b7ca5b",
         "type": "tabs",
         "children": [
           {
-            "id": "c22e7c00b9db3712",
+            "id": "8b567af781456e4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git i GitHub/Git/Lista de comandos Git i Bash.md",
-                "mode": "preview",
+                "file": "Git i GitHub/Introduccion a Git i GitHub.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lista de comandos Git i Bash"
+              "title": "Introduccion a Git i GitHub"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 246.51103591918945
   },
   "right": {
     "id": "9565c7424373b453",
@@ -171,9 +170,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c22e7c00b9db3712",
+  "active": "8b567af781456e4d",
   "lastOpenFiles": [
     "Git i GitHub/Git/Lista de comandos Git i Bash.md",
+    "Git i GitHub/GitHub/Conceptos de GitHub.md",
+    "Git i GitHub/Introduccion a Git i GitHub.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/LDAP.md",
@@ -187,8 +188,6 @@
     "Programacio/Java/Exepcions",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML/XSLT.md",
     "Llenguatge de marques/Llenguatges/XML.md",
-    "Git i GitHub/Introduccion a Git i GitHub.md",
-    "Git i GitHub/GitHub/Conceptos de GitHub.md",
     "Git i GitHub/GitHub/GitHub.md",
     "Programacio/Java/Collections/Ordenar collections Java.md",
     "Programacio/Java/Collections/Collections Java.md",

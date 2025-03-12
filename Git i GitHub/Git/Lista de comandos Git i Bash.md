@@ -83,6 +83,7 @@ Referencias:
 Atributos:
 - -m: Podemos usarlo directamente con un nombre, de forma que cambiaria el nombre de la rama ACTUAL o podemos poner primero el nombre de una rama existente i despues el nombre nuevo que queremos assignar.
 - -d: Elimina de forma permanente la rama con el nombre que le hemos puesto. SOLO SE PUEDE HACER EN REPOSITORIOS LOCALES.
+- -a: Nos muestra las ramas remotas que tenemos en GitHub (no poner el nombre de la rama)
 - sin atributo: Creara una rama nueva con el nombre establecido en el repositorio. Si simplemente ponemos git branch nos mostrara todas las ramas del repositorio y nos señalara en que rama estamos ahora mismo.
 ### git checkout (atributos) (nombre de la rama)
 Nos permite viajar entre las ramas de nuestro repositorio, simplemente ponemos el nombre de la rama que ya tiene que existir previamente y nos llevara a ella. Nos mostrara la rama a la que hemos ido.
@@ -112,8 +113,12 @@ Gracias a git remote en caso de tener nuestro repositorio local i despues querer
 1. Crear el repositorio remoto en GitHub.
 2. Enlazarlo con git remote add i el link del repositorio.
 3. Hacer el push para subirlo todo al repositorio remoto.
-### git push (nombre repositorio remoto) (nombre rama)
+### git push (nombre repositorio remoto) (atributo) (nombre rama)
 Sube todos los cambios que hemos hecho en nuestros commits a nuestro repositorio remoto, normalmente el nombre del repositorio es "origin" i el nombre de la rama principal "main".
+
+Atributos:
+- -d: nos elimina una rama en el repositorio remoto de GitHub.
+- sin atributo: Sube todos los cambios que hemos hecho en nuestros commits a nuestro repositorio remoto.
 ### git pull (nombre repositorio remoto) (nombre rama)
 Usado para obtener el contenido de un repositorio remoto para que el repositorio local tenga los cambios que se han hecho y que ya tiene el repositorio remoto, normalmente el nombre del repositorio es "origin" i el nombre de la rama principal "main".
 ### git fetch (nombre repositorio remoto) (nombre rama)
