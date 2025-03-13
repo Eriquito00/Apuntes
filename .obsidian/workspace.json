@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4ebc8ee069b7ca5b",
+        "id": "95903fa6a3153854",
         "type": "tabs",
         "children": [
           {
-            "id": "8b567af781456e4d",
+            "id": "1ed2e0c6941b0f34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git i GitHub/Introduccion a Git i GitHub.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Introduccion a Git i GitHub"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -161,20 +157,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8b567af781456e4d",
+  "active": "1ed2e0c6941b0f34",
   "lastOpenFiles": [
+    "Git i GitHub/Introduccion a Git i GitHub.md",
     "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Git i GitHub/GitHub/Conceptos de GitHub.md",
-    "Git i GitHub/Introduccion a Git i GitHub.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/LDAP.md",
