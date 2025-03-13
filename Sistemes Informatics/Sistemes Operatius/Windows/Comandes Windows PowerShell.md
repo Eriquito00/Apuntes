@@ -140,15 +140,13 @@ New-ADUser -Name (nom usuari) \`
 	-Enabled $true o $false (usuari habilitat) \`
 	-AccountPassword (ConvertTo-SecureString "(contraseña)" -AsPlainText -Force)
 
-- Tambe podem posar el nom de pila, el nom de mostra i els cognoms amb els seguents parametres:
+- Altres parametres de New-ADUser:
 
 -DisplayName "(nom)" //Nom per mostrar
 -GivenName "(nom)" //Nom de pila
 -Surname "(nom)" //Cognoms
-
-- Tambe tenim opcions per la contraseña com les seguents:
-//FALTA DECIR QUE HACE CADA UNA
-
+-EmailAddress (email) //assignar un correu electronic
 -ChangePasswordLogon (true o false) //Que pugui cambiar la contraseña l'usuari
 -PasswordNeverExpires (true o false) //Que la contraseña expiri
 -CannotChangePassword (true o false) //Que l'usuari no pugui cambiar la contraseña
+-LogonWorkstations (hostname) //nomes podra iniciar sessio a aquests dispositius, si volem que sigui mes de una posarem "(hostname),(hostname)" sense espais.
