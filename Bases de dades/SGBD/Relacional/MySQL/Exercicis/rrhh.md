@@ -704,31 +704,143 @@ ORDER BY e.empleat_id;
 15. Obté per cada departament, el salari màxim. Descarta els empleats que no tenen assignat cap departament.
 
 ```MYSQL
-
+SELECT MAX(e.salari), d.nom
+	FROM empleats e
+    LEFT JOIN departaments d ON d.departament_id = e.departament_id
+WHERE e.departament_id IS NOT NULL
+GROUP BY d.departament_id;
 ```
 
 16. Dels empleats que no treballen a cap departament indica quins són els que guanyen més? (nom,cognoms i salari)
 
 ```MYSQL
-
+SELECT e.nom, e.cognoms, e.salari
+	FROM empleats e
+    LEFT JOIN departaments d ON d.departament_id = e.departament_id
+WHERE e.departament_id IS NULL
+LIMIT 5;
 ```
 
 17. Volem saber quins empleats guanyen més de cada departament. Mostra el codi empleat, nom, codi de departament, nom departament i salari. Utilitza l’operador IN
 
 ```MYSQL
-
+SELECT e.empleat_id, e.nom, d.departament_id, d.nom, e.salari
+	FROM empleats e
+    INNER JOIN departaments d ON e.departament_id = d.departament_id
+WHERE (e.salari, e.departament_id) IN (SELECT MAX(e.salari), d.departament_id
+		FROM empleats e 
+        INNER JOIN departaments d ON e.departament_id = d.departament_id
+	GROUP BY d.departament_id);
 ```
 
 18. Volem saber el nom, cognoms i salari dels empleats que guanyen més QUE ALGUN dels empleats del departament de ‘Vendes’.
 
 ```MYSQL
-
+SELECT e.nom, e.cognoms, e.salari
+	FROM empleats e
+    INNER JOIN departaments d ON e.departament_id = d.departament_id
+WHERE e.salari > (SELECT MIN(e.salari)
+		FROM empleats e
+		INNER JOIN departaments d ON e.departament_id = d.departament_id
+	WHERE d.nom = "Vendes");
 ```
 
 19. Volem saber el nom, cognoms i salari dels empleats que guanyen més QUE TOTS els empleats del departament de ‘Vendes’.
 
 ```MYSQL
+SELECT e.nom, e.cognoms, e.salari
+	FROM empleats e
+    INNER JOIN departaments d ON e.departament_id = d.departament_id
+WHERE e.salari > (SELECT MAX(e.salari)
+		FROM empleats e
+		INNER JOIN departaments d ON e.departament_id = d.departament_id
+	WHERE d.nom = "Vendes");
+```
+
+20. Quants empleats tenim del departament de ‘IT’ que van ser contractats abans que QUE ALGUN empleat del departament de ‘Vendes’? Mostra els cognoms i la data de contractació.
+
+```MYSQL
+SELECT e.cognoms, e.data_contractacio
+	FROM empleats e
+    INNER JOIN departaments d ON e.departament_id = d.departament_id
+WHERE d.nom = "IT" AND e.data_contractacio < (SELECT MAX(e.data_contractacio)
+		FROM empleats e
+		INNER JOIN departaments d
+	WHERE d.nom = "Vendes");
+```
+
+21. Quants empleats tenim del departament de ‘IT’ que van ser contractats abans que TOTS els empleats del departament de ‘Vendes’? Mostra els cognoms i la data de contractació.
+
+```MYSQL
+SELECT e.cognoms, e.data_contractacio
+	FROM empleats e
+    INNER JOIN departaments d ON e.departament_id = d.departament_id
+WHERE d.nom = "IT" AND e.data_contractacio < (SELECT MIN(e.data_contractacio)
+		FROM empleats e
+		INNER JOIN departaments d ON e.departament_id = d.departament_id
+	WHERE d.nom = "Vendes");
+```
+
+22. Utilitzant l’operador EXISTS. Volem saber els departaments que tenen assignats empleats.
+
+```MYSQL
+SELECT d.nom
+	FROM departaments d
+    INNER JOIN empleats e ON e.departament_id = d.departament_id
+WHERE EXISTS (SELECT d.nom
+		FROM departaments d
+		INNER JOIN empleats e ON e.departament_id = d.departament_id
+	GROUP BY d.departament_id)
+GROUP BY d.departament_id;
+```
+
+23. Mostra el resultat de la consulta tal i com es mostra a continuació: 
+- Crea una llista de noms dels empleats per Id de departaments
+- Crea una llista de noms de departaments 
+- Crea una llista de noms de ciutats.
+
+![](../../../../../Imatges/Pasted%20image%2020250315151552.png)
+
+```MYSQL
+SELECT e.nom AS Employee_Name, d.departament_id AS Departament_id, "" AS Departament_Name, "" AS City
+	FROM empleats e
+    INNER JOIN departaments d ON d.departament_id = e.departament_id
+UNION
+SELECT "", d.departament_id, d.nom, ""
+	FROM departaments d
+UNION    
+SELECT "", "", "", l.ciutat
+	FROM localitzacions l;
+```
+
+24. Crea una llista que inclogui els cost de salaris de cada feina dins de cada departament. A la mateixa llista, mostra el cost de salaris per ciutat.
+
+![](../../../../../Imatges/Pasted%20image%2020250315151613.png)
+
+```MYSQL
 
 ```
 
-20. Quants empleats tenim del departament de ‘IT’ que van ser contractats bans que QUE ALGUN empleat del departament de ‘Vendes’? Mostra els cognoms i la data de contractació.
+25. Dels empleats que han tingut 3 feines quins d’aquests estan treballant actualment al departament de Vendes.
+
+```MYSQL
+
+```
+
+26. Mostra els empleats(nom,cognoms,salari,nom_departament) que cobrin més que el doble de la mitjan del departament ‘Vendes’.
+
+```MYSQL
+
+```
+
+27. Partint de la consulta anterior exclou els empleats del departament de ‘Vendes’.
+
+```MYSQL
+
+```
+
+28. Mostra els departaments (identificador i nom) a on tots els empleats tinguin un salari més alt que la mitjana de tots els empleats amb salari superior a 2.000.
+
+```MYSQL
+
+```
