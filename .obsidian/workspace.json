@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b42d338e521ff548",
+        "id": "51756bd833bbe779",
         "type": "tabs",
         "children": [
           {
-            "id": "4b91514d5c57f4b4",
+            "id": "6311c9c1b490000c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,10 +168,10 @@
   },
   "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Imatges/Pasted image 20250315151613.png",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
-    "Imatges/Pasted image 20250315151613.png",
     "Imatges/Pasted image 20250315151552.png",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
@@ -200,7 +200,6 @@
     "Llenguatge de marques/Llenguatges/Validadors XML/XSD.md",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML",
     "Programacio/Java/Collections/Tipus de collections Java.md",
-    "Programacio/Java/Collections/Recorrer collections Java.md",
     "Imatges/Pasted image 20250227152740.png",
     "Imatges/Pasted image 20250227152728.png",
     "Imatges/Pasted image 20250227145200.png",

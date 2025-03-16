@@ -802,45 +802,82 @@ GROUP BY d.departament_id;
 ![](../../../../../Imatges/Pasted%20image%2020250315151552.png)
 
 ```MYSQL
-SELECT e.nom AS Employee_Name, d.departament_id AS Departament_id, "" AS Departament_Name, "" AS City
+SELECT e.nom AS Employee_Name, d.departament_id AS Departament_id, "-" AS Departament_Name, "-" AS City
 	FROM empleats e
     INNER JOIN departaments d ON d.departament_id = e.departament_id
 UNION
-SELECT "", d.departament_id, d.nom, ""
+SELECT "-", d.departament_id, d.nom, "-"
 	FROM departaments d
 UNION    
-SELECT "", "", "", l.ciutat
+SELECT "-", "-", "-", l.ciutat
 	FROM localitzacions l;
 ```
 
 24. Crea una llista que inclogui els cost de salaris de cada feina dins de cada departament. A la mateixa llista, mostra el cost de salaris per ciutat.
 
-![](../../../../../Imatges/Pasted%20image%2020250315151613.png)
-
 ```MYSQL
-
+SELECT d.nom AS Departament_Name, f.feina_codi AS Job_id, "-" AS City, SUM(e.salari) AS Salari
+	FROM departaments d
+    INNER JOIN empleats e ON e.departament_id = d.departament_id
+    INNER JOIN feines f ON e.feina_codi = f.feina_codi
+GROUP BY d.departament_id, f.feina_codi
+UNION
+SELECT "-", "-", l.ciutat, SUM(e.salari)
+	FROM localitzacions l
+    INNER JOIN departaments d ON l.localitzacio_id = d.localitzacio_id
+    INNER JOIN empleats e ON e.departament_id = d.departament_id
+    INNER JOIN feines f ON f.feina_codi = e.feina_codi
+GROUP BY l.ciutat;
 ```
 
-25. Dels empleats que han tingut 3 feines quins d’aquests estan treballant actualment al departament de Vendes.
+25. Dels empleats que han tingut 2 feines quins d’aquests estan treballant actualment al departament de Compres.
 
 ```MYSQL
-
+SELECT e.nom
+	FROM empleats e
+    INNER JOIN departaments d ON e.departament_id = d.departament_id
+WHERE d.nom = "Compres" AND e.nom IN (SELECT e.nom
+		FROM empleats e
+		INNER JOIN historial_feines hf ON hf.empleat_id = e.empleat_id
+	GROUP BY e.empleat_id
+	HAVING COUNT(hf.empleat_id) = 2);
 ```
 
 26. Mostra els empleats(nom,cognoms,salari,nom_departament) que cobrin més que el doble de la mitjan del departament ‘Vendes’.
 
 ```MYSQL
-
+SELECT e.nom, e.cognoms, e.salari, d.nom
+	FROM empleats e
+    INNER JOIN departaments d ON e.departament_id = d.departament_id
+WHERE e.salari > (SELECT AVG(e.salari) * 2
+		FROM empleats e
+		INNER JOIN departaments d ON e.departament_id = d.departament_id
+	WHERE d.nom = "Vendes");
 ```
 
 27. Partint de la consulta anterior exclou els empleats del departament de ‘Vendes’.
 
 ```MYSQL
-
+SELECT e.nom, e.cognoms, e.salari, d.nom
+	FROM empleats e
+    INNER JOIN departaments d ON e.departament_id = d.departament_id
+WHERE d.nom != "Vendes" AND  e.salari > (SELECT AVG(e.salari) * 2
+		FROM empleats e
+		INNER JOIN departaments d ON e.departament_id = d.departament_id
+	WHERE d.nom = "Vendes");
 ```
 
 28. Mostra els departaments (identificador i nom) a on tots els empleats tinguin un salari més alt que la mitjana de tots els empleats amb salari superior a 2.000.
 
 ```MYSQL
-
+SELECT DISTINCT d2.departament_id, d2.nom
+	FROM departaments d2
+    INNER JOIN empleats e ON e.departament_id = d2.departament_id
+WHERE (SELECT MIN(e.salari)
+		FROM departaments d
+		INNER JOIN empleats e ON e.departament_id = d.departament_id
+	WHERE d.departament_id = d2.departament_id
+	GROUP BY d.departament_id) > (SELECT AVG(e.salari)
+		FROM empleats e
+	WHERE e.salari > 2000);
 ```
