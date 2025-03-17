@@ -128,7 +128,7 @@ ConvertTo-SecureString "(contraseña)" -AsPlainText -Force
 
 - Y podem aplicar-ho a la anterior de la seguent manera, entre parentesis per executar abans aquesta comanda.
 
-New-ADUser -Name (nom usuari) `
+New-ADUser -Name (nom usuari) \`
     -SamAccountName (nom usuari) \`
     -UserPrincipalName (nom usuari)@(extensio domini) \`
 	-Enabled $true o $false (usuari habilitat) \`
@@ -150,3 +150,7 @@ New-ADUser -Name (nom usuari) \`
 -PasswordNeverExpires (true o false) //Que la contraseña expiri
 -CannotChangePassword (true o false) //Que l'usuari no pugui cambiar la contraseña
 -LogonWorkstations (hostname) //nomes podra iniciar sessio a aquests dispositius, si volem que sigui mes de una posarem "(hostname),(hostname)" sense espais.
+## Crear Grups
+- Crear un grup amb el minim indispensable per poder crearlo.
+New-ADgroup -Name (nom grup) \`
+	-
