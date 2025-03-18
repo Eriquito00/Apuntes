@@ -106,6 +106,14 @@ Get-History
 - Tambe podem guardar l'historial a un fitxer aixi:
 
 Get-History > (nom fitxer i extensio)
+## Activar execucio de scripts
+- Ens diu si tenim o no dret d'executar scripts
+
+Get-ExecutionPolicy
+
+- Ens permet o ens restringeix executar scripts
+
+Set-ExecutionPolicy (restricted / unrestricted)
 ## Crear usuaris
 - Crea un usuari de domini amb el nom que posem
 
@@ -153,4 +161,15 @@ New-ADUser -Name (nom usuari) \`
 ## Crear Grups
 - Crear un grup amb el minim indispensable per poder crearlo.
 New-ADgroup -Name (nom grup) \`
-	-
+	-GroupScope (DomainLocal, Global, Universal)
+## Afegir usuaris a grups i grups a usuaris
+### Usuaris a grups
+- Afegeix els usuaris que li diguem al grup que li posem, tambe podem utilitzar la sam: "CN=(nom usuari),OU=(nom OU), DC=(nom domini),DC=(extensio del domini)"
+
+Add-ADDGroupMember -Identify (nom grup) \`
+	-Members (nom usuari), (nom usuari)...
+### Grups a usuaris
+- Afegeix els grups que li diem al usuari que posem, tambe podem utilitzar igual que amb l'anterior la seva sam: "CN=(nom grup),OU=(nom OU), DC=(nom domini),DC=(extensio del domini)"
+
+Add-ADPrincipalGroupMembership -Identity (nom usuari) \`
+	-MemberOf (nom grup), (nom grup)...

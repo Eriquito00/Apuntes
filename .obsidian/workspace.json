@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef57b35b2c75f84c",
+        "id": "f247169bb256b069",
         "type": "tabs",
         "children": [
           {
-            "id": "b363c0e05c675249",
+            "id": "3b58a7974b8369f1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,9 +168,9 @@
   },
   "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Imatges/Pasted image 20250315151613.png",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
