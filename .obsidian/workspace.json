@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f247169bb256b069",
+        "id": "a5c3da78f5a59bd1",
         "type": "tabs",
         "children": [
           {
-            "id": "c34f24e8057ff7da",
+            "id": "9e39fca4f3de5a86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Persistencia de dades/Introduccio a persistencia de dades.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Introduccio a persistencia de dades"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -161,23 +158,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c34f24e8057ff7da",
+  "active": "9e39fca4f3de5a86",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+    "Sistemes Informatics/Hardware/Hardware.md",
     "Persistencia de dades/Introduccio a persistencia de dades.md",
     "README.md",
     "Sense títol.canvas",
     "Persistencia de dades",
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Imatges/Pasted image 20250315151613.png",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",

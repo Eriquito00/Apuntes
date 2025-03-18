@@ -1,153 +1,186 @@
 # Comandas Windows PowerShell
-
-**ELS \[\] SIGNIFIQUEN QUE SON ATRIBUTS OPCIONALS**
-## Habilitar escriptori remot (no es ps)
-cscript C:\Windows\System32\Scregedit.wsf /ar 0
-## Activar / Desactivar firewall
-Set-NetFirewallProfile domain,public,private 
-- Enabled False (apagar) True (encendre)
 ## Xarxa
-### Obtenir la IP i info de xarxa
+- Obtenir la IP i info de xarxa
+```Powershell
 Get-NetIPAddress
-### Posar de nou 
-New-NetIPAddress
-- IPAddress
-- AddressFamily
-- PrefixLength
-- InterfaceAlias
-### Elimina la configuracio de xarxa del adaptador
+```
+- Establir una ip i una configuracio de xarxa
+```PowerShell
+New-NetIPAddress `
+- IPAddress (ip)`
+- AddressFamily (IPv4 o IPv6)`
+- PrefixLength (numero de mascara)`
+- InterfaceAlias (interface de xarxa)
+```
+- Elimina la configuracio de xarxa del adaptador
+```PowerShell
 Remove-NetIPAddress
 - InterfaceAddress (interficie de xarxa)
-### Obtenir el DNS
+```
+- Obtenir el DNS
+```PowerShell
 Get-DnsClientServerAddress
-### Introduir el DNS
+```
+- Introduir el DNS
+```PowerShell
 Set-DnsClientServerAddress
 - InterfaceAlias
 - ServerAddresses
-## Cambiar nom del equip
-Rename-Computer 
-- NewName
-## Rebre comandes remotes
-Enable-PSRemoting -Force
-## Cambiar firewall
+```
+- Activar / Desactivar firewall
+```PowerShell
+Set-NetFirewallProfile domain,public,private 
+- Enabled False (apagar) True (encendre)
+```
+- Cambiar firewall
+```PowerShell
 Set-NetFirewallProfile (domain,public,private)
 - Enabled (True o False)
-## Instalacio del servei AD
-Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-## Copiar arxius d'una carpeta a altre
-Copy-Item -Path "(origen)" -Destination "(desti)" -Force
-## Posar clau de windows
-slmgr /ipk (clau producte)
-## Instalar servei de domini (o altres)
-Install-WindowsFeature (nom de la caracteristica) -IncludeManagementTools (per instalar dependencies)
-## Executar amb altres credencials
-
-- Executa un executable amb l'usuari que diem. Com aquesta comanda es una mica complexa aqui tenim un exemple, que basicament inicia un Process powershell per parar un altre process  powershell amb credencials administrador.
-
-Start-Process "executable" -Credential "usuari (si no posem res amb l'usuari que executa, ha de ser nom de Net-Bios)"
-	\[-ArgumentList "arguments"\]
-
-![](../../../Imatges/Pasted%20image%2020250225095947.png)
-
-- Executa un executable amb un usuari administrador
-
-Start-Process "executable" \[-ArgumentList "usuari (si no posem res amb l'usuari que executa, ha de ser nom de Net-Bios)"\]
-	\[-Verb runas\] (SEMPRE DEMANARA EL PERFIL D'ADMINISTRADOR)
-
-- Ens mostra els processos actius.
-
-Get-Process
-
-- Ens mostra els processos que estan actius amb el nom establert
-
-Get-Process -Name ""nom process""
-
-- Ens mostra els processos que estan actius amb el nom establert i quin usuari l'executa, nomes ho pot executar un administrador.
-
-Get-Process -Name ""nom process"" -IncludeUserName
-
-- Para un proces que esta en curs en base a la ID del process, podem altres parametres com -Force  per forçar a que es tanqui el process 
-
-Stop-Process -Id (id del process) \[-Force\]
-
-## Viatjar entre entorns
-- Si estem a PowerShell i volem anar a cmd podem executar la seguent comanda a cmd. Aixi tindrem les comandes de cmd dins de la nostre terminal de powershell.
-
-cmd
-
-- Si volem executar comandes de PowerShell a cmd podem fer el seguent. Aixi podem executar comandes de powershell desde cmd pero el que fara en veritat sera executar la comanda en powershell y donarnos el resultat per cmd no l'executa directe al cmd
-
-powershell /c (comanda) (EL "/c" ES PER A QUE EXECUTI AMB L'ENTORN QUE DEMANEM I DESPRES ES TANQUI)
-
-## Control de dispositius
+```
+Habilitar escriptori remot (no es powershell)
+```CMD
+cscript C:\Windows\System32\Scregedit.wsf /ar 0
+```
+## Equips
+- Cambiar nom del equip
+```PowerShell
+Rename-Computer `
+- NewName
+```
+- Rebre comandes remotes
+```PowerShell
+Enable-PSRemoting -Force
+```
 - Apagar un dispositiu mitjançant el seu hostname. I tambe podem utilitzar el parametre -Force per forçar que s'apagui el dispositiu, la estructura hauria de ser amb un " \`" si volem fer un canvi de linea per posar mes parametres
-
+```PowerShell
 Stop-Computer -ComputerName (hostname)
-
+```
 - Reiniciar un dispositiu i utilitza tambe -ComputerName i el hostname
-
+```PowerShell
 Restart-Computer -ComputerName (hostname)
-
+```
 - AQUESTA COMANDA NOMES ES POT UTILITZAR SI PERTANY A UN DOMINI. Serveix per enviar un missatge a un dispositiu. Tenint el hostname i posant titol i missatge, el titol i el missatge entre "".
-
+```PowerShell
 Send-RDUserMessage -HostServer (hostname) \`
 	-UnifieldSessionID 1 \`
 	-MessageTitle "(titol del missatge)" \`
 	-MessageBody "(missatge que volem enviar)"
-## Temps d'espera
+```
+### Temps d'espera
 - Fa que el script esperi cert temps per seguir executant la resta de comandes.
-
+```PowerShell
 Start-Sleep -Seconds (-Miliseconds) (temps de espera)
-## Historial de comandes
+```
+## Gestio
+- Instalacio del serveis
+```PowerShell
+Install-WindowsFeature (nom de la caracteristica) -IncludeManagementTools (per instalar dependencies)
+```
+- Copiar arxius d'una carpeta a altre
+```PowerShell
+Copy-Item -Path "(origen)" `
+-Destination "(desti)" `
+-Force
+```
+- Posar clau de windows
+```PowerShell
+slmgr /ipk (clau producte)
+```
+### Historial de comandes
 - Ens dona l'historial de les ultimes comandes que hem introduit i podem crear un fitxer amb l'historial.
-
+```PowerShell
 Get-History
-
+```
 - Tambe podem guardar l'historial a un fitxer aixi:
-
+```PowerShell
 Get-History > (nom fitxer i extensio)
+```
+## Executar amb altres credencials
+
+- Executa un executable amb l'usuari que diem. Com aquesta comanda es una mica complexa aqui tenim un exemple, que basicament inicia un Process powershell per parar un altre process  powershell amb credencials administrador.
+```PowerShell
+Start-Process "executable" -Credential "usuari (si no posem res amb l'usuari que executa, ha de ser nom de Net-Bios)"
+	[-ArgumentList "arguments"]
+```
+
+![](../../../Imatges/Pasted%20image%2020250225095947.png)
+
+- Executa un executable amb un usuari administrador
+```PowerShell
+Start-Process "executable" \[-ArgumentList "usuari (si no posem res amb l'usuari que executa, ha de ser nom de Net-Bios)"\]
+	[-Verb runas] (SEMPRE DEMANARA EL PERFIL D'ADMINISTRADOR)
+```
+## Procesos
+- Ens mostra els processos actius.
+```PowerShell
+Get-Process
+```
+- Ens mostra els processos que estan actius amb el nom establert
+```PowerShell
+Get-Process -Name ""nom process""
+```
+- Ens mostra els processos que estan actius amb el nom establert i quin usuari l'executa, nomes ho pot executar un administrador.
+```PowerShell
+Get-Process -Name ""nom process"" -IncludeUserName
+```
+- Para un proces que esta en curs en base a la ID del process, podem altres parametres com -Force  per forçar a que es tanqui el process 
+```PowerShell
+Stop-Process -Id (id del process) [-Force]
+```
+## Viatjar entre entorns
+- Si estem a PowerShell i volem anar a cmd podem executar la seguent comanda a cmd. Aixi tindrem les comandes de cmd dins de la nostre terminal de powershell.
+```PowerShell
+cmd
+```
+- Si volem executar comandes de PowerShell a cmd podem fer el seguent. Aixi podem executar comandes de powershell desde cmd pero el que fara en veritat sera executar la comanda en powershell y donarnos el resultat per cmd no l'executa directe al cmd
+```CMD
+powershell /c (comanda) (EL "/c" ES PER A QUE EXECUTI AMB L'ENTORN QUE DEMANEM I DESPRES ES TANQUI)
+```
 ## Activar execucio de scripts
 - Ens diu si tenim o no dret d'executar scripts
-
+```PowerShell
 Get-ExecutionPolicy
-
+```
 - Ens permet o ens restringeix executar scripts
-
+```PowerShell
 Set-ExecutionPolicy (restricted / unrestricted)
+```
 ## Crear usuaris
 - Crea un usuari de domini amb el nom que posem
-
+```PowerShell
 New-ADUser (-Name) (nom usuari)
-
+```
 - A aquest usuari li falten les coses me importants, la forma d'iniciar sesio tant local com per domini amb el @ del domini.
-
+```PowerShell
 New-ADUser -Name (nom usuari) \`
     -SamAccountName (nom usuari) \`
     -UserPrincipalName (nom usuari)@(extensio domini) \`
 	-Enabled $true o $false (usuari habilitat) \`
-
+```
 - Tambe podem fer que al crear l'usuari ens demani la contraseña utilitzant la comanda Read-Host:
-
+```PowerShell
 Read-Host -AsSecureString "(missatge)"
+```
 
-- O podem fer que ho faci creant-lo amb la contraseña que volem:
-
-ConvertTo-SecureString "(contraseña)" -AsPlainText -Force
-
-- Y podem aplicar-ho a la anterior de la seguent manera, entre parentesis per executar abans aquesta comanda.
-
+```PowerShell
 New-ADUser -Name (nom usuari) \`
     -SamAccountName (nom usuari) \`
     -UserPrincipalName (nom usuari)@(extensio domini) \`
 	-Enabled $true o $false (usuari habilitat) \`
 	-AccountPassword (Read-Host -AsSecureString "(missatge)")
+```
+- O podem fer que ho faci creant-lo amb la contraseña que volem per guardar la contrasenya de forma segura:
+```PowerShell
+ConvertTo-SecureString "(contraseña)" -AsPlainText -Force
+```
 
+```PowerShell
 New-ADUser -Name (nom usuari) \`
     -SamAccountName (nom usuari) \`
     -UserPrincipalName (nom usuari)@(extensio domini) \`
 	-Enabled $true o $false (usuari habilitat) \`
 	-AccountPassword (ConvertTo-SecureString "(contraseña)" -AsPlainText -Force)
-
+```
 - Altres parametres de New-ADUser:
 
 -DisplayName "(nom)" //Nom per mostrar
@@ -160,16 +193,20 @@ New-ADUser -Name (nom usuari) \`
 -LogonWorkstations (hostname) //nomes podra iniciar sessio a aquests dispositius, si volem que sigui mes de una posarem "(hostname),(hostname)" sense espais.
 ## Crear Grups
 - Crear un grup amb el minim indispensable per poder crearlo.
+```PowerShell
 New-ADgroup -Name (nom grup) \`
 	-GroupScope (DomainLocal, Global, Universal)
+```
 ## Afegir usuaris a grups i grups a usuaris
 ### Usuaris a grups
 - Afegeix els usuaris que li diguem al grup que li posem, tambe podem utilitzar la sam: "CN=(nom usuari),OU=(nom OU), DC=(nom domini),DC=(extensio del domini)"
-
+```PowerShell
 Add-ADDGroupMember -Identify (nom grup) \`
 	-Members (nom usuari), (nom usuari)...
+```
 ### Grups a usuaris
 - Afegeix els grups que li diem al usuari que posem, tambe podem utilitzar igual que amb l'anterior la seva sam: "CN=(nom grup),OU=(nom OU), DC=(nom domini),DC=(extensio del domini)"
-
+```PowerShell
 Add-ADPrincipalGroupMembership -Identity (nom usuari) \`
 	-MemberOf (nom grup), (nom grup)...
+```
