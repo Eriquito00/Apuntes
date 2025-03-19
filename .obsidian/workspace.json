@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a5c3da78f5a59bd1",
+        "id": "122f47ee5216638f",
         "type": "tabs",
         "children": [
           {
-            "id": "9e39fca4f3de5a86",
+            "id": "e1d0d56675e0c41b",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -158,17 +157,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9e39fca4f3de5a86",
+  "active": "e1d0d56675e0c41b",
   "lastOpenFiles": [
+    "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Hardware/Hardware.md",
     "Persistencia de dades/Introduccio a persistencia de dades.md",
@@ -178,11 +181,9 @@
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Imatges/Pasted image 20250315151613.png",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Imatges/Pasted image 20250315151552.png",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
     "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Git i GitHub/GitHub/Conceptos de GitHub.md",
@@ -201,8 +202,6 @@
     "Programacio/Java/Collections/Collections Java.md",
     "Git i GitHub/Git/Git.md",
     "Git i GitHub/GitHub",
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
-    "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML",
     "Imatges/Pasted image 20250227152740.png",
     "Imatges/Pasted image 20250227152728.png",

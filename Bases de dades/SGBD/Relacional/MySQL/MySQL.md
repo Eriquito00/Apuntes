@@ -7,6 +7,8 @@
 
 [Funcions MySQL](Funcions%20MySQL.md)
 
+[CTE MySQL](CTE%20MySQL.md)
+
 [Exercicis MySQL](Exercicis/Exercicis%20MySQL.md)
 # Contrasenya😳
 root:
