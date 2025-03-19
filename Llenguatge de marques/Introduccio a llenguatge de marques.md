@@ -6,3 +6,5 @@
 [XML](./Llenguatges/XML.md)
 
 [JSON](./Llenguatges/JSON.md)
+
+[YAML](./Llenguatges/YAML.md)
