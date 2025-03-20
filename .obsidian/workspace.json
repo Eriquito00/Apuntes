@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b38b5943bc4e6f69",
+        "id": "6aa17620053f3f4a",
         "type": "tabs",
         "children": [
           {
-            "id": "32fd3b88d365dde6",
+            "id": "d3bad2294864ede6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Finestra MySQL"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -162,21 +157,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "32fd3b88d365dde6",
+  "active": "d3bad2294864ede6",
   "lastOpenFiles": [
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Llenguatge de marques/Llenguatges/YAML.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Llenguatge de marques/Introduccio a llenguatge de marques.md",
     "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
