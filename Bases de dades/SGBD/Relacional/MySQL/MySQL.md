@@ -9,6 +9,8 @@
 
 [CTE MySQL](CTE%20MySQL.md)
 
+[Finestra MySQL](Finestra%20MySQL.md)
+
 [Exercicis MySQL](Exercicis/Exercicis%20MySQL.md)
 # Contrasenya😳
 root:
