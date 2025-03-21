@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b38b5943bc4e6f69",
+        "id": "b060d9d14ba19383",
         "type": "tabs",
         "children": [
           {
-            "id": "32fd3b88d365dde6",
+            "id": "c528c8cf44a89706",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Finestra MySQL"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -171,10 +166,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "32fd3b88d365dde6",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
+    "Persistencia de dades/Introduccio a persistencia de dades.md",
+    "JDBC/JDBC.md",
+    "JDBC",
+    "Persistencia de dades/JDBC/JDBC.md",
+    "Persistencia de dades/JDBC",
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Llenguatge de marques/Llenguatges/YAML.md",
     "Llenguatge de marques/Introduccio a llenguatge de marques.md",
@@ -182,7 +182,6 @@
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Sistemes Informatics/Hardware/Hardware.md",
-    "Persistencia de dades/Introduccio a persistencia de dades.md",
     "README.md",
     "Sense títol.canvas",
     "Persistencia de dades",
@@ -204,8 +203,6 @@
     "Programacio/Java/Excepcions",
     "Programacio/Java/Exepcions",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML/XSLT.md",
-    "Llenguatge de marques/Llenguatges/XML.md",
-    "Git i GitHub/GitHub/GitHub.md",
     "Git i GitHub/GitHub",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML",
     "Imatges/Pasted image 20250227152740.png",
@@ -218,8 +215,6 @@
     "Imatges/Pasted image 20250226210110.png",
     "desktop.ini",
     "Llenguatge de marques/Llenguatges/Validadors JSON/desktop.ini",
-    "Programacio/Java/desktop.ini",
-    "Sistemes Informatics/Sistemes Operatius/desktop.ini",
     "Sin título.canvas"
   ]
 }
