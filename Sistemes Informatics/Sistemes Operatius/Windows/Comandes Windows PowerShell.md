@@ -247,14 +247,20 @@ Remove-ADPrincipalGroupMembership -Identity (nom usuari) `
 	-MemberOf (nom grup), (nom grup)... `
 	-Confirm: $false //per eliminar el missatge de confirmacio, true per demanarlo
 ```
-## Mostra
-### Usuaris a grups
+### Mostra
+#### Usuaris a grups
 - Ens mostra la informacio del grup entre ella els seus membres.
 ```PowerShell
 Get-ADGroupMember -Identify (nom grup)
 ```
-### Grups a usuaris
+#### Grups a usuaris
 - Ens mostra la informacio del grup entre ella els seus membres.
 ```PowerShell
 Get-ADPrincipalGroupMembership -Identity (nom usuari)
+```
+## Cambiar contrasenya
+- Cambia la contraseña agafant l'objecte de contraseña i assignantla de nou a l'usuari. D'aquesta forma podem agafar l'objecte contrasenya d'aquest usuari, modificarla y que ara tingui aquesta nova contrasenya.
+```POWERSHELL
+Set-ADAccountPassword -Identity (nom usuari) `
+	-NewPassword (ConvertTo-SecureString (nova contrasenya) -AsPlainText -Force)
 ```

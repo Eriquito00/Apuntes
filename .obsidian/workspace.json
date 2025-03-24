@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b060d9d14ba19383",
+        "id": "73d5d0a818dc413c",
         "type": "tabs",
         "children": [
           {
-            "id": "c528c8cf44a89706",
+            "id": "4e2116658b260f9b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -157,17 +157,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Persistencia de dades/Introduccio a persistencia de dades.md",
     "JDBC/JDBC.md",
     "JDBC",
@@ -175,11 +178,9 @@
     "Persistencia de dades/JDBC",
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Llenguatge de marques/Llenguatges/YAML.md",
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Llenguatge de marques/Introduccio a llenguatge de marques.md",
     "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
@@ -189,7 +190,6 @@
     "Sense títol.canvas",
     "Persistencia de dades",
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Imatges/Pasted image 20250315151613.png",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
@@ -200,12 +200,9 @@
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/LDAP.md",
     "Programacio/Java/Excepcions/Excepcions Java.md",
-    "Programacio/Java/Java.md",
-    "Excepcions/Collections Java.md",
     "Excepcions",
     "Programacio/Java/Excepcions",
     "Programacio/Java/Exepcions",
-    "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML/XSLT.md",
     "Git i GitHub/GitHub",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML",
     "Imatges/Pasted image 20250227152740.png",
