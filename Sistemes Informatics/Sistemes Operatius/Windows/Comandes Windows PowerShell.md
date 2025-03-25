@@ -284,3 +284,10 @@ Remove-ADOrganizationalUnit -Identity (cadena LDAP fins la UO) `
 Set-ADAccountPassword -Identity (nom usuari) `
 	-NewPassword (ConvertTo-SecureString (nova contrasenya) -AsPlainText -Force)
 ```
+
+- Amb aquesta comanda el que fem es que no es pugui cambiar la contrasenya fins al seguent dia, per defecte degut a una directiva, pero tambe podem modificar aquest funcionament d'aquesta directiva [solucionant el problema de la vigencia minima de contrasenyes](solucionant%20el%20problema%20de%20la%20vigencia%20minima%20de%20contrasenyes.md)
+``` PowerShell
+Set-ADAccountPassword -Identity (usuari) `
+    -NewPassword (ConvertTo-SecureString (nova contrasenya) -AsPlainText -Force) `
+    -OldPassword (ConvertTo-SecureString (antiga contrasenya) -AsPlainText -Force)
+```

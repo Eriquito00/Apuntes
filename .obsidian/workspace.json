@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "71b0336badfa6771",
+        "id": "be9270873386feab",
         "type": "tabs",
         "children": [
           {
-            "id": "3345d933a953ff55",
+            "id": "8986042e519aacd0",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -158,20 +157,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3345d933a953ff55",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Imatges/Pasted image 20250325155014.png",
+    "Imatges/Pasted image 20250325154948.png",
+    "Imatges/Pasted image 20250325154808.png",
+    "Imatges/Pasted image 20250325154703.png",
+    "Imatges/Pasted image 20250325154524.png",
+    "Imatges/Pasted image 20250325154411.png",
+    "Imatges/Pasted image 20250325154333.png",
+    "Imatges/Pasted image 20250325154052.png",
+    "Imatges/Pasted image 20250325154010.png",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Solucionant el problema de la vigencia minima de contrasenyes.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
     "Persistencia de dades/Introduccio a persistencia de dades.md",
     "JDBC/JDBC.md",
     "JDBC",
@@ -199,21 +208,11 @@
     "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Git i GitHub/GitHub/Conceptos de GitHub.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/LDAP.md",
-    "Programacio/Java/Excepcions/Excepcions Java.md",
     "Excepcions",
     "Programacio/Java/Excepcions",
     "Programacio/Java/Exepcions",
     "Git i GitHub/GitHub",
     "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML",
-    "Imatges/Pasted image 20250227152740.png",
-    "Imatges/Pasted image 20250227152728.png",
-    "Imatges/Pasted image 20250227145200.png",
-    "Imatges/Pasted image 20250227144258.png",
-    "Imatges/Pasted image 20250227144241.png",
-    "Imatges/Pasted image 20250227143318.png",
-    "Imatges/Pasted image 20250227143214.png",
-    "Imatges/Pasted image 20250226210110.png",
     "desktop.ini",
     "Llenguatge de marques/Llenguatges/Validadors JSON/desktop.ini",
     "Sin título.canvas"
