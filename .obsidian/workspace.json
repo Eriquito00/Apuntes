@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "73d5d0a818dc413c",
+        "id": "71b0336badfa6771",
         "type": "tabs",
         "children": [
           {
-            "id": "4e2116658b260f9b",
+            "id": "3345d933a953ff55",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -157,16 +158,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "3345d933a953ff55",
   "lastOpenFiles": [
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",

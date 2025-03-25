@@ -258,8 +258,28 @@ Get-ADGroupMember -Identify (nom grup)
 ```PowerShell
 Get-ADPrincipalGroupMembership -Identity (nom usuari)
 ```
+## Unitats organitzatives
+### Crear
+- Crea una unitat organitzativa amb un nom i si volem podem posarli una ruta definida i si volem que estigui protegida o no, tambe a la propia ruta podem crear una UO dins d'un altre UO.
+```POWERSHELL
+New-AdOrganizationalUnit -Name (nom Unitat Organitzativa) `
+	-Path (ruta LDAP on volem crearla) `
+	-ProtectedFromAccidentalDeletion ($true per protegir $false per no protegir)
+```
+### Modificar
+- Ens permet modificar per exemple si volem modificar l'estat de la proteccio contra eliminacio accidental.
+```POWERSHELL
+New-AdOrganizationalUnit -Identify (cadena LDAP fins la UO) `
+	-ProtectedFromAccidentalDeletion ($true per protegir $false per no protegir)
+```
+### Eliminar
+- Ens permet eliminar una unitat organitzativa.
+```POWERSHELL
+Remove-ADOrganizationalUnit -Identity (cadena LDAP fins la UO) `
+	-Confirm: $false ($false si no volem que demani confirmacio, si volem que demani no posem res nomes confirm)
+```
 ## Cambiar contrasenya
-- Cambia la contraseña agafant l'objecte de contraseña i assignantla de nou a l'usuari. D'aquesta forma podem agafar l'objecte contrasenya d'aquest usuari, modificarla y que ara tingui aquesta nova contrasenya.
+- Cambia la contraseña agafant l'objecte de contraseña i assignantla de nou a l'usuari. D'aquesta forma podem agafar l'objecte contrasenya d'aquest usuari, modificarla y que ara tingui aquesta nova contrasenya, els parentesis de NewPassword SI que s'han de posar.
 ```POWERSHELL
 Set-ADAccountPassword -Identity (nom usuari) `
 	-NewPassword (ConvertTo-SecureString (nova contrasenya) -AsPlainText -Force)
