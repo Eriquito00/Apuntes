@@ -881,3 +881,75 @@ WHERE (SELECT MIN(e.salari)
 		FROM empleats e
 	WHERE e.salari > 2000);
 ```
+## 1.2.6 Funcions de finestra
+1. Fes un Time Series. Que mostri per cada fila la data complerta del mes de gener de l’any 2021.
+
+Sortida:
+```MySQL
+2021-01-01
+2021-01-02
+2021-01-03
+```
+
+```MYSQL
+WITH RECURSIVE datesGener(mes) AS (
+	SELECT 1 AS mes
+	UNION
+	SELECT mes + 1
+		FROM datesGener
+	WHERE mes < 31
+)
+SELECT CONCAT("2021-01-", mes) AS Dies_Gener
+	FROM datesGener;
+```
+
+2. Modifica la sentència SQL anterior per mostrar el mateix per l’any actual.
+
+Sortida:
+```MySQL
+<any-actual>-01-01
+<any-actual>-01-02
+<any-actual>-01-03
+```
+
+```MYSQL
+WITH RECURSIVE datesGener(mes) AS (
+	SELECT 1 AS mes
+	UNION
+	SELECT mes + 1
+		FROM datesGener
+	WHERE mes < 31
+)
+SELECT CONCAT(YEAR(NOW()),"-01-", mes) AS Dies_Gener
+	FROM datesGener;
+```
+
+3. Volem obtenir l’arbre de caps i subordinats a partir de l’empleat Eleni Zlotkey (empleat_id=149)
+
+```MYSQL
+
+```
+
+4. Volem mostrar per cada mes de l’any 1999 quants empleats van ser contractats. Els mesos buits (no es van contractar empleats) cal mostrar un 0 (zero).
+
+```MYSQL
+
+```
+
+5. Utilitzant CTE mostra una llista de totes les regions juntament amb la quantitat de països associada a cada regió.
+
+```MYSQL
+
+```
+
+6. Per cada empleat volem mostrar una columna a on hi hagi el número total d’empleats del seu departament.
+
+```MYSQL
+
+```
+
+7. Per cada empleat volem mostrar la mitjana de salari del seu departament, el salari més alt, el salari més baix i les diferències del seu salari entre el més alt i el més baix.
+
+```MYSQL
+
+```

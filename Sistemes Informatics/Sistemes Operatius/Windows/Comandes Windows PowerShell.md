@@ -197,7 +197,8 @@ New-ADUser -Name (nom usuari) `
 - Crear un grup amb el minim indispensable per poder crearlo.
 ```PowerShell
 New-ADgroup -Name (nom grup) `
-	-GroupScope (DomainLocal, Global, Universal)
+	-GroupScope (DomainLocal, Global, Universal) `
+	-Description "(descripcio del grup)"
 ```
 ### Eliminar
 - Elimina un grup pero NO elimina els usuaris que estaben afegits a ell.
@@ -285,7 +286,7 @@ Set-ADAccountPassword -Identity (nom usuari) `
 	-NewPassword (ConvertTo-SecureString (nova contrasenya) -AsPlainText -Force)
 ```
 
-- Amb aquesta comanda el que fem es que no es pugui cambiar la contrasenya fins al seguent dia, per defecte degut a una directiva, pero tambe podem modificar aquest funcionament d'aquesta directiva [solucionant el problema de la vigencia minima de contrasenyes](solucionant%20el%20problema%20de%20la%20vigencia%20minima%20de%20contrasenyes.md)
+- Amb aquesta comanda el que fem es que no es pugui cambiar la contrasenya fins al seguent dia, per defecte degut a una directiva, pero tambe podem modificar aquest funcionament d'aquesta directiva [solucionant el problema de la vigencia minima de contrasenyes](solucionant%20el%20problema%20de%20la%20vigencia%20minima%20de%20contrasenyes.md).
 ``` PowerShell
 Set-ADAccountPassword -Identity (usuari) `
     -NewPassword (ConvertTo-SecureString (nova contrasenya) -AsPlainText -Force) `
