@@ -192,6 +192,17 @@ New-ADUser -Name (nom usuari) `
 -PasswordNeverExpires (true o false) //Que la contraseña expiri
 -CannotChangePassword (true o false) //Que l'usuari no pugui cambiar la contraseña
 -LogonWorkstations (hostname) //nomes podra iniciar sessio a aquests dispositius, si volem que sigui mes de una posarem "(hostname),(hostname)" sense espais.
+-City "(nom ciutat)" //Nom de la ciutat
+-PostalCode (codi postal) o "(codi postal)" //Codi postal del poble
+-Organization o -Company "(nom)" //Posar el nom de la empresa
+-Department "(nom)" //Nom del departament
+-Office "(nom)" //Nom de la oficina
+-EmailAddress "(correu)" //Correu electronic
+-Country (Inicials) //Inicials del pais al que pertany
+-State "(nom)" //Nom de la provincia
+-StreetAddress "(nom)" //Direccio del carrer
+-MobilePhone "(numero telefon)" //Numero de telefon
+-AccountExpirationDate "(data)" //posar data en format dd/mm/yyyy amb / o -.
 ## Grups
 ### Crear
 - Crear un grup amb el minim indispensable per poder crearlo.
@@ -291,4 +302,11 @@ Set-ADAccountPassword -Identity (nom usuari) `
 Set-ADAccountPassword -Identity (usuari) `
     -NewPassword (ConvertTo-SecureString (nova contrasenya) -AsPlainText -Force) `
     -OldPassword (ConvertTo-SecureString (antiga contrasenya) -AsPlainText -Force)
+```
+## Moure objectes
+- Mou objectes d'un origen a un desti sense importar si es grup, usuari, unitat organitzativa.
+
+```POWERSHELL
+Move-ADObject -Identity (cadena LDAP origen) `
+	-TargetPath (cadena LDAP desti)
 ```
