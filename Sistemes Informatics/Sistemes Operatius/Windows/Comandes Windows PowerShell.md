@@ -310,3 +310,30 @@ Set-ADAccountPassword -Identity (usuari) `
 Move-ADObject -Identity (cadena LDAP origen) `
 	-TargetPath (cadena LDAP desti)
 ```
+## Recerca d'objectes
+Serveixen per localitzar objectes o agafar les seves propietats, les comandes que s'utilitzen son totes les comandes que començen per "Get" com per exemple:
+- Get-ADUser
+- Get-ADGroup
+- Get-ADGroupMember
+- Get-ADComputer
+- Get-ADPrincipalGroupMembership
+- Get-ADObject //serveix per qualsevol objecte
+
+### Sintaxi Get-ADUser
+- Per buscar una serie de propietats de un usuari.
+
+```POWERSHELL
+Get-ADUser -Identity (cadena LDAP)
+```
+
+- Per buscar usuaris amb un filtre que compleixin o no aquest filtre
+
+```POWERSHELL
+Get-ADUser -Filter <(expresio de filtre)>
+```
+
+- Per buscar usuaris amb un filtre que compleixin o no amb un filtre LDAP
+
+```POWERSHELL
+Get-ADUser -LDAPFilter <(expresio de filtre LDAP)>
+```
