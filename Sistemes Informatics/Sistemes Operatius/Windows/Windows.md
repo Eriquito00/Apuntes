@@ -9,3 +9,5 @@
 [Grups Windows](Grups%20Windows.md)
 
 [Contrasenyes Windows](Contrasenyes%20Windows.md)
+
+[ConsultesAD PowerShell](ConsultesAD%20PowerShell.md)

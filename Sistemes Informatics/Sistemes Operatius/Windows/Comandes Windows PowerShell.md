@@ -318,7 +318,6 @@ Serveixen per localitzar objectes o agafar les seves propietats, les comandes qu
 - Get-ADComputer
 - Get-ADPrincipalGroupMembership
 - Get-ADObject //serveix per qualsevol objecte
-
 ### Sintaxi Get-ADUser
 - Per buscar una serie de propietats de un usuari.
 
