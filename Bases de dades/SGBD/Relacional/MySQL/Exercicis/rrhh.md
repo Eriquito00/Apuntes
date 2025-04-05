@@ -927,29 +927,68 @@ SELECT CONCAT(YEAR(NOW()),"-01-", mes) AS Dies_Gener
 3. Volem obtenir l’arbre de caps i subordinats a partir de l’empleat Eleni Zlotkey (empleat_id=149)
 
 ```MYSQL
-
+WITH RECURSIVE empleaditos(id,nom,cog,cap,n) AS (
+	SELECT e.empleat_id AS id, e.nom AS nom, e.cognoms AS cog, e.id_cap AS cap, 0 AS n
+		FROM empleats e
+	WHERE e.empleat_id = 149
+    UNION
+    SELECT e2.empleat_id, e2.nom, e2.cognoms, e2.id_cap, n + 1
+		FROM empleats e2
+        INNER JOIN empleaditos e3 ON e2.id_cap = e3.id
+)
+SELECT * 
+	FROM empleaditos;
 ```
 
 4. Volem mostrar per cada mes de l’any 1999 quants empleats van ser contractats. Els mesos buits (no es van contractar empleats) cal mostrar un 0 (zero).
 
 ```MYSQL
-
+SELECT mc.*, COUNT(e.empleat_id)
+	FROM mesosContractes mc
+    LEFT JOIN empleats e ON MONTH(e.data_contractacio) = mc.mes AND YEAR(e.data_contractacio) = 1999
+GROUP BY mc.mes
+ORDER BY mc.mes;
 ```
 
 5. Utilitzant CTE mostra una llista de totes les regions juntament amb la quantitat de països associada a cada regió.
 
 ```MYSQL
-
+WITH paisosRegio AS (
+	SELECT r.nom, COUNT(p.pais_id) AS paisos
+	FROM regions r
+    LEFT JOIN paisos p ON p.regio_id = r.regio_id
+GROUP BY r.regio_id
+)
+SELECT *
+	FROM paisosRegio;
 ```
 
 6. Per cada empleat volem mostrar una columna a on hi hagi el número total d’empleats del seu departament.
 
 ```MYSQL
-
+WITH empleatsDepartament AS (
+	SELECT d.departament_id AS id, COUNT(e.empleat_id) AS num
+		FROM departaments d
+        LEFT JOIN empleats e ON d.departament_id = e.departament_id
+	GROUP BY d.departament_id
+)
+SELECT e.empleat_id, e.nom, e.cognoms, e.departament_id, ed.num
+	FROM empleats e
+    LEFT JOIN empleatsDepartament ed ON ed.id = e.departament_id
+ORDER BY ed.id;
 ```
 
 7. Per cada empleat volem mostrar la mitjana de salari del seu departament, el salari més alt, el salari més baix i les diferències del seu salari entre el més alt i el més baix.
 
 ```MYSQL
-
+WITH empleatsDepartament AS (
+	SELECT d.departament_id AS id, AVG(e.salari) AS avg, MAX(e.salari) AS max, MIN(e.salari) AS min
+		FROM departaments d
+        LEFT JOIN empleats e ON d.departament_id = e.departament_id
+	GROUP BY d.departament_id
+)
+SELECT e.nom, e.cognoms, e.salari, ROUND(ed.avg,2) AS avg, ed.max, ABS(e.salari - ed.max) AS difMax, ed.min, ABS(e.salari - ed.min) AS difMin
+	FROM empleats e
+	LEFT JOIN empleatsDepartament ed ON ed.id = e.departament_id
+ORDER BY e.salari DESC;
 ```
