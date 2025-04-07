@@ -69,3 +69,20 @@ Amb subtree ens donara els usuaris de la OU i si hi ha alguna OU dins amb usuari
 - ```PostalCode -le 17000```
 - ge: Que un valor sigui major O IGUAL a un altre, per exemple un codi postal mes petit que 17000 INCLOS 
 - ```PostalCode -ge 17000```
+## Canalitzacio
+- Gracies a la canalitzacio podem executar o fer el mateix cambis a diferents objectes amb una sola comanda.
+
+```POWERSHELL
+Get-ADGroup -Filter * -SearchBase (cadena LDAP) | Set-ADGroup -Description (Descripcio)
+```
+
+- Amb aquesta comanda i utilitzant "|" podem posar per exemple una mateixa descripcio a tots els grups de una unitat organitzativa per exemple.
+
+### Select-object
+- Amb selects igual que a mysql podem fer consultes i obtenir determinades dades dels objectes que volguem, podem utilitzarlo amb o sense canalitzador pero es mes util utilitzarlo amb canalitzador.
+
+```POWERSHELL
+Get-ADUser -Filter {city -like "*"} -Properties city | Select-Object -Property name,surname,city
+```
+
+- Per exemple aqui podem veure que mostrara els usuaris que tinguin ciutat asignada, com per defecte no mostra la ciutat fem un "-Properties city" per pasarli al select-object i que aixi el pugui mostrar, despres el select-object mostrara la informacio que posem per cada usuari que compleixi el filtre anterior.
