@@ -77,7 +77,6 @@ Get-ADGroup -Filter * -SearchBase (cadena LDAP) | Set-ADGroup -Description (Desc
 ```
 
 - Amb aquesta comanda i utilitzant "|" podem posar per exemple una mateixa descripcio a tots els grups de una unitat organitzativa per exemple.
-
 ### Select-object
 - Amb selects igual que a mysql podem fer consultes i obtenir determinades dades dels objectes que volguem, podem utilitzarlo amb o sense canalitzador pero es mes util utilitzarlo amb canalitzador.
 
@@ -86,3 +85,14 @@ Get-ADUser -Filter {city -like "*"} -Properties city | Select-Object -Property n
 ```
 
 - Per exemple aqui podem veure que mostrara els usuaris que tinguin ciutat asignada, com per defecte no mostra la ciutat fem un "-Properties city" per pasarli al select-object i que aixi el pugui mostrar, despres el select-object mostrara la informacio que posem per cada usuari que compleixi el filtre anterior.
+#### Parametres
+- Property: seleccionem unes propietats dels objectes anteriorment filtrats.
+- Unique: treu els repetits.
+### Sort-Object
+- Amb sort object podem ordenar els resultats d'una consulta de una forma especifica ordenada.
+
+```POWERSHELL
+Get-ADUser -Filter {city -like "*"} -Properties city | Select-Object -Property name,surname,city | Sort-Object -Property name,surname
+```
+
+- En aquest exemple podem veure que ordenarem els resultats per nom, i en cas de tenir el mateix nom s'ordenara per el cognom.
