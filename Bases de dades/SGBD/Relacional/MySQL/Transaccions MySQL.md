@@ -122,27 +122,22 @@ COMMIT;
 ```
 
 ### Nivell 3
-
-//FALTA ACABAR EL NIVEL 3 DE TRANSACCIONES
+En cas de voler actualitzar i llegir a la vegada d'una mateixa taula, en cas de voler editar un nom a un empleat i despres voler consultar els usuaris amb el nivell d'aillament SERIALIZABLE, no es podra fer la lectura fins que no acabi la transaccio amb COMMIT o ROLLBACK.
 
 ```MYSQL
 # Sesio 1
 BEGIN;
 
 SET SESSION TRANSACTION ISOLATION
-	LEVEL REPEATABLE READ;
+	LEVEL SERIALIZABLE READ;
 
-<-- EXECUTA SESIO 2
+SELECT *
+	FROM empleats;
 
-SELECT * 
-	FROM empleats; //NO SORTIRA JUAN
+<-- EXECUTA SESIO 2 //NO SE EJECUTARA HASTA QUE ACABE ESTA TRANSACCION
 
-UPDATE empleats
-	SET nom = "Joaquin"
-WHERE empleat_id = 2; //NOM ORIGINAL JUAN PERO AL SELECT NO SORTIRA
-
-SELECT * 
-	FROM empleats; //SI SORTIRA JUAN PERO ARA COM A JOAQUIN
+SELECT *
+	FROM empleats;
 
 COMMIT;
 ```
@@ -152,7 +147,7 @@ COMMIT;
 BEGIN;
 
 INSERT INTO empleats (nom, edat)
-	VALUES("Juan", 30);
+VALUES ("Juan", 30);
 
 COMMIT;
 ```
