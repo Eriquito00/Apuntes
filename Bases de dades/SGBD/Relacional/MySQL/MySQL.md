@@ -11,6 +11,8 @@
 
 [Finestra MySQL](Finestra%20MySQL.md)
 
+[Transaccions MySQL](Transaccions%20MySQL.md)
+
 [Exercicis MySQL](Exercicis/Exercicis%20MySQL.md)
 # Contrasenya😳
 root:
