@@ -8,3 +8,5 @@
 [JSON](./Llenguatges/JSON.md)
 
 [YAML](./Llenguatges/YAML.md)
+
+[xQuery](./Llenguatges/xQuery.md)
