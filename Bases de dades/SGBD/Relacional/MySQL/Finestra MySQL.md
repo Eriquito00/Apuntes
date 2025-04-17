@@ -27,11 +27,13 @@ SELECT *, ROUND(ABS(avg_salari - salari),2) AS diferencia
 ## Ranquing
 ### RANK
 Asigna un numero per classificar les dades segons el ORDER BY que posem. Pero quan hi ha un valor repetit assigna a aquests dos un el mateix numero classificatori i al seguent per exemple li assigna a aquests dos valors repetits "1" i al seguent directament li assigna "3".
+
 ```MYSQL
 SELECT e.nom, e.departament_id, e.salari,
 	RANK() OVER (PARTITION BY departament_id ORDER BY salari) AS ranking
 	FROM empleat e;
 ```
+
 RESULTAT:
 
 | nom      | salari | departament_id | ranquing |
@@ -44,11 +46,13 @@ RESULTAT:
 
 ### DENSE_RANK
 DENSE_RANK funciona exactament com RANK pero amb un petit cambi. Asigna un numero per classificar les dades segons el ORDER BY que posem. Pero quan hi ha un valor repetit assigna a aquests dos un el mateix numero classificatori i al seguent per exemple li assigna a aquests dos valors repetits "1" i al seguent directament li assigna "2" en comptes de "3" com faria RANK.
+
 ```MYSQL
 SELECT e.nom, e.departament_id, e.salari,
 	DENSE_RANK() OVER (PARTITION BY departament_id ORDER BY salari) AS ranking
 	FROM empleat e;
 ```
+
 RESULTAT:
 
 | nom      | salari | departament_id | ranquing |
@@ -61,11 +65,13 @@ RESULTAT:
 
 ### ROW_NUMBER
 ROW_NUMBER simplement anira enumerant per cada fila segons el ORDER BY que posem per establir com li van arribant les files, en aquest exemple com el particiona per departament doncs ens el numera mitjançant el departament.
+
 ```MYSQL
 SELECT e.nom, e.departament_id, e.salari,
 	ROW_NUMBER() OVER (PARTITION BY departament_id ORDER BY salari) AS ranking
 	FROM empleat e;
 ```
+
 RESULTAT:
 
 | nom      | salari | departament_id | ranquing |
@@ -78,11 +84,13 @@ RESULTAT:
 
 ### PERCENT_RANK
 Aqui podem veure que PERCENT_RANK basicament el que fa en aquest cas es agafar el numero de files que estan agrupades segons el que posem al PARTITION BY i ens dona el recorregut com els empleats del departament 1, podem veure que son 5 per tant divideix 1 entre cinc y reparteix entre ells el percentatge de forma que hi hagi la mateixa distancia entre ells.
+
 ```MYSQL
 SELECT e.nom, e.departament_id, e.salari,
 	PERCENT_RANK() OVER (PARTITION BY departament_id ORDER BY salari) AS percent
 	FROM empleat e;
 ```
+
 RESULTAT:
 
 | nom      | salari | departament_id | percent |
@@ -99,11 +107,13 @@ RESULTAT:
 NTILE es pot utilitzar per exemple per fer separar segons un requisit una mateixa consulta de forma que la podem crear x trosos, no mes de les files que retorna.
 
 Aqui al seguent exemple podem veure que li diem que fraccioni entre 2, com son un total de 7 files no podem deixar-ho en 3.5 per tant el que fa es afegir una al primer o depenent el cas al primer i al segon y la resta deixarlos amb grups de la mateixa quantitat de files.
+
 ```MYSQL
 SELECT e.nom, e.salari, e.departament_id,
        NTILE(2) OVER (ORDER BY e.salari) AS fraccio
 FROM empleats e;
 ```
+
 RESULTAT:
 
 | nom      | salari | departament_id | fraccio |

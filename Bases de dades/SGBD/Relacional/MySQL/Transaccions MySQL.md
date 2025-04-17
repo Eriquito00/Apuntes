@@ -76,7 +76,6 @@ WHERE empleat_id = 1; //NOM ORIGINAL MARTA
 <-- EXECUTA SESIO 2
 
 COMMIT;
-
 ```
 
 ```MYSQL
