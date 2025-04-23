@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbfb9808bd205a7c",
+        "id": "a1586d5139ab9f17",
         "type": "tabs",
         "children": [
           {
-            "id": "03764d08b02abdb3",
+            "id": "151c821681d1d9e9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,9 +168,10 @@
   },
   "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Transaccions MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Transaccions MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
     "Llenguatge de marques/Llenguatges/xQuery.md",
     "Llenguatge de marques/Introduccio a llenguatge de marques.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
@@ -204,7 +205,6 @@
     "Persistencia de dades",
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
     "Imatges/Pasted image 20250315151613.png",
-    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
     "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Git i GitHub/GitHub/Conceptos de GitHub.md",

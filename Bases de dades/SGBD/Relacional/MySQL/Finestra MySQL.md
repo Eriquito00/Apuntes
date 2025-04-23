@@ -31,7 +31,7 @@ Asigna un numero per classificar les dades segons el ORDER BY que posem. Pero qu
 ```MYSQL
 SELECT e.nom, e.departament_id, e.salari,
 	RANK() OVER (PARTITION BY departament_id ORDER BY salari) AS ranking
-	FROM empleat e;
+	FROM empleats e;
 ```
 
 RESULTAT:

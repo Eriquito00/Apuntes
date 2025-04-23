@@ -128,7 +128,7 @@ En cas de voler actualitzar i llegir a la vegada d'una mateixa taula, en cas de 
 BEGIN;
 
 SET SESSION TRANSACTION ISOLATION
-	LEVEL SERIALIZABLE READ;
+	LEVEL SERIALIZABLE;
 
 SELECT *
 	FROM empleats;
