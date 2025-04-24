@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a1586d5139ab9f17",
+        "id": "0584a3e6cb776527",
         "type": "tabs",
         "children": [
           {
-            "id": "151c821681d1d9e9",
+            "id": "617b03cbf7b8225f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Comandes Windows PowerShell"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -157,27 +161,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "617b03cbf7b8225f",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Transaccions MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
     "Llenguatge de marques/Llenguatges/xQuery.md",
-    "Llenguatge de marques/Introduccio a llenguatge de marques.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/ConsultesAD PowerShell.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
+    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/ConsultesAD PowerShell.md",
+    "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Sistemes Informatics/Hardware/Hardware.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Imatges/Pasted image 20250325155014.png",
@@ -190,24 +194,24 @@
     "Imatges/Pasted image 20250325154052.png",
     "Imatges/Pasted image 20250325154010.png",
     "Sistemes Informatics/Sistemes Operatius/Windows/Solucionant el problema de la vigencia minima de contrasenyes.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
     "Persistencia de dades/Introduccio a persistencia de dades.md",
     "JDBC/JDBC.md",
     "JDBC",
     "Persistencia de dades/JDBC/JDBC.md",
     "Persistencia de dades/JDBC",
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Llenguatge de marques/Llenguatges/YAML.md",
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
+    "Llenguatge de marques/Introduccio a llenguatge de marques.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "README.md",
     "Sense títol.canvas",
     "Persistencia de dades",
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
     "Imatges/Pasted image 20250315151613.png",
+    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
     "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Git i GitHub/GitHub/Conceptos de GitHub.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Excepcions",
     "Programacio/Java/Excepcions",
     "Programacio/Java/Exepcions",

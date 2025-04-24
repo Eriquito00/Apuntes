@@ -281,15 +281,21 @@ New-AdOrganizationalUnit -Name (nom Unitat Organitzativa) `
 ### Modificar
 - Ens permet modificar per exemple si volem modificar l'estat de la proteccio contra eliminacio accidental.
 ```POWERSHELL
-New-AdOrganizationalUnit -Identify (cadena LDAP fins la UO) `
+SET-AdOrganizationalUnit -Identify (cadena LDAP fins la UO) `
 	-ProtectedFromAccidentalDeletion ($true per protegir $false per no protegir)
 ```
+
+Altres parametres que es poden modificar:
+- -Confirm: $false o $true : demana o no demana confirmacio pels cambis.
 ### Eliminar
 - Ens permet eliminar una unitat organitzativa.
 ```POWERSHELL
 Remove-ADOrganizationalUnit -Identity (cadena LDAP fins la UO) `
 	-Confirm: $false ($false si no volem que demani confirmacio, si volem que demani no posem res nomes confirm)
 ```
+
+Altres parametres que ens ajuden a eliminar:
+- -Recursive : si la OU no te activada la eliminacio accidental podem borrarla i les que tingui dins encara que no li haguem tret la eliminacio accidental.
 ## Cambiar contrasenya
 - Cambia la contraseña agafant l'objecte de contraseña i assignantla de nou a l'usuari. D'aquesta forma podem agafar l'objecte contrasenya d'aquest usuari, modificarla y que ara tingui aquesta nova contrasenya, els parentesis de NewPassword SI que s'han de posar.
 ```POWERSHELL
