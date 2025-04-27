@@ -281,7 +281,7 @@ New-AdOrganizationalUnit -Name (nom Unitat Organitzativa) `
 ### Modificar
 - Ens permet modificar per exemple si volem modificar l'estat de la proteccio contra eliminacio accidental.
 ```POWERSHELL
-SET-AdOrganizationalUnit -Identify (cadena LDAP fins la UO) `
+Set-AdOrganizationalUnit -Identify (cadena LDAP fins la UO) `
 	-ProtectedFromAccidentalDeletion ($true per protegir $false per no protegir)
 ```
 
