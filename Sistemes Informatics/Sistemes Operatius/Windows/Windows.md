@@ -11,3 +11,5 @@
 [Contrasenyes Windows](Contrasenyes%20Windows.md)
 
 [ConsultesAD PowerShell](ConsultesAD%20PowerShell.md)
+
+[Permisos NTFS](Permisos%20NTFS.md)

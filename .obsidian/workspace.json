@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2b2fd101b1dddff6",
+        "id": "105afbf8a198e528",
         "type": "tabs",
         "children": [
           {
-            "id": "a1e26d23cbb71386",
+            "id": "754f372bf7a9a7ad",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -157,22 +157,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "754f372bf7a9a7ad",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/ConsultesAD PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Solucionant el problema de la vigencia minima de contrasenyes.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/LDAP.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
@@ -207,7 +208,6 @@
     "Imatges/Pasted image 20250315151613.png",
     "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
-    "Git i GitHub/Git/Lista de comandos Git i Bash.md",
     "Excepcions",
     "Programacio/Java/Excepcions",
     "Programacio/Java/Exepcions",
