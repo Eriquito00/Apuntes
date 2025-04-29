@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "105afbf8a198e528",
+        "id": "be4fe4c371561e56",
         "type": "tabs",
         "children": [
           {
-            "id": "754f372bf7a9a7ad",
+            "id": "4520ae6c87caa2ef",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,7 +166,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "754f372bf7a9a7ad",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
     "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",

@@ -16,9 +16,58 @@ Cada fitxer o carpeta pot tenir activats els seguents atributs:
 - (A)rchive: indica que l'element ha estat modificat.
 Com no estaba basat en permisos els podia modificar qualsevol usuari per tant no donava seguretat.
 ## Comanda per gestionar atributs (CMD)
-Attrib \[(+R, -R, +A, -A, +S, -S, +H, -H)\] "(nom fitxer)"
+Attrib \[+R | -R], \[+A | -A,] \[+S | -S], \[+H | -H\] "(nom fitxer)"
 \[\s\] subdirectoris
 \d\] tambe carpetes
 Sense posar cap ens mostra els permisos del fitxer.
 Sense nom del fitxer actua sobre tots els fitxers.
 Tambe funciona a PowerShell.
+# Comandes de carpetes i fitxers
+## Crear carpetes o fitxers
+Per crear fitxers o directoris a powershell podem executar la comanda de new item.
+
+```PowerShell
+New-Item -Name "(nom carpeta o fitxer)" `
+	-Path "(ruta)" `
+	-Value "(contingut del fitxer)" `
+	-ItemType file o directory `
+	-Force (sobre escriu si ja existia)
+```
+
+## Renombrar carpetes o fitxers
+Tambe poden renombrar un arxiu amb la seguent comanda introduint el nou nom i la ruta.
+
+```PowerShell
+Rename-Item -Path "(ruta al fitxer)" `
+	-NewName "(nou nom)"
+```
+## Esborrar un fitxer o carpeta
+Per esborrar un fitxer o carpeta tambe podem eliminar amb segons les conveniencies.
+
+```PowerShell
+Remove-Item -Path "(ruta)"
+	-Filter //podem aplicar un filtre per eliminar tots els que coincideixin
+	-Recursive //si introduim una ruta llarga eliminara totes les carpetes
+	-Force //per forzar la eliminacio sense que salti error o haber de confirmar
+	-Include 
+	-Exclude
+```
+## Canviar de directori
+Cambia un fitxer o carpeta a un altre directori que introduim a la ruta
+
+```PowerShell
+Set-Location -Path "(ruta)"
+```
+
+## Mostrar carpetes i fitxers
+Podem mostrar tots els fitxers i/o carpetes amb les seguents comandes segons les nostres necesitats.
+
+```PowerShell
+//Arbre de totes les carpetes 
+tree
+```
+
+```PowerShell
+//Arbre de totes les carpetes i fitxers
+tree /f
+```
