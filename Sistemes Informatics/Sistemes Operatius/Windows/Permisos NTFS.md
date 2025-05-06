@@ -52,6 +52,13 @@ Remove-Item -Path "(ruta)"
 	-Include 
 	-Exclude
 ```
+## Moure un fitxer o carpeta
+Serveix per moure un fitxer o carpeta a un altre directory.
+
+```PowerShell
+Move-Item -Path "(fitxer)" `
+	-Destination "(ruta desti)"
+```
 ## Canviar de directori
 Cambia un fitxer o carpeta a un altre directori que introduim a la ruta
 
@@ -71,3 +78,9 @@ tree
 //Arbre de totes les carpetes i fitxers
 tree /f
 ```
+## Permisos NTFS basics
+- Lectura: ens permet en cas de fitxer llegirlo y en cas de carpeta els seus elements.
+- Lectura i execucio: ens permet tots els permisos de lectura y poder executar el fitxer si es executable.
+- Escriptura: ens permet escriure dins del fitxer.
+- Modificar: Lectura i execucio, escriptura y a mes poder eliminar el fitxer.
+- Control total: Totes les de modificar i poder gestionar els permisos.

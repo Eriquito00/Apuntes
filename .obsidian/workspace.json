@@ -11,10 +11,14 @@
             "id": "4520ae6c87caa2ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Permisos NTFS"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -166,8 +171,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "4520ae6c87caa2ef",
   "lastOpenFiles": [
+    "README.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
@@ -202,7 +208,6 @@
     "Llenguatge de marques/Llenguatges/YAML.md",
     "Llenguatge de marques/Introduccio a llenguatge de marques.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
-    "README.md",
     "Sense títol.canvas",
     "Persistencia de dades",
     "Imatges/Pasted image 20250315151613.png",
