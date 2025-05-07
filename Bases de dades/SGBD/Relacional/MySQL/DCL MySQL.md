@@ -11,6 +11,7 @@ BEGIN
 	Declaracio de cursors
 	Declaracio de handlers
 	Instruccions acabades amb ";"
+END
 //
 DELIMITER;
 ```
@@ -26,6 +27,7 @@ BEGIN
 	Declaracio de handlers
 	Instruccions acabades amb ";"
 	RETURN (valor que retorna);
+END
 //
 DELIMITER;
 ```
@@ -73,7 +75,7 @@ El CASE son varies condicions que si es compleixen s'executen les instruccions d
 CASE
 	WHEN (condicio) THEN (instruccio)
 	WHEN (condicio) THEN (instruccio)
-END;
+END CASE;
 ```
 
 ## Bucles
