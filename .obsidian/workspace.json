@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2f8cc74bcf861614",
+        "id": "304e74a80a16da7c",
         "type": "tabs",
         "children": [
           {
-            "id": "b1cd5b8a6ae580af",
+            "id": "21ffb43fe1760485",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,7 +18,7 @@
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Permisos NTFS"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -162,12 +162,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
