@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ca70440e8d4db253",
+        "id": "2f8cc74bcf861614",
         "type": "tabs",
         "children": [
           {
-            "id": "e459d791c21b4e79",
+            "id": "b1cd5b8a6ae580af",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Permisos NTFS"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -166,7 +171,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "b1cd5b8a6ae580af",
   "lastOpenFiles": [
     "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",

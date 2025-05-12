@@ -84,3 +84,21 @@ tree /f
 - Escriptura: ens permet escriure dins del fitxer.
 - Modificar: Lectura i execucio, escriptura y a mes poder eliminar el fitxer.
 - Control total: Totes les de modificar i poder gestionar els permisos.
+## Creator Owner
+Es un permis especial que nomes el te l'usuari que ha creat l'arxiu o carpeta, es mes conegut com una variable que ofereix al creador certes avantatges.
+## Permisos NTFS avançats
+Son els permisos reals NTFS. Els altres eren agrupacions de permisos NTFS sota un unic nom. Els permisos son els seguents:
+- Control Total: Da qualquier permiso a carpetas o archivos.
+- Atravesar carpeta / ejecutar archivo: Permet accedir a carpetes dins de la carpeta i executar arxius executable.
+- Mostrar carpeta / leer datos: Mostra el contingut de la carpeta i llegir les dades dels fitxers.
+- Leer atributos: Llegir els atributs.
+- Leer atributos extendidos: Llegir els atributs estesos
+- Crear archivos / escribir datos: Permet crear archius i escribir als fitxers.
+- Crear carpetas / anexar datos: Permet crear carpetes i afegir linies als fitxers.
+- Escribir atributos: Permite editar atributos.
+- Escribir atributos extendidos: Permite editar atributos extendidos.
+- Eliminar subcarpetas y archivos: Permite eliminar subcarpetas y archivos de la carpeta i subcarpetas.
+- Eliminar: Permite eliminar archivos y carpetas.
+- Permisos de lectura: Ofrece permisos de lectura.
+- Cambiar permisos: Permite cambiar los permisos.
+- Tomar posesion: Agafar la propietat d'un arxiu o carpeta.
