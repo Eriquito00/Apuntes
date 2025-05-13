@@ -342,3 +342,37 @@ Get-ADUser -Filter <(expresio de filtre)>
 ```POWERSHELL
 Get-ADUser -LDAPFilter <(expresio de filtre LDAP)>
 ```
+## Navegacio entre fitxers i carpetes
+- Per anar directament a la localitzacio d'una carpeta podem utilitzar la seguent comanda.
+
+```POWERSHELL
+Set-Location "(ruta a la carpeta)"
+```
+
+- Per obtenir i poder mirar els fitxers de dins d'una carpeta podem utilitzar la seguent comanda. Si no posem ruta ens donara les carpetes de la actual. Tambe podem utilitzar tree amb els parametres per mostrar fitxers i per mostrar la ruta de carpetes amb fitxers dins de les carpetes.
+
+```POWERSHELL
+Get-ChildItem "(ruta a la carpeta)"
+```
+
+```POWERSHELL
+tree (ruta a la carpeta) /f (mostrar fitxers) /a (recursivament)
+```
+
+- Per renombrar un fitxer o carpeta podem utilitzar la seguent comanda.
+
+```POWERSHELL
+Rename-Item -Path "(ruta al fitxer o carpeta)" -NewName "(nou nom)"
+```
+
+- Per copiar un fitxer o carpeta a un altre destinacio podem utilitzar la seguent comanda.
+
+```POWERSHELL
+Copy-Item -Path "(ruta al fitxer o carpeta)" -Destination "(destinacio)"
+```
+
+- Per moure un fitxer o carpeta a una altre destinacio podem utilitzar la seguent comanda.
+
+```POWERSHELL
+Move-Item -Path "(ruta al fitxer)" -Destination "(destinacio)"
+```
