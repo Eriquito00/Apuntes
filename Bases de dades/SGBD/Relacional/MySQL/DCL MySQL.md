@@ -191,3 +191,27 @@ Aqui podem veure que els procesos per utilitzar un cursor son:
 
 Aqui podem veure que la gestio que es fa quan no hi han mes files es crear un valor bolea, y que quan salti la exepcio de NOT FOUND que es basicament que estem intentant accedir a una columna que no existeix perque ja s'han acabat, cambiar el valor bolea d'aquesta variable per aixi finalitzar el bucle el qual estabem utilitzant per obtenir les dades.
 ## Triggers
+Els triggers es poden utilitzar per tenir les dades actualitzades d'algunes columnes que tenen a veure amb altres taules pero no son claus foranes. Per exemple el nombre d'empleats, els preus d'algunes factures o algun calcul que tinguem emmagatzemat que depengui d'algun salari. La estructura d'un trigger es la seguent:
+
+```MYSQL
+DELIMITER //
+CREATE TRIGGER trgTrigger (BEFORE / AFTER) (INSERT / DELETE / UPDATE)
+	ON (taula) FOR EACH ROW
+BEGIN
+	CALL (procedure o sentencies a executar)
+END
+//
+```
+### NEW i OLD
+NEW i OLD son pseudoregistres que ens permeten referenciar al valors nous i antics dins d'un trigger.
+- En el cas dels inserts nomes podem utilitzar NEW perque com a molt podem introduir un nou valor.
+- En cas dels deletes nomes podem utilitzar OLD ja que es el valor antic que tenia un camp abans de ser eliminat.
+- I els updates podem utilitzar tant NEW com a valor que introduirem durant el update com OLD com a valor que ja esta a la taula que actualitzem.
+
+Es poden utilitzar de la seguent forma:
+
+```MYSQL
+SET NEW.(camp) = (valor);
+
+SET OLD.(camp) = (valor);
+```
