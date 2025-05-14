@@ -1,3 +1,4 @@
 # Exercicis MySQL
 
-[RRHH](rrhh.md)
+[RRHH DML](rrhh_dml.md)
+

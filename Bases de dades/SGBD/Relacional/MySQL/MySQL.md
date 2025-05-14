@@ -5,6 +5,8 @@
 
 [DML MySQL](DML%20MySQL.md)
 
+[DCL MySQL](DCL%20MySQL.md)
+
 [Funcions MySQL](Funcions%20MySQL.md)
 
 [CTE MySQL](CTE%20MySQL.md)

@@ -11,10 +11,14 @@
             "id": "e846d99590934150",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "DCL MySQL"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -166,10 +171,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "e846d99590934150",
   "lastOpenFiles": [
-    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dcl.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
+    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
+    "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
+    "Bases de dades/SGBD/Sistemes Gestors de Bases de Dades.md",
+    "Bases de dades/Introduccio a les bases de dades.md",
+    "Bases de dades/ER i Relacional/Model relacional.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "README.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
@@ -182,9 +195,7 @@
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Transaccions MySQL.md",
     "Llenguatge de marques/Llenguatges/xQuery.md",
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Sistemes Informatics/Hardware/Hardware.md",
     "Bases de dades/SGBD/Relacional/MySQL/DML MySQL.md",
     "Imatges/Pasted image 20250325155014.png",
@@ -197,17 +208,11 @@
     "Imatges/Pasted image 20250325154052.png",
     "Imatges/Pasted image 20250325154010.png",
     "Persistencia de dades/Introduccio a persistencia de dades.md",
-    "JDBC/JDBC.md",
     "JDBC",
-    "Persistencia de dades/JDBC/JDBC.md",
     "Persistencia de dades/JDBC",
-    "Llenguatge de marques/Llenguatges/YAML.md",
-    "Llenguatge de marques/Introduccio a llenguatge de marques.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Sense títol.canvas",
     "Persistencia de dades",
     "Imatges/Pasted image 20250315151613.png",
-    "Bases de dades/SGBD/Relacional/MySQL/Funcions MySQL.md",
     "Excepcions",
     "Programacio/Java/Excepcions",
     "Programacio/Java/Exepcions",
