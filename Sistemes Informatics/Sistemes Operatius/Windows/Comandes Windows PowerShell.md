@@ -376,3 +376,18 @@ Copy-Item -Path "(ruta al fitxer o carpeta)" -Destination "(destinacio)"
 ```POWERSHELL
 Move-Item -Path "(ruta al fitxer)" -Destination "(destinacio)"
 ```
+
+- Amb aquesta comanda podem obtenir els permisos d'un fitxer. Tambe podem afegir permisos i modificar com als seguents exemples:
+
+```CMD
+//Obtenir permisos
+icacls (nom ficher)
+
+//Donar permisos
+icacls (nom ficher) /grant (nom usuari): "((permisos))"
+
+//EXEMPLE DONAR PERMISOS
+icacls fitxer1.txt /grant usuario: "(N,F,M,RX,R,W,D)"
+```
+
+Tenim mes informacio de icacls a [Permisos NTFS](Permisos%20NTFS.md).

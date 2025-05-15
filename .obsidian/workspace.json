@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7ceeea83ef996e6b",
+        "id": "96ff8f7ae4a5f38b",
         "type": "tabs",
         "children": [
           {
-            "id": "e829bddd8a8cb3b3",
+            "id": "0a888a3bd0f1a4aa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "DCL MySQL"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -157,24 +162,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "0a888a3bd0f1a4aa",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dcl.md",
     "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "README.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/ConsultesAD PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",

@@ -102,3 +102,41 @@ Son els permisos reals NTFS. Els altres eren agrupacions de permisos NTFS sota u
 - Permisos de lectura: Ofrece permisos de lectura.
 - Cambiar permisos: Permite cambiar los permisos.
 - Tomar posesion: Agafar la propietat d'un arxiu o carpeta.
+## Permisos ICACLS
+Amb aquesta comanda CMD podem consultar certa informacio, ens serveixen per sapiguer tambe si les carpetes, fitxers o ella mateixa heretara certs permisos.
+
+```CMD
+//Donar permisos
+icacls (nom ficher) /grant (nom usuari): "((permisos))"
+```
+
+Aqui podem veure els permisos que podem oferir amb icacls
+- N - sin acceso
+- F - acceso total
+- M - acceso de modificaci¢n
+- RX - acceso de lectura y ejecuci¢n
+- R - acceso de solo lectura
+- W - acceso de solo escritura
+- D - acceso de eliminacion
+- I - heredados
+
+Aqui podem veure els permisos AVANÇATS que podem oferir amb icacls
+X - ejecutar/atravesar
+RD - leer datos/lista de directorio
+RA - leer atributos
+REA - leer atributos extendidos
+WD - escribir datos/agregar archivo
+AD - anexar datos/agregar subdirectorio
+WA - escribir atributos
+WEA - escribir atributos extendidos
+DC - eliminar secundario
+DE - eliminar
+RC - control de lectura
+WDAC - escribir DAC
+WO - escribir propietario
+
+I tambe a on poden accedir depenent dels permisos que donem i a qui els hi donem:
+- OI: significa que la carpeta que el tingui ho tindran les carpetes dins d'aquesta carpeta.
+- CO: significa que la carpeta que el tingui ho tindran els fitxers de dins d'aquesta carpeta.
+- IO: significa que la carpeta te el permis aquesta mateixa carpeta NO tindra els permisos.
+
