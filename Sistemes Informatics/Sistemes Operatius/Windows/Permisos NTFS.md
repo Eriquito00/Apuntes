@@ -113,7 +113,7 @@ icacls (nom ficher) /grant (nom usuari): "((permisos))"
 Aqui podem veure els permisos que podem oferir amb icacls
 - N - sin acceso
 - F - acceso total
-- M - acceso de modificaci¢n
+- M - acceso de modificacion
 - RX - acceso de lectura y ejecuci¢n
 - R - acceso de solo lectura
 - W - acceso de solo escritura
@@ -133,10 +133,23 @@ DC - eliminar secundario
 DE - eliminar
 RC - control de lectura
 WDAC - escribir DAC
-WO - escribir propietario
+WO - tomar posesion
 
 I tambe a on poden accedir depenent dels permisos que donem i a qui els hi donem:
 - OI: significa que la carpeta que el tingui ho tindran les carpetes dins d'aquesta carpeta.
 - CO: significa que la carpeta que el tingui ho tindran els fitxers de dins d'aquesta carpeta.
 - IO: significa que la carpeta te el permis aquesta mateixa carpeta NO tindra els permisos.
-
+### Qui pot cambiar els permisos?
+- Propietari
+- Administradors del grup administradors
+- Usuaris i grups amb permisos control total
+- Usuaris i grups amb el PE cambiar permisos
+- Usuaris i grups amb el PE tomar posesion
+### Qui pot obtenir la possesio?
+- Qualsevol membre del grup administradors
+- Usuaris i grups amb permis control total
+- Usuaris i grups amb el PE cambiar permisos i posarse com control total
+- Usuaris amb algun permisos anteriors executant la seguent comanda cmd "TAKEOWN /f (fitxer)".
+### Qui pot donar la possesio?
+- Qualsevol membre del grup administradors
+- Usuaris amb el permis anterior executant amb icacls /setowner

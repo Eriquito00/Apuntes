@@ -377,6 +377,10 @@ Copy-Item -Path "(ruta al fitxer o carpeta)" -Destination "(destinacio)"
 Move-Item -Path "(ruta al fitxer)" -Destination "(destinacio)"
 ```
 
+## Permisos amb ICACLS CMD
+
+### Dona, modifica o treu permisos
+
 - Amb aquesta comanda podem obtenir els permisos d'un fitxer. Tambe podem afegir permisos i modificar com als seguents exemples:
 
 ```CMD
@@ -386,8 +390,48 @@ icacls (nom ficher)
 //Donar permisos
 icacls (nom ficher) /grant (nom usuari): "((permisos))"
 
-//EXEMPLE DONAR PERMISOS
-icacls fitxer1.txt /grant usuario: "(N,F,M,RX,R,W,D)"
+//EXEMPLE DONAR, MODFICAR O TREURE PERMISOS
+icacls fitxer1.txt (/grant o /grant:r o /remove) usuario: "(N,F,M,RX,R,W,D)"
+
+//Modificar permisos actuals per altres
+icacls (nom ficher) /grant:r (nom usuari): "((permisos))"
+
+//Treure permisos actuals
+icacls (nom ficher) /remove (nom usuari): "((permisos))"
+```
+
+- Amb /grant podem donar permisos de un fitxer per algun usuari o grup.
+
+- Amb /grant:r podem modificar els permisos de un fitxer per algun usuari o grup si existia i si no es creara amb aquests permisos.
+
+- Amb /remove podem treure els permisos de un fitxer per algun usuari o grup.
+
+### Veure creator owner
+
+- Per poder sapiguer les carpetes i fitxers de dins de la carpeta actual incloyent tambe els Creator Owner (propietaris) podem fer-ho de la seguent comanda, com el parametre necesari es nomes de cmd haurem de fer pasar la Powershell per cmd.
+
+```CMD
+//obrir cmd
+cmd
+
+//executa comanda
+dir /q
+
+//tornar a powershell
+powershell
+```
+### Herencia
+Per tallar la herencia, habilitarla i conservar o no els permisos en local amb aquest parametre:
+
+```
+//Tallar herencia i conservar permisos en local
+icacls "(fitxer o capeta)" /inheritance:d
+
+//Eliminar la herencia i tots els permisos
+icacls "(fitxer o capeta)" /inheritance:r
+
+//Habilitar la herencia
+icacls "(fitxer o capeta)" /inheritance:e
 ```
 
 Tenim mes informacio de icacls a [Permisos NTFS](Permisos%20NTFS.md).
