@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5857a3d9aebd53c2",
+        "id": "38d3518ae9ccb9c8",
         "type": "tabs",
         "children": [
           {
-            "id": "760dd93abbb7ec67",
+            "id": "8b0791c13168b3ae",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,8 +164,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "760dd93abbb7ec67",
+  "active": "8b0791c13168b3ae",
   "lastOpenFiles": [
+    "Llenguatge de marques/Llenguatges/xQuery.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
@@ -181,7 +182,6 @@
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Transaccions MySQL.md",
-    "Llenguatge de marques/Llenguatges/xQuery.md",
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
