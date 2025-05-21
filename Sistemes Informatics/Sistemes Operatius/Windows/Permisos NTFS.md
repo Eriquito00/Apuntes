@@ -121,19 +121,19 @@ Aqui podem veure els permisos que podem oferir amb icacls
 - I - heredados
 
 Aqui podem veure els permisos AVANÇATS que podem oferir amb icacls
-X - ejecutar/atravesar
-RD - leer datos/lista de directorio
-RA - leer atributos
-REA - leer atributos extendidos
-WD - escribir datos/agregar archivo
-AD - anexar datos/agregar subdirectorio
-WA - escribir atributos
-WEA - escribir atributos extendidos
-DC - eliminar secundario
-DE - eliminar
-RC - control de lectura
-WDAC - escribir DAC
-WO - tomar posesion
+- X - ejecutar/atravesar
+- RD - leer datos/lista de directorio
+- RA - leer atributos
+- REA - leer atributos extendidos
+- WD - escribir datos/agregar archivo
+- AD - anexar datos/agregar subdirectorio
+- WA - escribir atributos
+- WEA - escribir atributos extendidos
+- DC - eliminar secundario
+- DE - eliminar
+- RC - control de lectura
+- WDAC - escribir DAC
+- WO - tomar posesion
 
 I tambe a on poden accedir depenent dels permisos que donem i a qui els hi donem:
 - OI: significa que la carpeta que el tingui ho tindran les carpetes dins d'aquesta carpeta.
