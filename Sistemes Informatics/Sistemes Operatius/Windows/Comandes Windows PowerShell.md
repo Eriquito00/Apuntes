@@ -376,7 +376,16 @@ Copy-Item -Path "(ruta al fitxer o carpeta)" -Destination "(destinacio)"
 ```POWERSHELL
 Move-Item -Path "(ruta al fitxer)" -Destination "(destinacio)"
 ```
+## Crear carpetes o fitxers
+Per crear fitxers o directoris a powershell podem executar la comanda de new item.
 
+```PowerShell
+New-Item -Name "(nom carpeta o fitxer)" `
+	-Path "(ruta)" `
+	-Value "(contingut del fitxer)" `
+	-ItemType file o directory `
+	-Force (sobre escriu si ja existia)
+```
 ## Permisos amb ICACLS CMD
 
 ### Dona, modifica o treu permisos

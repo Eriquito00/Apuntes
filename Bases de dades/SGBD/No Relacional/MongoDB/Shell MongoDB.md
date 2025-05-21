@@ -5,13 +5,13 @@ MongoDB te una shell, basada en JavaScript que permet la estructura de JavaScrip
 
 - Crear una collection
 
-```SHELL
+```JSON
 db.createCollection("nombre")
 ```
 
 - Mostrar les bases de dades o collections
 
-```SHELL
+```JSON
 //BBDD
 show databases
 
@@ -21,7 +21,7 @@ show collections
 
 - Mostrar un fitxer o varis fitxers d'una collection
 
-```SHELL
+```JSON
 //Un fitxer
 db.(collection).findOne()
 
@@ -31,7 +31,7 @@ db.(collection).find()
 
 - Insertar un json con valores clave valor o varios
 
-```SHELL
+```JSON
 //Un insert de json
 db.(collection).insertOne({"clau": "valor"})
 
@@ -41,7 +41,7 @@ db.alumnes.insertMany([{"name":"David", "surname":"Catalan", "mitja":8.5}, {"nam
 
 - Conta el numero de documents que te la collection, aquest es pot fer de dues formes pero el resultat es el mateix
 
-```SHELL
+```JSON
 db.(collection).countDocuments()
 
 db.(collection).find().count()
@@ -49,13 +49,13 @@ db.(collection).find().count()
 
 - Obte els resultats limitant nomes a cert numero de resultats.
 
-```SHELL
+```JSON
 db.departaments.find().limit(limite)
 ```
 
 - Mostrar els resultats de una forma mas ordenada i estructurada.
 
-```SHELL
+```JSON
 db.departaments.find().pretty()
 ```
 ## Find
