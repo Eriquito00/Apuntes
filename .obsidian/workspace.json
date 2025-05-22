@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dc7fc64e04e98ddd",
+        "id": "a9cda4f4dce10697",
         "type": "tabs",
         "children": [
           {
-            "id": "e386fa5e9f1d48c5",
+            "id": "5041a5660d3a8933",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Nova pestanya"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -155,22 +155,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/MongoDB.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Tipus de Dades MongoDB.md",
     "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",

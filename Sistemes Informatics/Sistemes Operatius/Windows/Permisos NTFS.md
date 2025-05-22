@@ -136,8 +136,8 @@ Aqui podem veure els permisos AVANÇATS que podem oferir amb icacls
 - WO - tomar posesion
 
 I tambe a on poden accedir depenent dels permisos que donem i a qui els hi donem:
-- OI: significa que la carpeta que el tingui ho tindran les carpetes dins d'aquesta carpeta.
-- CO: significa que la carpeta que el tingui ho tindran els fitxers de dins d'aquesta carpeta.
+- OI: significa que la carpeta que el tingui ho tindran els fitxers dins d'aquesta carpeta.
+- CI: significa que la carpeta que el tingui ho tindran les carpetes de dins d'aquesta carpeta.
 - IO: significa que la carpeta te el permis aquesta mateixa carpeta NO tindra els permisos.
 ### Qui pot cambiar els permisos?
 - Propietari
