@@ -1,13 +1,21 @@
 # Shell MongoDB
 MongoDB te una shell, basada en JavaScript que permet la estructura de JavaScript, ara mirarem unes comandes amb la shell de mongodb per utilitzar la base de dades.
 
-## Comandes senzilles amb Mongosh
+## Crear bases de dades, collections i imports
+Despres de descarregar les MongoDB tools command database line podem importar de la seguent manera.
+
+- Executarem amb l'arxiu de import i posarem la bbdd, collection i primer insert a la bbdd amb la seguent comanda al CMD.
+
+```JSON
+(ruta a mongoimport.exe) --db=(nom bbdd) --collection=(nom collection) --file=(primer fitxer).json
+```
 
 - Crear una collection
 
 ```JSON
 db.createCollection("nombre")
 ```
+## Comandes senzilles amb Mongosh
 
 - Mostrar les bases de dades o collections
 
@@ -66,6 +74,12 @@ Tenim per exemple els seguents operadors per poder obtenir alguns valors amb alg
 db.alumnes.find({"$or":[{"name":"David"},{"name":"Eric"}]})
 ```
 
+- $and: els dos valors
+
+```JSON
+db.alumnes.find({"$and":[{"name":"David"},{"salari":1300}]})
+```
+
 - $lt: mes petit que o $lte mes petit que o igual
 
 ```JSON
@@ -88,6 +102,53 @@ db.alumnes.find({"edad": {"$eq": 20}})
 
 ```JSON
 db.alumnes.find({"edad": {"$ne": 18}})
+```
+
+- $in: entre algun dels valors
+
+```JSON
+db.alumnes.find({"edad": {"$in": [18,21,25]}})
+```
+
+- $nin: no estigui en algun dels valors
+
+```JSON
+db.alumnes.find({"edad": {"$nin": [18,21,25]}})
+```
+
+- $exists: existeixi el camp o no
+
+```JSON
+db.alumnes.find({"edad": {"$exists": false | true}})
+```
+
+- $size: comprovar el numero de resultats 
+
+```JSON
+db.alumnes.find({"email": {"$size": 2}})
+//retornaria els que tinguin 2 emails
+```
+
+- \$regex: permet posar regex. tambe podem posar despres del regex "i" \/@gmail.com$/i perque ignori majuscules i minuscules.
+
+```JSON
+//simplificat
+db.alumnes.find({"email": /@gmail.com$/})
+
+//sense simprificar
+db.alumnes.find({"email": {"$regex": /@gmail.com$/}})
+```
+
+- $sort: ordena els resultats
+
+```JSON
+db.users.find({"edad": {$gt: 18}}).sort({"edad": 1})
+```
+
+- $toArray: transformar a array
+
+```JSON
+db.users.find({"edad": {$gt: 18}}).toArray()
 ```
 
 Tambe tenim alguns parametres per nomes mostrar alguns de les dades dels json que volem, nomes haurem de fer una modificacio al find. Podem posar 1 per les claus que volem mostrar i 0 per les que no volem mostrar.
