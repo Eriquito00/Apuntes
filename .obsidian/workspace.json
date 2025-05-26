@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "73f938656223ad34",
+        "id": "2adc0e8252f8bb4b",
         "type": "tabs",
         "children": [
           {
-            "id": "f85cc77ae2504c1f",
+            "id": "a5c3a931b7aee0b8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,11 +164,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f85cc77ae2504c1f",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Sistemes Informatics/Sistemes Operatius/Windows/Unitats personals.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Unitats personals.md",
+    "Imatges/Pasted image 20250526115013.png",
+    "Imatges/Pasted image 20250526114847.png",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
@@ -193,7 +195,6 @@
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Transaccions MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",
@@ -202,12 +203,10 @@
     "Imatges/Pasted image 20250325154411.png",
     "Imatges/Pasted image 20250325154333.png",
     "Imatges/Pasted image 20250325154052.png",
-    "Imatges/Pasted image 20250325154010.png",
     "JDBC",
     "Persistencia de dades/JDBC",
     "Sense títol.canvas",
     "Persistencia de dades",
-    "Imatges/Pasted image 20250315151613.png",
     "Excepcions",
     "Programacio/Java/Excepcions",
     "Programacio/Java/Exepcions",
