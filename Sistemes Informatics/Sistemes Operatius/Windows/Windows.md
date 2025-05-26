@@ -13,3 +13,5 @@
 [ConsultesAD PowerShell](ConsultesAD%20PowerShell.md)
 
 [Permisos NTFS](Permisos%20NTFS.md)
+
+[Unitats personals](Unitats%20personals.md)

@@ -444,3 +444,11 @@ icacls "(fitxer o capeta)" /inheritance:e
 ```
 
 Tenim mes informacio de icacls a [Permisos NTFS](Permisos%20NTFS.md).
+
+## Unitats personals
+
+Per crear una unitat podem posar aquesta comanda quan ja tenim la carpeta creada.
+
+```POWERSHELL
+New-SmbShare -Name (nom unitat) -Path (ruta absoluta) -FullAccess (recomanable "todos")
+```
