@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d3ab438de0a7f883",
+        "id": "73f938656223ad34",
         "type": "tabs",
         "children": [
           {
-            "id": "adcbe4582a4afc01",
+            "id": "f85cc77ae2504c1f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,13 +164,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "adcbe4582a4afc01",
+  "active": "f85cc77ae2504c1f",
   "lastOpenFiles": [
+    "Sistemes Informatics/Sistemes Operatius/Windows/Unitats personals.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/MongoDB.md",
     "Tipus de Dades MongoDB.md",
@@ -179,7 +181,6 @@
     "Bases de dades/SGBD/No Relacional/MongoDB",
     "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
     "Llenguatge de marques/Llenguatges/xQuery.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dcl.md",
@@ -193,7 +194,6 @@
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Transaccions MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",
