@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d3ab438de0a7f883",
+        "id": "3d8782e05dea104b",
         "type": "tabs",
         "children": [
           {
-            "id": "adcbe4582a4afc01",
+            "id": "5ccbcf42c34fe9b8",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nova pestanya"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -155,19 +155,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "adcbe4582a4afc01",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dcl.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
+    "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
     "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
@@ -182,7 +184,6 @@
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dcl.md",
     "README.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/ConsultesAD PowerShell.md",
@@ -193,7 +194,6 @@
     "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Transaccions MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/CTE MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh.md",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",

@@ -1,4 +1,8 @@
 # RRHH
+## Base de dades Recursos Humans (RRHH)
+Aqui tens la [collection de empleats](BBDD/empleats.json) i [collection de departaments](BBDD/departaments.json).
+
+## Nivell 1
 
 1. Obtenir de tots els empleats, el nom, cognoms i salari. Mostrar només 4 registres
 
@@ -66,16 +70,125 @@ db.empleats.find({"feina.codi": {"$ne": "AD_VP"}})
 db.empleats.find({"pct_comissio": {"$exists": true}})
 ```
 
-12. Recupera els empleats que tenen pct_comissio i hagi treballat o treballin
-actualment de "Cap de Vendes" . Utilitza el codi de feina "SA_MAN".
+12. Recupera els empleats que tenen pct_comissio i hagi treballat o treballin actualment de "Cap de Vendes" . Utilitza el codi de feina "SA_MAN".
 
 ```JSON
 db.empleats.find({"$and": [{"pct_comissio": {"$exists": true}}, {"feina.codi": "SA_MAN"}]})
 ```
 
-13. Recupera els empleats que han tingut 2 feines. No tinguis en compte la feina
-actual.
+13. Recupera els empleats que han tingut 2 feines. No tinguis en compte la feina actual.
 
 ```JSON
 db.empleats.find({"historial_feines": {"$size": 2}})
+```
+
+## Nivell 2
+
+1. Mostra la quantitat d’empleats per cada departament. Mostra id de departament i la quantitat.
+
+```JSON
+db.empleats.aggregate([
+{
+  $group:{
+  	"_id": "$departament.nom",
+  	"total": {$sum: 1}
+  }
+}
+])
+```
+
+2. Si no ho has tingut en compte en l’exercici anterior. Només tingues en compte aquells empleats que estiguin en un departament.
+
+```JSON
+db.empleats.aggregate([
+{
+	$match:{
+		"departament.nom": {$ne:null}
+	}
+},
+{
+	$group:{
+		"_id": "$departament.nom",
+		"total": {$sum: 1}
+	}
+}
+])
+```
+
+3. Ordena el resultat anterior per els departament de més a menys nombre d’empleats.
+
+```JSON
+db.empleats.aggregate([
+{
+	$match:{
+		"departament.nom": {$ne:null}
+	}
+},
+{
+  $group:{
+  	"_id": "$departament.nom",
+  	"total": {$sum: 1}
+  }
+}
+]).sort(
+{
+	"total": -1
+}
+)
+```
+
+4. De cada departament mostra el salari més alt. Mostra id de departament i el salari més alt.
+
+```JSON
+db.empleats.aggregate([
+{
+  $group:{
+  	"_id": "$departament.codi",
+  	"salari_max": {$max: "$salari"}
+  }
+}
+]).sort(
+{
+	"salari_max": -1
+}
+)
+```
+
+5. Quina és la massa salarial de cada departament? Mostra id de departament i la massa salarial.
+
+```JSON
+db.empleats.aggregate([
+{
+  $group:{
+  	"_id": "$departament.codi",
+  	"salaris": {$sum: "$salari"}
+  }
+}
+]).sort(
+{
+	"salari_max": -1
+}
+)
+```
+
+6. Només mostra aquells departaments que tinguin una massa salarial igual o superior a 19000
+
+```JSON
+db.empleats.aggregate([
+{
+  $group:{
+  	"_id": "$departament.codi",
+  	"salaris": {$sum: "$salari"}
+  }
+},
+{
+	$match:{
+		"salaris": {$gte: 19000}
+	}
+}
+]).sort(
+{
+	"salari_max": -1
+}
+)
 ```
