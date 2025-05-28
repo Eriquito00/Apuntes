@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1f45b2ca60a21e75",
+        "id": "74af506ac9ac99a1",
         "type": "tabs",
         "children": [
           {
-            "id": "e74192a323f6a4d4",
+            "id": "77cfaab0bac7387b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "9565c7424373b453",
@@ -164,8 +165,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e74192a323f6a4d4",
+  "active": "77cfaab0bac7387b",
   "lastOpenFiles": [
+    "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
+    "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Unitats personals.md",
     "Imatges/Pasted image 20250527093446.png",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
@@ -173,10 +176,7 @@
     "Imatges/Pasted image 20250526114847.png",
     "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
-    "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
-    "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
-    "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
     "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/MongoDB.md",

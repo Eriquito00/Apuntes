@@ -156,3 +156,172 @@ Tambe tenim alguns parametres per nomes mostrar alguns de les dades dels json qu
 ```JSON
 db.alumnes.find({"$or":[{"name":"David"},{"name":"Eric"}]}, {"name":1,"_id":0})
 ```
+## Aggregation Framework
+### $match
+Gracies a match podem utilitzar-ho com un where a mysql, basicament ens es util per poder fer un filtre sobre les dades del json.
+
+```JSON
+db.empleats.aggregate([
+  {
+		"$match": {
+			"salari": {"$eq": 1300}
+		}
+	}
+])
+```
+
+### \$project
+Project es el que utilitzem per mostrar les dades que necesitem, es a dir si nomes volem veure el nom i cognoms per exemple.
+
+```JSON
+db.empleats.aggregate([
+  {
+		"$project": {
+			"nom": 1,
+			"cognoms": 1,
+			"salari": 1,
+			"salari_brut": {"$multiply": ["$salari", 2] }
+		}
+	}
+])
+```
+
+### $addfields
+Per mostrar totes les dades de cada fitxer i afegir algun camp que ens interesi o modificar algun camp nomes a l'hora de mostrar per mostrar els valors d'una forma mes clara.
+
+```JSON
+db.empleats.aggregate([
+  {
+		"$addFields": {
+			"salari": {"$multiply": ["$salari", 2] }
+		}
+	}
+])
+```
+
+En aquest exemple hem retornaria tota la informacio del JSON intercambiant el valor de salari per aquest valor que li dono a salari, pero nomes per mostrar no es cambiara als json.
+### $skip
+--
+### $count
+Ens donara un recompte dels resultats que compleixen les condicions anteriors com a l'exemple.
+
+```JSON
+db.empleats.aggregate([
+	{
+		"$match": {
+    	"salari": {"$lt": 2000}
+		}
+	},
+  {
+		"$project": {
+			"nom": 1,
+			"salari_tot": {"$multiply": ["$salari", 1.1] }
+		}
+	},
+  {
+		"$count": "salaris_menors_2000"
+	}
+])
+```
+
+Aqui hem retornara un recompte dels empleats que cobren menys de 2000.
+### $sort
+Ens serveix per treure els nostres resultats ordenats mitjançant una condicio, es pot ordenar ascendent o descendent utilitzant 1 o -1.
+
+```JSON
+db.empleats.aggregate([
+	{
+		"$match": {
+    	"salari": {"$lt": 2000}
+		}
+	},
+  {
+		"$project": {
+			"nom": 1,
+			"salari_tot": {"$multiply": ["$salari", 1.1] }
+		}
+	},
+  {
+		"$sort": {"salari_tot": 1}
+	}
+])
+```
+
+Aqui ens mostraran les persones amb el seu salari de forma ascendent.
+### $sample
+Ens serveix per obtenir un numero de documents com a resultat. Aixi podem obtenir nomes uns resultats.
+
+```JSON
+db.empleats.aggregate([
+	{
+		"$match": {
+    	"salari": {"$lt": 2000}
+		}
+	},
+  {
+		"$project": {
+			"nom": 1,
+			"salari_tot": {"$multiply": ["$salari", 1.1] }
+		}
+	},
+  {
+		"$sample": {"size": 2}
+	}
+])
+```
+### $group
+El group en serveix per fer agrupaments amb les nostres dades per poder obtenir certs resultats agrupats per un camp.
+
+```JSON
+
+```
+
+### Operadors
+- $multiply: multiplica dos valors.
+
+```JSON
+
+```
+
+- $divide: divideix dos valors.
+
+```JSON
+
+```
+
+- $avg: calcula una mitjana
+
+```JSON
+
+```
+
+- $count: retorna el numero de documents d'un grup.
+
+```JSON
+
+```
+
+- $max: retorna el maxim
+
+```JSON
+
+```
+
+- $min: retorna el minim
+
+```JSON
+
+```
+
+- $sum: retorna la suma d'unes dades
+
+```JSON
+
+```
+
+### Condicional
+Per poder afegir un condicional perque el programa faci una cosa o altre segons una condicio podem aplicar un condicional com el seguent.
+
+```JSON
+
+```
