@@ -200,8 +200,6 @@ db.empleats.aggregate([
 ```
 
 En aquest exemple hem retornaria tota la informacio del JSON intercambiant el valor de salari per aquest valor que li dono a salari, pero nomes per mostrar no es cambiara als json.
-### $skip
---
 ### $count
 Ens donara un recompte dels resultats que compleixen les condicions anteriors com a l'exemple.
 
@@ -269,54 +267,152 @@ db.empleats.aggregate([
 	}
 ])
 ```
+
+### $skip
+Skip es pot utilitzar per treure cert numero de resultats a l'inici, aixi podem treure resultats per inici i amb sample podem agafar nomes els inicis.
+
+```JSON
+db.empleats.aggregate([
+	{
+		"$match": {
+    	"salari": {"$lt": 2000}
+		}
+	},
+  {
+		"$project": {
+			"nom": 1,
+			"salari_tot": {"$multiply": ["$salari", 1.1] }
+		}
+	},
+  {
+		"$skip": 2
+	}
+])
+```
 ### $group
 El group en serveix per fer agrupaments amb les nostres dades per poder obtenir certs resultats agrupats per un camp.
 
 ```JSON
-
+db.empleats.aggregate([
+{
+  $group:{
+  	"_id": "$departament.codi",
+  	"salari_max": {$max: "$salari"}
+  }
+}
+]).sort(
+{
+	"salari_max": -1
+}
+)
 ```
 
+Aqui ens donara una suma de salaris agrupat per cada departament.
 ### Operadors
 - $multiply: multiplica dos valors.
 
 ```JSON
+db.empleats.aggregate([
+  {
+		"$project": {
+			"nom": 1,
+			"cognoms": 1,
+			"salari": 1,
+			"salari_brut": {"$multiply": ["$salari",1.1]}
 
+		}
+	}
+])
 ```
 
 - $divide: divideix dos valors.
 
 ```JSON
-
+db.empleats.aggregate([
+	{
+		"$project": {
+			"nom": 1,
+			"cognoms": 1,
+			"salari": 1,
+			"salari_brut": {"$divide": ["$salari",1.1]}
+		}
+	}
+])
 ```
 
 - $avg: calcula una mitjana
 
 ```JSON
-
+db.empleats.aggregate([
+  {
+		"$group": {
+			"_id": "$departament.nom",
+			"mitjana": {$avg: "$salari"}
+		}
+	}
+])
 ```
 
 - $count: retorna el numero de documents d'un grup.
 
 ```JSON
-
+db.empleats.aggregate([
+  {
+		"$project": {
+			"nom": 1,
+			"cognoms": 1,
+			"salari": 1,
+			"salari_brut": {"$divide": ["$salari",1.1]}
+		}
+	},
+  {
+		"$match": {
+			"salari_brut": {"$lt": 2000}
+		}
+	},
+  {
+		"$count": "salari_brut_inferior_2000"
+	}
+])
 ```
 
 - $max: retorna el maxim
 
 ```JSON
-
+db.empleats.aggregate([
+  {
+		"$group": {
+			"_id": "$departament.nom",
+			"max": {$max: "$salari"}
+		}
+	}
+])
 ```
 
 - $min: retorna el minim
 
 ```JSON
-
+db.empleats.aggregate([
+  {
+		"$group": {
+			"_id": "$departament.nom",
+			"min": {$min: "$salari"}
+		}
+	}
+])
 ```
 
 - $sum: retorna la suma d'unes dades
 
 ```JSON
-
+db.empleats.aggregate([
+  {
+		"$group": {
+			"_id": "$departament.nom",
+			"sum": {$sum: "$salari"}
+		}
+	}
+])
 ```
 
 ### Condicional
