@@ -192,3 +192,108 @@ db.empleats.aggregate([
 }
 )
 ```
+
+7. Volem comparar l'alçada dels dos germans Gasol. El noms curts són "Pau Gasol" i "Marc Gasol".
+
+```JSON
+db.jugadors.find({"nom_curt": {$regex: "Gasol"}},{"nom_curt":1,"alcada":1})
+```
+
+8. L’entrenador “Pedro Martínez” és un dels entrenadors més veterans. Quants partits ha participat com a entrenador. Independentment de si ho ha fet com a local o com a visitant. Restringeix la consulta als partits de lla Lliga Regular de la temporada 2023-2024.
+
+```JSON
+db.partits.aggregate([
+{
+	"$match": {
+		"$and":[
+		    {"competicio": {"$eq": "Lliga Regular"}},
+		    {
+				"$and": [
+					{"temporada": {"$eq": "2023-2024"}},
+					{
+						"$or": [
+							{"equip_local.entrenadors.nom": "Pedro Martínez"},
+							{"equip_visitant.entrenadors.nom": "Pedro Martínez"}
+						]
+					}
+				]
+			}
+		]
+	}
+},
+{
+	"$project": {
+		"equip_visitant.entrenadors.nom":1,
+		"equip_local.entrenadors.nom":1,
+		"competicio":1,
+		"temporada":1
+	}
+},
+{
+	"$count": "Pedros martinez"
+}
+])
+```
+
+9. La llicència "JFL" indica que és un jugador de formació. Quants jugadors tenim amb aquesta llicència?
+
+```JSON
+db.jugadors.find({"llicencia": {$eq: "JFL"}}).count()
+```
+
+10. Quins jugadors tenim el compte d'Instagram? Mostra el nom_curt del jugador i l'usuari d'Instragram
+
+```JSON
+db.jugadors.aggregate([
+	{
+		$unwind: "$xarxes_socials"
+	},
+	{
+		$match: {
+			"xarxes_socials.nom": "instagram"
+		}
+	},
+	{
+		$project: {
+	      _id: 0,
+	      nom_curt: 1,
+	      usuari: "$xarxes_socials.usuari"
+	    }
+	}
+])
+```
+
+11. Dona el número total de punts de l'equip local del partit amb codi_acb :"103778"
+
+```JSON
+db.partits.aggregate([
+	{
+		$match: {
+			"codi_acb": "103778"
+		}
+	},
+    {
+		$project:{
+			"punts": {$sum: "$equip_local.jugadors.estadistics.punts"}
+		}
+	}
+])
+```
+
+12. Obtenir els punts de cada equip (local i visitant) del partit amb codi_acb: "103778"
+
+```JSON
+db.partits.aggregate([
+    {
+		$match: {
+			"codi_acb": "103778"
+		}
+	},
+    {
+		$project:{
+			"punts_local": {$sum: "$equip_local.jugadors.estadistics.punts"},
+			"punts_visitant": {$sum: "$equip_visitant.jugadors.estadistics.punts"}
+		}
+	}
+])
+```

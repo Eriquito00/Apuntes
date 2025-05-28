@@ -17,6 +17,12 @@ db.createCollection("nombre")
 ```
 ## Comandes senzilles amb Mongosh
 
+- Cambiar de bbdd
+
+```JSON
+use (nom bbdd)
+```
+
 - Mostrar les bases de dades o collections
 
 ```JSON
@@ -162,7 +168,7 @@ Gracies a match podem utilitzar-ho com un where a mysql, basicament ens es util 
 
 ```JSON
 db.empleats.aggregate([
-  {
+	{
 		"$match": {
 			"salari": {"$eq": 1300}
 		}
@@ -175,7 +181,7 @@ Project es el que utilitzem per mostrar les dades que necesitem, es a dir si nom
 
 ```JSON
 db.empleats.aggregate([
-  {
+	{
 		"$project": {
 			"nom": 1,
 			"cognoms": 1,
@@ -186,7 +192,7 @@ db.empleats.aggregate([
 ])
 ```
 
-### $addfields
+### $addFields
 Per mostrar totes les dades de cada fitxer i afegir algun camp que ens interesi o modificar algun camp nomes a l'hora de mostrar per mostrar els valors d'una forma mes clara.
 
 ```JSON
@@ -269,13 +275,13 @@ db.empleats.aggregate([
 ```
 
 ### $skip
-Skip es pot utilitzar per treure cert numero de resultats a l'inici, aixi podem treure resultats per inici i amb sample podem agafar nomes els inicis.
+Skip es pot utilitzar per treure cert numero de resultats a l'inici, aixi podem treure resultats per inici.
 
 ```JSON
 db.empleats.aggregate([
 	{
 		"$match": {
-    	"salari": {"$lt": 2000}
+	    	"salari": {"$lt": 2000}
 		}
 	},
   {
@@ -284,7 +290,7 @@ db.empleats.aggregate([
 			"salari_tot": {"$multiply": ["$salari", 1.1] }
 		}
 	},
-  {
+	{
 		"$skip": 2
 	}
 ])
@@ -319,7 +325,6 @@ db.empleats.aggregate([
 			"cognoms": 1,
 			"salari": 1,
 			"salari_brut": {"$multiply": ["$salari",1.1]}
-
 		}
 	}
 ])
@@ -349,29 +354,6 @@ db.empleats.aggregate([
 			"_id": "$departament.nom",
 			"mitjana": {$avg: "$salari"}
 		}
-	}
-])
-```
-
-- $count: retorna el numero de documents d'un grup.
-
-```JSON
-db.empleats.aggregate([
-  {
-		"$project": {
-			"nom": 1,
-			"cognoms": 1,
-			"salari": 1,
-			"salari_brut": {"$divide": ["$salari",1.1]}
-		}
-	},
-  {
-		"$match": {
-			"salari_brut": {"$lt": 2000}
-		}
-	},
-  {
-		"$count": "salari_brut_inferior_2000"
 	}
 ])
 ```
@@ -419,5 +401,22 @@ db.empleats.aggregate([
 Per poder afegir un condicional perque el programa faci una cosa o altre segons una condicio podem aplicar un condicional com el seguent.
 
 ```JSON
-
+db.empleats.aggregate([
+	{
+	    "$project": {
+		    "nom": 1,
+		    "cognoms": 1,
+		    "salari": 1,
+		    "salari_modificat": {
+		        "$cond": {
+		          "if": { "$lt": ["$salari", 3000] },
+		          "then": "baixa pasta",
+		          "else": "alta pasta"
+		        }
+		    }
+	    }
+	}
+])
 ```
+
+Amb aquest condicional en cas de que el salari sigui inferior a 3000 treura "baixa pasta" i si es superior o igual treura "alta pasta".

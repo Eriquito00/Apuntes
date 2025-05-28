@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "74af506ac9ac99a1",
+        "id": "4f5158cea830089e",
         "type": "tabs",
         "children": [
           {
-            "id": "77cfaab0bac7387b",
+            "id": "8f6ebf84f91b7833",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Shell MongoDB"
-            }
-          },
-          {
-            "id": "5fa82f4227910e63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "rrhh"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -58,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de fitxers"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -92,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -174,30 +155,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Obre el selector ràpid": false,
-      "graph:Obre la vista gràfica": false,
-      "canvas:Crea un llenç nou": false,
-      "daily-notes:Obre la nota d'avui": false,
-      "templates:Inserir plantilla": false,
-      "command-palette:Obre la paleta d'ordres": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "77cfaab0bac7387b",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
+    "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/Exercicis MongoDB.md",
-    "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
+    "Bases de dades/SGBD/No Relacional/MongoDB/MongoDB.md",
+    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Unitats personals.md",
     "Imatges/Pasted image 20250527093446.png",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
     "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
+    "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
     "Tipus de Dades MongoDB.md",
     "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
