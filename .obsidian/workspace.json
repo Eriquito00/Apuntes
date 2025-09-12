@@ -141,16 +141,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Frontend Web/Introduccion a Frontend Web.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de README"
+              "title": "Esquema de Introduccion a Frontend Web"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -164,10 +165,11 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "3b9f99fc9075b27e",
+  "active": "6a7c02c628a09241",
   "lastOpenFiles": [
     "Frontend Web/Introduccion a Frontend Web.md",
     "Frontend Web",
