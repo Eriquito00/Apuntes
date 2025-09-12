@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f5158cea830089e",
+        "id": "a93399f79d6f0385",
         "type": "tabs",
         "children": [
           {
-            "id": "8f6ebf84f91b7833",
+            "id": "3b9f99fc9075b27e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Frontend Web/Introduccion a Frontend Web.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Introduccion a Frontend Web"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Frontend Web/Introduccion a Frontend Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Retroenllaços"
+              "title": "Enlaces entrantes de Introduccion a Frontend Web"
             }
           },
           {
@@ -127,7 +132,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Etiquetes"
+              "title": "Etiquetas"
             }
           },
           {
@@ -136,22 +141,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemes Informatics/Sistemes Operatius/Xarxes.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Xarxes"
+              "title": "Esquema de README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,23 +164,27 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "bases:Crear nueva base": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "3b9f99fc9075b27e",
   "lastOpenFiles": [
+    "Frontend Web/Introduccion a Frontend Web.md",
+    "Frontend Web",
+    "Sistemes Informatics/Altres/Altres.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/ConsultesAD PowerShell.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
+    "Sistemes Informatics/Sistemes Operatius/Windows/Unitats personals.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/Exercicis MongoDB.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/MongoDB.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Unitats personals.md",
     "Imatges/Pasted image 20250527093446.png",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Permisos NTFS.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
     "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
     "Tipus de Dades MongoDB.md",
@@ -190,12 +197,10 @@
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
     "README.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/ConsultesAD PowerShell.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Solucionant el problema de la vigencia minima de contrasenyes.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/LDAP.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Finestra MySQL.md",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",
@@ -211,7 +216,6 @@
     "Programacio/Java/Excepcions",
     "Programacio/Java/Exepcions",
     "Git i GitHub/GitHub",
-    "Llenguatge de marques/Llenguatges/Conversors i adaptadors XML",
     "Sin título.canvas"
   ]
 }
