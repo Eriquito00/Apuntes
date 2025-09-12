@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a93399f79d6f0385",
+        "id": "167e037352bfd382",
         "type": "tabs",
         "children": [
           {
-            "id": "3b9f99fc9075b27e",
+            "id": "2458072a0654a89e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Frontend Web/Introduccion a Frontend Web.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Introduccion a Frontend Web"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend Web/Introduccion a Frontend Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Introduccion a Frontend Web"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -141,21 +136,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frontend Web/Introduccion a Frontend Web.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Introduccion a Frontend Web"
+              "title": "Esquema"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,11 +160,14 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "github-gitless-sync:Open sync conflicts view": false,
+      "github-gitless-sync:Sync with GitHub": false
     }
   },
-  "active": "6a7c02c628a09241",
+  "active": "2458072a0654a89e",
   "lastOpenFiles": [
+    "README.md",
     "Frontend Web/Introduccion a Frontend Web.md",
     "Frontend Web",
     "Sistemes Informatics/Altres/Altres.md",
@@ -197,7 +194,6 @@
     "Llenguatge de marques/Llenguatges/xQuery.md",
     "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
-    "README.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Solucionant el problema de la vigencia minima de contrasenyes.md",
