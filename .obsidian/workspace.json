@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e5fd94265be12df",
+            "id": "275bfc518a08f4ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SEO/Apuntes/Tipus de SEO.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Tipus de SEO"
             }
           }
         ]
@@ -163,17 +167,23 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "0e5fd94265be12df",
+  "active": "275bfc518a08f4ea",
   "lastOpenFiles": [
-    "Backend Web/PHP/Teoria basica de PHP.md",
+    "SEO/Introduccio a SEO.md",
     "README.md",
-    "Backend Web/Introduccion a Backend Web.md",
+    "SEO/Apuntes/Tipus de SEO.md",
+    "SEO/Apuntes",
+    "SEO/Introduccion a SEO.md",
+    "Frontend Web/Introduccio a Frontend Web.md",
+    "Backend Web/Introduccio a Backend Web.md",
+    "Sistemes Informatics/Introduccio a sistemes informatics.md",
+    "SEO",
+    "Backend Web/PHP/Teoria basica de PHP.md",
     "PHP/Teoria basica de PHP.md",
     "PHP",
     "PHP.md",
     "Backend Web/PHP",
     "Frontend Web/Introduccion a Backend Web.md",
-    "Frontend Web/Introduccion a Frontend Web.md",
     "Backend Web",
     "Frontend Web",
     "Sistemes Informatics/Altres/Altres.md",
@@ -196,10 +206,6 @@
     "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Bases de dades/SGBD/No Relacional/MongoDB",
-    "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
-    "Llenguatge de marques/Llenguatges/xQuery.md",
-    "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",
@@ -210,8 +216,6 @@
     "JDBC",
     "Persistencia de dades/JDBC",
     "Sense títol.canvas",
-    "Persistencia de dades",
-    "Excepcions",
     "Sin título.canvas"
   ]
 }
