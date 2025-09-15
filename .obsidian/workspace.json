@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "167e037352bfd382",
+        "id": "e21bf71183d0c15c",
         "type": "tabs",
         "children": [
           {
-            "id": "2458072a0654a89e",
+            "id": "0e5fd94265be12df",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -153,22 +153,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "github-sync:Sync with Remote": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "github-sync:Sync with Remote": false,
-      "github-gitless-sync:Open sync conflicts view": false,
-      "github-gitless-sync:Sync with GitHub": false
+      "bases:Crear nueva base": false
     }
   },
-  "active": "2458072a0654a89e",
+  "active": "0e5fd94265be12df",
   "lastOpenFiles": [
+    "Backend Web/PHP/Teoria basica de PHP.md",
     "README.md",
+    "Backend Web/Introduccion a Backend Web.md",
+    "PHP/Teoria basica de PHP.md",
+    "PHP",
+    "PHP.md",
+    "Backend Web/PHP",
+    "Frontend Web/Introduccion a Backend Web.md",
     "Frontend Web/Introduccion a Frontend Web.md",
+    "Backend Web",
     "Frontend Web",
     "Sistemes Informatics/Altres/Altres.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Comandes Windows PowerShell.md",
@@ -194,11 +200,6 @@
     "Llenguatge de marques/Llenguatges/xQuery.md",
     "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
     "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Solucionant el problema de la vigencia minima de contrasenyes.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/LDAP.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",
@@ -211,9 +212,6 @@
     "Sense títol.canvas",
     "Persistencia de dades",
     "Excepcions",
-    "Programacio/Java/Excepcions",
-    "Programacio/Java/Exepcions",
-    "Git i GitHub/GitHub",
     "Sin título.canvas"
   ]
 }
