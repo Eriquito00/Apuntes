@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e21bf71183d0c15c",
+        "id": "101508dbc9516a84",
         "type": "tabs",
         "children": [
           {
-            "id": "275bfc518a08f4ea",
+            "id": "d9f2533c1cb1cfaa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEO/Apuntes/Tipus de SEO.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tipus de SEO"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -167,11 +163,14 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "275bfc518a08f4ea",
+  "active": "d9f2533c1cb1cfaa",
   "lastOpenFiles": [
-    "SEO/Introduccio a SEO.md",
-    "README.md",
     "SEO/Apuntes/Tipus de SEO.md",
+    "SEO/Apuntes/Parts del SEO.md",
+    "SEO/Introduccio a SEO.md",
+    "Apuntes/Parts del SEO.md",
+    "Apuntes",
+    "README.md",
     "SEO/Apuntes",
     "SEO/Introduccion a SEO.md",
     "Frontend Web/Introduccio a Frontend Web.md",
@@ -203,8 +202,6 @@
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
     "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
     "Tipus de Dades MongoDB.md",
-    "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
-    "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Bases de dades/SGBD/No Relacional/MongoDB",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
@@ -214,7 +211,6 @@
     "Imatges/Pasted image 20250325154411.png",
     "Imatges/Pasted image 20250325154333.png",
     "JDBC",
-    "Persistencia de dades/JDBC",
     "Sense títol.canvas",
     "Sin título.canvas"
   ]
