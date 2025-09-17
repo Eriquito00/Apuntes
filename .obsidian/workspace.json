@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "167e037352bfd382",
+        "id": "d6b1755047c0f7cc",
         "type": "tabs",
         "children": [
           {
-            "id": "2458072a0654a89e",
+            "id": "1dd6047d7750c4bd",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Registro de cambios 1.9.12"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -165,7 +163,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "2458072a0654a89e",
+  "active": "1dd6047d7750c4bd",
   "lastOpenFiles": [
     "README.md",
     "Frontend Web/Introduccion a Frontend Web.md",
