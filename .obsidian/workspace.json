@@ -11,10 +11,14 @@
             "id": "1dd6047d7750c4bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "README"
             }
           }
         ]
@@ -163,8 +167,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "1dd6047d7750c4bd",
   "lastOpenFiles": [
+    "Git i GitHub/Introduccion a Git i GitHub.md",
+    "README.md",
     "Sin título.md",
     "SEO/Apuntes/Tipus de SEO.md",
     "SEO/Apuntes/Parts del SEO.md",
@@ -176,7 +182,6 @@
     "Backend Web/PHP",
     "Backend Web/Introduccio a Backend Web.md",
     "Backend Web",
-    "README.md",
     "Frontend Web/Introduccion a Frontend Web.md",
     "Frontend Web",
     "Sistemes Informatics/Altres/Altres.md",
@@ -200,7 +205,6 @@
     "Bases de dades/SGBD/Relacional/MySQL/MySQL.md",
     "Bases de dades/SGBD/No Relacional/MongoDB",
     "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
-    "Llenguatge de marques/Llenguatges/xQuery.md",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",
