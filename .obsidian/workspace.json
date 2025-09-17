@@ -163,8 +163,19 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "1dd6047d7750c4bd",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Sin título.md",
+    "SEO/Apuntes/Tipus de SEO.md",
+    "SEO/Apuntes/Parts del SEO.md",
+    "SEO/Introduccio a SEO.md",
+    "SEO/Apuntes",
+    "SEO",
+    "Frontend Web/Introduccio a Frontend Web.md",
+    "Backend Web/PHP/Teoria basica de PHP.md",
+    "Backend Web/PHP",
+    "Backend Web/Introduccio a Backend Web.md",
+    "Backend Web",
     "README.md",
     "Frontend Web/Introduccion a Frontend Web.md",
     "Frontend Web",
@@ -190,13 +201,6 @@
     "Bases de dades/SGBD/No Relacional/MongoDB",
     "Bases de dades/SGBD/Relacional/Sistemes Relacionals.md",
     "Llenguatge de marques/Llenguatges/xQuery.md",
-    "Bases de dades/SGBD/Relacional/MySQL/DCL MySQL.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/rrhh_dml.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Contrasenyes Windows.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Eines administratives WS 2022.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Solucionant el problema de la vigencia minima de contrasenyes.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/LDAP.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Grups Windows.md",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",
@@ -208,10 +212,6 @@
     "Persistencia de dades/JDBC",
     "Sense títol.canvas",
     "Persistencia de dades",
-    "Excepcions",
-    "Programacio/Java/Excepcions",
-    "Programacio/Java/Exepcions",
-    "Git i GitHub/GitHub",
     "Sin título.canvas"
   ]
 }
