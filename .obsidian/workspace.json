@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "769669790030afc9",
+        "id": "f6290a21e4e9df83",
         "type": "tabs",
         "children": [
           {
-            "id": "f674c9917d2201b0",
+            "id": "59e05d84e7ddae52",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,14 +163,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "f674c9917d2201b0",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Backend Web/Introduccio a Backend Web.md",
+    "Backend Web/PHP/Tipus de variables PHP.md",
     "Backend Web/PHP/Include i Require en PHP.md",
     "Backend Web/PHP/GET i POST PHP.md",
-    "22-09-2025.md",
-    "Backend Web/PHP/Tipus de variables PHP.md",
     "Backend Web/PHP/Funcions PHP.md",
-    "Backend Web/Introduccio a Backend Web.md",
+    "22-09-2025.md",
     "Backend Web/PHP/GET PHP.md",
     "README.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
