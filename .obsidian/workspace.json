@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba56b6cce1e21ff",
+        "id": "d6b1755047c0f7cc",
         "type": "tabs",
         "children": [
           {
-            "id": "f9873d840e601557",
+            "id": "15e6c930810c598d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Backend Web/PHP/Tipus de variables PHP.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Tipus de variables PHP"
             }
           }
         ]
@@ -163,13 +167,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "f9873d840e601557",
+  "active": "15e6c930810c598d",
   "lastOpenFiles": [
-    "Backend Web/PHP/GET i POST PHP.md",
-    "Backend Web/Introduccio a Backend Web.md",
     "Backend Web/PHP/Include i Require en PHP.md",
-    "Backend Web/PHP/Tipus de variables PHP.md",
+    "Backend Web/PHP/GET i POST PHP.md",
     "Backend Web/PHP/Funcions PHP.md",
+    "Backend Web/Introduccio a Backend Web.md",
+    "Backend Web/PHP/Tipus de variables PHP.md",
+    "Backend Web/PHP/GET PHP.md",
     "README.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
     "SEO/Apuntes/Tipus de SEO.md",
@@ -199,7 +204,6 @@
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
     "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
     "Tipus de Dades MongoDB.md",
-    "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
     "Bases de dades/SGBD/No Relacional/MongoDB",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
