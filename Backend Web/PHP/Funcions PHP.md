@@ -1,5 +1,5 @@
 # Funcions PHP
-Podem fer funcions que retornen valors quan li pasem valors.
+Podem fer funcions que retornen valors quan li passem valors.
 
 ```PHP
 <?php
@@ -13,7 +13,7 @@ Podem fer funcions que retornen valors quan li pasem valors.
 ?>
 ```
 
-Podem fer funcions que no retornen valors quan li pasem valors.
+Podem fer funcions que no retornen valors quan li passem valors.
 
 ```PHP
 <?php
@@ -25,7 +25,7 @@ Podem fer funcions que no retornen valors quan li pasem valors.
 ?>
 ```
 
-Podem fer funcions que no li pasem valors i retonen.
+Podem fer funcions que no li passem valors i retonen.
 
 ```PHP
 <?php

@@ -1,6 +1,6 @@
 # Tipus de variables PHP
-## Declaracio de variables i constants
-La declaracio de les variables i constants es fa de la seguent manera, per les constants es posa un nom y un valor al moment de declarar i a les variables pot posar valor y en cas de no posar sera per defecte null.
+## Declaració de variables i constants
+La declaració de les variables i constants es fa de la següent manera, per les constants es posa un nom y un valor al moment de declarar i a les variables pot posar valor y en cas de no posar serà per defecte null.
 
 ```PHP
 <?php
@@ -12,7 +12,7 @@ La declaracio de les variables i constants es fa de la seguent manera, per les c
 ?>
 ```
 
-Per sapiguer el tipus de dada que conte una variable podem fer el seguent
+Per saber el tipus de dada que conte una variable podem fer el següent
 
 ```PHP
 <?php
@@ -22,7 +22,7 @@ Per sapiguer el tipus de dada que conte una variable podem fer el seguent
 ?>
 ```
 
-I per poder mostar aquest valor per pantalla utilitzarem "echo".
+I per poder mostrar aquest valor per pantalla utilitzarem "echo".
 
 ```PHP
 <?php
@@ -41,7 +41,7 @@ I per poder mostar aquest valor per pantalla utilitzarem "echo".
 
 ## Tipus d'array
 ### Array
-Per crear una array podem fer ho de les seguents maneres exactament iguals.
+Per crear una array podem fer-ho de les següents maneres exactament iguals.
 
 ```PHP
 <?php
@@ -126,7 +126,7 @@ Es una array que conte arrays dins seu.
 ?>
 ```
 # Operador ternari
-Per aplicar un operador ternari podem ferho de la seguent forma.
+Per aplicar un operador ternari podem fer-ho de la següent forma.
 
 ```PHP
 <?php
