@@ -22,6 +22,7 @@ El mes rentable es tenir una web neta, organitzada i util per a que altres webs 
 Una bona eina per el SEO Off-Page i que ens ajuda per exemple amb la revisio de links externs es [SEO Review Tools](https://www.seoreviewtools.com/valuable-backlinks-checker/)
 
 <iframe src="https://www.seoreviewtools.com/valuable-backlinks-checker/" width="700" height="400" frameborder="0" allowfullscreen />
+
 ## SEO Tecnic
 Aquesta es la part que no es veu del SEO i pot fer un gran canvi a les visites de la teva web.
 
