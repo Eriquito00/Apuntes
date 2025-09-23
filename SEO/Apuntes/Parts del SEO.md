@@ -14,6 +14,7 @@ Exemples:
 Una bona eina per el SEO On-Page i que ens ajuda a veure la estructura de la pagina web i ens dona una avaluacio es [PageSpeed Insights](https://pagespeed.web.dev/)
 
 <iframe src="https://pagespeed.web.dev/" width="700" height="400" frameborder="0" allowfullscreen />
+
 ## SEO Off-Page
 Aquests canvis son fora de la nostre web, la nostre reputacio a internet.
 
