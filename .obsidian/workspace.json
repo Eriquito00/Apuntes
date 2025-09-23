@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f6290a21e4e9df83",
+        "id": "5ba56b6cce1e21ff",
         "type": "tabs",
         "children": [
           {
-            "id": "59e05d84e7ddae52",
+            "id": "f9873d840e601557",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de dades/ER i Relacional/Entitat Relacio.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Entitat Relacio"
             }
           }
         ]
@@ -153,25 +157,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Crear nueva base": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "f9873d840e601557",
   "lastOpenFiles": [
-    "Backend Web/Introduccio a Backend Web.md",
-    "Backend Web/PHP/Tipus de variables PHP.md",
-    "Backend Web/PHP/Include i Require en PHP.md",
     "Backend Web/PHP/GET i POST PHP.md",
+    "Backend Web/Introduccio a Backend Web.md",
+    "Backend Web/PHP/Include i Require en PHP.md",
+    "Backend Web/PHP/Tipus de variables PHP.md",
     "Backend Web/PHP/Funcions PHP.md",
-    "22-09-2025.md",
-    "Backend Web/PHP/GET PHP.md",
     "README.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
     "SEO/Apuntes/Tipus de SEO.md",
@@ -200,6 +202,8 @@
     "Imatges/Pasted image 20250526114847.png",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
     "Bases de dades/SGBD/No Relacional/MongoDB/Tipus de Dades i Estructura MongoDB.md",
+    "Tipus de Dades MongoDB.md",
+    "Bases de dades/SGBD/No Relacional/Sistemes No Relacionals.md",
     "Bases de dades/SGBD/No Relacional/MongoDB",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
