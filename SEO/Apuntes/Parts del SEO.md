@@ -10,10 +10,18 @@ Exemples:
 - Estructurar be el contingut
 - Que la web tingui adaptabilitat a diferents dispositius
 - Posar enllaços interns perque la gent no es perdi i pugui navegar
+
+Una bona eina per el SEO On-Page i que ens ajuda a veure la estructura de la pagina web i ens dona una avaluacio es [PageSpeed Insights](https://pagespeed.web.dev/)
+
+<iframe src="https://pagespeed.web.dev/" width="700" height="400" frameborder="0" allowfullscreen />
 ## SEO Off-Page
 Aquests canvis son fora de la nostre web, la nostre reputacio a internet.
 
 El mes rentable es tenir una web neta, organitzada i util per a que altres webs que tinguin mes reputacio ens enllaçin la nostre web creant fama. Tambe es tenen en compte totes les mencion a les xarxes socials, blogs, ressenyes...
+
+Una bona eina per el SEO Off-Page i que ens ajuda per exemple amb la revisio de links externs es [SEO Review Tools](https://www.seoreviewtools.com/valuable-backlinks-checker/)
+
+<iframe src="https://www.seoreviewtools.com/valuable-backlinks-checker/" width="700" height="400" frameborder="0" allowfullscreen />
 ## SEO Tecnic
 Aquesta es la part que no es veu del SEO i pot fer un gran canvi a les visites de la teva web.
 
