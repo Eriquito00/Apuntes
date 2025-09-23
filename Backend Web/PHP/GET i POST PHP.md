@@ -20,9 +20,7 @@ El proces seria:
 
 En definitiva, tant GET com POST els podem utilitzar per ambes coses pero esta clar que si enviem dades sensibles amb GET la informacio es veura a la URL per tant no tenim cap seguretat per tant no esta ben aplicat GET en aquest cas de questionari.
 
-Hem de centrar-nos en utilitzar GET per lectura de dades de la BBDD i POST per insercions, modificacions o eliminacions. 
-
-Exemple de formulari:
+Hem de centrar-nos en utilitzar GET per lectura de dades de la BBDD i POST per insercions, modificacions o eliminacions. Exemple de formulari:
 
 ```PHP
 <form action="fitxer.php" method"POST">
@@ -30,7 +28,8 @@ Exemple de formulari:
 ```
 
 ```PHP
-//fitxer.php
+
+
 <?php
 	$nom = $_POST['nom'];
 ?>
