@@ -9,6 +9,9 @@ La declaració de les variables i constants es fa de la següent manera, per les
 	
 	//constant
 	define("iker", 19);
+	
+	// constant local (a la classe que treballem o al fitxer)
+	const EDAD = 18;
 ?>
 ```
 
@@ -39,6 +42,89 @@ I per poder mostrar aquest valor per pantalla utilitzarem "echo".
 ?>
 ```
 
+## Comprovació de variables
+Segur que amb PHP al ser un llenguatge no tipat i dinàmic ens ha passat que hem tingut dos tipus de valor a una mateixa variable i no sabem que conte ara, podem fer una verificació retornant true o false dels diferents tipus de variables de la següent manera.
+
+```PHP
+$variable = ?;
+
+//strings
+is_string($variable);
+
+//booleans
+is_bool($variable);
+
+//numeros enters
+is_int($variable);
+
+//numeros amb decimals
+is_double($variable);
+is_float($variable);
+```
+## Operador ternari
+Per aplicar un operador ternari podem fer-ho de la següent forma.
+
+```PHP
+<?php
+	$edat = 18;
+	
+	//en caso de que edad no tenga valor tendra el valor del string
+	$edat = (isset($edat)) ? $edat : 'El usuari no ha establert la seva edat';
+	
+	//si te valor el valor si no el string (en aquest exemple)
+	echo 'Edat: ' . $edat;
+?>
+```
+## Formes de treure valors
+
+```PHP
+<?php
+	$valor = "valor";
+	
+	// "valor"
+	echo $valor;
+	
+	//string(5) "valor"
+	var_dump($valor);
+?>
+```
+
+## Manipulacio de Strings
+```PHP
+<?php
+	
+	$text = 'Eric';
+	
+	// treu espais abans i despres del text	
+	echo trim($text);
+	
+	// obte la longitud total del string
+	echo strlen($text);
+	
+	// mostra el string entre els numeros de caracters, inclosos els dos, en aquest exemple seria "ic"
+	echo substr($text, 2, 4);
+	
+	// si volem canviar alguns caracters d'algun string podem utilitzar
+	echo str_replace('c', 'k', $text); // canvia la c per la k
+	
+	//concatenacio de strings
+	$nom = "Manolo";
+	$edad = 25;
+	echo "Hola " . $nom . ", con una edad de " . $edad;
+	//SORTIDA: Hola Manolo, con una edad de 25
+	
+	//Pero tambe es pot fer el seguent per concatenar
+	$num1 = 1;
+	$num2 = 2;
+	echo $num1 . $num2;
+	//SORTIDA: 12
+	
+	//inclus podem utilitzar aquest operador
+	$nom = "Hola " . $nom;
+	$nom ·= ", con una edad de " . $edad;
+?>
+```
+
 ## Tipus d'array
 ### Array
 Per crear una array podem fer-ho de les següents maneres exactament iguals.
@@ -46,14 +132,16 @@ Per crear una array podem fer-ho de les següents maneres exactament iguals.
 ```PHP
 <?php
 	
-	// crear arrays
+	// crea arrays
 	$variable = array ('dilluns', 'dimarts', 'dimecres', 'dijous', 'divendres', 'dissabte', 'diumenge');
 	
 	$variable = ['dilluns', 'dimarts', 'dimecres', 'dijous', 'divendres', 'dissabte', 'diumenge'];
 	
-	//añadir un valor a la array en x posicion
-	
+	//afegir un valor a la array en x posicio
 	$variable[10] = "valor";
+	
+	//afegir un valor al final
+	$variable[] = "valor2";
 	
 ?>
 ```
@@ -96,7 +184,6 @@ Es una array que conte arrays dins seu.
 ?>
 ```
 ## Manipulacio de arrays
-
 ```PHP
 <?php
 	$mesos = array(
@@ -123,53 +210,5 @@ Es una array que conte arrays dins seu.
 	// obtiene la misma array pero al reves
 	$mesos_invertits = array_reverse($mesos);
 
-?>
-```
-# Operador ternari
-Per aplicar un operador ternari podem fer-ho de la següent forma.
-
-```PHP
-<?php
-	$edat = 18;
-	
-	//en caso de que edad no tenga valor tendra el valor del string
-	$edat = (isset($edat)) ? $edat : 'El usuari no ha establert la seva edat';
-	
-	//si te valor el valor si no el string (en aquest exemple)
-	echo 'Edat: ' . $edat;
-?>
-```
-# Formes de treure valors
-
-```PHP
-<?php
-	$valor = "valor";
-	
-	// "valor"
-	echo $valor;
-	
-	//string(5) "valor"
-	var_dump($valor);
-?>
-```
-
-# Manipulacio de Strings
-
-```PHP
-<?php
-	
-	$text = 'Eric';
-	
-	// treu espais abans i despres del text	
-	echo trim($text);
-	
-	// obte la longitud total del string
-	echo strlen($text);
-	
-	// mostra el string entre els numeros de caracters, inclosos els dos, en aquest exemple seria "ic"
-	echo substr($text, 2, 4);
-	
-	// si volem canviar alguns caracters d'algun string podem utilitzar
-	echo str_replace('c', 'k', $text); // canvia la c per la k
 ?>
 ```
