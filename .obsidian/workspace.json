@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sin título.md",
+                "file": "Backend Web/PHP/Funcions PHP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sin título"
+              "title": "Funcions PHP"
             }
           }
         ]
@@ -167,17 +167,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "966707fef3e9a9c3",
   "lastOpenFiles": [
+    "Backend Web/PHP/GET i POST PHP.md",
+    "Backend Web/PHP/Funcions PHP.md",
     "Sin título.md",
     "Backend Web/PHP/Condicionals i Bucles PHP.md",
     "Bases de dades/ER i Relacional/Entitat Relacio.md",
     "desktop.ini",
-    "Backend Web/PHP/GET i POST PHP.md",
     "Backend Web/Introduccio a Backend Web.md",
     "Backend Web/PHP/Include i Require en PHP.md",
     "Backend Web/PHP/Tipus de variables PHP.md",
-    "Backend Web/PHP/Funcions PHP.md",
     "README.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
     "SEO/Apuntes/Tipus de SEO.md",
