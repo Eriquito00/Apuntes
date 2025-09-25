@@ -19,6 +19,8 @@
 
 [Introduccio a SEO](SEO/Introduccio%20a%20SEO.md)
 
+[Introduccio a Desplegament d'Aplicacions Web](Desplegament%20d'Aplicacions%20Web/Introduccio%20a%20Desplegament%20d'Aplicacions%20Web.md)
+
 ## Otros Apuntes (Español)
 
 [Introduccion a Git i GitHub](Git%20i%20GitHub/Introduccion%20a%20Git%20i%20GitHub.md)

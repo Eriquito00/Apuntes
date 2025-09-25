@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "09fea309a804c5dd",
+        "id": "cc55e835996ef8d6",
         "type": "tabs",
         "children": [
           {
-            "id": "c66d6d2255c3e3f7",
+            "id": "63fc75b6f3a74419",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend Web/Introduccio a Backend Web.md",
+                "file": "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduccio a Backend Web"
+              "title": "Instalacio Apache a Linux i Configuracio de serveis"
             }
           }
         ]
@@ -167,27 +167,31 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "c66d6d2255c3e3f7",
+  "active": "63fc75b6f3a74419",
   "lastOpenFiles": [
-    "Backend Web/PHP/Trucades a APIs PHP.md",
+    "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
+    "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
+    "Desplegament d'Aplicacions Web/Apache Linux",
+    "README.md",
+    "Frontend Web/Introduccio a Frontend Web.md",
+    "Sin título.md",
+    "Desplegament d'Aplicacions Web",
     "Backend Web/Introduccio a Backend Web.md",
+    "Backend Web/PHP/Trucades a APIs PHP.md",
     "PHP",
     "Backend Web/PHP/Condicionals i Bucles PHP.md",
     "Backend Web/PHP/Funcions PHP.md",
     "Backend Web/PHP/GET i POST PHP.md",
-    "Sin título.md",
     "Bases de dades/ER i Relacional/Entitat Relacio.md",
     "desktop.ini",
     "Backend Web/PHP/Include i Require en PHP.md",
     "Backend Web/PHP/Tipus de variables PHP.md",
-    "README.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
     "SEO/Apuntes/Tipus de SEO.md",
     "SEO/Apuntes/Parts del SEO.md",
     "SEO/Introduccio a SEO.md",
     "SEO/Apuntes",
     "SEO",
-    "Frontend Web/Introduccio a Frontend Web.md",
     "Backend Web/PHP",
     "Backend Web",
     "Frontend Web/Introduccion a Frontend Web.md",
@@ -200,13 +204,10 @@
     "Bases de dades/SGBD/No Relacional/MongoDB/Shell MongoDB.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/rrhh.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/Exercicis MongoDB.md",
-    "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
-    "Bases de dades/SGBD/No Relacional/MongoDB/MongoDB.md",
     "Imatges/Pasted image 20250527093446.png",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis",
-    "Bases de dades/SGBD/No Relacional/MongoDB",
     "Imatges/Pasted image 20250325155014.png",
     "Imatges/Pasted image 20250325154948.png",
     "Imatges/Pasted image 20250325154808.png",
@@ -214,7 +215,6 @@
     "Imatges/Pasted image 20250325154524.png",
     "Imatges/Pasted image 20250325154411.png",
     "Imatges/Pasted image 20250325154333.png",
-    "JDBC",
     "Sense títol.canvas",
     "Sin título.canvas"
   ]
