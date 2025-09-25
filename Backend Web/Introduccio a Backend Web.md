@@ -9,3 +9,9 @@
 [GET i POST PHP](PHP/GET%20i%20POST%20PHP.md)
 
 [Condicionals i Bucles PHP](PHP/Condicionals%20i%20Bucles%20PHP.md)
+
+[Trucades a APIs PHP](PHP/Trucades%20a%20APIs%20PHP.md)
+
+
+
+[Zeabur PHP deployer](https://zeabur.com/pricing)

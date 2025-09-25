@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "346bafbc06f4e362",
+        "id": "09fea309a804c5dd",
         "type": "tabs",
         "children": [
           {
-            "id": "966707fef3e9a9c3",
+            "id": "c66d6d2255c3e3f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend Web/PHP/Funcions PHP.md",
+                "file": "Backend Web/Introduccio a Backend Web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funcions PHP"
+              "title": "Introduccio a Backend Web"
             }
           }
         ]
@@ -167,15 +167,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "966707fef3e9a9c3",
+  "active": "c66d6d2255c3e3f7",
   "lastOpenFiles": [
-    "Backend Web/PHP/GET i POST PHP.md",
-    "Backend Web/PHP/Funcions PHP.md",
-    "Sin título.md",
+    "Backend Web/PHP/Trucades a APIs PHP.md",
+    "Backend Web/Introduccio a Backend Web.md",
+    "PHP",
     "Backend Web/PHP/Condicionals i Bucles PHP.md",
+    "Backend Web/PHP/Funcions PHP.md",
+    "Backend Web/PHP/GET i POST PHP.md",
+    "Sin título.md",
     "Bases de dades/ER i Relacional/Entitat Relacio.md",
     "desktop.ini",
-    "Backend Web/Introduccio a Backend Web.md",
     "Backend Web/PHP/Include i Require en PHP.md",
     "Backend Web/PHP/Tipus de variables PHP.md",
     "README.md",
@@ -200,7 +202,6 @@
     "Bases de dades/SGBD/No Relacional/MongoDB/Exercicis/Exercicis MongoDB.md",
     "Sistemes Informatics/Sistemes Operatius/Windows/Windows.md",
     "Bases de dades/SGBD/No Relacional/MongoDB/MongoDB.md",
-    "Bases de dades/SGBD/Relacional/MySQL/Exercicis/Exercicis MySQL.md",
     "Imatges/Pasted image 20250527093446.png",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
@@ -214,7 +215,6 @@
     "Imatges/Pasted image 20250325154411.png",
     "Imatges/Pasted image 20250325154333.png",
     "JDBC",
-    "Persistencia de dades/JDBC",
     "Sense títol.canvas",
     "Sin título.canvas"
   ]

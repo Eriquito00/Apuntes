@@ -17,7 +17,7 @@ else {
 ?>
 ```
 
-Pero PHP ens permet utilitzar tambe HTML dins seu, per aixó es, per tant podem utilitzar-ho de la següent manera sempre i quan posem en contes de "else if" ho deixem junt "elseif". Que tambe es podria utilitzar a l'anterior cas.
+Pero PHP ens permet utilitzar tambe HTML dins seu, per això es, per tant podem utilitzar-ho de la següent manera sempre i quan posem en contes de "else if" ho deixem junt "elseif". Que tambe es podria utilitzar a l'anterior cas.
 
 ```PHP
 <?php
@@ -77,4 +77,48 @@ switch (true) {
 ```
 
 ## Foreach
-[MiduDev PHP curso](https://youtu.be/BcGAPkjt_IE?t=3654)
+Foreach tambe ens permet ser utilitzat com l'anterior us que li hem donat al if else, podem utilitzarlo dins de codi de la seguent manera:
+
+```PHP
+<?php
+$languages = ["JS","TS","Java","PHP"];
+
+foreach($languages as $lang){
+	echo $lang;
+}
+?>
+```
+
+O com he comentat anteriorment mostrar-ho amb format especific com una llista al html.
+
+```PHP
+<?php
+$languages = ["JS","TS","Java","PHP"];
+?>
+
+<ul>
+	<?php foreach($languages as $lang) : ?>
+		<li><php echo $lang ?></li>
+	<?php endforeach; ?>
+</ul>
+```
+
+Tambe podem obtenir el index per on va de la array de la seguent manera:
+
+```PHP
+<?php
+$languages = ["JS","TS","Java","PHP"];
+
+foreach($languages as $key => $lang){
+	echo $key . " " . $lang;
+}
+?>
+
+
+
+<ul>
+	<?php foreach($languages as $key => $lang) : ?>
+		<li><php echo $key . " " . $lang ?></li>
+	<?php endforeach; ?>
+</ul>
+```
