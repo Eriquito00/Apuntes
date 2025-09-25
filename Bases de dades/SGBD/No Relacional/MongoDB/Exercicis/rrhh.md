@@ -1,6 +1,6 @@
 # RRHH
 ## Base de dades Recursos Humans (RRHH)
-Aqui tens la [collection de empleats](BBDD/empleats.json) i [collection de departaments](BBDD/departaments.json).
+Aquí tens la [collection de empleats](BBDD/empleats.json) i [collection de departaments](BBDD/departaments.json).
 
 ## Nivell 1
 
@@ -70,7 +70,7 @@ db.empleats.find({"feina.codi": {"$ne": "AD_VP"}})
 db.empleats.find({"pct_comissio": {"$exists": true}})
 ```
 
-12. Recupera els empleats que tenen pct_comissio i hagi treballat o treballin actualment de "Cap de Vendes" . Utilitza el codi de feina "SA_MAN".
+12. Recupera els empleats que tenen pct_comissio i hagi treballat o treballin actualment de "Cap de Vendes". Utilitza el codi de feina "SA_MAN".
 
 ```JSON
 db.empleats.find({"$and": [{"pct_comissio": {"$exists": true}}, {"feina.codi": "SA_MAN"}]})
@@ -84,7 +84,7 @@ db.empleats.find({"historial_feines": {"$size": 2}})
 
 ## Nivell 2
 
-1. Mostra la quantitat d’empleats per cada departament. Mostra id de departament i la quantitat.
+1. Mostra la quantitat d’empleats per cada departament. Mostra ID de departament i la quantitat.
 
 ```JSON
 db.empleats.aggregate([
@@ -137,7 +137,7 @@ db.empleats.aggregate([
 )
 ```
 
-4. De cada departament mostra el salari més alt. Mostra id de departament i el salari més alt.
+4. De cada departament mostra el salari més alt. Mostra ID de departament i el salari més alt.
 
 ```JSON
 db.empleats.aggregate([
@@ -154,7 +154,7 @@ db.empleats.aggregate([
 )
 ```
 
-5. Quina és la massa salarial de cada departament? Mostra id de departament i la massa salarial.
+5. Quina és la massa salarial de cada departament? Mostra ID de departament i la massa salarial.
 
 ```JSON
 db.empleats.aggregate([
@@ -193,13 +193,13 @@ db.empleats.aggregate([
 )
 ```
 
-7. Volem comparar l'alçada dels dos germans Gasol. El noms curts són "Pau Gasol" i "Marc Gasol".
+7. Volem comparar l'alçada dels dos germans Gasol. Els noms curts són "Pau Gasol" i "Marc Gasol".
 
 ```JSON
 db.jugadors.find({"nom_curt": {$regex: "Gasol"}},{"nom_curt":1,"alcada":1})
 ```
 
-8. L’entrenador “Pedro Martínez” és un dels entrenadors més veterans. Quants partits ha participat com a entrenador. Independentment de si ho ha fet com a local o com a visitant. Restringeix la consulta als partits de lla Lliga Regular de la temporada 2023-2024.
+8. L’entrenador “Pedro Martínez” és un dels entrenadors més veterans. Quants partits ha participat com a entrenador. Independentment de si ho ha fet com a local o com a visitant. Restringeix la consulta als partits de la Lliga Regular de la temporada 2023-2024.
 
 ```JSON
 db.partits.aggregate([
@@ -241,7 +241,7 @@ db.partits.aggregate([
 db.jugadors.find({"llicencia": {$eq: "JFL"}}).count()
 ```
 
-10. Quins jugadors tenim el compte d'Instagram? Mostra el nom_curt del jugador i l'usuari d'Instragram
+10. Quins jugadors tenim el compte d'Instagram? Mostra el nom_curt del jugador i l'usuari d'Instagram
 
 ```JSON
 db.jugadors.aggregate([
@@ -263,7 +263,7 @@ db.jugadors.aggregate([
 ])
 ```
 
-11. Dona el número total de punts de l'equip local del partit amb codi_acb :"103778"
+11. Dona el nombre total de punts de l'equip local del partit amb codi_acb :"103778"
 
 ```JSON
 db.partits.aggregate([

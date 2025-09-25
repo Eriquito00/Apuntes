@@ -1,6 +1,6 @@
 # Tipus de variables PHP
 ## Declaració de variables i constants
-La declaració de les variables i constants es fa de la següent manera, per les constants es posa un nom y un valor al moment de declarar i a les variables pot posar valor y en cas de no posar serà per defecte null.
+La declaració de les variables i constants es fa de la següent manera, per les constants es posa un nom i un valor al moment de declarar i a les variables pot posar valor i en cas de no posar serà per defecte null.
 
 ```PHP
 <?php
@@ -15,7 +15,7 @@ La declaració de les variables i constants es fa de la següent manera, per les
 ?>
 ```
 
-Per saber el tipus de dada que conte una variable podem fer el següent
+Per saber el tipus de dada que conté una variable podem fer el següent
 
 ```PHP
 <?php
@@ -43,7 +43,7 @@ I per poder mostrar aquest valor per pantalla utilitzarem "echo".
 ```
 
 ## Comprovació de variables
-Segur que amb PHP al ser un llenguatge no tipat i dinàmic ens ha passat que hem tingut dos tipus de valor a una mateixa variable i no sabem que conte ara, podem fer una verificació retornant true o false dels diferents tipus de variables de la següent manera.
+Segur que amb PHP en ser un llenguatge no tipat i dinàmic ens ha passat que hem tingut dos tipus de valor a una mateixa variable i no sabem que conté ara, podem fer una verificació retornant true o false dels diferents tipus de variables de la següent manera.
 
 ```PHP
 $variable = ?;
@@ -89,7 +89,7 @@ Per aplicar un operador ternari podem fer-ho de la següent forma.
 ?>
 ```
 
-## Manipulacio de Strings
+## Manipulació de Strings
 ```PHP
 <?php
 	
@@ -145,8 +145,8 @@ Per crear una array podem fer-ho de les següents maneres exactament iguals.
 	
 ?>
 ```
-### Array asociatiu
-Per crear arrays asociatius podem fer ho de la seguent forma que seria tenir dades format clau valor.
+### Array associatiu
+Per crear arrays associatius podem fer-ho de la següent forma que seria tenir dades formades clau valor.
 
 ```PHP
 <?php
@@ -163,7 +163,7 @@ Per crear arrays asociatius podem fer ho de la seguent forma que seria tenir dad
 ?>
 ```
 ### Array bidimensional
-Es una array que conte arrays dins seu.
+És una array que conté arrays dins seu.
 
 ```PHP
 
@@ -183,7 +183,7 @@ Es una array que conte arrays dins seu.
 	
 ?>
 ```
-## Manipulacio de arrays
+## Manipulació de arrays
 ```PHP
 <?php
 	$mesos = array(
@@ -209,6 +209,5 @@ Es una array que conte arrays dins seu.
 	
 	// obtiene la misma array pero al reves
 	$mesos_invertits = array_reverse($mesos);
-
 ?>
 ```

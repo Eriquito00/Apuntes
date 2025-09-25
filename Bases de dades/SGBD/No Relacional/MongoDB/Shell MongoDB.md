@@ -1,10 +1,10 @@
 # Shell MongoDB
-MongoDB te una shell, basada en JavaScript que permet la estructura de JavaScript, ara mirarem unes comandes amb la shell de mongodb per utilitzar la base de dades.
+MongoDB té una Shell, basada en JavaScript que permet l'estructura de JavaScript, ara mirarem unes comandes amb la Shell de MongoDB per utilitzar la base de dades.
 
 ## Crear bases de dades, collections i imports
-Despres de descarregar les MongoDB tools command database line podem importar de la seguent manera.
+Després de descarregar les MongoDB tools command database line podem importar de la següent manera.
 
-- Executarem amb l'arxiu de import i posarem la bbdd, collection i primer insert a la bbdd amb la seguent comanda al CMD.
+- Executarem amb l'arxiu d'import i posarem la bbdd, collection i primer insert a la bbdd amb la següent comanda al CMD.
 
 ```JSON
 (ruta a mongoimport.exe) --db=(nom bbdd) --collection=(nom collection) --file=(primer fitxer).json
@@ -17,7 +17,7 @@ db.createCollection("nombre")
 ```
 ## Comandes senzilles amb Mongosh
 
-- Cambiar de bbdd
+- Canviar de bbdd
 
 ```JSON
 use (nom bbdd)
@@ -33,7 +33,7 @@ show databases
 show collections
 ```
 
-- Mostrar un fitxer o varis fitxers d'una collection
+- Mostrar un fitxer o diversos fitxers d'una collection
 
 ```JSON
 //Un fitxer
@@ -43,7 +43,7 @@ db.(collection).findOne()
 db.(collection).find()
 ```
 
-- Insertar un json con valores clave valor o varios
+- Inserir un JSON amb valors clau - valor o varis
 
 ```JSON
 //Un insert de json
@@ -53,7 +53,7 @@ db.(collection).insertOne({"clau": "valor"})
 db.alumnes.insertMany([{"name":"David", "surname":"Catalan", "mitja":8.5}, {"name":"Eric", "surname":"Mejias", "mitja": 7.2}])
 ```
 
-- Conta el numero de documents que te la collection, aquest es pot fer de dues formes pero el resultat es el mateix
+- Conta el nombre de documents que té la collection, aquest es pot fer de dues formes, però el resultat és el mateix.
 
 ```JSON
 db.(collection).countDocuments()
@@ -61,19 +61,19 @@ db.(collection).countDocuments()
 db.(collection).find().count()
 ```
 
-- Obte els resultats limitant nomes a cert numero de resultats.
+- Obté els resultats limitant només a cert nombre de resultats.
 
 ```JSON
 db.departaments.find().limit(limite)
 ```
 
-- Mostrar els resultats de una forma mas ordenada i estructurada.
+- Mostrar els resultats d'una forma mas ordenada i estructurada.
 
 ```JSON
 db.departaments.find().pretty()
 ```
 ## Find
-Tenim per exemple els seguents operadors per poder obtenir alguns valors amb algunes condicions.
+Tenim per exemple els següents operadors per poder obtenir alguns valors amb algunes condicions.
 - $or: un valor o altre
 
 ```JSON
@@ -86,13 +86,13 @@ db.alumnes.find({"$or":[{"name":"David"},{"name":"Eric"}]})
 db.alumnes.find({"$and":[{"name":"David"},{"salari":1300}]})
 ```
 
-- $lt: mes petit que o $lte mes petit que o igual
+- $lt: més petit que o $lte més petit que o igual
 
 ```JSON
 db.alumnes.find({"edad": {"$lt": 18}})
 ```
 
-- $gt: mes gran que o $gte mes gran o igual
+- $gt: més gran que o $gte més gran o igual
 
 ```JSON
 db.alumnes.find({"edad": {"$gt": 18}})
@@ -128,14 +128,14 @@ db.alumnes.find({"edad": {"$nin": [18,21,25]}})
 db.alumnes.find({"edad": {"$exists": false | true}})
 ```
 
-- $size: comprovar el numero de resultats 
+- $size: comprovar el nombre de resultats 
 
 ```JSON
 db.alumnes.find({"email": {"$size": 2}})
 //retornaria els que tinguin 2 emails
 ```
 
-- \$regex: permet posar regex. tambe podem posar despres del regex "i" \/@gmail.com$/i perque ignori majuscules i minuscules.
+- \$regex: permet posar regex. També podem posar després del regex "i" \/@gmail.com$/i perquè ignori majúscules i minúscules.
 
 ```JSON
 //simplificat
@@ -157,14 +157,14 @@ db.users.find({"edad": {$gt: 18}}).sort({"edad": 1})
 db.users.find({"edad": {$gt: 18}}).toArray()
 ```
 
-Tambe tenim alguns parametres per nomes mostrar alguns de les dades dels json que volem, nomes haurem de fer una modificacio al find. Podem posar 1 per les claus que volem mostrar i 0 per les que no volem mostrar.
+També tenim alguns paràmetres per només mostrar alguna de les dades dels JSON que volem, només haurem de fer una modificació al find. En podem posar 1 per les claus que volem mostrar i 0 per les que no volem mostrar.
 
 ```JSON
 db.alumnes.find({"$or":[{"name":"David"},{"name":"Eric"}]}, {"name":1,"_id":0})
 ```
 ## Aggregation Framework
 ### $match
-Gracies a match podem utilitzar-ho com un where a mysql, basicament ens es util per poder fer un filtre sobre les dades del json.
+Gràcies a match podem utilitzar-ho com un where a MySQL, bàsicament ens és útil per poder fer un filtre sobre les dades del JSON.
 
 ```JSON
 db.empleats.aggregate([
@@ -177,7 +177,7 @@ db.empleats.aggregate([
 ```
 
 ### \$project
-Project es el que utilitzem per mostrar les dades que necesitem, es a dir si nomes volem veure el nom i cognoms per exemple.
+Project és el que utilitzem per mostrar les dades que necessitem, és a dir si només volem veure el nom i cognoms per exemple.
 
 ```JSON
 db.empleats.aggregate([
@@ -193,7 +193,7 @@ db.empleats.aggregate([
 ```
 
 ### $addFields
-Per mostrar totes les dades de cada fitxer i afegir algun camp que ens interesi o modificar algun camp nomes a l'hora de mostrar per mostrar els valors d'una forma mes clara.
+Per mostrar totes les dades de cada fitxer i afegir algun camp que ens interessi o modificar algun camp només a l'hora de mostrar per mostrar els valors d'una forma més clara.
 
 ```JSON
 db.empleats.aggregate([
@@ -205,9 +205,9 @@ db.empleats.aggregate([
 ])
 ```
 
-En aquest exemple hem retornaria tota la informacio del JSON intercambiant el valor de salari per aquest valor que li dono a salari, pero nomes per mostrar no es cambiara als json.
+En aquest exemple em retornaria tota la informació del JSON intercanviant el valor de salari per aquest valor que li dono a salari, però només per mostrar no es canviarà als JSON.
 ### $count
-Ens donara un recompte dels resultats que compleixen les condicions anteriors com a l'exemple.
+Ens donarà un recompte dels resultats que compleixen les condicions anteriors com a l'exemple.
 
 ```JSON
 db.empleats.aggregate([
@@ -228,9 +228,9 @@ db.empleats.aggregate([
 ])
 ```
 
-Aqui hem retornara un recompte dels empleats que cobren menys de 2000.
+Aquí em retornarà un recompte dels empleats que en cobren menys de 2000.
 ### $sort
-Ens serveix per treure els nostres resultats ordenats mitjançant una condicio, es pot ordenar ascendent o descendent utilitzant 1 o -1.
+Ens serveix per treure els nostres resultats ordenats mitjançant una condició, es pot ordenar ascendent o descendent utilitzant 1 o -1.
 
 ```JSON
 db.empleats.aggregate([
@@ -251,9 +251,9 @@ db.empleats.aggregate([
 ])
 ```
 
-Aqui ens mostraran les persones amb el seu salari de forma ascendent.
+Aquí ens mostraran les persones amb el seu salari de forma ascendent.
 ### $sample
-Ens serveix per obtenir un numero de documents com a resultat. Aixi podem obtenir nomes uns resultats.
+Ens serveix per obtenir un nombre de documents com a resultat. Així podem obtenir només uns resultats.
 
 ```JSON
 db.empleats.aggregate([
@@ -275,7 +275,7 @@ db.empleats.aggregate([
 ```
 
 ### $skip
-Skip es pot utilitzar per treure cert numero de resultats a l'inici, aixi podem treure resultats per inici.
+Skip es pot utilitzar per treure cert nombre de resultats a l'inici, així podem treure resultats per inici.
 
 ```JSON
 db.empleats.aggregate([
@@ -296,7 +296,7 @@ db.empleats.aggregate([
 ])
 ```
 ### $group
-El group en serveix per fer agrupaments amb les nostres dades per poder obtenir certs resultats agrupats per un camp.
+El grup en serveix per fer agrupaments amb les nostres dades per poder obtenir certs resultats agrupats per un camp.
 
 ```JSON
 db.empleats.aggregate([
@@ -313,7 +313,7 @@ db.empleats.aggregate([
 )
 ```
 
-Aqui ens donara una suma de salaris agrupat per cada departament.
+Aquí ens donarà una suma de salaris agrupat per cada departament.
 ### Operadors
 - $multiply: multiplica dos valors.
 
@@ -358,7 +358,7 @@ db.empleats.aggregate([
 ])
 ```
 
-- $max: retorna el maxim
+- $max: retorna el màxim
 
 ```JSON
 db.empleats.aggregate([
@@ -371,7 +371,7 @@ db.empleats.aggregate([
 ])
 ```
 
-- $min: retorna el minim
+- $min: retorna el mínim
 
 ```JSON
 db.empleats.aggregate([
@@ -398,7 +398,7 @@ db.empleats.aggregate([
 ```
 
 ### Condicional
-Per poder afegir un condicional perque el programa faci una cosa o altre segons una condicio podem aplicar un condicional com el seguent.
+Per poder afegir un condicional perquè el programa faci una cosa o altra segons una condició podem aplicar un condicional com el següent.
 
 ```JSON
 db.empleats.aggregate([
@@ -419,4 +419,4 @@ db.empleats.aggregate([
 ])
 ```
 
-Amb aquest condicional en cas de que el salari sigui inferior a 3000 treura "baixa pasta" i si es superior o igual treura "alta pasta".
+Amb aquest condicional en cas que el salari sigui inferior a 3000 treure "baixa pasta" i si és superior o igual treure "alta pasta".

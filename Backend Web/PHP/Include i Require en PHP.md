@@ -1,10 +1,10 @@
 # Include i Require en PHP
-Include tambe es pot utilitzar juntament amb include once igual que require i require once.
+Include també es pot utilitzar juntament amb include once igual que require i require once.
 Quan utilitzem include once o require once només cal carregar-ho una vegada.
 
-Quan utilitzem Include en cas de error i que no es pugui carregar saltara un warning conforme no es s'ha pogut carregar el que volies, s'utilitza quan el que volem carregar no es una cosa crucial.
+Quan utilitzem Include en cas d'error i que no es pugui carregar saltarà un warning conforme no és s'ha pogut carregar el que volies, s'utilitza quan el que volem carregar no és una cosa crucial.
 
-Quan utilitzem Require en cas de error amb el que volem carregar saltara directament un error que finalitzarà amb el curs normal del programa, s'utilitza amb connexions amb una BBDD que no ens permet continuar amb el curs del programa.
+Quan utilitzem Require en cas d'error amb el qual volem carregar saltarà directament un error que finalitzarà amb el curs normal del programa, s'utilitza amb connexions amb una BBDD que no ens permet continuar amb el curs del programa.
 
 Les variants que tenim son les següents:
 ```PHP

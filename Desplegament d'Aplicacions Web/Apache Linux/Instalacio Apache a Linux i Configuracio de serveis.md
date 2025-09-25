@@ -1,1 +1,1 @@
-# Instalacio Apache a Linux i Configuracio de serveis
+# Instal·lació Apache a Linux i Configuració de serveis

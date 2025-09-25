@@ -1,6 +1,6 @@
 # Tipus de dades i Estructura MongoDB
 ## Tipus de dades
-Els tipus de dades que podem utilitzar al json de MongoDB son les seguents:
+Els tipus de dades que podem utilitzar al JSON de MongoDB són les següents:
 - int
 - float
 - boolean
@@ -9,9 +9,9 @@ Els tipus de dades que podem utilitzar al json de MongoDB son les seguents:
 - array
 - null (o nan)
 - objectes
-- json
+- JSON
 ## Estructura
-MongoDB treballa amb JSONs per tant utilitza la seva mateixa estructura utilitzant clau - valor, per tant podem utilitzar una estructura com el seguent json.
+MongoDB treballa amb JSON, per tant, utilitza la seva mateixa estructura utilitzant clau - valor, per tant, podem utilitzar una estructura com el següent JSON.
 
 ```JSON
 {

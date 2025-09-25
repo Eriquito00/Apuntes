@@ -1,7 +1,7 @@
 # Trucades a APIs PHP
 
 ## Utilitzant Curl
-Aquesta peticion ens permet fer un seguiment de tots els pasos i on pot estar el error.
+Aquesta petició ens permet fer un seguiment de tots els passos i on pot estar l'error.
 
 ```PHP
 <?php
@@ -25,7 +25,7 @@ curl_close($ch);
 ?>
 ```
 ## Utilitzant File Get Contents
-Aquesta forma es mes sencilla que la anterior i ens permet obtenir les dades d'una forma mes rapida si l'unic que volem fer es un GET.
+Aquesta forma és més senzilla que l'anterior i ens permet obtenir les dades d'una forma més ràpida si l'únic que volem fer és un GET.
 
 ```PHP
 <?php

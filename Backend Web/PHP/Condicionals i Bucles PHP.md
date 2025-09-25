@@ -1,6 +1,6 @@
 # Condicionals i Bucles PHP
 ## IF
-El condicional if a PHP te un us molt util, podem utilitzar-lo de la forma convencional que seria la següent:
+El condicional if a PHP té un ús molt útil, podem utilitzar-lo de la forma convencional que seria la següent:
 
 ```PHP
 <?php
@@ -17,7 +17,7 @@ else {
 ?>
 ```
 
-Pero PHP ens permet utilitzar tambe HTML dins seu, per això es, per tant podem utilitzar-ho de la següent manera sempre i quan posem en contes de "else if" ho deixem junt "elseif". Que tambe es podria utilitzar a l'anterior cas.
+Però PHP ens permet utilitzar també HTML dins seu, per això és, per tant, podem utilitzar-ho de la següent manera sempre que posem en comptes de "else if" ho deixem junt "elseif". Que també es podria utilitzar a l'anterior cas.
 
 ```PHP
 <?php
@@ -34,10 +34,10 @@ $edad = 20;
 ```
 
 ## Switch ✖️ 👴 Match ✔️ 👨
-Quines avantatges te Match sobre Switch:
+Quins avantatges te Match sobre Switch:
 - Assignació directa a una variable del valor final després de les comprovacions.
-- Estructura simple i mes entenedora.
-- Necesitat de menys codi pel mateix resultat.
+- Estructura simple i més entenedora.
+- Necessitat de menys codi pel mateix resultat.
 
 ```PHP
 <?php
@@ -77,7 +77,7 @@ switch (true) {
 ```
 
 ## Foreach
-Foreach tambe ens permet ser utilitzat com l'anterior us que li hem donat al if else, podem utilitzarlo dins de codi de la seguent manera:
+Foreach també ens permet ser utilitzat com l'anterior ús que li hem donat a l'if else, podem utilitzar-lo dins de codi de la següent manera:
 
 ```PHP
 <?php
@@ -89,7 +89,7 @@ foreach($languages as $lang){
 ?>
 ```
 
-O com he comentat anteriorment mostrar-ho amb format especific com una llista al html.
+O com he comentat anteriorment mostrar-ho amb format específic com una llista a l'HTML.
 
 ```PHP
 <?php
@@ -103,7 +103,7 @@ $languages = ["JS","TS","Java","PHP"];
 </ul>
 ```
 
-Tambe podem obtenir el index per on va de la array de la seguent manera:
+També podem obtenir l'índex per on va de la array de la següent manera:
 
 ```PHP
 <?php
