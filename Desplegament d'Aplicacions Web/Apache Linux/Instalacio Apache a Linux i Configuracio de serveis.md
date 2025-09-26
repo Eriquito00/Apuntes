@@ -119,4 +119,10 @@ Una vegada fet podem anar a `localhost/phpmyadmin` al nostre navegador de confia
 ALTER user 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY '(contrasenya)';
 ```
 
-mysql -u root -p"4Lumn3" para iniciar ahora, aun no va lo de la contrasenya en phpmyadmin hay que mirar pero solo falta eso.
+Ara ja podrem iniciar sesio a PHPMYADMIN amb el nostre usuari "root" amb la contrasenya que hem introduit a la anterior comanda.
+
+Si volem iniciar sesio per comanda a MySQL podem fer-ho amb la seguent comanda que despres ens demanara la contrasenya que hem introduit tambe a la anterior comanda.
+
+```BASH
+sudo mysql -u root -p
+```
