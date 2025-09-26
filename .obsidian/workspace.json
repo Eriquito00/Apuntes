@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cc55e835996ef8d6",
+        "id": "42b4579bdfc21156",
         "type": "tabs",
         "children": [
           {
-            "id": "63fc75b6f3a74419",
+            "id": "ab52948c89053ce9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Instalacio Apache a Linux i Configuracio de serveis"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 210.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -167,13 +163,22 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "63fc75b6f3a74419",
+  "active": "ab52948c89053ce9",
   "lastOpenFiles": [
+    "Frontend Web/TypeScript/Objectes de TypeScript.md",
+    "Frontend Web/TypeScript/TypeScript.md",
+    "Frontend Web/TypeScript/Sin nombre",
+    "Frontend Web/Introduccio a Frontend Web.md",
+    "Git y GitHub/Introduccion a Git y GitHub.md",
+    "README.md",
+    "TypeScript/TypeScrip.md",
+    "TypeScript",
+    "Frontend Web/TypeScript",
+    "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
     "desktop.ini",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
     "Disseny d'Interficies Web/Efectes CSS/Efectes CSS.md",
     "Disseny d'Interficies Web/Introduccio a Disseny d'Interficies Web.md",
-    "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
     "Disseny d'Interficies Web/Efectes CSS",
     "Disseny d'Interficies Web",
     "Git y GitHub/GitHub/GitHub.md",
@@ -182,18 +187,13 @@
     "Git y GitHub/Git/Git.md",
     "Git y GitHub/Git/Conceptos de Git.md",
     "Git y GitHub/Git/Areas de Git.md",
-    "Git y GitHub/Introduccion a Git y GitHub.md",
     "Git y GitHub/GitHub",
     "Git y GitHub/Git",
     "Git y GitHub",
     "Sin título.md",
     "Desplegament d'Aplicacions Web/Apache Linux",
-    "README.md",
-    "Frontend Web/Introduccio a Frontend Web.md",
-    "Desplegament d'Aplicacions Web",
     "Backend Web/Introduccio a Backend Web.md",
     "Backend Web/PHP/Trucades a APIs PHP.md",
-    "PHP",
     "Backend Web/PHP/Condicionals i Bucles PHP.md",
     "Backend Web/PHP/Funcions PHP.md",
     "Backend Web/PHP/GET i POST PHP.md",
@@ -201,9 +201,6 @@
     "Backend Web/PHP/Include i Require en PHP.md",
     "Backend Web/PHP/Tipus de variables PHP.md",
     "Git i GitHub/Introduccion a Git i GitHub.md",
-    "SEO/Apuntes/Tipus de SEO.md",
-    "SEO/Apuntes/Parts del SEO.md",
-    "SEO/Apuntes",
     "Imatges/Pasted image 20250527093446.png",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
