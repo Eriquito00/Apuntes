@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "42b4579bdfc21156",
+        "id": "6134bdce8d9eb15f",
         "type": "tabs",
         "children": [
           {
-            "id": "ab52948c89053ce9",
+            "id": "d2c22212f9f4d2cf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,12 +163,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "ab52948c89053ce9",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Frontend Web/TypeScript/Objectes de TypeScript.md",
+    "Frontend Web/TypeScript/Tipus de dades de TS.md",
     "Frontend Web/TypeScript/TypeScript.md",
-    "Frontend Web/TypeScript/Sin nombre",
+    "Frontend Web/TypeScript/Funcions de TS.md",
     "Frontend Web/Introduccio a Frontend Web.md",
+    "Frontend Web/TypeScript/Objectes de TypeScript.md",
+    "Frontend Web/TypeScript/Sin nombre",
     "Git y GitHub/Introduccion a Git y GitHub.md",
     "README.md",
     "TypeScript/TypeScrip.md",
@@ -199,8 +201,6 @@
     "Backend Web/PHP/GET i POST PHP.md",
     "Bases de dades/ER i Relacional/Entitat Relacio.md",
     "Backend Web/PHP/Include i Require en PHP.md",
-    "Backend Web/PHP/Tipus de variables PHP.md",
-    "Git i GitHub/Introduccion a Git i GitHub.md",
     "Imatges/Pasted image 20250527093446.png",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
