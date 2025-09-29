@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"9dd61d9d1fc46efc","x":120,"y":-480,"width":400,"height":200,"type":"file","file":"Imatges/Pasted image 20250929195801.png"},
+		{"id":"37e7922c62be57c8","x":-340,"y":-180,"width":250,"height":60,"type":"text","text":"hola"},
+		{"id":"6a45dde6afd38bb4","x":-340,"y":280,"width":400,"height":340,"type":"file","file":"Programacio/JavaScript/JavaScript.md"}
+	],
+	"edges":[
+		{"id":"5cf4ae8804f69fea","fromNode":"9dd61d9d1fc46efc","fromSide":"bottom","toNode":"37e7922c62be57c8","toSide":"top"},
+		{"id":"2cd4e50bcae311fa","fromNode":"37e7922c62be57c8","fromSide":"bottom","toNode":"6a45dde6afd38bb4","toSide":"top"}
+	]
+}

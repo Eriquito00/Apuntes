@@ -20,3 +20,9 @@ Aqui podem veure els resultats de cada navegador el qual cap ha tingut cap varia
 - Ingredients amb mides especifiques
 - Fotografies de com s'ha de veure la recepta pas a pas
 - MOLTA comunitat que comenta
+
+Sota el meu punt de vista hem fixaria sobre tot en la composicio i estructura que te la web per definir si realment hauria d'estar per sobre d'altres, pero tambe hi han altres aspectes com la qualitat de les imatges i el temps que trigui en carregar-se completa. Tambe es important els enllaços externs d'altres webs millors posicionades que la mateixa.
+
+Per exemple la millor web en el ambit de una cerca del mateix ambit de cuina seria "receta de tarta de queso", la que millor experiencia de usuari que he trobat i que mes m'ha agradat es la web de [Tía Alia](https://www.tiaalia.com/2019/03/tarta-de-queso-de-la-vina-receta-con-y-sin-thermomix.html), dona moltes opcions, pas a pas molt guiat i un entorn ni massa amigable ni poc. Pero per google esta millor altres, especificament aquesta esta a la posicio 4 per el cercador de Google la millor es la de [El Mundo](https://recetasdecocina.elmundo.es/2017/02/tarta-queso-receta-casera.html).
+
+Els canvis de algorismes de per exemple Panda, Penguin i Hummingbird provoquen que els desenvolupadors i creadors de contingut tinguin que anar actualitzant-se i no puguin utilitzar sempre la mateixa recepta per sortir per sobre de tothom sempre.
