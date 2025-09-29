@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6134bdce8d9eb15f",
+        "id": "367a0785ff0ce792",
         "type": "tabs",
         "children": [
           {
-            "id": "d2c22212f9f4d2cf",
+            "id": "6d71ef89ce7f3922",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SEO/Apuntes/Diferencia entre motors de navegacio.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Diferencia entre motors de navegacio"
             }
           }
         ]
@@ -163,13 +167,22 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "6d71ef89ce7f3922",
   "lastOpenFiles": [
+    "Imatges/Pasted image 20250929195801.png",
+    "Imatges/Pasted image 20250929195751.png",
+    "Imatges/Pasted image 20250929195718.png",
+    "Imatges/Pasted image 20250929195706.png",
+    "Imatges/Pasted image 20250929195655.png",
+    "Imatges/Pasted image 20250929195612.png",
+    "Imatges/Pasted image 20250929195601.png",
+    "SEO/Introduccio a SEO.md",
+    "SEO/Apuntes/Diferencia entre motors de navegacio.md",
+    "Frontend Web/TypeScript/Objectes de TypeScript.md",
     "Frontend Web/TypeScript/Tipus de dades de TS.md",
     "Frontend Web/TypeScript/TypeScript.md",
     "Frontend Web/TypeScript/Funcions de TS.md",
     "Frontend Web/Introduccio a Frontend Web.md",
-    "Frontend Web/TypeScript/Objectes de TypeScript.md",
     "Frontend Web/TypeScript/Sin nombre",
     "Git y GitHub/Introduccion a Git y GitHub.md",
     "README.md",
@@ -198,19 +211,10 @@
     "Backend Web/PHP/Trucades a APIs PHP.md",
     "Backend Web/PHP/Condicionals i Bucles PHP.md",
     "Backend Web/PHP/Funcions PHP.md",
-    "Backend Web/PHP/GET i POST PHP.md",
-    "Bases de dades/ER i Relacional/Entitat Relacio.md",
-    "Backend Web/PHP/Include i Require en PHP.md",
     "Imatges/Pasted image 20250527093446.png",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
     "Imatges/Pasted image 20250325155014.png",
-    "Imatges/Pasted image 20250325154948.png",
-    "Imatges/Pasted image 20250325154808.png",
-    "Imatges/Pasted image 20250325154703.png",
-    "Imatges/Pasted image 20250325154524.png",
-    "Imatges/Pasted image 20250325154411.png",
-    "Imatges/Pasted image 20250325154333.png",
     "Sense títol.canvas",
     "Sin título.canvas"
   ]
