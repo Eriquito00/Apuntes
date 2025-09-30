@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "170fdc2c0c4fe793",
+        "id": "bc24749d7482c5a8",
         "type": "tabs",
         "children": [
           {
-            "id": "6a7dc208763e0c05",
+            "id": "ed432db2a34c66c6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,6 +165,11 @@
   },
   "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Backend Web/PHP/Regex en PHP.md",
+    "Backend Web/Introduccio a Backend Web.md",
+    "SEO/Apuntes/Estructura i semantica del SEO.md",
+    "SEO/Introduccio a SEO.md",
+    "SEO/Apuntes/Diferencia entre motors de navegacio.md",
     "Sin título.canvas",
     "29-09-2025.md",
     "Sin título.base",
@@ -174,7 +179,6 @@
     "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
     "Sistemes Informatics/Introduccio a sistemes informatics.md",
     "Programacio/JavaScript/Deteccio d'errors JavaScript.md",
-    "SEO/Apuntes/Diferencia entre motors de navegacio.md",
     "Imatges/Pasted image 20250929195801.png",
     "Imatges/Pasted image 20250929195751.png",
     "Imatges/Pasted image 20250929195718.png",
@@ -182,7 +186,6 @@
     "Imatges/Pasted image 20250929195655.png",
     "Imatges/Pasted image 20250929195612.png",
     "Imatges/Pasted image 20250929195601.png",
-    "SEO/Introduccio a SEO.md",
     "Frontend Web/TypeScript/Objectes de TypeScript.md",
     "Frontend Web/TypeScript/Tipus de dades de TS.md",
     "Frontend Web/TypeScript/TypeScript.md",
@@ -203,8 +206,6 @@
     "Disseny d'Interficies Web",
     "Git y GitHub/GitHub/GitHub.md",
     "Git y GitHub/GitHub/Conceptos de GitHub.md",
-    "Git y GitHub/Git/Lista de comandos Git i Bash.md",
-    "Git y GitHub/Git/Git.md",
     "Git y GitHub/GitHub",
     "Git y GitHub/Git",
     "Git y GitHub",
