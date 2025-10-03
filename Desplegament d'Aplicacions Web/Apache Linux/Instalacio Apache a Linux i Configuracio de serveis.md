@@ -126,3 +126,42 @@ Si volem iniciar sesio per comanda a MySQL podem fer-ho amb la seguent comanda q
 ```BASH
 sudo mysql -u root -p
 ```
+
+Ara podem fer un control d'access mitjançant usuari o mitjançant ip, per fer-ho podem anar al fitxer de configuracio de la nostre web a la ruta `/etc/apache2/sites-available/` i afegir el seguent:
+
+```BASH
+<RequireAll>
+	AuthType Basic
+	AuthName "Comprovacio acces"
+	AuthUserFile /etc/apache2/(nom fitxer)
+	Require valid-user
+</RequireAll>
+```
+
+Aixo tambe necesitarem un fitxer de acces de usuaris que podem crear a la ruta `etc/apache2/(nom fitxer)`. Aqui podem crear usuaris i contrasenyes les quals s'emmagatzemaran en hash, per crear un usuari amb la seva contrasenya podem executar la seguent comanda i tal i com teniem la configuracio podem accedir nomes amb els usuaris que estiguin a aquest fitxer.
+
+```BASH
+sudo htpasswd etc/apache/(nom fitxer)
+```
+
+Per fer-ho amb IP es tan senzill com afegir aquesta linea si volem que nomes aquesta IP pugui accedir.
+
+```BASH
+<RequireAll>
+	AuthType Basic
+	AuthName "Comprovacio acces"
+	AuthUserFile /etc/apache2/(nom fitxer)
+	Require ip "IP Requerida"
+</RequireAll>
+```
+
+I tambe podem fer al reves que pugui accedir qualsevol IP exepte el dispositiu amb una IP especifica.
+
+```BASH
+<RequireAll>
+	AuthType Basic
+	AuthName "Comprovacio acces"
+	AuthUserFile /etc/apache2/(nom fitxer)
+	Require not ip "IP Requerida"
+</RequireAll>
+```
