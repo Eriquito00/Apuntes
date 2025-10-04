@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc7d5ecf9d7a253c",
+        "id": "57f5c6ec6294b918",
         "type": "tabs",
         "children": [
           {
-            "id": "abb47a6e5ffb8cd5",
+            "id": "ed3ba63ab87f7bfa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,8 +163,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "ed3ba63ab87f7bfa",
   "lastOpenFiles": [
+    "Sin título.md",
+    "SEO/Apuntes/Estructura i semantica del SEO.md",
+    "Frontend Web/TypeScript/Metodes de Arrays.md",
+    "Desplegament d'Aplicacions Web/Apache Linux/Instalacio del servei FTP.md",
+    "Backend Web/PHP/Regex en PHP.md",
     "Sin título.canvas",
     "29-09-2025.md",
     "Sin título.base",
@@ -201,10 +206,6 @@
     "Disseny d'Interficies Web/Introduccio a Disseny d'Interficies Web.md",
     "Disseny d'Interficies Web/Efectes CSS",
     "Disseny d'Interficies Web",
-    "Git y GitHub/GitHub/GitHub.md",
-    "Git y GitHub/GitHub/Conceptos de GitHub.md",
-    "Git y GitHub/Git/Lista de comandos Git i Bash.md",
-    "Git y GitHub/Git/Git.md",
     "Git y GitHub/GitHub",
     "Git y GitHub/Git",
     "Git y GitHub",
