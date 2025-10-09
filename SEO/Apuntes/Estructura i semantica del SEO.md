@@ -24,14 +24,14 @@ Disallow: /privat/
 <?xml version="1.0" encoding="UTF-8"?>  
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  
   <url>  
-    **<loc>**https://www.elmeusite.com/</loc>  
-    **<lastmod>**2025-09-01</lastmod>  
-    **<priority>**1.0</priority>  
+	<loc>https://www.elmeusite.com/</loc>  
+    <lastmod>**2025-09-01</lastmod>  
+    <priority>1.0</priority>  
   </url>  
   <url>  
-    **<loc>**https://www.elmeusite.com/blog/consells-seo</loc>  
-    **<lastmod>**2025-09-10</lastmod>  
-    **<priority>**0.8</priority>  
+    <loc>https://www.elmeusite.com/blog/consells-seo</loc>  
+    <lastmod>2025-09-10</lastmod>  
+    <priority>0.8</priority>  
   </url>  
 </urlset>
 ```

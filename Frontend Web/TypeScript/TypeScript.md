@@ -5,3 +5,5 @@
 [Objectes de TypeScript](Objectes%20de%20TypeScript.md)
 
 [Metodes de Arrays](Metodes%20de%20Arrays.md)
+
+[Lambda Expression](Lambda%20Expression.md)

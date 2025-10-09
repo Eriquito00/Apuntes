@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "29a7f9f35aee21d4",
+        "id": "73fcd9329ef30a0c",
         "type": "tabs",
         "children": [
           {
-            "id": "e5de3919bf665da0",
+            "id": "605455f1bbb60180",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Frontend Web/TypeScript/Metodes de Arrays.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Metodes de Arrays"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -169,17 +165,19 @@
   },
   "active": "bfaa022e327b787e",
   "lastOpenFiles": [
-    "Sin título.md",
+    "SEO/Apuntes/Estructura i semantica del SEO.md",
+    "SEO/Apuntes/Diferencia entre motors de navegacio.md",
+    "Frontend Web/TypeScript/Lambda Expression.md",
     "Frontend Web/TypeScript/TypeScript.md",
+    "Frontend Web/Introduccio a Frontend Web.md",
     "Frontend Web/TypeScript/Metodes de Arrays.md",
+    "Sin título.md",
     "Desplegament d'Aplicacions Web/Apache Linux/Instalacio del servei FTP.md",
     "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
     "Backend Web/PHP/Regex en PHP.md",
     "Backend Web/Introduccio a Backend Web.md",
-    "SEO/Apuntes/Estructura i semantica del SEO.md",
     "SEO/Introduccio a SEO.md",
-    "SEO/Apuntes/Diferencia entre motors de navegacio.md",
     "Sin título.canvas",
     "29-09-2025.md",
     "Sin título.base",
@@ -199,7 +197,6 @@
     "Frontend Web/TypeScript/Objectes de TypeScript.md",
     "Frontend Web/TypeScript/Tipus de dades de TS.md",
     "Frontend Web/TypeScript/Funcions de TS.md",
-    "Frontend Web/Introduccio a Frontend Web.md",
     "Frontend Web/TypeScript/Sin nombre",
     "Git y GitHub/Introduccion a Git y GitHub.md",
     "README.md",
@@ -207,7 +204,6 @@
     "TypeScript",
     "Frontend Web/TypeScript",
     "desktop.ini",
-    "Disseny d'Interficies Web/Efectes CSS/Efectes CSS.md",
     "Disseny d'Interficies Web/Efectes CSS",
     "Disseny d'Interficies Web",
     "Git y GitHub/GitHub",
