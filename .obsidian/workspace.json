@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "73fcd9329ef30a0c",
+        "id": "933193a224614377",
         "type": "tabs",
         "children": [
           {
-            "id": "cd5421b32830adef",
+            "id": "0b9f9265b0effe64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Instalacio servei Web Windows"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -167,7 +163,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "cd5421b32830adef",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
     "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
