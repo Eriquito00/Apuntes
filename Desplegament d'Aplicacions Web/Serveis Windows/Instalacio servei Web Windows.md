@@ -16,6 +16,8 @@ Per a que el nostre dispositiu ens mostri la web local i no vagi a buscarla al D
 Si volem trobar la web per un alies podem anar a la web que volguem, anar a enlaces i afegir un enllaç, per exemple si tenim la web `www.web.com` i volem fer que la poguem trobar posant `web.com`.
 ## Document d'apertura
 Si volem escollir altre arxiu com a apertura de la nostre web que no sigui el tipic `index.php` o `index.html` podem anar a la web que volem cambiar, anar a `Documento predeterminado` i alla afegir el nom del fitxer que volem que sigui la nostre entrada.
+## Assignacions de controlador
+Anirem al IIS podem afegir un "Module Mapping" o "Handler Mapping", anirem a asignacio de controlador i anirem a asignacio de modul i aqui podrem fer-ho.
 ## VirtualHost
 Si volem que ens funcioni en local haurem de fer la modificacio al fitxer hosts tambe.
 ### Host
