@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "933193a224614377",
+        "id": "2ae0cba911e28495",
         "type": "tabs",
         "children": [
           {
-            "id": "0b9f9265b0effe64",
+            "id": "56a92d8915248629",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Frontend Web/TypeScript/Objectes de TypeScript.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Objectes de TypeScript"
             }
           }
         ]
@@ -163,8 +167,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "56a92d8915248629",
   "lastOpenFiles": [
+    "Frontend Web/TypeScript/Objectes de TypeScript.md",
+    "Frontend Web/TypeScript/TypeScript.md",
     "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
     "Desplegament d'Aplicacions Web/Serveis Windows/desktop.ini",
@@ -172,7 +178,6 @@
     "SEO/Apuntes/Estructura i semantica del SEO.md",
     "SEO/Apuntes/Diferencia entre motors de navegacio.md",
     "Frontend Web/TypeScript/Lambda Expression.md",
-    "Frontend Web/TypeScript/TypeScript.md",
     "Frontend Web/Introduccio a Frontend Web.md",
     "Frontend Web/TypeScript/Metodes de Arrays.md",
     "Sin título.md",
@@ -197,7 +202,6 @@
     "Imatges/Pasted image 20250929195655.png",
     "Imatges/Pasted image 20250929195612.png",
     "Imatges/Pasted image 20250929195601.png",
-    "Frontend Web/TypeScript/Objectes de TypeScript.md",
     "Frontend Web/TypeScript/Tipus de dades de TS.md",
     "Frontend Web/TypeScript/Funcions de TS.md",
     "Frontend Web/TypeScript/Sin nombre",

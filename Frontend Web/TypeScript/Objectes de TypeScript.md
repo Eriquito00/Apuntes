@@ -69,3 +69,4 @@ const franky: Cyborg = {
 	super: true
 };
 ```
+<img style="width: 200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30UQdyv14pr7jdk2JHXP1roKFTSbk3_WUuKgAJC2UgB3R_Qu6qoRrgJSdYZ_zL17UOKTX5jl6wBa23XDuTkO_cD0wF7eaxlSAFt5HZoR0">
