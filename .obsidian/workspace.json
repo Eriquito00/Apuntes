@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "57f5c6ec6294b918",
+        "id": "4b73c1a63aeba395",
         "type": "tabs",
         "children": [
           {
-            "id": "ed3ba63ab87f7bfa",
+            "id": "69f4daf077ba5930",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.9.14"
             }
           }
         ]
@@ -163,12 +165,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "ed3ba63ab87f7bfa",
+  "active": "69f4daf077ba5930",
   "lastOpenFiles": [
+    "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
+    "Desplegament d'Aplicacions Web/Apache Linux/Instalacio del servei FTP.md",
     "Sin título.md",
     "SEO/Apuntes/Estructura i semantica del SEO.md",
     "Frontend Web/TypeScript/Metodes de Arrays.md",
-    "Desplegament d'Aplicacions Web/Apache Linux/Instalacio del servei FTP.md",
     "Backend Web/PHP/Regex en PHP.md",
     "Sin título.canvas",
     "29-09-2025.md",
@@ -199,7 +202,6 @@
     "TypeScript/TypeScrip.md",
     "TypeScript",
     "Frontend Web/TypeScript",
-    "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
     "desktop.ini",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
     "Disseny d'Interficies Web/Efectes CSS/Efectes CSS.md",
