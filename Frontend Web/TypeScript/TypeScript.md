@@ -5,3 +5,5 @@
 [Objectes de TypeScript](Objectes%20de%20TypeScript.md)
 
 [Metodes de Arrays](Metodes%20de%20Arrays.md)
+
+[DOM amb TypeScript](DOM%20amb%20TypeScript.md)

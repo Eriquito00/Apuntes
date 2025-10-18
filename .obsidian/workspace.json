@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "36c21acbf48073f9",
+        "id": "ab9c64808f708d6c",
         "type": "tabs",
         "children": [
           {
-            "id": "0f3f05db04f1c2e3",
+            "id": "11481a9b2275ac81",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend Web/PHP/Trucades a APIs PHP.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Trucades a APIs PHP"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -167,8 +163,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "0f3f05db04f1c2e3",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Frontend Web/TypeScript/DOM amb TypeScript.md",
+    "Frontend Web/TypeScript/TypeScript.md",
+    "Backend Web/PHP/Trucades a APIs PHP.md",
     "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
     "Desplegament d'Aplicacions Web/Apache Linux/Instalacio del servei FTP.md",
     "Sin título.md",
@@ -195,7 +194,6 @@
     "SEO/Introduccio a SEO.md",
     "Frontend Web/TypeScript/Objectes de TypeScript.md",
     "Frontend Web/TypeScript/Tipus de dades de TS.md",
-    "Frontend Web/TypeScript/TypeScript.md",
     "Frontend Web/TypeScript/Funcions de TS.md",
     "Frontend Web/Introduccio a Frontend Web.md",
     "Frontend Web/TypeScript/Sin nombre",
@@ -206,8 +204,6 @@
     "Frontend Web/TypeScript",
     "desktop.ini",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
-    "Disseny d'Interficies Web/Efectes CSS/Efectes CSS.md",
-    "Disseny d'Interficies Web/Introduccio a Disseny d'Interficies Web.md",
     "Disseny d'Interficies Web/Efectes CSS",
     "Disseny d'Interficies Web",
     "Git y GitHub/GitHub",
