@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4b73c1a63aeba395",
+        "id": "36c21acbf48073f9",
         "type": "tabs",
         "children": [
           {
-            "id": "69f4daf077ba5930",
+            "id": "0f3f05db04f1c2e3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "Backend Web/PHP/Trucades a APIs PHP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Registro de cambios 1.9.14"
+              "icon": "lucide-file",
+              "title": "Trucades a APIs PHP"
             }
           }
         ]
@@ -165,7 +167,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "69f4daf077ba5930",
+  "active": "0f3f05db04f1c2e3",
   "lastOpenFiles": [
     "Desplegament d'Aplicacions Web/Apache Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
     "Desplegament d'Aplicacions Web/Apache Linux/Instalacio del servei FTP.md",
