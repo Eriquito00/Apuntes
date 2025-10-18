@@ -7,3 +7,5 @@
 [Metodes de Arrays](Metodes%20de%20Arrays.md)
 
 [DOM amb TypeScript](DOM%20amb%20TypeScript.md)
+
+[Lambda Expression](Lambda%20Expression.md)
