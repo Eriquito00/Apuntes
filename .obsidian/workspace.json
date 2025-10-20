@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "da9b8325c7267885",
+        "id": "597146d9f55a40e8",
         "type": "tabs",
         "children": [
           {
-            "id": "74e51f69a02a5e0a",
+            "id": "7f6ef809dea62191",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,8 +163,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "74e51f69a02a5e0a",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "Entorns de desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
+    "Entorns de desenvolupament/Introduccio a entorns de desenvolupament.md",
+    "Frontend Web/Introduccio a Frontend Web.md",
+    "README.md",
+    "Entorns de desenvolupament/Desenvolupament de programari",
+    "Entorns de desenvolupament",
     "Frontend Web/TypeScript/DOM amb TypeScript.md",
     "Frontend Web/TypeScript/Lambda Expression.md",
     "Frontend Web/TypeScript/TypeScript.md",
@@ -198,17 +204,11 @@
     "Imatges/Pasted image 20250929195612.png",
     "Imatges/Pasted image 20250929195601.png",
     "SEO/Introduccio a SEO.md",
-    "Frontend Web/TypeScript/Objectes de TypeScript.md",
-    "Frontend Web/TypeScript/Tipus de dades de TS.md",
-    "Frontend Web/TypeScript/Funcions de TS.md",
-    "Frontend Web/Introduccio a Frontend Web.md",
     "Frontend Web/TypeScript/Sin nombre",
     "TypeScript",
     "Frontend Web/TypeScript",
     "desktop.ini",
     "Disseny d'Interficies Web/Efectes CSS",
-    "Disseny d'Interficies Web",
-    "Git y GitHub/GitHub",
     "Imatges/Pasted image 20250527093446.png",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
