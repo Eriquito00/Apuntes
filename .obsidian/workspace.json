@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "597146d9f55a40e8",
+        "id": "af4955f97293743f",
         "type": "tabs",
         "children": [
           {
-            "id": "7f6ef809dea62191",
+            "id": "bc0cbe3665c17ae4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,9 @@
   "active": "bfaa022e327b787e",
   "lastOpenFiles": [
     "Entorns de desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
-    "Entorns de desenvolupament/Introduccio a entorns de desenvolupament.md",
-    "Frontend Web/Introduccio a Frontend Web.md",
+    "Entorns de desenvolupament/Introduccio a Entorns de Desenvolupament.md",
     "README.md",
+    "Frontend Web/Introduccio a Frontend Web.md",
     "Entorns de desenvolupament/Desenvolupament de programari",
     "Entorns de desenvolupament",
     "Frontend Web/TypeScript/DOM amb TypeScript.md",
