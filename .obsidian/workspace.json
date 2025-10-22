@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7e6d71d6b02db804",
+        "id": "27c5311aad395604",
         "type": "tabs",
         "children": [
           {
-            "id": "41c6fb7277e76a6d",
+            "id": "5400d0f5a09c45dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Entorns de desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Fases de desenvolupament"
             }
           }
         ]
@@ -163,13 +167,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bfaa022e327b787e",
+  "active": "5400d0f5a09c45dc",
   "lastOpenFiles": [
+    "Entorns de desenvolupament/Introduccio a entorns de desenvolupament.md",
+    "Entorns de desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
+    "Git y GitHub/Git/Conceptos de Git.md",
+    "Git y GitHub/Git/Git.md",
+    "Git y GitHub/Introduccion a Git y GitHub.md",
+    "Backend Web/desktop.ini",
     "Sin título.md",
     "Frontend Web/TypeScript/DOM amb TypeScript.md",
-    "Entorns de desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
     "Entorns de desenvolupament/Desenvolupament de programari",
-    "Entorns de desenvolupament/Introduccio a entorns de desenvolupament.md",
     "Entorns de desenvolupament",
     "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
@@ -194,9 +202,6 @@
     "Programacio/JavaScript/JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
-    "Sistemes Informatics/Sistemes Operatius/Sistemes Operatius.md",
-    "Sistemes Informatics/Introduccio a sistemes informatics.md",
-    "Programacio/JavaScript/Deteccio d'errors JavaScript.md",
     "Imatges/Pasted image 20250929195801.png",
     "Imatges/Pasted image 20250929195751.png",
     "Imatges/Pasted image 20250929195718.png",
@@ -208,7 +213,6 @@
     "TypeScript",
     "Frontend Web/TypeScript",
     "desktop.ini",
-    "Disseny d'Interficies Web/Efectes CSS",
     "Imatges/Pasted image 20250527093446.png",
     "Imatges/Pasted image 20250526115013.png",
     "Imatges/Pasted image 20250526114847.png",
