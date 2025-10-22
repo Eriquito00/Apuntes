@@ -19,8 +19,6 @@
 
 [Introduccio a Entorns de Desenvolupament](Entorns%20de%20Desenvolupament/Introduccio%20a%20Entorns%20de%20Desenvolupament.md)
 
-[Introduccio a Entorns de Desenvolupament](Entorns%20de%20Desenvolupament/Introduccio%20a%20Entorns%20de%20Desenvolupament.md)
-
 [Introduccio a SEO](SEO/Introduccio%20a%20SEO.md)
 
 [Introduccio a Desplegament d'Aplicacions Web](Desplegament%20d'Aplicacions%20Web/Introduccio%20a%20Desplegament%20d'Aplicacions%20Web.md)
