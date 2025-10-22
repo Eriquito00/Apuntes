@@ -11,10 +11,14 @@
             "id": "599bdb3131f63562",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Entorns de Desenvolupament/Introduccio a Entorns de Desenvolupament.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Introduccio a Entorns de Desenvolupament"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 209.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -163,11 +167,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "599bdb3131f63562",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
+    "README.md",
     "Entorns de Desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
     "Entorns de Desenvolupament/Introduccio a Entorns de Desenvolupament.md",
-    "README.md",
     "Git y GitHub/Git/Conceptos de Git.md",
     "Git y GitHub/Git/Git.md",
     "Git y GitHub/Introduccion a Git y GitHub.md",
