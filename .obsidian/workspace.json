@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 433.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -169,6 +169,7 @@
   },
   "active": "599bdb3131f63562",
   "lastOpenFiles": [
+    "Sin nombre",
     "Entorns de Desenvolupament/Introduccio a Entorns de Desenvolupament.md",
     "README.md",
     "Entorns de Desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
@@ -201,7 +202,6 @@
     "29-09-2025.md",
     "Sin título.base",
     "Programacio/JavaScript/JavaScript.md",
-    "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
     "Imatges/Pasted image 20250929195801.png",
     "Imatges/Pasted image 20250929195751.png",
     "Imatges/Pasted image 20250929195718.png",

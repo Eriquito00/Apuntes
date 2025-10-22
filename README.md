@@ -17,7 +17,7 @@
 
 [Introduccio a Disseny d'Interficies Web](Disseny%20d'Interficies%20Web/Introduccio%20a%20Disseny%20d'Interficies%20Web.md)
 
-[Introduccio a Entorns de Desenvolupament2](Entorns%20de%20Desenvolupament/Introduccio%20a%20Entorns%20de%20Desenvolupament.md)
+[Introduccio a Entorns de Desenvolupament](Entorns%20de%20Desenvolupament/Introduccio%20a%20Entorns%20de%20Desenvolupament.md)
 
 [Introduccio a Entorns de Desenvolupament](Entorns%20de%20Desenvolupament/Introduccio%20a%20Entorns%20de%20Desenvolupament.md)
 
