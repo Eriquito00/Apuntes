@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "27c5311aad395604",
+        "id": "4d0e35fe1542c55c",
         "type": "tabs",
         "children": [
           {
-            "id": "5400d0f5a09c45dc",
+            "id": "599bdb3131f63562",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -167,18 +163,19 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "5400d0f5a09c45dc",
+  "active": "599bdb3131f63562",
   "lastOpenFiles": [
-    "Entorns de desenvolupament/Introduccio a entorns de desenvolupament.md",
-    "Entorns de desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
+    "Entorns de Desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
+    "Entorns de Desenvolupament/Introduccio a Entorns de Desenvolupament.md",
+    "README.md",
     "Git y GitHub/Git/Conceptos de Git.md",
     "Git y GitHub/Git/Git.md",
     "Git y GitHub/Introduccion a Git y GitHub.md",
     "Backend Web/desktop.ini",
     "Sin título.md",
     "Frontend Web/TypeScript/DOM amb TypeScript.md",
-    "Entorns de desenvolupament/Desenvolupament de programari",
-    "Entorns de desenvolupament",
+    "Entorns de Desenvolupament/Desenvolupament de programari",
+    "Entorns de Desenvolupament",
     "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
     "Backend Web/PHP/Trucades a APIs PHP.md",
@@ -201,7 +198,6 @@
     "Sin título.base",
     "Programacio/JavaScript/JavaScript.md",
     "Programacio/JavaScript/Cicle de vida d'un programa JavaScript.md",
-    "Sistemes Informatics/Sistemes Operatius/Proces d'arrencada en Sistemes Operatius.md",
     "Imatges/Pasted image 20250929195801.png",
     "Imatges/Pasted image 20250929195751.png",
     "Imatges/Pasted image 20250929195718.png",
