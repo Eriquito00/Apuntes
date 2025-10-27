@@ -11,10 +11,14 @@
             "id": "854d201884c2d0b3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sin título.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Sin título"
             }
           }
         ]
@@ -165,6 +169,7 @@
   },
   "active": "854d201884c2d0b3",
   "lastOpenFiles": [
+    "Sin título.md",
     "README.md",
     "Entorns de Desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
     "Entorns de Desenvolupament/Introduccio a Entorns de Desenvolupament.md",
@@ -175,7 +180,6 @@
     "Git y GitHub/Git/Git.md",
     "Git y GitHub/Introduccion a Git y GitHub.md",
     "Backend Web/desktop.ini",
-    "Sin título.md",
     "Frontend Web/TypeScript/DOM amb TypeScript.md",
     "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
     "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",

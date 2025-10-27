@@ -4,11 +4,11 @@ El desenvolupament de programari segueix diverses fases per crear aplicacions in
 Metodologia pensada per planificacio, desenvolupament i manteniment dels sistemes d'informacio. Procesos lents i poc tolerant a canvis, pensat per desenvolupaments llargs.
 
 Fases de la metodologia formal i sequencial amb les fases:
-1. Estudi de viabilitat
-2. Analisi del sistema
-3. Disseny del sistema
-4. Construccio
-5. Implantacio i acceptacio
+1. Estudi de viabilitat: proposar una solucio en base als requisits economics, tecnics, legals i operatius.
+2. Analisi del sistema: S'elaboren els diagrames UML relacionats amb els casos d'us i de classes.
+3. Disseny del sistema: Es generen les especificacions que permeten construir el SI.
+4. Construccio: Construir el sistema a mes de documentar i fer els manuals corresponents.
+5. Implantacio i acceptacio: Lliurament i acceptacio del sistema.
 
 I utilitza Gannt Diagram per planificar tasques i recursos.
 ## SCRUM
