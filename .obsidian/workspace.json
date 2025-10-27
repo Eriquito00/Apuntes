@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4d0e35fe1542c55c",
+        "id": "810ec158eecbdb48",
         "type": "tabs",
         "children": [
           {
-            "id": "599bdb3131f63562",
+            "id": "854d201884c2d0b3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -167,14 +163,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "599bdb3131f63562",
+  "active": "854d201884c2d0b3",
   "lastOpenFiles": [
+    "README.md",
     "Entorns de Desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
     "Entorns de Desenvolupament/Introduccio a Entorns de Desenvolupament.md",
     "Entorns de Desenvolupament/Desenvolupament de programari",
     "Entorns de Desenvolupament",
     "Sin nombre",
-    "README.md",
     "Git y GitHub/Git/Conceptos de Git.md",
     "Git y GitHub/Git/Git.md",
     "Git y GitHub/Introduccion a Git y GitHub.md",
