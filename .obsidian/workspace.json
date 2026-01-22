@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "810ec158eecbdb48",
+        "id": "dc870a9678abab0c",
         "type": "tabs",
         "children": [
           {
-            "id": "854d201884c2d0b3",
+            "id": "f0fe1bed7d858891",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sin título.md",
+                "file": "Desplegament d'Aplicacions Web/Serveis Linux/Configuracio de PHP a Apache Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sin título"
+              "title": "Configuracio de PHP a Apache Linux"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 288.5
   },
   "right": {
     "id": "9565c7424373b453",
@@ -167,11 +167,24 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "854d201884c2d0b3",
+  "active": "f0fe1bed7d858891",
   "lastOpenFiles": [
+    "Bases de dades/ER i Relacional/Model relacional.md",
+    "Bases de dades/Historia/Historia.md",
+    "Bases de dades/ER i Relacional/Entitat Relacio.md",
+    "Desplegament d'Aplicacions Web/Serveis Linux/Configuracio de PHP a Apache Linux.md",
+    "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
+    "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
+    "Entorns de Desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
+    "Bases de dades/ER i Relacional/Exercicis Entitat Relacio.md",
+    "Frontend Web/TypeScript/Metodes de Arrays.md",
+    "Frontend Web/TypeScript/Lambda Expression.md",
+    "Frontend Web/TypeScript/DOM amb TypeScript.md",
+    "Frontend Web/TypeScript/TypeScript.md",
+    "Frontend Web/TypeScript/Tipus de dades de TS.md",
+    "Frontend Web/TypeScript/Objectes de TypeScript.md",
     "Sin título.md",
     "README.md",
-    "Entorns de Desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
     "Entorns de Desenvolupament/Introduccio a Entorns de Desenvolupament.md",
     "Entorns de Desenvolupament/Desenvolupament de programari",
     "Entorns de Desenvolupament",
@@ -180,28 +193,16 @@
     "Git y GitHub/Git/Git.md",
     "Git y GitHub/Introduccion a Git y GitHub.md",
     "Backend Web/desktop.ini",
-    "Frontend Web/TypeScript/DOM amb TypeScript.md",
-    "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
-    "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
     "Backend Web/PHP/Trucades a APIs PHP.md",
-    "Frontend Web/TypeScript/Objectes de TypeScript.md",
-    "Frontend Web/TypeScript/TypeScript.md",
     "Desplegament d'Aplicacions Web/Serveis Windows/desktop.ini",
     "Desplegament d'Aplicacions Web/Serveis Windows",
     "SEO/Apuntes/Estructura i semantica del SEO.md",
     "SEO/Apuntes/Diferencia entre motors de navegacio.md",
-    "Frontend Web/TypeScript/Lambda Expression.md",
     "Frontend Web/Introduccio a Frontend Web.md",
-    "Frontend Web/TypeScript/Metodes de Arrays.md",
     "Desplegament d'Aplicacions Web/Serveis Linux/Instalacio del servei FTP.md",
     "Desplegament d'Aplicacions Web/Serveis Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
-    "Backend Web/PHP/Regex en PHP.md",
-    "Backend Web/Introduccio a Backend Web.md",
-    "SEO/Introduccio a SEO.md",
     "Sin título.canvas",
-    "29-09-2025.md",
     "Sin título.base",
-    "Programacio/JavaScript/JavaScript.md",
     "Imatges/Pasted image 20250929195801.png",
     "Imatges/Pasted image 20250929195751.png",
     "Imatges/Pasted image 20250929195718.png",
