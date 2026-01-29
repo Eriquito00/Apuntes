@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dc870a9678abab0c",
+        "id": "7f42e954e700baf9",
         "type": "tabs",
         "children": [
           {
-            "id": "f0fe1bed7d858891",
+            "id": "598dbb830717e629",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,13 +167,19 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "f0fe1bed7d858891",
+  "active": "598dbb830717e629",
   "lastOpenFiles": [
+    "Desplegament d'Aplicacions Web/Serveis Linux/Configuracio de Apache amb Tomcat.md",
+    "Desplegament d'Aplicacions Web/Serveis Linux/Configuracio de PHP a Apache Linux.md",
+    "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
+    "Desplegament d'Aplicacions Web/Serveis Linux/Instalacio del servei FTP.md",
+    "Desplegament d'Aplicacions Web/Serveis Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
+    "SEO/Apuntes/Parts del SEO.md",
+    "SEO/Apuntes/Tipus de SEO.md",
+    "SEO/Introduccio a SEO.md",
     "Bases de dades/ER i Relacional/Model relacional.md",
     "Bases de dades/Historia/Historia.md",
     "Bases de dades/ER i Relacional/Entitat Relacio.md",
-    "Desplegament d'Aplicacions Web/Serveis Linux/Configuracio de PHP a Apache Linux.md",
-    "Desplegament d'Aplicacions Web/Introduccio a Desplegament d'Aplicacions Web.md",
     "Desplegament d'Aplicacions Web/Serveis Windows/Instalacio servei Web Windows.md",
     "Entorns de Desenvolupament/Desenvolupament de programari/Fases de desenvolupament.md",
     "Bases de dades/ER i Relacional/Exercicis Entitat Relacio.md",
@@ -193,14 +199,8 @@
     "Git y GitHub/Git/Git.md",
     "Git y GitHub/Introduccion a Git y GitHub.md",
     "Backend Web/desktop.ini",
-    "Backend Web/PHP/Trucades a APIs PHP.md",
     "Desplegament d'Aplicacions Web/Serveis Windows/desktop.ini",
     "Desplegament d'Aplicacions Web/Serveis Windows",
-    "SEO/Apuntes/Estructura i semantica del SEO.md",
-    "SEO/Apuntes/Diferencia entre motors de navegacio.md",
-    "Frontend Web/Introduccio a Frontend Web.md",
-    "Desplegament d'Aplicacions Web/Serveis Linux/Instalacio del servei FTP.md",
-    "Desplegament d'Aplicacions Web/Serveis Linux/Instalacio Apache a Linux i Configuracio de serveis.md",
     "Sin título.canvas",
     "Sin título.base",
     "Imatges/Pasted image 20250929195801.png",
