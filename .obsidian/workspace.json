@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7f42e954e700baf9",
+        "id": "efc825f90972762e",
         "type": "tabs",
         "children": [
           {
-            "id": "598dbb830717e629",
+            "id": "a04d9bbb27b2ce05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desplegament d'Aplicacions Web/Serveis Linux/Configuracio de PHP a Apache Linux.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Configuracio de PHP a Apache Linux"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -167,7 +163,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "598dbb830717e629",
+  "active": "bfaa022e327b787e",
   "lastOpenFiles": [
     "Desplegament d'Aplicacions Web/Serveis Linux/Configuracio de Apache amb Tomcat.md",
     "Desplegament d'Aplicacions Web/Serveis Linux/Configuracio de PHP a Apache Linux.md",
