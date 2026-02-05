@@ -9,3 +9,5 @@
 [Configuracio de PHP a Apache Linux](Serveis%20Linux/Configuracio%20de%20PHP%20a%20Apache%20Linux.md)
 
 [Configuracio de Apache amb Tomcat](Serveis%20Linux/Configuracio%20de%20Apache%20amb%20Tomcat.md)
+
+[Configuracio de Apache amb Python + Flask](Serveis%20Linux/Configuracio%20de%20Apache%20amb%20Python%20+%20Flask.md)
