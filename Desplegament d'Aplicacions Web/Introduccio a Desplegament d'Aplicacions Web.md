@@ -11,3 +11,5 @@
 [Configuracio de Apache amb Tomcat](Serveis%20Linux/Configuracio%20de%20Apache%20amb%20Tomcat.md)
 
 [Configuracio de Apache amb Python + Flask](Serveis%20Linux/Configuracio%20de%20Apache%20amb%20Python%20+%20Flask.md)
+
+[Instalacio i configuracio de Docker](Serveis%20Linux/Instalacio%20i%20configuracio%20de%20Docker.md)
